@@ -1,0 +1,36 @@
+latestFinal:
+    version: 6.0.1.Final
+    distributionZip: http://download.jboss.org/drools/release/6.0.1.Final/droolsjbpm-integration-distribution-6.0.1.Final.zip
+    releaseDate: 2013-12-20
+    releaseNotesVersion: 6.0
+
+    documentationHtmlSingle: http://docs.jboss.org/drools/release/6.0.1.Final/drools-docs/html_single/index.html
+    documentationHtml: http://docs.jboss.org/drools/release/6.0.1.Final/drools-docs/html/index.html
+    documentationPdf: http://docs.jboss.org/drools/release/6.0.1.Final/drools-docs/pdf/drools-docs.pdf
+    javadocs: http://docs.jboss.org/drools/release/6.0.1.Final/drools-docs/index.html
+
+    droolsExpert_documentationHtmlSingle: http://docs.jboss.org/drools/release/6.0.1.Final/drools-expert-docs/html_single/index.html
+    droolsExpert_documentationHtml: http://docs.jboss.org/drools/release/6.0.1.Final/drools-expert-docs/html/index.html
+    droolsExpert_documentationPdf: http://docs.jboss.org/drools/release/6.0.1.Final/drools-expert-docs/pdf/drools-expert-docs.pdf
+
+# latest.version can be equal to latestFinal.version
+latest:
+    version: 6.1.0.Beta3
+    distributionZip: http://download.jboss.org/drools/release/6.1.0.Beta3/droolsjbpm-integration-distribution-6.1.0.Beta3.zip
+    releaseDate: 2014-04-30
+    releaseNotesVersion: 6.1
+
+    documentationHtmlSingle: http://docs.jboss.org/drools/release/6.1.0.Beta3/drools-docs/html_single/index.html
+    documentationHtml: http://docs.jboss.org/drools/release/6.1.0.Beta3/drools-docs/html/index.html
+    documentationPdf: http://docs.jboss.org/drools/release/6.1.0.Beta3/drools-docs/pdf/drools-docs.pdf
+    javadocs: http://docs.jboss.org/drools/release/6.1.0.Beta3/drools-docs/index.html
+
+    droolsExpert_documentationHtmlSingle: http://docs.jboss.org/drools/release/6.1.0.Beta3/drools-docs/html_single/index.html
+    droolsExpert_documentationHtml: http://docs.jboss.org/drools/release/6.1.0.Beta3/drools-docs/html/index.html
+    droolsExpert_documentationPdf: http://docs.jboss.org/drools/release/6.1.0.Beta3/drools-docs/pdf/drools-docs.pdf
+
+nightly:
+    version: 6.1.0-SNAPSHOT
+    distributionZip: https://hudson.jboss.org/hudson/job/optaplanner/lastSuccessfulBuild/artifact/optaplanner-distribution/target/optaplanner-distribution-6.1.0-SNAPSHOT.zip
+
+    documentationHtmlSingle: https://hudson.jboss.org/hudson/job/optaplanner/lastSuccessfulBuild/artifact/optaplanner-docs/target/docbook/publish/en-US/html_single/index.html

@@ -1,0 +1,211 @@
+!!! 5
+%html(lang="en" itemscope="" itemtype="http://schema.org/Product")
+  %head
+    %meta(http-equiv="Content-Type" content="text/html; charset=UTF-8")
+    %meta(name="viewport" content="width=device-width, initial-scale=1")
+    %title #{escape_once(site.title + " - " + page.title)}
+    %meta(name="description"){:content => page.description ? page.description : site.description}
+    %meta(name="keywords"){:content => page.keywords ? page.keywords : site.keywords}
+    %link(rel="canonical"){:href => "#{site.canonicalBaseUrl}#{page.url}"}
+    -# Social media: make it look good when shared
+    %meta(itemprop="name"){:content => escape_once(site.title + " - " + page.title)}
+    %meta(itemprop="description"){:content => page.description ? page.description : site.description}
+    %meta(itemprop="image"){:content => relative("/headerFooter/DroolsLogo210px.png")}
+
+    %link(rel="stylesheet"){:href => relative("/website/bootstrap/css/bootstrap.min.css")}
+    %link(rel="stylesheet"){:href => relative("/website/highlight/highlight.css")}
+    -# %link(rel="stylesheet"){:href => site.jbossorg_bootstrap_css}
+    %link(rel="stylesheet"){:href => relative("/website/DroolsWebsite.css")}
+    %link(rel="stylesheet"){:href => ("https://static.jboss.org/css/tabzilla.css")}
+    :plain
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    %link{:rel => "shortcut icon", :href => relative("/favicon.ico")}
+    
+  %body(data-spy="scroll" data-target=".bs-docs-sidebar")
+
+    #tabnav-panel.tabnav-closed
+      #tabnav.tabnavclearfix
+        .tabcontent
+          %p.overview
+            Like
+            = succeed "?" do
+              %span#project_name Example
+            It’s part of a community of Red Hat
+            projects. Learn more about Red Hat and our open source communities:
+          .row-fluid
+            %span.span4.middlewarelogo
+              %img{:alt => "Red Hat JBoss MIDDLEWARE", :src => "../images/RHJB_Middleware_Logotype.png"}/
+            %span.span4
+            %ul.level1
+              %li.leaf
+                %a{:href => "http://example.jboss.org/index.html#"} Red Hat JBoss Middleware Overview
+              %li.leaf
+                %a{:href => "http://example.jboss.org/index.html#"} Red Hat JBoss Middleware Products
+              %li.leaf
+                %a{:href => "http://example.jboss.org/index.html#"} Red Hat JBoss Projects &amp; Standards
+            %span.span4
+            %ul.level1
+              %li.leaf
+                %a{:href => "http://example.jboss.org/index.html#"} redhat.com
+              %li.leaf
+                %a{:href => "http://example.jboss.org/index.html#"} Red Hat Customer Portal
+              %li.leaf
+                %a{:href => "http://example.jboss.org/index.html#"} OpenShift
+    .dropup
+      %div#ajbossproject A JBoss Project
+      %a#tab.tabnav-closed{:href => "https://www.jboss.org/"} Red Hat
+
+    %header.navbar.navbar-default.navbar-fixed-top.bgHeader(role="navigation")
+      .container
+        .navbar-header
+          -# When the screen width is too little, these 3 icon-bar spans are needed to show the collapsed navbar
+          %a.button.navbar-toggle(data-toggle="collapse" data-target="#baseNavigation")
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand(style="padding: 0px;"){:href => relative("/")}
+            %img{:src => relative("/headerFooter/DroolsLogo210px.png")}
+        .collapse.navbar-collapse#baseNavigation
+          %ul.nav.navbar-nav
+            %li<
+              %a{:href => relative("/")} Home
+            %li<
+              %a{:href => relative("/download/download.html")} Download
+            %li.dropdown
+              %a.dropdown-toggle(data-toggle="dropdown" href="#")<
+                = precede 'Learn ' do
+                  %b.caret>
+              %ul.dropdown-menu
+                %li<
+                  %a{:href => relative("/learn/documentation.html")} Documentation
+                %li<
+                  %a{:href => relative("/learn/video.html")} Videos
+                %li<
+                  %a{:href => relative("/learn/slides.html")} Slides
+                %li.divider
+                %li<
+                  %a{:href => relative("/learn/testimonialsAndCaseStudies.html")} Testimonials and Case Studies
+            %li.dropdown
+              %a.dropdown-toggle(data-toggle="dropdown" href="#")<
+                = precede 'Community ' do
+                  %b.caret>
+              %ul.dropdown-menu
+                %li<
+                  %a{:href => relative("/community/forum.html")} Forum
+                %li<
+                  %a{:href => relative("/community/chat.html")} Chat
+                %li<
+                  %a{:href => relative("/community/product.html")} Product
+                %li.divider
+                %li<
+                  %a{:href => relative("/community/socialMedia.html")} Social Media
+                %li<
+                  %a{:href => relative("/blog/")} Blog
+                %li<
+                  %a{:href => relative("/community/team.html")} Team
+                %li<
+                  %a{:href => relative("/community/research.html")} Research
+            %li.dropdown
+              %a.dropdown-toggle(data-toggle="dropdown" href="#")<
+                = precede 'Code ' do
+                  %b.caret>
+              %ul.dropdown-menu
+                %li<
+                  %a{:href => relative("/code/issueTracker.html")} Report an issue
+                %li<
+                  %a{:href => relative("/code/sourceCode.html")} Source code
+                %li<
+                  %a{:href => relative("/code/continuousIntegration.html")} Continuous integration
+                %li.divider
+                %li<
+                  %a{:href => relative("/code/license.html")} License
+          .navbar-form.navbar-right(style="padding-top: 5px;")
+            -# The plusone button fails with data-href="https://plus.google.com/+OptaPlannerOrg"
+            %div(class="g-plusone" data-href="https://plus.google.com/112724449845406009021") &nbsp;
+          %ul.nav.navbar-nav.navbar-right
+            %li.dropdown
+              %a.dropdown-toggle(data-toggle="dropdown" href="#")<
+                = precede 'Follow us ' do
+                  %b.caret>
+              %ul.dropdown-menu
+                %li<
+                  %a(href="https://plus.google.com/+OptaPlannerOrg" rel="publisher" target="_blank" title="News stream via Google+")<
+                    %img{:src => relative("/headerFooter/googlePlusLogo.png"), :alt => "G+"} &nbsp;Google+
+                %li<
+                  %a(href="https://twitter.com/jbossjbpm" target="_blank" title="News stream via Twitter")<
+                    %img{:src => relative("/headerFooter/twitterLogo.png"), :alt => "T"} &nbsp;Twitter
+                %li<
+                  %a(href="https://www.facebook.com/OptaPlanner" target="_blank" title="News stream via Facebook")<
+                    %img{:src => relative("/headerFooter/facebookLogo.png"), :alt => "Fb"} &nbsp;Facebook
+
+    .body-without-header-footer
+      .forkMeOnGithub
+        %a(href="https://github.com/droolsjbpm" target="_blank")
+          %img{:src => relative("/headerFooter/forkMeOnGithub.png"), :alt => "Fork me on GitHub"}
+
+      .container#Content(style="padding-top: 20px;")
+        ~ content
+
+    %footer
+      .container
+        .row
+          .col-md-6
+            %p
+              Development is sponsored by
+              %a(href="http://www.redhat.com/")<
+                %img{:src => relative("/headerFooter/redHatLogo.png"), :alt => "Red Hat"}
+            %p
+              Drools is part of the
+              %a(href="http://www.jboss.org/")<
+                %img{:src => relative("/headerFooter/jbossCommunityLogo.png"), :alt => "JBoss Community"}
+          .col-md-6
+            :markdown
+              &copy; Copyright 2006-#{Time.now.strftime( '%Y' )}, Red Hat, Inc. or third-party contributors
+            %p
+              %a(href="http://www.redhat.com/legal/legal_statement.html") Terms of use
+              \-
+              %a(href="http://www.redhat.com/legal/privacy_statement.html") Privacy policy
+              \-
+              %a(href="#{relative("/website/websiteInfo.html")}") Website info
+              \-
+              %span.btn-group.btn-group-xs
+                %a.btn.btn-default(role="button" href="https://github.com/droolsjbpm/drools-website/blob/master#{page.relative_source_path}") Page source
+                %a.btn.btn-default(role="button" href="https://github.com/droolsjbpm/drools-website/edit/master#{page.relative_source_path}") Edit this page
+
+    %script{:src => relative("/website/jquery/jquery.min.js")}
+    %script{:src => relative("/website/bootstrap/js/bootstrap.min.js")}
+    %script{:src => relative("/website/highlight/highlight.js")}
+    %script{:src => relative("/website/DroolsWebsite.js")}
+    %script{:src => ("https://static.jboss.org/js/_jbossorg-tabzilla.js")}
+    %script(type="text/javascript")<
+      hljs.initHighlightingOnLoad();
+    -# %script{:src => site.jbossorg_bootstrap_js}
+    -# g-plusone script and google analytics script
+    :plain
+      <script type="text/javascript">
+        (function() {
+          var po = document.createElement('script');
+          po.type = 'text/javascript';
+          po.async = true;
+          po.src = 'https://apis.google.com/js/plusone.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(po, s);
+        })();
+      </script>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '#{site.googleAnalyticsId}']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+

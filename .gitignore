@@ -1,0 +1,21 @@
+# Local files
+/local
+
+# Eclipse, Netbeans and IntelliJ files
+/.*
+!.gitignore
+!.awestruct_ignore
+/nbproject
+/*.ipr
+/*.iws
+/*.iml
+
+# Repository wide ignore mac DS_Store files
+.DS_Store
+
+# Awestruct files
+/_site
+/_tmp
+/.awestruct
+/.sass-cache
+/Gemfile.lock

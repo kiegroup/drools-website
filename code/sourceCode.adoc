@@ -1,0 +1,27 @@
+= Source code
+:awestruct-layout: base
+:linkattrs:
+:showtitle:
+
+We use http://git-scm.com/[Git] to manage our source code. The reference repositories are on GitHub:
+
+http://github.com/droolsjbpm[http://github.com/droolsjbpm]
+
+To build our sources, follow the instructions https://github.com/droolsjbpm/droolsjbpm-build-bootstrap/blob/master/README.md[in the README file in droolsjbpm-build-bootstrap].
+
+To learn more about git, read the free book http://progit.org/book/[Git Pro].
+
+== Tracking our changes
+
+It's easy to keep an eye on the source code changes on the project:
+
+
+* Go to the https://github.com/droolsjbpm/repositories[GitHub website].
+* Click on the repository you're intrested in
+* Click on the link Commits to show the commit history.
+* You can subscribe to that feed with the orange feed icon link.
+
+== Legacy SVN Links
+
+* Anonymous: http://anonsvn.jboss.org/repos/labs/labs/jbossrules/trunk/[http://anonsvn.jboss.org/repos/labs/labs/jbossrules/trunk/]
+* Committer: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk/[https://svn.jboss.org/repos/labs/labs/jbossrules/trunk/]

@@ -1,0 +1,23 @@
+= Slides
+:awestruct-layout: base
+:showtitle:
+
+== Watch the slides
+
+These slides are viewable in your browser:
+
+*link:slides/optaplanner-presentation/index.html[Show the OptaPlanner presentation]*
+
+== Reuse these slides
+
+Feel free to reuse any of these materials as you see fit to present OptaPlanner (for example to your local JUG):
+
+. Download https://github.com/droolsjbpm/optaplanner-website/tree/master/learn/slides/[the source of these HTML slides].
+
+    ** Do you prefer +ODP+ or +PPT+ slides instead? +
+    Most slides are a single, big +png+ image: simply copy the image as a new slide in your deck.
+
+. Don't forget to change the presenter name in the first and the last slide.
+
+. If it's a public event, link:../community/socialMedia.html[let us know]
+and we might share it on link:../community/socialMedia.html[our social media].

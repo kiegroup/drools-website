@@ -1,0 +1,27 @@
+= Forum (free support)
+:awestruct-layout: base
+:showtitle:
+
+== Usage questions
+
+If you have a question about jBPM, just ask our friendly community:
+
+* Ask on http://www.jboss.org/drools/lists[the Drools user mailing list] (recommended).
+
+* Or ask on http://stackoverflow.com/questions/tagged/jbpm[StackOverflow].
+
+Please follow these recommendations when posting a question:
+
+* Get to the point. Keep it as short as possible.
+* Include _relevant_ technical details (stacktrace, short code snippet, ...).
+* Be polite, friendly and clear. Reread your question before posting it.
+* Be patient. This isn't link:product.html[paid support].
+
+== Development discussions
+
+If you've link:../code/sourceCode.html[build jBPM from source] and you would like to improve it,
+then come talk with us:
+
+* Join us on http://www.jboss.org/drools/lists[the Drools developer mailing list].
+
+* And link:chat.html[chat with us] (recommended).

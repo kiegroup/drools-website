@@ -1,0 +1,59 @@
+= Documentation
+:awestruct-layout: base
+:page-interpolate: true
+:showtitle:
+
+== Drools Books
+
+http://www.packtpub.com/jboss-drools-business-rules/book[image:books/Books-JBoss_Drools_Business_Rules.png[]] http://www.packtpub.com/jboss-rules-5-x-developers-guide/book[image:books/Books-Drools_JBoss_Rules.png[]] http://www.packtpub.com/drools-developers-using-jboss-cookbook/book[image:books/Books-Drools_Developer’s_Cookbook.png[]] http://www.packtpub.com/getting-started-with-drools/book[image:books/Books-Instant_Drools_Starter.png[]]
+
+== Final releases
+
+* Documentation for jBPM #{site.pom.latestFinal.version}
+
+** image:documentation.png[] *jBPM reference manual #{site.pom.latestFinal.version}:
+#{site.pom.latestFinal.documentationHtmlSingle}[HTML Single] -
+#{site.pom.latestFinal.documentationHtml}[HTML] -
+#{site.pom.latestFinal.documentationPdf}[PDF]*
+
+** jBPM javadocs #{site.pom.latestFinal.version}:
+#{site.pom.latestFinal.javadocs}[HTML]
+
+** Drools Expert reference manual:
+#{site.pom.latestFinal.droolsExpert_documentationHtmlSingle}[HTML Single] -
+#{site.pom.latestFinal.droolsExpert_documentationHtml}[HTML] -
+#{site.pom.latestFinal.droolsExpert_documentationPdf}[PDF]
+
+* Older community documentation: Check http://docs.jboss.org/drools/release/[the documentation archive].
+
+* Red Hat subscription documentation: Check https://access.redhat.com/knowledge/docs/[the customer portal].
+
+'''
+
+== Non-Final releases
+
+=== Alpha's, Beta's and CR's
+
+* Documentation for jBPM #{site.pom.latest.version}
+
+** image:documentation.png[] jBPM reference manual #{site.pom.latest.version}:
+#{site.pom.latest.documentationHtmlSingle}[HTML Single] -
+#{site.pom.latest.documentationHtml}[HTML] -
+#{site.pom.latest.documentationPdf}[PDF]
+
+** jBPM javadocs #{site.pom.latest.version}:
+#{site.pom.latest.javadocs}[HTML]
+
+** Drools Expert reference manual:
+#{site.pom.latest.droolsExpert_documentationHtmlSingle}[HTML Single] -
+#{site.pom.latest.droolsExpert_documentationHtml}[HTML] -
+#{site.pom.latest.droolsExpert_documentationPdf}[PDF]
+
+=== Nightly snapshots
+
+Nightly snapshots are build by link:../code/continuousIntegration.html[our build server].
+
+* Documentation for jBPM #{site.pom.nightly.version}
+
+** image:documentation.png[] jBPM reference manual #{site.pom.nightly.version}:
+#{site.pom.nightly.documentationHtmlSingle}[HTML Single]
