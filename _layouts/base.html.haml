@@ -10,7 +10,7 @@
     -# Social media: make it look good when shared
     %meta(itemprop="name"){:content => escape_once(site.title + " - " + page.title)}
     %meta(itemprop="description"){:content => page.description ? page.description : site.description}
-    %meta(itemprop="image"){:content => relative("/headerFooter/DroolsLogo210px.png")}
+    %meta(itemprop="image"){:content => relative("/headerFooter/DroolsLogoDark210px.png")}
 
     %link(rel="stylesheet"){:href => relative("/website/bootstrap/css/bootstrap.min.css")}
     %link(rel="stylesheet"){:href => relative("/website/highlight/highlight.css")}
@@ -60,7 +60,7 @@
       %div#ajbossproject A JBoss Project
       %a#tab.tabnav-closed{:href => "https://www.jboss.org/"} Red Hat
 
-    %header.navbar.navbar-default.navbar-fixed-top.bgHeader(role="navigation")
+    %header#header.navbar.navbar-default.navbar-fixed-top.bgHeader(role="navigation")
       .container
         .navbar-header
           -# When the screen width is too little, these 3 icon-bar spans are needed to show the collapsed navbar
@@ -70,7 +70,7 @@
             %span.icon-bar
             %span.icon-bar
           %a.navbar-brand(style="padding: 0px;"){:href => relative("/")}
-            %img{:src => relative("/headerFooter/DroolsLogo210px.png")}
+            %img{:src => relative("/headerFooter/DroolsLogoDark210px.png")}
         .collapse.navbar-collapse#baseNavigation
           %ul.nav.navbar-nav
             %li<
@@ -152,7 +152,7 @@
       .container#Content(style="padding-top: 20px;")
         ~ content
 
-    %footer
+    %footer#footer
       .container
         .row
           .col-md-6

@@ -43,20 +43,7 @@ footer {
 }
 
 .bgHeader {
-    background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(0, #FFD6B2),
-    color-stop(1, #FFFFFF)
-    );
-    background-image: -o-linear-gradient(bottom, #FFD6B2 0%, #FFFFFF 100%);
-    background-image: -moz-linear-gradient(bottom, #FFD6B2 0%, #FFFFFF 100%);
-    background-image: -webkit-linear-gradient(bottom, #FFD6B2 0%, #FFFFFF 100%);
-    background-image: -ms-linear-gradient(bottom, #FFD6B2 0%, #FFFFFF 100%);
-    background-image: linear-gradient(to bottom, #FFD6B2 0%, #FFFFFF 100%);
-    font-size: 115%;
-    border-bottom: solid 1px #FFD6B2;
+    border-bottom: solid 2px #000000;
     -webkit-box-shadow: 0 0 3px 0 rgba(0,0,,100);
     box-shadow: 0 0 3px 0 rgba(0,0,,100);
 }
@@ -209,4 +196,158 @@ footer {
 ******************************************************************************/
 .dropup {
   z-index: 9999 !Important;
+}
+
+
+
+
+
+
+
+
+
+/******************************************************************************
+* Header Property
+******************************************************************************/
+
+#header {
+    background: none repeat scroll 0 0 #242424;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+#header .container {
+    max-width: 100%;
+    padding-left: 0;
+    top: 0;
+}
+#header .dropdown.menu-dropdown {
+    float: right;
+    margin: 0;
+}
+#header .dropdown.menu-dropdown a.main-menu-dropdown {
+    width: 55px;
+}
+#header .dropdown.menu-dropdown a.main-menu-dropdown span {
+    font-size: 18px;
+    margin: 0;
+}
+#header .dropdown.menu-dropdown ul.dropdown-menu {
+    left: auto;
+    right: 0;
+}
+#header li a {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+@media screen and (min-width: 1001px) {
+#header .dropdown.menu-dropdown {
+    display: none;
+}
+}
+#header .brand-logo {
+    float: left;
+}
+#header .dropdown {
+    float: left;
+    margin-right: 15px;
+}
+#header .dropdown .dropdown-toggle {
+    background: none repeat scroll 0 0 #FF0000;
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 14px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#header .dropdown .dropdown-toggle span {
+    font-weight: bold;
+    margin-left: 4px;
+}
+#header .dropdown-menu {
+    background: none repeat scroll 0 0 #242424;
+    box-shadow: none;
+    margin-top: 0;
+    min-width: 132px;
+}
+#header .dropdown-menu a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    text-transform: capitalize;
+}
+#header .dropdown-menu a:hover {
+    background: none repeat scroll 0 0 #444444;
+}
+#header .dropdown .dropdown-toggle a:hover {
+    background: none repeat scroll 0 0 #444444;
+}
+#header nav {
+    float: left;
+}
+#header nav ul {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 1000px) {
+#header .main-nav {
+    display: none;
+}
+}
+#header nav li {
+    display: inline-block;
+    float: left;
+}
+#header nav li a {
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 15px 10px 15px 0;
+}
+#header nav li a:hover {
+    color: #FF0000;
+}
+#header nav li a:before {
+    color: #949494;
+    content: "/";
+    display: inline-block;
+    font-weight: 400;
+    padding-right: 10px;
+}
+#header nav li:first-child a:before {
+    display: none;
+}
+
+
+/******************************************************************************
+* Footer Property
+******************************************************************************/
+
+#footer {
+    border-top: solid 2px #000000; 
+    background: none repeat scroll 0 0 #242424;
+    padding: 50px 0;
+    text-align: center;
+}
+#footer p {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+#footer a:hover {
+    color: #FF0000;
 }
