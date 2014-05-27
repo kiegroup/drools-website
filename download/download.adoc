@@ -3,7 +3,7 @@
 :page-interpolate: true
 :showtitle:
 
-== Final releases
+== Drools 6.0 Downloads
 
 === Distribution zip
 

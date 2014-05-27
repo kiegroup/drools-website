@@ -9,51 +9,103 @@ http://www.packtpub.com/jboss-drools-business-rules/book[image:books/Books-JBoss
 
 == Final releases
 
-* Documentation for jBPM #{site.pom.latestFinal.version}
+* Documentation for #{site.pom.latestFinal.version}
 
-** image:documentation.png[] *jBPM reference manual #{site.pom.latestFinal.version}:
+** image:documentation.png[] *Reference manual #{site.pom.latestFinal.version}*:
 #{site.pom.latestFinal.documentationHtmlSingle}[HTML Single] -
 #{site.pom.latestFinal.documentationHtml}[HTML] -
-#{site.pom.latestFinal.documentationPdf}[PDF]*
+#{site.pom.latestFinal.documentationPdf}[PDF]
 
-** jBPM javadocs #{site.pom.latestFinal.version}:
-#{site.pom.latestFinal.javadocs}[HTML]
 
-** Drools Expert reference manual:
-#{site.pom.latestFinal.droolsExpert_documentationHtmlSingle}[HTML Single] -
-#{site.pom.latestFinal.droolsExpert_documentationHtml}[HTML] -
-#{site.pom.latestFinal.droolsExpert_documentationPdf}[PDF]
-
-* Older community documentation: Check http://docs.jboss.org/drools/release/[the documentation archive].
-
-* Red Hat subscription documentation: Check https://access.redhat.com/knowledge/docs/[the customer portal].
+** Drools javadocs #{site.pom.latestFinal.version}:
+#{site.pom.latestFinal.javadocs}[Javadoc]
 
 '''
 
 == Non-Final releases
 
-=== Alpha's, Beta's and CR's
+* *Documentation for #{site.pom.latest.version}*
 
-* Documentation for jBPM #{site.pom.latest.version}
-
-** image:documentation.png[] jBPM reference manual #{site.pom.latest.version}:
+** image:documentation.png[] *Reference manual #{site.pom.latest.version}*:
 #{site.pom.latest.documentationHtmlSingle}[HTML Single] -
 #{site.pom.latest.documentationHtml}[HTML] -
 #{site.pom.latest.documentationPdf}[PDF]
-
-** jBPM javadocs #{site.pom.latest.version}:
-#{site.pom.latest.javadocs}[HTML]
 
 ** Drools Expert reference manual:
 #{site.pom.latest.droolsExpert_documentationHtmlSingle}[HTML Single] -
 #{site.pom.latest.droolsExpert_documentationHtml}[HTML] -
 #{site.pom.latest.droolsExpert_documentationPdf}[PDF]
 
-=== Nightly snapshots
+** Drools Fusion reference manual:
+#{site.pom.latest.droolsFusion_documentationHtmlSingle}[HTML Single] -
+#{site.pom.latest.droolsFusion_documentationHtml}[HTML] -
+#{site.pom.latest.droolsFusion_documentationPdf}[PDF]
 
-Nightly snapshots are build by link:../code/continuousIntegration.html[our build server].
+** Drools and jBPM integration reference manual:
+#{site.pom.latest.droolsjbpmIntegration_documentationHtmlSingle}[HTML Single] -
+#{site.pom.latest.droolsjbpmIntegration_documentationHtml}[HTML] -
+#{site.pom.latest.droolsjbpmIntegration_documentationPdf}[PDF]
 
-* Documentation for jBPM #{site.pom.nightly.version}
+** Drools Guvnor reference manual:
+#{site.pom.latest.droolsGubnor_documentationHtmlSingle}[HTML Single] -
+#{site.pom.latest.droolsGubnor_documentationHtml}[HTML] -
+#{site.pom.latest.droolsGubnor_documentationPdf}[PDF]
 
-** image:documentation.png[] jBPM reference manual #{site.pom.nightly.version}:
-#{site.pom.nightly.documentationHtmlSingle}[HTML Single]
+** Drools Planner reference manual:
+#{site.pom.latest.droolsPlanner_documentationHtmlSingle}[HTML Single] -
+#{site.pom.latest.droolsPlanner_documentationHtml}[HTML] -
+#{site.pom.latest.droolsPlanner_documentationPdf}[PDF]
+
+** Knowledge API #{site.pom.latest.version}:
+#{site.pom.latest.KnowledgeAPI_javadocs}[Javadoc]
+
+
+=== Drools Books
+
+*Jess in Action: Java Rule-based Systems* +
+Ernest Friedman-Hill +
+ISBN: 1930110898
+
+*Expert Systems: Principles and Programming* +
+Joseph Giarratano, Gary D. Riley +
+ISBN: 0534384471
+
+*Introduction to Expert Systems* +
+Peter Jackson +
+ISBN: 0201876868
+
+*Smart Enough Systems* +
+James Taylour, Neil Raden +
+Print ISBN-10: 0-13-234796-2 +
+Print ISBN-13: 978-0-13-234796-9
+
+*Business Rules and Information Systems: Aligning IT with Business Goals* +
+Tony Morgan +
+ISBN: 0201743914
+
+*Principles of the Business Rule Approach* +
+Ronald G. Ross +
+ISBN: 0201788934
+
+*Business Rules Applied* +
+Von Halle +
+ISBN: 0471412937
+
+=== Papers
+
+*Rete: A fast algorithm for the many pattern/many object pattern match problem* +
+by Charles L. Forgy +
+Artificial Intelligence, Volume 19, Issue 1, September 1982, Pages 17-37
+
+*Production Matching for Large Learning Systems (Rete/UL)* +
+by Robert B. Doorenbos +
+PhD thesis, Carnegie Mellon University, January 31, 1995
+
+*The LEAPS Algorithms* +
+by Don Batory +
+Technical Report 94-28, Department of Computer Sciences, University of Texas at Austin, 1994
+
+=== Websites of interest
+
+http://www.javarules.org/[Java Rules community] +
+http://www.brcommunity.com/[Business Rules Community]
