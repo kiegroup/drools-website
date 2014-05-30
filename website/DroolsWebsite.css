@@ -211,9 +211,8 @@ footer {
 ******************************************************************************/
 
 #header {
-    background: none repeat scroll 0 0 #242424;
+    background-color: #242424;
     height: 55px;
-    position: fixed;
     top: 0;
     width: 100%;
     z-index: 999;
@@ -224,7 +223,6 @@ footer {
     top: 0;
 }
 #header .dropdown.menu-dropdown {
-    float: right;
     margin: 0;
 }
 #header .dropdown.menu-dropdown a.main-menu-dropdown {
@@ -239,28 +237,19 @@ footer {
     right: 0;
 }
 #header li a {
+    background-color: #242424;
     color: #FFFFFF;
     font-size: 12px;
     font-weight: 600;
     line-height: 25px;
+    text-align: center;
     text-transform: uppercase;
 }
-@media screen and (min-width: 1001px) {
-#header .dropdown.menu-dropdown {
-    display: none;
-}
-}
-#header .brand-logo {
-    float: left;
-}
 #header .dropdown {
-    float: left;
-    margin-right: 15px;
 }
 #header .dropdown .dropdown-toggle {
     background: none repeat scroll 0 0 #FF0000;
     color: #FFFFFF;
-    display: block;
     font-size: 12px;
     font-weight: 600;
     line-height: 25px;
@@ -280,38 +269,28 @@ footer {
 }
 #header .dropdown-menu a {
     color: #FFFFFF;
-    display: block;
     font-size: 14px;
     font-weight: 600;
     padding: 5px;
+    text-align: left;
     text-transform: capitalize;
 }
 #header .dropdown-menu a:hover {
-    background: none repeat scroll 0 0 #444444;
+    background-color: #444444;
 }
 #header .dropdown .dropdown-toggle a:hover {
-    background: none repeat scroll 0 0 #444444;
+    background-color: #444444;
 }
 #header nav {
-    float: left;
 }
 #header nav ul {
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width: 1000px) {
-#header .main-nav {
-    display: none;
-}
-}
 #header nav li {
-    display: inline-block;
-    float: left;
 }
 #header nav li a {
     color: #FFFFFF;
-    display: block;
-    float: right;
     font-size: 12px;
     font-weight: 700;
     line-height: 25px;
