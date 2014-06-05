@@ -2,7 +2,6 @@
 title: Planning engine (Java™, Open Source)
 layout: base
 ---
-
 .jumbotron.pagination-centered(style="padding: 10px; margin-bottom: 20px;")
   .carousel.slide#whatIsCarousel(data-ride="carousel" data-interval="false" style="background-color: white;")
     -#.carousel-inner(style="align: center;")
@@ -43,14 +42,41 @@ layout: base
 
 %div(style="margin-bottom: 20px")
   :markdown
-    ## What is Drools?
+    ## Drools - The Business Logic integration Platform
 
-    **Drools** is a flexible Business Process Management (BPM) Suite. It makes the bridge between business analysts and developers. Traditional BPM engines have a focus that is limited to non-technical people only. jBPM has a dual focus: it offers process management features in a way that both business users and developers like it.
+    Drools #{site.pom.latestFinal.version} introduces the **Business Logic integration Platform** which provides a unified and integrated platform for **Rules**, **Workflow** and **Event Processing**. It's been designed from the ground up so that each aspect is a first class citizen, with no compromises.
+
+    ## Upcoming events
+
+    The first Red Hat Latin American Developer Conference, JUDCon 2013: Brazil is a wrap, and was an amazing success!
+
+    ## Overview
+
+    Drools and jBPM consist out of several projects:
+  %ul
+    %li
+      %img(src = "headerFooter/guvnor_icon_32x.png")  
+        %a(href="http://drools.jboss.org/drools-guvnor.html") Drools Guvnor (Business Rules Manager)
+    %li
+      %img(src = "headerFooter/expert_icon_32x.png")  
+        %a(href="http://drools.jboss.org/drools-expert.html") Drools Expert (rule engine)
+    %li
+      %img(src = "headerFooter/flow_icon_32x.png")  
+        %a(href="http://www.jboss.org/jbpm") jBPM 5 (process/workflow)
+    %li
+      %img(src = "headerFooter/fusion_icon_32x.png")  
+        %a(href="http://drools.jboss.org/drools-fusion.html") Drools Fusion (event processing/temporal reasoning)
+    %li
+      %img(src = "headerFooter/planner_icon_32px.png")  
+        %a(href="http://www.optaplanner.org/") OptaPlanner (automated planning)
+
+    
+  These projects have community releases from JBoss.org that come without support. Community releases focus on fast paced innovation to give you the latest and greatest, with releases every few months that include both features and fixes. JBoss BRMS is our enterprise product from JBoss.com for mission critical releases, with a multi year commitment for backport of fixes, based off a sanitised community release of Drools. A range of support packages are available including up to mission critical 24/7, as well as training and consultancy via our Global Professional Services unit. Email sales@jboss.com for more details.
 
 .alert.alert-info.alert-dismissable
   %button.close(type="button" data-dismiss="alert" aria-hidden="true") &times;
   #{site.pom.latest.releaseDate}:
-  %a.alert-link(href="download/releaseNotes/releaseNotes#{site.pom.latest.releaseNotesVersion}.html") #{site.pom.latest.version} has been released.
+  %a.alert-link(href="download/releaseNotes/releaseNotes#{site.pom.latest.releaseNotesVersion}.html")Drools #{site.pom.latest.version} has been released.
 
 .row
   .col-md-6
