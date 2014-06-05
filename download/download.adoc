@@ -3,13 +3,11 @@
 :page-interpolate: true
 :showtitle:
 
-== Drools 6.0 Downloads
-
 === Distribution zip
 
-The jBPM distribution zip includes binaries, documentation, examples and sources.
+The Drools distribution zip includes binaries, documentation, examples and sources.
 
-* image:download.png[] *#{site.pom.latestFinal.distributionZip}[Download jBPM #{site.pom.latestFinal.version}]*
+* image:download.png[] *#{site.pom.latestFinal.distributionZip}[Download Drools #{site.pom.latestFinal.version}]*
 ** link:releaseNotes/releaseNotes#{site.pom.latestFinal.releaseNotesVersion}.html[Release notes #{site.pom.latestFinal.releaseNotesVersion}]
 ** License: link:../code/license.html[ASL 2.0]
 ** Release date: +#{site.pom.latestFinal.releaseDate}+

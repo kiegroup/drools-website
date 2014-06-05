@@ -9,15 +9,15 @@ http://www.packtpub.com/jboss-drools-business-rules/book[image:books/Books-JBoss
 
 == Final releases
 
-* Documentation for #{site.pom.latestFinal.version}
+* Documentation for Drools #{site.pom.latestFinal.version}
 
-** image:documentation.png[] *Reference manual #{site.pom.latestFinal.version}*:
+** image:documentation.png[] *Reference manual Drools #{site.pom.latestFinal.version}*:
 #{site.pom.latestFinal.documentationHtmlSingle}[HTML Single] -
 #{site.pom.latestFinal.documentationHtml}[HTML] -
 #{site.pom.latestFinal.documentationPdf}[PDF]
 
 
-** Drools javadocs #{site.pom.latestFinal.version}:
+** Drools javadocs Drools #{site.pom.latestFinal.version}:
 #{site.pom.latestFinal.javadocs}[Javadoc]
 
 '''
