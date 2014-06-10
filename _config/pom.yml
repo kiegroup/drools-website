@@ -3,7 +3,28 @@ latestFinal:
     distributionZip: http://download.jboss.org/drools/release/6.0.1.Final/droolsjbpm-integration-distribution-6.0.1.Final.zip
     releaseDate: 2013-12-20
     releaseNotesVersion: 6.0
+    
+    droolsZip: http://download.jboss.org/drools/release/6.0.1.Final/drools-distribution-6.0.1.Final.zip
+    drools_version: 6.0
+    drools_description: Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).
 
+    droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.0.1.Final/droolsjbpm-integration-distribution-6.0.1.Final.zip
+    droolsjbpmIntegration_version: 6.0
+    droolsjbpmIntegration_description: Drools and jBPM integration with spring, camel...
+
+    droolsWorkbenchZip: http://download.jboss.org/drools/release/6.0.1.Final/kie-drools-wb-distribution-6.0.1.Final.zip
+    droolsWorkbench_version: 6.0
+    droolsWorkbench_description: Drools Workbench is the web application and repository to govern Drools and jBPM assets. 
+    
+    droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.0.1.Final/droolsjbpm-tools-distribution-6.0.1.Final.zip
+    droolsjbpmTools_version: 6.0
+    droolsjbpmTools_description: Ant, eclipse, ... plugins and support for Drools, jBPM and Guvnor functionality.
+    
+    droolsPlannerZip: http://download.jboss.org/drools/release/6.0.1.Final/optaplanner-distribution-6.0.1.Final.zip
+    droolsPlanner_version: 6.0
+    droolsPlanner_description: OptaPlanner (=Drools Planner) optimizes automated planning.
+    
+    
     documentationHtmlSingle: http://docs.jboss.org/drools/release/6.0.1.Final/drools-docs/html_single/index.html
     documentationHtml: http://docs.jboss.org/drools/release/6.0.1.Final/drools-docs/html/index.html
     documentationPdf: http://docs.jboss.org/drools/release/6.0.1.Final/drools-docs/pdf/drools-docs.pdf
@@ -45,3 +66,4 @@ latest:
     droolsPlanner_documentationPdf: http://docs.jboss.org/drools/release/5.6.0.Final/drools-planner-docs/pdf/drools-planner-docs.pdf
 
     KnowledgeAPI_javadocs: http://docs.jboss.org/drools/release/5.6.0.Final/knowledge-api-javadoc/index.html
+    
