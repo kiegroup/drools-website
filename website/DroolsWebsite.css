@@ -20,6 +20,10 @@ html {
 body {
     background: linear-gradient(to bottom, #fff3e8 0px, #FAFAFA 40%) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     height: 100%;
+    color: #333333;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.66667;
 }
 
 #Content {
@@ -329,4 +333,38 @@ footer {
 }
 #footer a:hover {
     color: #FF0000;
+}
+
+
+
+/******************************************************************************
+* Tables Property
+******************************************************************************/
+
+table {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 1.25em;
+}
+table thead, table tfoot {
+    background: none repeat scroll 0 0 #F5F5F5;
+    font-weight: bold;
+}
+table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td {
+    color: #222222;
+    font-size: inherit;
+    padding: 0.5em;
+    text-align: left;
+}
+table tr th, table tr td {
+    color: #222222;
+    font-size: inherit;
+    padding: 0.5em;
+}
+table tr.even, table tr.alt, table tr:nth-of-type(2n) {
+    background: none repeat scroll 0 0 #F9F9F9;
+}
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {
+    display: table-cell;
+    line-height: 1.6;
 }
