@@ -10,7 +10,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 
 |Name |Version |Description |Size |Release date |License |Download
 
-|Drools
+|*Drools*
 |#{site.pom.latestFinal.drools_version}
 |#{site.pom.latestFinal.drools_description}
 |80,5 MB
@@ -18,7 +18,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsZip}[Download]
 
-|Drools and jBPM integration
+|*Drools and jBPM integration*
 |#{site.pom.latestFinal.droolsjbpmIntegration_version}
 |#{site.pom.latestFinal.droolsjbpmIntegration_description}
 |139,4 MB
@@ -26,7 +26,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsjbpmIntegrationZip}[Download]
 
-|Drools Workbench
+|*Drools Workbench*
 |#{site.pom.latestFinal.droolsWorkbench_version}
 |#{site.pom.latestFinal.droolsWorkbench_description}
 |291,4 MB
@@ -34,7 +34,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsWorkbenchZip}[Download]
 
-|Drools and jBPM tools
+|*Drools and jBPM tools*
 |#{site.pom.latestFinal.droolsjbpmTools_version}
 |#{site.pom.latestFinal.droolsjbpmTools_description}
 |58,6 MB
@@ -42,7 +42,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsjbpmToolsZip}[Download]
 
-|OptaPlanner
+|*OptaPlanner*
 |#{site.pom.latestFinal.droolsPlanner_version}
 |#{site.pom.latestFinal.droolsPlanner_description}
 |88,3 MB
