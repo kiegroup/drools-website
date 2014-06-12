@@ -252,7 +252,7 @@ footer {
 #header .dropdown {
 }
 #header .dropdown .dropdown-toggle {
-    background: none repeat scroll 0 0 #FF0000;
+    background: none repeat scroll 0 0;
     color: #FFFFFF;
     font-size: 12px;
     font-weight: 600;
@@ -301,7 +301,6 @@ footer {
     padding: 15px 10px 15px 0;
 }
 #header nav li a:hover {
-    color: #FF0000;
 }
 #header nav li a:before {
     color: #949494;

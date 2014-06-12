@@ -1,8 +1,8 @@
 - user = site.users.find {|e| !e.userId.nil? and page.userId.eql? e.userId }
 .userBadge
-  .well.well-sm(style= "padding: 5px; width: #{(page.mode.eql? 'long') ? '600px' : '320px'};")
+  %p
     .media
-      %img.img-rounded.pull-left{:src => "http://www.gravatar.com/avatar/" + user.gravatarHashId + "?s=50&d=mm"}
+      %img.img-rounded.pull-left{:src => "http://www.gravatar.com/avatar/" + user.gravatarHashId + "?s=100&d=mm"}
       .media-body
         %h4.media-heading #{user.fullName}
         %hr(style="margin:2px auto; border-color: #ddd;")
@@ -19,7 +19,8 @@
           - if !user.githubUsername.empty?
             %a{:href => "https://github.com/" + user.githubUsername}<
               %img{:src => relative("/headerFooter/gitHubLogo.png", page.outputPage), :alt => "GitHub"}
-        %p.small #{user.role}
+        %h5.media-heading
+          %strong #{user.role}
         - if page.mode.eql? 'long'
           - if !user.email.empty?
             %p
@@ -41,4 +42,3 @@
             %p
               %strong Bio:
               #{user.biography}
-
