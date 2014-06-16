@@ -1,0 +1,9 @@
+= Number One Vendor in Japan!!!!
+:page-interpolate: true
+:awestruct-author: mdproctor
+:awestruct-layout: blogPostBase
+:awestruct-tags: [BRMS, Drools]
+
+Red Hat JBoss BRMS is number one BRMS vendor on Japan (Reported by ITR 2014)
+
+image::IMG3506.JPG[ , 50%, , align="center"]

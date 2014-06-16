@@ -1,0 +1,87 @@
+= New feature overview - PMML
+:page-interpolate: true
+:awestruct-author: ge0ffrey
+:awestruct-layout: blogPostBase
+:awestruct-tags: [Drools, PMML]
+
+Today, I'll introduce a new 6.1 experimental feature, just being released from our incubator: Drools-PMML.
+
+I'll spend the next days trying to describe this new module from the pages of this blog. Some of you, early adopters of Drools-Scorecards, will probably have heard the name. Thanks to the great work done by Vinod Kiran, PMML was already living inside that module. However, the Predictive Model Markup Language (www.dmg.org) is much more than that. It is a standard that can be used to encode and interchange classification and regression models such as neural networks or decision trees. These quantitative models complement nicely the qualitative nature of business rules.
+
+So, how does it work? Exactly like with all other KIE assets such as processes, rules or decision tables. First, you have to create the model: there are plenty of statistical/data mining softwares that generate or consume PMML. In the future, even Drools might be able to do that!
+
+Once you have your model, just deploy it in your Kie Module and let it become part of your Kie Base. Betting you are now familiar with the kmodule.xml configuration, let me show an example using the programmatic APIs: 
+
+[source,xml]
+----
+
+<div style="text-align: left;">
+String pmmlSource = // ... path to your PMML file
+ 
+KieServices ks = KieServices.Factory.get();
+KieFileSystem kfs = ks.newKieFileSystem();
+kfs.write( ResourceFactory.newClassPathResource( pmmlSource )
+                          .setResourceType( ResourceType.PMML ) );
+ks.newKieBuilder( kfs ).buildAll().getResults();
+KieSession kSession = ks.newKieContainer(
+  ks.getRepository().getDefaultReleaseId() )
+                        .newKieSession();
+</div>
+
+----
+
+Let's imagine that you have a predictive model called "MockColdPredictor". It is used to predict the probability of catching a cold given the environmental conditions. It has one input called "temperature" and one output "coldProbability". The most basic way to invoke the model is to insert the input value(s) using a generated entry-point:
+
+[source,xml]
+----
+
+ksession.getEntryPoint( "in_Temperature" ) // "in_" + input name (capitalized)
+        .insert( 32.0 );                   // the actual value
+ksession.fireAllRules();
+
+----
+
+The result will be generated and can be extracted, e.g., using a drools query:
+
+[source,xml]
+----
+
+QueryResults qrs = kSession.getQueryResults(
+                       "ColdProbability",   // the name of the output (capitalized)
+                       "MockColdPredictor", // the name of the model
+                       Variable.v );        // the Variable to retrieve the result
+Double probability = (Double) qrs.iterator().next().get( "$result" );
+
+----
+
+In the future posts, we'll discuss in detail how PMML defines models, input and output fields. Based on this, we'll see how to integrate models and which options are available.
+
+At the moment, these model types are supported:
+
+* Clustering
+* Simple Regression
+* Naive Bayes
+* Neural Networks
+* Scorecards
+* Decision Trees
+* Support Vector Machines
+
+The version of the standard is 4.1. The support for these models is being consolidated, and more will be added soon. 
+
+Behind the scenes: the models are interpreted: that is, they are converted to an appropriate combination of rules and facts that emulate the calculations. A compiled version, where the models are evaluated directly, is possible and will be added in the future. So, the evaluation is slower than a "native" engine. The  goal is not to prove that production rules can outperform matrix operations at... doing matrix math :) Rather, the idea is to provide a uniform abstraction of a hybrid knowledge base, making it easier to integrate rule and non-rule based reasoning.
+
+So, my next post will describe the structure of a PMML model.
+
+Stay tuned!
+
+-- Davide
+
+Disclaimer: as a new feature, it is likely to suffer from bugs and issues. Feedback will be welcome.
+
+Acknowledgments:
+
+Thanks to the http://www.cse.unibo.it/en[University of Bologna] (Bologna, Italy), the http://socraticgrid.org/[KMR2 Project] and http://bmi.asu.edu/[Arizona State University] (Scottsdale, AZ) which, over time, have supported this project.
+
+Publications (more to follow):
+
+-- D. Sottara, P. Mello, C. Sartori, and E. Fry. 2011. Enhancing a Production Rule Engine with Predictive Models using PMML. In Proceedings of the 2011 workshop on Predictive markup language modeling (PMML '11). ACM, New York, NY, USA, 39-47. DOI=10.1145/2023598.2023604 http://doi.acm.org/10.1145/2023598.2023604 

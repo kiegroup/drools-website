@@ -1,0 +1,14 @@
+= Come meet us at Red Hat Summit in SFO
+:page-interpolate: true
+:awestruct-author: krisverlaenen
+:awestruct-layout: blogPostBase
+:awestruct-tags: [conference, DevNation, event, summit]
+
+
+This week, Red Hat Summit is taking place in San Francisco, and a lot of us (engineer, product management, solution architects, etc.) will be there at the Moscone Conference Center.  If you are attending Summit or DevNation (the developer-oriented conference co-located with Summit), feel free to come and see http://blog.athico.com/2014/04/this-year-red-hat-is-organizing.html[Mark Proctor's presentations on Drools / JBoss BRMS] and/or http://kverlaen.blogspot.be/2014/03/devnation-and-red-hat-summit-april-13.html[my presentation on jBPM / JBoss BPM Suite].
+
+There will be plenty of opportunities to meet us as well, like for example the DevNation hacknight on Wednesday, but should you want to meet up but can't find us, try reaching out to us on twitter, @markproctor or @KrisVerlaenen.
+
+There will also be plenty of opportunity to go and watch one of the demos at the JBoss booth, and the Usability Team has set up booth as well where you can go and check out JBoss BPM Suite 6 and provide feedback, so definitely go take a look.
+
+Hope to see you all there, hopping in my flight now !
