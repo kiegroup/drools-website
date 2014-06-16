@@ -76,4 +76,19 @@
   employedBy: Red Hat
   githubUsername: mariofusco
   ircNickname: mfusco
+- userId: krisverlaenen
+  fullName: Kris Verlaenen
+  role: jBPM lead
+  gravatarHashId: 49e0e6479ff54105b991186ee108b2f7
+  employedBy: Red Hat
+  githubUsername: krisv
+  ircNickname: krisv
+- userId: michaelanstis
+  fullName: Michael Anstis
+  role: Senior Developer
+  gravatarHashId: a4bfc256ef0468092bd116bb935b5bad
+  twitterUsername: michael_anstis
+  employedBy: Red Hat
+  githubUsername: manstis
+  ircNickname: _manstis
 
