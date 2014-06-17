@@ -91,4 +91,13 @@
   employedBy: Red Hat
   githubUsername: manstis
   ircNickname: _manstis
+- userId: mauriciosalatino
+  fullName: Mauricio Salatino
+  role: Senior Engineer
+  gravatarHashId: 7666e02db7c2afa17051ef9d480443d1
+  twitterUsername: salaboy
+  employedBy: Red Hat
+  githubUsername: Salaboy
+  ircNickname: salaboy
+
 

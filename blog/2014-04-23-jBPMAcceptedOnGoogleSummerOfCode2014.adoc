@@ -1,6 +1,6 @@
 = jBPM accepted on Google Summer of Code 2014!
 :page-interpolate: true
-:awestruct-author: ge0ffrey
+:awestruct-author: mauriciosalatino
 :awestruct-layout: blogPostBase
 :awestruct-tags: [Content Management System, document, GSoC, integration, jBPM]
 
