@@ -42,14 +42,6 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsjbpmToolsZip}[Download]
 
-|*OptaPlanner*
-|#{site.pom.latestFinal.droolsPlanner_version}
-|#{site.pom.latestFinal.droolsPlanner_description}
-|88,3 MB
-|#{site.pom.latestFinal.releaseDate}
-| link:../code/license.html[ASL 2.0]
-|#{site.pom.latestFinal.droolsPlannerZip}[Download]
-
 |===
 
 ==== Other downloads:

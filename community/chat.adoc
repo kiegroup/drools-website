@@ -18,15 +18,15 @@ Most of our project discussion take place on IRC, usually during European and Am
 
     ** Channels for users:
 
-        *** *#drools
-        *** *#guvnor
-        *** *#jbpm
+        *** *#drools*
+        *** *#guvnor*
+        *** *#jbpm*
 
     ** Channels for core development of Drools, jBPM and Guvnor:
 
-        *** *#droolsdev
-        *** *#guvnordev
-        *** *#jbmdev
+        *** *#droolsdev*
+        *** *#guvnordev*
+        *** *#jbmdev*
 
 ==  Guidelines
 

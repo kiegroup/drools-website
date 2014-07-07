@@ -5,7 +5,7 @@
 
 == Drools Books
 
-http://www.packtpub.com/jboss-drools-business-rules/book[image:books/Books-JBoss_Drools_Business_Rules.png[]] http://www.packtpub.com/jboss-rules-5-x-developers-guide/book[image:books/Books-Drools_JBoss_Rules.png[]] http://www.packtpub.com/drools-developers-using-jboss-cookbook/book[image:books/Books-Drools_Developer’s_Cookbook.png[]] http://www.packtpub.com/getting-started-with-drools/book[image:books/Books-Instant_Drools_Starter.png[]]
+http://www.packtpub.com/jboss-drools-business-rules/book[image:books/Books-JBoss_Drools_Business_Rules.png[]] http://www.packtpub.com/jboss-rules-5-x-developers-guide/book[image:books/Books-Drools_JBoss_Rules.png[]] http://www.packtpub.com/drools-developers-using-jboss-cookbook/book[image:books/Books-Drools_Developers_Cookbook.png[]] http://www.packtpub.com/getting-started-with-drools/book[image:books/Books-Instant_Drools_Starter.png[]]
 
 == Final releases
 
@@ -50,11 +50,6 @@ http://www.packtpub.com/jboss-drools-business-rules/book[image:books/Books-JBoss
 #{site.pom.latest.droolsGubnor_documentationHtmlSingle}[HTML Single] -
 #{site.pom.latest.droolsGubnor_documentationHtml}[HTML] -
 #{site.pom.latest.droolsGubnor_documentationPdf}[PDF]
-
-** Drools Planner reference manual:
-#{site.pom.latest.droolsPlanner_documentationHtmlSingle}[HTML Single] -
-#{site.pom.latest.droolsPlanner_documentationHtml}[HTML] -
-#{site.pom.latest.droolsPlanner_documentationPdf}[PDF]
 
 ** Knowledge API #{site.pom.latest.version}:
 #{site.pom.latest.KnowledgeAPI_javadocs}[Javadoc]

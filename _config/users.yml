@@ -1,4 +1,4 @@
-# Available properties per user
+#  Available properties per user
 #  userId: Should be the same as githubUsername
 #  fullName: First name and last name (in that order)
 #  role: Role in this project
@@ -13,53 +13,23 @@
 #  ircNickname: (optional)
 #  contributionsDescription: only work related to this project (optional)
 #  biography: (optional)
-- userId: ge0ffrey
-  fullName: Geoffrey De Smet
-  role: OptaPlanner lead
-  gravatarHashId: 27147a6679a4bfb6461ff1c0ae10473e
-  googlePlusId: +GeoffreyDeSmet
-  twitterUsername: geoffreydesmet
-  githubUsername: ge0ffrey
-  email: gds.geoffrey.de.smet AT gmail.com
-  employedBy: Red Hat
-  ircNickname: ge0ffrey
-  biography: Geoffrey founded OptaPlanner in 2006 and has been working for Red Hat since 2010.
-- userId: triceo
-  fullName: Lukáš Petrovický
-  role: BRMS QA lead
-  gravatarHashId: c950743f532471ac34022e92193563c3
-  githubUsername: triceo
-  employedBy: Red Hat
-  ircNickname: triceo
-- userId: elsam
-  fullName: Sam Van Malderen
-  role: Contributor
-  gravatarHashId: ff1d2abc4474045c8cad7c95975eda63
-  githubUsername: elsam
-  ircNickname: elsam
-  contributionsDescription: Genetic algorithms prototype
-- userId: fhornain
-  fullName: Frederic Hornain
-  role: Contributor
-  gravatarHashId: 8eb1897dda40d25fd65697872e4a8480
-  twitterUsername: fhornain
-  githubUsername: fhornain
-  employedBy: Red Hat
-  contributionsDescription: Example improvements (code and images)
-- userId: carrot-osc
-  fullName: Matej Čimbora
-  role: Contributor
-  gravatarHashId: b423d5e811dc7d6f003944b2d31df407
-  githubUsername: carrot-osc
-  contributionsDescription: BenchmarkAggregator and more
 - userId: mdproctor
   fullName: Mark Proctor
   role: KIE lead
-  gravatarHashId: 461df23df429c87550d3ce25c95d182b
+  gravatarHashId: 37e3e4a1e196a53748dcb127cea7d1c1
   twitterUsername: markproctor
   githubUsername: mdproctor
   employedBy: Red Hat
   ircNickname: conan
+- userId: kverlaenen
+  fullName: Kris Verlaenen
+  role: jBPM Lead
+  gravatarHashId: 48514750add199714a1ab5f525f6f7b5
+  twitterUsername: KrisVerlaenen
+  email: kris.verlaenen [at] gmail [dot] com
+  employedBy: Red Hat
+  githubUsername: krisv
+  ircNickname: krisv
 - userId: etirelli
   fullName: Edson Tirelli
   role: Drools lead
@@ -68,24 +38,52 @@
   githubUsername: etirelli
   employedBy: Red Hat
   ircNickname: etirelli
+- userId: ge0ffrey
+  fullName: Geoffrey De Smet
+  role: OptaPlanner lead
+  gravatarHashId: 27147a6679a4bfb6461ff1c0ae10473e
+  googlePlusId: +GeoffreyDeSmet
+  twitterUsername: geoffreydesmet
+  githubUsername: ge0ffrey
+  email: gds.geoffrey.de.smet [at] gmail [dot] com
+  employedBy: Red Hat
+  ircNickname: ge0ffrey
+- userId: trikkola
+  fullName: Toni Rikkola
+  role: Drools Analysis lead
+  gravatarHashId: c0141089d9194697aeb0c7e56f02373f
+  twitterUsername: Rikkola
+  email: toni.rikkola [at] gmail [dot] com
+  employedBy: Red Hat
+  githubUsername: Rikkola
+  ircNickname: Rikkola
+- userId: jliu
+  fullName: Jervis Liu
+  role: Drools Guvnor
+  gravatarHashId: 4bcd3acb2ca6774d9ac793f597723e98
+  email: jervisliu [at] gmail [dot] com
+  githubUsername: jervisliu
+  ircNickname: jliu
+- userId: tsurdilovic
+  fullName: Tihomir Surdilovic
+  role: jBPM, Drools Container and Drools Expert
+  gravatarHashId: 9396ed3dc3311cc76d6c2c7af59a53e9
+  twitterUsername: tsurdilo
+  email: tsurdilovic [at] gmail [dot] com
+  employedBy: Red Hat
+  githubUsername: tsurdilo
+  ircNickname: tsurdilo
 - userId: mariofusco
   fullName: Mario Fusco
-  role: Drools developer
+  role: Drools Expert
   gravatarHashId: 9eafc29df96e6aaf4a3eb4c0209086ae
   twitterUsername: mariofusco
   employedBy: Red Hat
   githubUsername: mariofusco
   ircNickname: mfusco
-- userId: krisverlaenen
-  fullName: Kris Verlaenen
-  role: jBPM lead
-  gravatarHashId: 49e0e6479ff54105b991186ee108b2f7
-  employedBy: Red Hat
-  githubUsername: krisv
-  ircNickname: krisv
 - userId: michaelanstis
   fullName: Michael Anstis
-  role: Senior Developer
+  role: Drools Guvnor
   gravatarHashId: a4bfc256ef0468092bd116bb935b5bad
   twitterUsername: michael_anstis
   employedBy: Red Hat
@@ -99,5 +97,3 @@
   employedBy: Red Hat
   githubUsername: Salaboy
   ircNickname: salaboy
-
-

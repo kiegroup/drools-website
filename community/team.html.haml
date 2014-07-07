@@ -7,28 +7,37 @@ title: Team
 
 %h1 #{page.title}
 %p
-  This page only mentions <em>active contributors</em>, who have contributed significantly to OptaPlanner in the last year.
+  As an open soure project, much of our code has been initiated, created or improved by the community. We want to thank all our contributors and the open source community at large. Red Hat, as a company, is the catalyst in this communities of customers, contributors, and partners creating better technology the open source way.
 %p
-  If your name belongs in this list, send in a pull request with the appropriate changes.
+  For many open source contributors recognition is a key driving factor. We encourage all contributors (active and inactive) to contact us (on the mailing list or privately) if you want your details changed or added. Beyond title headers this list is in no particular order.
 
-%h2 R&D
-= partial('userBadge.html.haml', :outputPage => page, :userId => 'ge0ffrey', :mode => 'long')
-
-%h2 Quality Assurance
-= partial('userBadge.html.haml', :outputPage => page, :userId => 'triceo', :mode => 'long')
-%h5
-  %strong The BRMS QA team
-
-%h2 Community contributors
-= partial('userBadge.html.haml', :outputPage => page, :userId => 'elsam', :mode => 'long')
-= partial('userBadge.html.haml', :outputPage => page, :userId => 'fhornain', :mode => 'long')
-= partial('userBadge.html.haml', :outputPage => page, :userId => 'carrot-osc', :mode => 'long')
-
-%h2 Historic contributors
+%h2 Red Hat R&D core team
 %p
-  See <a href="https://www.ohloh.net/p/optaplanner/contributors/summary">all contributors on Ohloh</a>.
+  The Red Hat R&D core team is employed full-time by Red Hat to work exclusively on this project.
 
-%h2 Drools Expert R&D team
 = partial('userBadge.html.haml', :outputPage => page, :userId => 'mdproctor', :mode => 'long')
+= partial('userBadge.html.haml', :outputPage => page, :userId => 'kverlaenen', :mode => 'long')
 = partial('userBadge.html.haml', :outputPage => page, :userId => 'etirelli', :mode => 'long')
+= partial('userBadge.html.haml', :outputPage => page, :userId => 'ge0ffrey', :mode => 'long')
+= partial('userBadge.html.haml', :outputPage => page, :userId => 'trikkola', :mode => 'long')
+= partial('userBadge.html.haml', :outputPage => page, :userId => 'jliu', :mode => 'long')
+= partial('userBadge.html.haml', :outputPage => page, :userId => 'tsurdilovic', :mode => 'long')
 = partial('userBadge.html.haml', :outputPage => page, :userId => 'mariofusco', :mode => 'long')
+= partial('userBadge.html.haml', :outputPage => page, :userId => 'michaelanstis', :mode => 'long')
+= partial('userBadge.html.haml', :outputPage => page, :userId => 'mauriciosalatino', :mode => 'long')
+
+%h2 Contributors
+%p
+  Thanks to all our contributors:
+
+= partial('contributors.html.haml')  
+  
+  
+  
+%h2 Red Hat product teams
+%p
+  A special thanks to our internal Red Hat teams:
+  %ul
+    %li The productization team
+    %li The QA team
+    %li The sales and support teams

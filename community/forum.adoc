@@ -6,9 +6,9 @@
 
 If you have a question about jBPM, just ask our friendly community:
 
-* Ask on http://www.jboss.org/drools/lists[the Drools user mailing list] (recommended).
+* Ask on https://lists.jboss.org/mailman/listinfo/rules-users[the Drools user mailing list] (recommended).
 
-* Or ask on http://stackoverflow.com/questions/tagged/jbpm[StackOverflow].
+* Or ask on http://stackoverflow.com/questions/tagged/drools[StackOverflow].
 
 Please follow these recommendations when posting a question:
 

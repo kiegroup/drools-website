@@ -1,27 +1,27 @@
 latestFinal:
-    version: 6.0
+    version: 6.0.1
     distributionZip: http://download.jboss.org/drools/release/6.0.1.Final/droolsjbpm-integration-distribution-6.0.1.Final.zip
     releaseDate: 2013-12-20
-    releaseNotesVersion: 6.0
+    releaseNotesVersion: 6.0.1
     
     droolsZip: http://download.jboss.org/drools/release/6.0.1.Final/drools-distribution-6.0.1.Final.zip
-    drools_version: 6.0
+    drools_version: 6.0.1
     drools_description: Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).
 
     droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.0.1.Final/droolsjbpm-integration-distribution-6.0.1.Final.zip
-    droolsjbpmIntegration_version: 6.0
+    droolsjbpmIntegration_version: 6.0.1
     droolsjbpmIntegration_description: Drools and jBPM integration with spring, camel...
 
     droolsWorkbenchZip: http://download.jboss.org/drools/release/6.0.1.Final/kie-drools-wb-distribution-6.0.1.Final.zip
-    droolsWorkbench_version: 6.0
+    droolsWorkbench_version: 6.0.1
     droolsWorkbench_description: Drools Workbench is the web application and repository to govern Drools and jBPM assets. 
     
     droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.0.1.Final/droolsjbpm-tools-distribution-6.0.1.Final.zip
-    droolsjbpmTools_version: 6.0
+    droolsjbpmTools_version: 6.0.1
     droolsjbpmTools_description: Ant, eclipse, ... plugins and support for Drools, jBPM and Guvnor functionality.
     
     droolsPlannerZip: http://download.jboss.org/drools/release/6.0.1.Final/optaplanner-distribution-6.0.1.Final.zip
-    droolsPlanner_version: 6.0
+    droolsPlanner_version: 6.0.1
     droolsPlanner_description: OptaPlanner (=Drools Planner) optimizes automated planning.
     
     
@@ -36,34 +36,34 @@ latestFinal:
 
 # latest.version can be equal to latestFinal.version
 latest:
-    version: 5.6
+    version: 6.0.0.CR5
     distributionZip: http://download.jboss.org/drools/release/6.1.0.Beta3/droolsjbpm-integration-distribution-6.1.0.Beta3.zip
-    releaseDate: 2014-01-10
-    releaseNotesVersion: 5.6
+    releaseDate: 2013-10-15
+    releaseNotesVersion: 6.0.0.CR5
 
-    documentationHtmlSingle: http://docs.jboss.org/drools/release/5.6.0.Final/droolsjbpm-introduction-docs/html_single/index.html
-    documentationHtml: http://docs.jboss.org/drools/release/5.6.0.Final/droolsjbpm-introduction-docs/html/index.html
-    documentationPdf: http://docs.jboss.org/drools/release/5.6.0.Final/droolsjbpm-introduction-docs/pdf/droolsjbpm-introduction-docs.pdf
+    documentationHtmlSingle: http://docs.jboss.org/drools/release/6.0.0.CR5/droolsjbpm-introduction-docs/html_single/index.html
+    documentationHtml: http://docs.jboss.org/drools/release/6.0.0.CR5/droolsjbpm-introduction-docs/html/index.html
+    documentationPdf: http://docs.jboss.org/drools/release/6.0.0.CR5/droolsjbpm-introduction-docs/pdf/droolsjbpm-introduction-docs.pdf
 
-    droolsExpert_documentationHtmlSingle: http://docs.jboss.org/drools/release/5.6.0.Final/drools-expert-docs/html_single/index.html
-    droolsExpert_documentationHtml: http://docs.jboss.org/drools/release/5.6.0.Final/drools-expert-docs/html/index.html
-    droolsExpert_documentationPdf: http://docs.jboss.org/drools/release/5.6.0.Final/drools-expert-docs/pdf/drools-expert-docs.pdf
+    droolsExpert_documentationHtmlSingle: http://docs.jboss.org/drools/release/6.0.0.CR5/drools-expert-docs/html_single/index.html
+    droolsExpert_documentationHtml: http://docs.jboss.org/drools/release/6.0.0.CR5/drools-expert-docs/html/index.html
+    droolsExpert_documentationPdf: http://docs.jboss.org/drools/release/6.0.0.CR5/drools-expert-docs/pdf/drools-expert-docs.pdf
 
-    droolsFusion_documentationHtmlSingle: http://docs.jboss.org/drools/release/5.6.0.Final/drools-fusion-docs/html_single/index.html
-    droolsFusion_documentationHtml: http://docs.jboss.org/drools/release/5.6.0.Final/drools-fusion-docs/html/index.html
-    droolsFusion_documentationPdf: http://docs.jboss.org/drools/release/5.6.0.Final/drools-fusion-docs/pdf/drools-fusion-docs.pdf
+    droolsFusion_documentationHtmlSingle: http://docs.jboss.org/drools/release/6.0.0.CR5/drools-fusion-docs/html_single/index.html
+    droolsFusion_documentationHtml: http://docs.jboss.org/drools/release/6.0.0.CR5/drools-fusion-docs/html/index.html
+    droolsFusion_documentationPdf: http://docs.jboss.org/drools/release/6.0.0.CR5/drools-fusion-docs/pdf/drools-fusion-docs.pdf
 
-    droolsjbpmIntegration_documentationHtmlSingle: http://docs.jboss.org/drools/release/5.6.0.Final/droolsjbpm-integration-docs/html_single/index.html
-    droolsjbpmIntegration_documentationHtml: http://docs.jboss.org/drools/release/5.6.0.Final/droolsjbpm-integration-docs/html/index.html
-    droolsjbpmIntegration_documentationPdf: http://docs.jboss.org/drools/release/5.6.0.Final/droolsjbpm-integration-docs/pdf/droolsjbpm-integration-docs.pdf
+    droolsjbpmIntegration_documentationHtmlSingle: http://docs.jboss.org/drools/release/6.0.0.CR5/droolsjbpm-integration-docs/html_single/index.html
+    droolsjbpmIntegration_documentationHtml: http://docs.jboss.org/drools/release/6.0.0.CR5/droolsjbpm-integration-docs/html/index.html
+    droolsjbpmIntegration_documentationPdf: http://docs.jboss.org/drools/release/6.0.0.CR5/droolsjbpm-integration-docs/pdf/droolsjbpm-integration-docs.pdf
 
-    droolsGubnor_documentationHtmlSingle: http://docs.jboss.org/drools/release/5.6.0.Final/drools-guvnor-docs/html_single/index.html
-    droolsGubnor_documentationHtml: http://docs.jboss.org/drools/release/5.6.0.Final/drools-guvnor-docs/html/index.html
-    droolsGubnor_documentationPdf: http://docs.jboss.org/drools/release/5.6.0.Final/drools-guvnor-docs/pdf/guvnor-docs.pdf
+    droolsGubnor_documentationHtmlSingle: http://docs.jboss.org/drools/release/6.0.0.CR5/drools-guvnor-docs/html_single/index.html
+    droolsGubnor_documentationHtml: http://docs.jboss.org/drools/release/6.0.0.CR5/drools-guvnor-docs/html/index.html
+    droolsGubnor_documentationPdf: http://docs.jboss.org/drools/release/6.0.0.CR5/drools-guvnor-docs/pdf/guvnor-docs.pdf
 
-    droolsPlanner_documentationHtmlSingle: http://docs.jboss.org/drools/release/5.6.0.Final/drools-planner-docs/html_single/index.html
-    droolsPlanner_documentationHtml: http://docs.jboss.org/drools/release/5.6.0.Final/drools-planner-docs/html/index.html
-    droolsPlanner_documentationPdf: http://docs.jboss.org/drools/release/5.6.0.Final/drools-planner-docs/pdf/drools-planner-docs.pdf
+    droolsPlanner_documentationHtmlSingle: http://docs.jboss.org/drools/release/6.0.0.CR5/drools-planner-docs/html_single/index.html
+    droolsPlanner_documentationHtml: http://docs.jboss.org/drools/release/6.0.0.CR5/drools-planner-docs/html/index.html
+    droolsPlanner_documentationPdf: http://docs.jboss.org/drools/release/6.0.0.CR5/drools-planner-docs/pdf/drools-planner-docs.pdf
 
     KnowledgeAPI_javadocs: http://docs.jboss.org/drools/release/5.6.0.Final/knowledge-api-javadoc/index.html
     
