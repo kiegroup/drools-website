@@ -47,7 +47,6 @@ footer {
 }
 
 .bgHeader {
-    border-bottom: solid 2px #000000;
     -webkit-box-shadow: 0 0 3px 0 rgba(0,0,,100);
     box-shadow: 0 0 3px 0 rgba(0,0,,100);
 }
@@ -209,7 +208,7 @@ footer {
 ******************************************************************************/
 
 #header {
-    background-color: #242424;
+    background-color: #f8f8f8;
     height: 55px;
     top: 0;
     width: 100%;
@@ -235,19 +234,21 @@ footer {
     right: 0;
 }
 #header li a {
-    background-color: #242424;
-    color: #FFFFFF;
+    background-color: #f8f8f8;
+    color: #777;
     font-size: 12px;
     font-weight: 600;
     line-height: 25px;
     text-align: center;
     text-transform: uppercase;
 }
-#header .dropdown {
+#header .dropdown.open {
+    background: none repeat scroll 0 0 #E7E7E7;
+    color: #555;
 }
 #header .dropdown .dropdown-toggle {
-    background: none repeat scroll 0 0;
-    color: #FFFFFF;
+    background: none repeat scroll 0 0 ;
+    color: #777;
     font-size: 12px;
     font-weight: 600;
     line-height: 25px;
@@ -260,24 +261,27 @@ footer {
     margin-left: 4px;
 }
 #header .dropdown-menu {
-    background: none repeat scroll 0 0 #242424;
+    background: none repeat scroll 0 0 #FFFFFF;
     box-shadow: none;
     margin-top: 0;
     min-width: 132px;
 }
 #header .dropdown-menu a {
-    color: #FFFFFF;
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #333;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 300;
     padding: 5px;
     text-align: left;
     text-transform: capitalize;
 }
 #header .dropdown-menu a:hover {
-    background-color: #444444;
+    background-color: #f5f5f5;
+    color: #262626;
 }
 #header .dropdown .dropdown-toggle a:hover {
-    background-color: #444444;
+    background-color: #f5f5f5;
+    color: #262626;
 }
 #header nav {
 }
@@ -313,13 +317,13 @@ footer {
 ******************************************************************************/
 
 #footer {
-    border-top: solid 2px #000000; 
-    background: none repeat scroll 0 0 #242424;
-    padding: 50px 0;
+    border-top: solid 1px #e7e7e7; 
+    background: none repeat scroll 0 0 #f8f8f8;
+    padding: 25px 0;
     text-align: center;
 }
 #footer p {
-    color: #FFFFFF;
+    color: #333;
     font-size: 12px;
     font-weight: 500;
     margin-bottom: 25px;
