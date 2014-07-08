@@ -15,10 +15,10 @@
  */
 
 html {
-    background-color: #f8f8f8;
+    background-color: #FFFFFF;
 }
 body {
-    background: linear-gradient(to bottom, #fff3e8 0px, #FAFAFA 40%) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    /* background: linear-gradient(to bottom, #fff3e8 0px, #FAFAFA 40%) no-repeat scroll 0 0 rgba(0, 0, 0, 0);*/
     height: 100%;
     color: #333333;
     font-family: "Open Sans",Helvetica,Arial,sans-serif;
