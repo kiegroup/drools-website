@@ -2,19 +2,10 @@
 :awestruct-layout: base
 :showtitle:
 
-== jBPM stream
+== Drools stream
 
-This stream contains easily understood information about jBPM. Includes a post for every release.
-
-[unstyled]
-* image:../headerFooter/googlePlusLogo.png[] https://plus.google.com/\+OptaPlannerOrg[jBPM on Google+]
-* image:../headerFooter/twitterLogo.png[] https://twitter.com/jbossjbpm[jBPM on Twitter] (Google+ mirror)
-* image:../headerFooter/facebookLogo.png[] https://www.facebook.com/OptaPlanner[jBPM on Facebook] (Google+ mirror)
-
-== Developer streams
-
-These streams contain more technical information about jBPM and Java™ in general.
+This stream contains easily understood information about Drools. Includes a post for every release.
 
 [unstyled]
-* image:../headerFooter/googlePlusLogo.png[] https://plus.google.com/\+GeoffreyDeSmet[Geoffrey De Smet on Google+]
-* image:../headerFooter/twitterLogo.png[] http://twitter.com/geoffreydesmet[Geoffrey De Smet on Twitter]
+* image:../headerFooter/googlePlusLogo.png[] https://plus.google.com/101003552532172845268/[Drools on Google+]
+* image:../headerFooter/twitterLogo.png[] https://twitter.com/DroolsRules[Drools on Twitter]
