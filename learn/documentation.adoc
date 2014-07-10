@@ -3,10 +3,6 @@
 :page-interpolate: true
 :showtitle:
 
-== Drools Books
-
-http://www.packtpub.com/jboss-drools-business-rules/book[image:books/Books-JBoss_Drools_Business_Rules.png[]] http://www.packtpub.com/jboss-rules-5-x-developers-guide/book[image:books/Books-Drools_JBoss_Rules.png[]] http://www.packtpub.com/drools-developers-using-jboss-cookbook/book[image:books/Books-Drools_Developers_Cookbook.png[]] http://www.packtpub.com/getting-started-with-drools/book[image:books/Books-Instant_Drools_Starter.png[]]
-
 == Final releases
 
 * Documentation for Drools #{site.pom.latestFinal.version}
@@ -55,7 +51,11 @@ http://www.packtpub.com/jboss-drools-business-rules/book[image:books/Books-JBoss
 #{site.pom.latest.KnowledgeAPI_javadocs}[Javadoc]
 
 
-=== Drools Books
+== Drools 5.x Books
+
+http://www.packtpub.com/jboss-drools-business-rules/book[image:books/Books-JBoss_Drools_Business_Rules.png[]] http://www.packtpub.com/jboss-rules-5-x-developers-guide/book[image:books/Books-Drools_JBoss_Rules.png[]] http://www.packtpub.com/drools-developers-using-jboss-cookbook/book[image:books/Books-Drools_Developers_Cookbook.png[]] http://www.packtpub.com/getting-started-with-drools/book[image:books/Books-Instant_Drools_Starter.png[]]
+
+=== Related Books
 
 *Jess in Action: Java Rule-based Systems* +
 Ernest Friedman-Hill +
