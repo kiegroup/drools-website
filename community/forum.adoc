@@ -4,7 +4,7 @@
 
 == Usage questions
 
-If you have a question about jBPM, just ask our friendly community:
+If you have a question about Drools, just ask our friendly community:
 
 * Ask on https://lists.jboss.org/mailman/listinfo/rules-users[the Drools user mailing list] (recommended).
 
@@ -19,7 +19,7 @@ Please follow these recommendations when posting a question:
 
 == Development discussions
 
-If you've link:../code/sourceCode.html[build jBPM from source] and you would like to improve it,
+If you've link:../code/sourceCode.html[build Drools from source] and you would like to improve it,
 then come talk with us:
 
 * Join us on http://www.jboss.org/drools/lists[the Drools developer mailing list].
