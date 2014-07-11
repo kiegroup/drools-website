@@ -97,3 +97,26 @@
   employedBy: Red Hat
   githubUsername: Salaboy
   ircNickname: salaboy
+- userId: porcelli
+  fullName: Alexandre Porcelli
+  role: Software Engineer
+  gravatarHashId: fa6a99ce22997ea37036b276854ff74a
+  twitterUsername: porcelli
+  employedBy: Red Hat
+  githubUsername: porcelli
+  ircNickname: porcelli
+- userId: jlindop
+  fullName: Jeremy Lindop
+  role: Senior Software Engineer
+  gravatarHashId: fa6a99ce22997ea37036b276854ff74r
+  employedBy: Red Hat
+  githubUsername: jlindop
+  ircNickname: jeremyl
+- userId: ederign
+  fullName: Eder Ignatowicz
+  role: Senior Software Engineer
+  gravatarHashId: b937ab5ebe4923869c0da0d3c1b58778
+  twitterUsername: ederign
+  employedBy: Red Hat
+  githubUsername: ederign
+  ircNickname: ederign
