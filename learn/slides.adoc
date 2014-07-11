@@ -2,22 +2,286 @@
 :awestruct-layout: base
 :showtitle:
 
-== Watch the slides
+== Introduction
 
-These slides are viewable in your browser:
+*All presentations are listed by date, from new to old. +
+You can download the odp files from slideshare.*
 
-*link:slides/optaplanner-presentation/index.html[Show the OptaPlanner presentation]*
+The format of each entry is:
 
-== Reuse these slides
+* *yyyy-mm-dd event - title: topic 1, topic 2, ...*
+    ** presenter 1 - presenter 2 - ... 
+    ** http://www.slideshare.net/upload[slideshare] - http://www.parleys.com/[parleys] - http://vimeo.com/[video] - ...
+    
+Filenames should use this format: yyyy-mm-dd event - title.odp
 
-Feel free to reuse any of these materials as you see fit to present OptaPlanner (for example to your local JUG):
+== 2013
 
-. Download https://github.com/droolsjbpm/optaplanner-website/tree/master/learn/slides/[the source of these HTML slides].
+* *2013-05-24 - Drools Backwards chaining*
+    ** Mark Proctor
+    ** http://docs.jboss.org/drools/blog/BackwardChainingWithDrools/[Presentation]
 
-    ** Do you prefer +ODP+ or +PPT+ slides instead? +
-    Most slides are a single, big +png+ image: simply copy the image as a new slide in your deck.
+* *2013-05-24 -  JBug User Group - London  - What's new in Drools 6.0*
+    ** Mark Proctor
+    ** http://docs.jboss.org/drools/blog/LondonJBUG2013rulesmarkp/[Presentation]
 
-. Don't forget to change the presenter name in the first and the last slide.
+== 2012
 
-. If it's a public event, link:../community/socialMedia.html[let us know]
-and we might share it on link:../community/socialMedia.html[our social media].
+* *2012-10-20 IntelliFest @ San Diego*
+    ** Drools Expert
+      *** Mark Proctor
+      *** http://www.slideshare.net/MarkProctor/drools-expert-and-fusion-intro-london-2012[Slideshare]
+    ** Developing Games with Drools
+      *** Mark Proctor
+      *** http://www.slideshare.net/MarkProctor/drools-intellifest-2012[Slideshare]
+    ** Drools & jBPM Future Roadmap, featuring UberFire UI Framework
+      *** Mark Proctor
+      *** http://www.slideshare.net/MarkProctor/drools-jbpm-future-roadmap-talk[Slideshare]
+
+* *2012-03-07 JBoss BRMS London 2012*
+    ** Drools Expert and Fusion
+      *** Mark Proctor
+      *** http://www.slideshare.net/MarkProctor/drools-expert-and-fusion-intro-london-2012[Slideshare]
+    ** Decision Tables
+      *** Michael Anstis
+      *** http://www.slideshare.net/manstis/brm-2012-decision-tables[Slideshare]
+
+* *2012-02-04 Fosdem Brussels*
+    ** Drools Planner: optimization by example
+      *** Geoffrey De Smet
+      *** http://www.slideshare.net/ge0ffrey/2012-0204-fosdem-2012-drools-planner[Slideshare]
+    ** Managing workflows and business rules with Guvnor and jBPM designer
+      *** Geoffrey De Smet - Marco Rietveld
+      *** http://www.slideshare.net/marcolof/2012-0204-fosdem-2012-guvnor-and-j-bpm-designer-11459227[Slideshare]
+      
+* *2012-01-34 JUDcon India 2012*
+    ** Drools Expert (Rules)
+      *** Mark Proctor
+      *** http://www.slideshare.net/MarkProctor/judcon-india-2012-drools-expert[Slideshare]
+    ** Drools Fusion (CEP)
+      *** Mark Proctor
+      *** http://www.slideshare.net/MarkProctor/judcon-india-2012-drools-fusion[Slideshare]
+      
+== 2011
+
+* *2011-10-31 JUDCon London*
+    ** Bin packing with Drools Planner - Scheduling processes on cloud servers 
+      *** Geoffrey De Smet
+      *** http://www.slideshare.net/ge0ffrey/judcon-london-2011-bin-packing-with-drools-planner-by-example[Slideshare]
+* *2011-10-24 - 2011-10-27 RulesFest*
+    ** BRMS: Best (and worst) Practices and Real World Examples
+      *** Edson Tirelli
+      *** http://www.slideshare.net/etirelli/brms-best-practices2011octfinal[Slideshare]
+* *2011-09-15*
+    ** Driving Decisions with Business Rules
+      *** Mark Proctor
+      *** http://www.slideshare.net/MarkProctor/deck-for-proctor-draft[Slideshare]
+* *2011-09-01*
+    ** Drools 5 Business Logic Integration Platform Introduction
+      *** Mauricio "Salaboy" Salatino - Esteban Aliverti
+      *** http://www.slideshare.net/salaboy/drools5-community-training-module1-drools5-blip-introduction[Slideshare]
+    ** Drools Expert Simple Scenario 
+      *** Mauricio "Salaboy" Salatino - Esteban Aliverti
+      *** http://www.slideshare.net/salaboy/drools5-community-training-module-15-drools-expert-first-example[Slideshare] - https://github.com/Salaboy/Drools_jBPM5-Training-Examples[Code]
+    ** Drools Expert DRL Syntax Introduction 
+      *** Mauricio "Salaboy" Salatino - Esteban Aliverti
+      *** http://www.slideshare.net/salaboy/drools5-community-rraining-module3-drools-expert-drl-syntax[Slideshare] - http://www.slideshare.net/salaboy/drools5-community-training-handson-1-drools-drl-syntax[Slideshare hands on] - https://github.com/Salaboy/Drools_jBPM5-Training-Examples[Code]
+    ** Drools BLiP Architectural Overview 
+      *** Mauricio "Salaboy" Salatino - Esteban Aliverti
+      *** http://www.slideshare.net/salaboy/drools5-community-training-module-5-drools-blip-architectural-overview-demos[Slideshare] - https://github.com/Salaboy/Drools_jBPM5-Training-Examples[Code]
+    ** Drools Expert DSL & Spreadsheets
+      *** Mauricio "Salaboy" Salatino - Esteban Aliverti
+      *** http://www.slideshare.net/salaboy/drools5-community-training-module-6-drools-dsl-spreadsheets[Slideshare] - http://www.slideshare.net/salaboy/drools5-communitytrraining-handson-2-dsl-spreadsheets[Slideshare hands on] - https://github.com/Salaboy/Drools_jBPM5-Training-Examples[Code]
+    ** Drools Use Case: Smart Content Selection
+      *** Mauricio "Salaboy" Salatino
+      *** http://www.slideshare.net/salaboy/smart-content-selection[Slideshare] - https://github.com/Salaboy/smart-content-selection[Code]
+
+* *2011-06-17 - Bootcamp in Buenos Aires, Argentina*
+    ** Expert System Introduction
+      *** Prakasha Aradhya - Mark Proctor
+      *** http://vimeo.com/27153793[Video] - http://www.slideshare.net/MarkProctor/buenos-aires-drools-expert-presentation[Slideshare]
+    ** Drools Fusion
+      *** Edson Tirelli
+      *** http://vimeo.com/26779114[Video]
+    ** jBPM5 workflow overview
+      *** Kris Verlaenen
+      *** http://vimeo.com/27178191[Video] - http://www.slideshare.net/krisverlaenen/jbpm5-argentina-workshop[Slideshare]
+    ** Decision Tables and Guvnor
+      *** Michael Anstis
+      *** http://vimeo.com/27157197[Video] - http://www.slideshare.net/manstis/buenos-aires-decision-table-presentation[Slideshare]
+    ** Emergency Services demo
+      *** Mauricio "Salaboy" Salatino
+      *** http://vimeo.com/26776059[Video]
+    ** Imperfect reasoning (Drools Chance)
+      *** Davide Sottara
+      *** http://vimeo.com/26778037[Video]
+    ** Drools Planner
+      *** Geoffrey De Smet
+      *** http://vimeo.com/26780401[Video] - http://www.slideshare.net/ge0ffrey/drools-planner-webinar-20110615-drools-planner-optimizes-automated-planning[Slideshare]
+    ** Drools and large data sets
+      *** Alexandre Porcelli
+      *** http://vimeo.com/27209589[Video]
+    ** JBoss Application Server 7
+      *** Ray Ploski
+      *** http://vimeo.com/27155799[Video] - http://www.slideshare.net/rayploski/jboss-application-server-7[Slideshare]
+
+* *2011-06-15 - Drools Planner webinar*
+    ** Geoffrey De Smet
+    ** http://www.vimeo.com/25236095[Video] - http://www.slideshare.net/ge0ffrey/drools-planner-webinar-20110615-drools-planner-optimizes-automated-planning[Slideshare]
+
+* *2011-05-10 and 2011-05-12 - Workshops in New York and Washington*
+    ** Introduction to Drools and Expert Systems
+      *** Prakasha Aradhya - Mark Proctor
+      *** http://www.slideshare.net/ge0ffrey/drools-new-york-city-workshop-2011[Slideshare]
+    ** Applying Complex Event Processing with Drools Fusion
+      *** Edson Tirelli
+      *** http://www.slideshare.net/ge0ffrey/applying-cep-drools-fusion-drools-jbpm-bootcamps-2011[Slideshare]
+    ** jBPM5 Bringing more power to your business processes
+      *** Kris Verlaenen
+      *** http://www.slideshare.net/krisverlaenen/jbpm5-bringing-more-power-to-your-business-processes-7967992[Slideshare]
+
+* *2011-05-02 - 2011-05-06 -  http://www.jboss.org/events/JUDCon/presentations.html[JUDCon] & http://www.redhat.com/summit/2011/presentations/jbossworld/[JBoss World]*
+    ** Drools and jBPM5 in Real Life: Business Rules, Business Processes and Complex Event Processing 
+      *** Mauricio Salatino
+      *** http://www.slideshare.net/salaboy/judcon-2011-drools-and-jbpm5-in-real-life[Slideshare]
+    ** Flexible business processes using jBPM 5
+      *** Kris Verlaenen
+      *** http://www.slideshare.net/krisverlaenen/flexible-business-processes-using-jbpm5[Slideshare]
+    ** jBPM 5 in action: a quickstart for developers
+      *** Kris Verlaenen
+      *** http://www.slideshare.net/krisverlaenen/jbpm5-in-action-a-quickstart-for-developers[Slideshare]
+    ** Introduction to Drools and Expert Systems
+      *** Prakasha Aradhya - Mark Proctor
+      *** http://www.slideshare.net/ge0ffrey/jboss-world-2011-drools[Slideshare]
+    ** jBPM 5 bringing more power to your business processes
+      *** Kris Verlaenen - Mark Proctor
+      *** http://www.slideshare.net/krisverlaenen/jbpm5-bringing-more-power-to-your-business-processes[Slideshare]
+    ** Event driven BPM the JBoss way
+      *** Kris Verlaenen - John Graham - Edson Tirelli
+      *** http://www.slideshare.net/krisverlaenen/2011-0504-eventdriven-bpm-the-j-boss-way[Slideshare]
+    ** jBPM migration tool
+      *** Eric D. Schabell - Maurice de Chateau
+      *** http://www.slideshare.net/eschabell/jbpm-migration-tool-no-one-is-left-behind[Slideshare]
+
+* *2011-03-27 London event*
+    ** Drools overview
+      *** Mark Proctor
+      *** http://www.slideshare.net/ge0ffrey/20110329-london-drools[Slideshare]
+    ** Why do I need the Guvnor BRMS?
+      *** Geoffrey De Smet
+      *** http://www.slideshare.net/ge0ffrey/2011-0329-london-why-do-i-need-the-guvnor-brms[Slideshare]
+    ** Decision tables in depth
+      *** Michael Anstis
+      *** http://www.slideshare.net/ge0ffrey/2011-0329-london-decision-tables-in-depth[Slideshare]
+    ** BPMN2 and jBPM5
+      *** Kris Verlaenen
+      *** http://www.slideshare.net/krisverlaenen/bpmn2-and-jbpm5[Slideshare]
+    ** Drools Planner in a nutshell
+      *** Geoffrey De Smet
+      *** http://www.slideshare.net/ge0ffrey/2011-0309-london-drools-planner-in-a-nutshell[Slideshare]
+
+* *2011-03-24 IDC - Adaptive and Flexible Processes*
+    ** Mark Proctor
+    ** http://www.slideshare.net/ge0ffrey/2011-0324-idc-adaptive-and-flexible-processes[Slideshare]
+
+* *2011-03-17 community blog - Drools BLiP Theoretical Introduction*
+    ** Mauricio Salatino
+    ** http://www.slideshare.net/salaboy/drools5-community-training-module1-drools5-blip-introduction[Slideshare]
+
+* *2011-03-16 Jboss Developer Webinar - Applying Complex Event Processing (CEP) with Drools Fusion*
+    ** Edson Tirelli
+    ** https://jboss.webex.com/jboss/lsr.php?AT=pb&SP=EC&rID=37928112&rKey=11116c8aaaa0e49a[Webex]
+
+* *2011-02-18 JBoss Asylum - jBPM 5 Workflows*
+    ** Kris Verlaenen
+    ** http://asylum.libsyn.com/podcast-17-j-bpm-5-workflows-with-dr-kris-v-[Podcast]
+
+== 2010
+
+* *2010-11-17 JBoss Developer Webinar - jBPM5: Are your business processes ready for the future?*
+    ** Kris Verlaenen
+    ** http://www.vimeo.com/16935133[Video] - http://www.slideshare.net/krisverlaenen/jboss-developer-webinar-jbpm5[Slideshare]
+
+* *2010-11-09 ParisJUG - Pushing the rule engine to its limits with Drools Planner: use cases, meta-heuristics, benchmarks*
+    ** Geoffrey De Smet
+    ** http://www.slideshare.net/ge0ffrey/pushing-the-rule-engine-to-its-limits-with-drools-planner-parisjug-20101109[Slideshare]
+
+* *2010-10-11 Rulesfest*
+    ** Hybrid rule engines
+      *** Mark Proctor
+      *** http://www.slideshare.net/ge0ffrey/hybrid-rule-engines-rulesfest-2010[Slideshare]
+    ** Towards unified knowlegde management platform: fusion, flow
+      *** Edson Tirelli
+      *** http://www.slideshare.net/ge0ffrey/2010-1011-rulefest-towards-unified-knowledge-management-platform[Slideshare]
+    ** Applying complext event processing: CEP, fusion
+      *** Edson Tirelli
+      *** http://http//www.slideshare.net/ge0ffrey/applying-complex-event-processing-20101011[Slideshare]
+    ** Demystifying complex event processing
+      *** Edson Tirelli
+      *** http://www.slideshare.net/ge0ffrey/st-demystifying-complext-event-processing[Slideshare]
+    ** Business Rules Forum- Open source and business rules
+      *** Mark Proctor
+      *** http://www.slideshare.net/ge0ffrey/open-source-and-business-rules[Slideshare]
+      
+* *2010-10-08 JUDCon Berlin - jBPM 5: workflow*
+    ** Kris Verlaenen - Koen Aers
+    ** http://www.slideshare.net/ge0ffrey/jbpm-5-judcon-2010-1008[Slideshare]
+
+* *2010-10-08 JUDCon Berlin - Applying Drools in Assistive Technology: chance, fusion*
+    ** Tihomir Surdilovic
+    ** http://www.slideshare.net/tsurdilovic/applying-drools-in-assistive-technology[Slideshare] - http://people.redhat.com/%7Etsurdilo/judcon2010/Surdilovic-JUDCon_presentation.odp[odp]
+
+* *2010-10-06 JBoss webex - Drooling for Drools*
+    ** Mark Proctor
+    ** http://http//www.slideshare.net/ge0ffrey/drooling-for-drools-jboss-webex[Slideshare]
+
+* *2010-09-15 it@cork - Developping applications with rules, workflow and event processing*
+    ** Mark Proctor
+    ** http://www.slideshare.net/ge0ffrey/developing-applications-with-rules-workflow-and-event-processing-itcork-2010[Slideshare]
+
+* *2010-06-03 JBug.be - The future of (j)BPM*
+    ** Kris Verlaenen
+    ** http://www.slideshare.net/krisverlaenen/jbugbe-the-future-of-jbpm-20100603[Slideshare]
+
+* *2010-04-27 BeJUG - Drools platform overview: expert, flow, planner, fusion, guvnor, eclipse *
+    ** Kris Verlaenen - Geoffrey De Smet
+    ** http://www.slideshare.net/ge0ffrey/drools-bejug-2010[Slideshare]
+
+* *2010-04-20 San Diego bootcamp - Nurse rostering and hospital bed planning with Drools Planner*
+    ** Geoffrey De Smet
+    ** http://www.slideshare.net/ge0ffrey/2010-0420-san-diego-bootcamp-drools-planner-use-cases[Slideshare]
+
+* *2010-02-06 Fosdem - Drools introduction*
+    ** Mark Proctor
+    ** http://video.fosdem.org/2010/devrooms/jboss/drools.ogg[Video]
+
+* *2010-01-21 ChtiJUG Part 2 - Drools Planner: use cases, meta-heuristics*
+    ** Geoffrey De Smet
+    ** http://vimeo.com/9204264[Video] - http://www.slideshare.net/chtijug/drools-planner-chtijug-20102[Slideshare]
+
+* *2010-01-21 ChtiJUG Part 1 - Drools: expert, fusion, flow, guvnor, eclipse*
+    ** Mark Proctor
+    ** http://vimeo.com/9191648[Video] - http://www.slideshare.net/chtijug/lille2010markp[Slideshare]
+
+
+== 2009
+
+* *2009-11-16 Devoxx - Examination timetabling with Drools Planner*
+    ** Geoffrey De Smet
+    ** http://www.parleys.com/#id=1714&sl=1&st=5[Parleys]
+
+* *2009-06-07 Introduction video's - Expert introduction*
+    ** Ray Ploski
+    ** http://downloads.jboss.com/drools/videos/DroolsExpertIntro_Large.mov[video hi res] - http://downloads.jboss.com/drools/videos/DroolsExpertIntro_Small.mov[video low res]
+
+* *2009-06-07 Introduction video's - Guvnor introduction*
+    ** Ray Ploski
+    ** http://downloads.jboss.com/drools/videos/DroolsGuvnorIntro_Large.mov[video hi res] - http://downloads.jboss.com/drools/videos/DroolsGuvnorIntro_Small.mov[video low res]
+
+* *2009-06-07 Introduction video's - Fusion introduction*
+    ** Ray Ploski
+    ** http://downloads.jboss.com/drools/videos/DroolsFusionIntro_Large.mov[video hi res] - http://downloads.jboss.com/drools/videos/DroolsFusionIntro_Small.mov[video low res]
+
+* *2009-06-07 Introduction video's - Flow introduction*
+    ** Ray Ploski
+    ** http://downloads.jboss.com/drools/videos/DroolsFlowIntro_Large.mov[video hi res] - http://downloads.jboss.com/drools/videos/DroolsFlowIntro_Small.mov[video low res]
