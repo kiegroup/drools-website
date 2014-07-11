@@ -4,6 +4,6 @@
 
 We use Jenkins for continuous integration.
 
-*Show https://hudson.jboss.org/hudson/job/jbpm/[the Jenkins job].*
+*Show https://hudson.jboss.org/hudson/job/drools/[the Jenkins job].*
 
 Keep the build blue!
