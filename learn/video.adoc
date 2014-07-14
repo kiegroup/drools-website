@@ -2,9 +2,13 @@
 :awestruct-layout: base
 :showtitle:
 
-See https://www.youtube.com/channel/UCLMvUfwpPQJninkrewXbWWA[Mark Proctor's playlist on YouTube]
-for a list of all videos.
+See https://www.youtube.com/playlist?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Mark Proctor's playlist on YouTube^]
+for a list of all Drools videos.
 
-+++
-<iframe width="853" height="480" src="http://www.youtube.com/embed/videoseries?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ&showinfo=1" frameborder="0" allowfullscreen></iframe>
-+++
+* http://youtu.be/zYZs8NsC3BA?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Create a Project (Full Screen 720HD)^]
+* http://youtu.be/R4KsdsyqGdo?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Create a Model (Full Screen 720HD)^] 
+* http://youtu.be/RbUDpXhW8pk?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Limited Entry Guided Decision (Full Screen 720HD)^]
+* http://youtu.be/6_eSg0h-yeg?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Extended Entry Guided Decision Table (Full Screen 720HD)^]
+* http://youtu.be/gnKSX61X9yA?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Rule Template (Full Screen 720HD)^]
+* http://youtu.be/DNXZmFnvvYA?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Rule Fragment in Guided Decision Table (Full Screen 720HD)^]
+* http://youtu.be/xFLlgtBMTDY?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Score Cards (Full Screen 720HD)^]
