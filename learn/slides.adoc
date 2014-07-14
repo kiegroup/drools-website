@@ -15,13 +15,13 @@ The format of each entry is:
     
 Filenames should use this format: yyyy-mm-dd event - title.odp
 
-== 2013
+== 2014
 
-* *2014-05-12 - Drools 6.0 (Red Hat Summit)
+* *2014-05-12 - Drools 6.0 (Red Hat Summit)*
     ** Mark Proctor
     ** http://www.slideshare.net/MarkProctor/drools-60-red-hat-summit-34589970#[Presentation^]
 
-* *2014-02-27 -  Drools and jBPM 6 Overview
+* *2014-02-27 -  Drools and jBPM 6 Overview*
     ** Mark Proctor
     ** http://www.slideshare.net/MarkProctor/drools-6-overview#[Presentation^]
 
