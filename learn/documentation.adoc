@@ -27,28 +27,10 @@
 #{site.pom.latest.documentationHtml}[HTML] -
 #{site.pom.latest.documentationPdf}[PDF]
 
-** Drools Expert reference manual:
-#{site.pom.latest.droolsExpert_documentationHtmlSingle}[HTML Single] -
-#{site.pom.latest.droolsExpert_documentationHtml}[HTML] -
-#{site.pom.latest.droolsExpert_documentationPdf}[PDF]
 
-** Drools Fusion reference manual:
-#{site.pom.latest.droolsFusion_documentationHtmlSingle}[HTML Single] -
-#{site.pom.latest.droolsFusion_documentationHtml}[HTML] -
-#{site.pom.latest.droolsFusion_documentationPdf}[PDF]
+** Kie API (Drools, jBPM) #{site.pom.latest.version}:
+#{site.pom.latest.KIE_API_documentationJavadoc}[Javadoc]
 
-** Drools and jBPM integration reference manual:
-#{site.pom.latest.droolsjbpmIntegration_documentationHtmlSingle}[HTML Single] -
-#{site.pom.latest.droolsjbpmIntegration_documentationHtml}[HTML] -
-#{site.pom.latest.droolsjbpmIntegration_documentationPdf}[PDF]
-
-** Drools Guvnor reference manual:
-#{site.pom.latest.droolsGubnor_documentationHtmlSingle}[HTML Single] -
-#{site.pom.latest.droolsGubnor_documentationHtml}[HTML] -
-#{site.pom.latest.droolsGubnor_documentationPdf}[PDF]
-
-** Knowledge API #{site.pom.latest.version}:
-#{site.pom.latest.KnowledgeAPI_javadocs}[Javadoc]
 
 
 == Drools 5.x Books
