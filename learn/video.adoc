@@ -2,8 +2,18 @@
 :awestruct-layout: base
 :showtitle:
 
+See https://www.youtube.com/playlist?list=PLb9jQNHBKBRj9IJkc_F5nCJAvXaegOGW8[Mark Proctor's playlist on YouTube^]
+for a list of all KIE Worbench.
+
+* http://youtu.be/vj3MNmiUnvY?list=PLb9jQNHBKBRj9IJkc_F5nCJAvXaegOGW8[KIE Workbench Installation and Setup (Full Screen 720HD)^]
+* http://youtu.be/EX5Kmdqqi_Q?list=PLb9jQNHBKBRj9IJkc_F5nCJAvXaegOGW8[Authoring Perspective - Project Explorer (Full Screen 720HD)^] 
+* http://youtu.be/Xu2q5iq2eGc?list=PLb9jQNHBKBRj9IJkc_F5nCJAvXaegOGW8[Authoring Perspective - Window System (Full Screen 720HD)^]
+* http://youtu.be/550pFOYIOKk?list=PLb9jQNHBKBRj9IJkc_F5nCJAvXaegOGW8[Authoring Perspective - Problems and Versioning (Full Screen 720HD)^]
+* http://youtu.be/FKVFkRHLGjQ?list=PLb9jQNHBKBRj9IJkc_F5nCJAvXaegOGW8[Project Editor and Deployment Perspective (Full Screen 720HD)^]
+* http://youtu.be/Owb_cj7JgGQ?list=PLb9jQNHBKBRj9IJkc_F5nCJAvXaegOGW8[Organization Unit and Repository Administration Perspective (Full Screen 720HD)^]
+
 See https://www.youtube.com/playlist?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Mark Proctor's playlist on YouTube^]
-for a list of all Drools videos.
+for a list of all Drools Editor Metaphores.
 
 * http://youtu.be/zYZs8NsC3BA?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Create a Project (Full Screen 720HD)^]
 * http://youtu.be/R4KsdsyqGdo?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Create a Model (Full Screen 720HD)^] 
