@@ -110,7 +110,7 @@ footer {
 }
 
 .tabs-below > .nav-tabs > li {
-    margin-top: -1px;
+    margin-top: 0px;
     margin-bottom: 0;
 }
 
@@ -208,16 +208,13 @@ footer {
 ******************************************************************************/
 
 #header {
-    background-color: #f8f8f8;
     height: 55px;
-    top: 0;
     width: 100%;
     z-index: 999;
 }
 #header .container {
     max-width: 100%;
     padding-left: 0;
-    top: 0;
 }
 #header .dropdown.menu-dropdown {
     margin: 0;
@@ -234,7 +231,6 @@ footer {
     right: 0;
 }
 #header li a {
-    background-color: #f8f8f8;
     color: #777;
     font-size: 12px;
     font-weight: 600;
