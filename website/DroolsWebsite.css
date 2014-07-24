@@ -84,6 +84,10 @@ footer {
     border-radius: 0 0 4px 4px;
 }
 
+#whatIsCarousel .item > a img {
+    margin: 0 auto;
+    display: block;
+}
 
 /******************************************************************************
 * Tabs left, right and below (not supported in Twitter Bootstrap 3.1)

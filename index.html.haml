@@ -6,16 +6,21 @@ layout: base
   .carousel.slide#whatIsCarousel(data-ride="carousel" data-interval="false" style="background-color: white;")
     -#.carousel-inner(style="align: center;")
     .carousel-inner
-      .item.active
-        %img(src="landingPage/Build_Running.png" alt="Build Running")
+      .item.active#links
+        %a(href="landingPage/Build_Running_Big.png" title="Build Running" data-gallery="")
+          %img(src="landingPage/Build_Running.png" title="Build Running")
       .item
-        %img(src="landingPage/Data_Modeller.png" alt="Data Modeller")
+        %a(href="landingPage/Data_Modeller_Big.png" titlet="Data Modeller" data-gallery="")
+          %img(src="landingPage/Data_Modeller.png" title="Data Modeller")
       .item
-        %img(src="landingPage/Decision_Table.png" alt="Decision Table")
+        %a(href="landingPage/Decision_Table_Big.png" title="Decision Table" data-gallery="")
+          %img(src="landingPage/Decision_Table.png" title="Decision Table")
       .item
-        %img(src="landingPage/Guided_Rule_Editor.png" alt="Guided Rule Editor")
+        %a(href="landingPage/Guided_Rule_Editor_Big.png" title="Guided Rule Editor" data-gallery="")
+          %img(src="landingPage/Guided_Rule_Editor.png" title="Guided Rule Editor")
       .item
-        %img(src="landingPage/Test_Running.png" alt="Test Running")
+        %a(href="landingPage/Test_Running_Big.png" title="Test Running" data-gallery="")
+          %img(src="landingPage/Test_Running.png" title="Test Running")
     %a.left.carousel-control(href="#whatIsCarousel" data-slide="prev")
       %span.glyphicon.glyphicon-chevron-left
     %a.right.carousel-control(href="#whatIsCarousel" data-slide="next")
@@ -31,6 +36,20 @@ layout: base
       %a(href="#" data-toggle="tab") Guided Rule Editor
     %li(data-target="#whatIsCarousel" data-slide-to="4")
       %a(href="#" data-toggle="tab") Test Running
+
+  #blueimp-gallery.blueimp-gallery
+    .slides
+    %a.prev‹
+    %a.next›
+    %a.close×
+    %a.play-pause
+    %ol.indicator
+    .modal.fade
+      .modal-dialog
+        .modal-content
+          .modal-header
+            %button(type="button" class="close" aria-hidden="true")
+            %h4.modal-title"
 
 %div(style="margin-bottom: 20px")
   :markdown

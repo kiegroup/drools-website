@@ -13,10 +13,12 @@
     %meta(itemprop="image"){:content => relative("/headerFooter/DroolsLogo210px.png")}
 
     %link(rel="stylesheet"){:href => relative("/website/bootstrap/css/bootstrap.min.css")}
+    %link(rel="stylesheet"){:href => relative("/website/bootstrap/css/bootstrap-image-gallery.css")}
     %link(rel="stylesheet"){:href => relative("/website/highlight/highlight.css")}
     -# %link(rel="stylesheet"){:href => site.jbossorg_bootstrap_css}
     %link(rel="stylesheet"){:href => relative("/website/DroolsWebsite.css")}
     %link(rel="stylesheet"){:href => ("https://static.jboss.org/css/tabzilla.css")}
+    %link(rel="stylesheet"){:href => ("http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css")}
     :plain
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -175,9 +177,11 @@
                 %a.btn.btn-default(role="button" href="https://github.com/droolsjbpm/drools-website/edit/master#{page.relative_source_path}") Edit this page
 
     %script{:src => relative("/website/jquery/jquery.min.js")}
-    %script{:src => relative("/website/bootstrap/js/bootstrap.js")}
+    %script{:src => relative("/website/bootstrap/js/bootstrap.min.js")}
     %script{:src => relative("/website/highlight/highlight.js")}
     %script{:src => relative("/website/DroolsWebsite.js")}
+    %script{:src => ("http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js")}
+    %script{:src => relative("/website/bootstrap/js/bootstrap-image-gallery.js")}
     %script{:src => ("https://static.jboss.org/js/_jbossorg-tabzilla.js")}
     %script(type="text/javascript")<
       hljs.initHighlightingOnLoad();
