@@ -22,3 +22,12 @@ for a list of all Drools Editor Metaphores.
 * http://youtu.be/gnKSX61X9yA?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Rule Template (Full Screen 720HD)^]
 * http://youtu.be/DNXZmFnvvYA?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Rule Fragment in Guided Decision Table (Full Screen 720HD)^]
 * http://youtu.be/xFLlgtBMTDY?list=PLb9jQNHBKBRipbtadRC-UaUObjwp0aBHJ[Score Cards (Full Screen 720HD)^]
+
+Other videos
+
+* http://youtu.be/fCjIRVSRFvA[Backward Chaining with Drools^]
+* http://youtu.be/wORlAZoxttA[Space Invaders in 8 minutes with Drools^]
+* http://youtu.be/4CvjKqUOEzM[Build a Graphical Adventure Game in 20 minutes using JBoss Drools : All Hail the Wumpus^]
+* http://downloads.jboss.org/drools/videos/text-adventures.swf[Adventure In Prolog (swf)^]
+
+
