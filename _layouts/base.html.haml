@@ -30,38 +30,10 @@
     
   %body(data-spy="scroll" data-target=".bs-docs-sidebar")
 
-    .tabzilla
-      #tabnav-panel.tabnav-closed
-        #tabnav.tabnavclearfix
-          .tabcontent
-            %p.overview
-              Like
-              = succeed "?" do
-                %span#project_name Example
-              It’s part of a community of Red Hat
-              projects. Learn more about Red Hat and our open source communities:
-            .row-fluid
-              %span.span4.middlewarelogo
-                %img{:alt => "Red Hat JBoss MIDDLEWARE", :src => "../images/RHJB_Middleware_Logotype.png"}/
-              %span.span4
-              %ul.level1
-                %li.leaf
-                  %a{:href => "http://example.jboss.org/index.html#"} Red Hat JBoss Middleware Overview
-                %li.leaf
-                  %a{:href => "http://example.jboss.org/index.html#"} Red Hat JBoss Middleware Products
-                %li.leaf
-                  %a{:href => "http://example.jboss.org/index.html#"} Red Hat JBoss Projects &amp; Standards
-              %span.span4
-              %ul.level1
-                %li.leaf
-                  %a{:href => "http://example.jboss.org/index.html#"} redhat.com
-                %li.leaf
-                  %a{:href => "http://example.jboss.org/index.html#"} Red Hat Customer Portal
-                %li.leaf
-                  %a{:href => "http://example.jboss.org/index.html#"} OpenShift
-      .dropup
-        %div#ajbossproject A JBoss Project
-        %a#tab.tabnav-closed{:href => "https://www.jboss.org/"} Red Hat
+    #tabzillaHolder
+    .dropup
+      %div#ajbossproject A JBoss Project
+      %a#tab.tabnav-closed{:href => "https://www.jboss.org/"} Red Hat
 
     .navbar.navbar-default.bgHeader.affix#header(role="navigation")
       .container
