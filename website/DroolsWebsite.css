@@ -369,5 +369,6 @@ table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoo
 .TextZoom {
     text-align: center;
     font-size: 10px;
-    margin: 0 -5px -10px -5px
+    margin: 0;
+    font-style: italic;
 }
