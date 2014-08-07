@@ -2,7 +2,7 @@ latestFinal:
     version: 6.1.0
     distributionZip: http://download.jboss.org/drools/release/6.1.0.Final/droolsjbpm-integration-distribution-6.1.0.Final.zip
     releaseDate: 2014-08-02
-    releaseNotesVersion: 6.1.1
+    releaseNotesVersion: 6.1.0
     
     droolsZip: http://download.jboss.org/drools/release/6.1.0.Final/drools-distribution-6.1.0.Final.zip
     drools_version: 6.1.0
