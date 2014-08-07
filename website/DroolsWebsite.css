@@ -22,7 +22,7 @@ body {
     height: 100%;
     color: #333333;
     font-family: "Open Sans",Helvetica,Arial,sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.66667;
 }
 
@@ -242,11 +242,11 @@ footer {
 }
 #header li a {
     color: #777;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 100%;
+    font-weight: bold;
     line-height: 25px;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 #header .dropdown.open {
     background: none repeat scroll 0 0 #E7E7E7;
@@ -255,12 +255,12 @@ footer {
 #header .dropdown .dropdown-toggle {
     background: none repeat scroll 0 0 ;
     color: #777;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 100%;
+    font-weight: bold;
     line-height: 25px;
     padding: 14px 20px;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 #header .dropdown .dropdown-toggle span {
     font-weight: bold;
