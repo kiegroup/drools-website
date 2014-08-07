@@ -51,6 +51,12 @@ footer {
     box-shadow: 0 0 3px 0 rgba(0,0,,100);
 }
 
+@media (max-width: 767px) {
+    .navbar-toggle {
+        margin-right: 100px;
+    }
+}
+
 /* WORKAROUND for Twitter bootstrap's navbar-fixed-top's hides content head */
 .body-without-header-footer {
     padding-top: 40px;
@@ -203,9 +209,9 @@ footer {
 * Tabzilla Property
 ******************************************************************************/
 .dropup {
-  z-index: 9999 !Important;
+    z-index: 9999 !Important;
+    right: 10px !Important;
 }
-
 
 /******************************************************************************
 * Header Property
@@ -365,6 +371,9 @@ table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoo
     line-height: 1.6;
 }
 
+/******************************************************************************
+* Text zoom in carousel
+******************************************************************************/
 
 .TextZoom {
     text-align: center;
