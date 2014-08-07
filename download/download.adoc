@@ -52,12 +52,12 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 
 === Maven Repository
 
-* The latest releases, including 6.1.0.Beta3, 5.6 and 5.5 are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
+* The latest releases, including 6.2.0.Beta1 are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
 * To use them, first http://community.jboss.org/wiki/MavenGettingStarted-Users[configure the JBoss maven repository].
 * Nightly snapshots are available for download http://downloads.jboss.org/drools/release/snapshot/[here].
 
 === Eclipse update site
 
-* http://download.jboss.org/drools/release/6.0.0.Final/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site 6.0.0.Final.
+* http://download.jboss.org/drools/release/6.1.0.Final/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site 6.1.0.Final.
 * The Drools and jBPM plugin for Eclipse can also be discovered from http://www.jboss.org/tools[JBoss Tools].
 * Alternatively, you can download the "Drools and jBPM tools" zip (from the table above), unzip it and configure the directory "binaries/org.drools.updatesite" as a local updatesite.
