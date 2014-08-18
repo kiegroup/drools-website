@@ -35,7 +35,7 @@ if [ "${buildEnabled}" = "true" ]; then
 fi
 
 if [ "${publishEnabled}" = "true" ]; then
-	publishDir="filemgmt.jboss.org:/www_htdocs/optaplanner/"
+	publishDir="filemgmt.jboss.org:/www_htdocs/drools/"
 	echo "Deploying ${siteDir} to ${publishDir}"
 	echo -n "Username: "
 	read publishDirUsername

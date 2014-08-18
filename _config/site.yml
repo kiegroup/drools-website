@@ -23,5 +23,5 @@ profiles:
     developmentMode: false
     base_url: http://www.drools.org
     deploy:
-      host: optaplanner@filemgmt.jboss.org
-      path: /www_htdocs/optaplanner/
+      host: drools@filemgmt.jboss.org
+      path: /www_htdocs/drools/
