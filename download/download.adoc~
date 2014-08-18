@@ -5,7 +5,7 @@
 
 Each download contains **binaries**, **documentation**, **examples** and **sources**.
 
-== Latest final version: #{site.pom.latestFinal.drools_version}
+== Latest Final version: #{site.pom.latestFinal.drools_version}
 
 [cols=".<3,.^1,.<7,.<2,.<2,.^2,.^2", options="header", frame="topbot"] 
 |===
@@ -47,7 +47,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |===
 
 
-== Latest development version: #{site.pom.latest.drools_version}
+== Latest Development version: #{site.pom.latest.drools_version}
 
 [cols=".<3,.^1,.<7,.<2,.<2,.^2,.^2", options="header", frame="topbot"] 
 |===
