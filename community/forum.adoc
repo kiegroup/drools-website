@@ -6,9 +6,9 @@
 
 If you have a question about Drools, just ask our friendly community:
 
-* Ask on https://lists.jboss.org/mailman/listinfo/rules-users[the Drools user mailing list] (recommended).
+* Ask on https://groups.google.com/forum/#!forum/drools-setup[the Drools setup forum and mailing list].
 
-* Or ask on http://stackoverflow.com/questions/tagged/drools[StackOverflow].
+* Ask on https://groups.google.com/forum/#!forum/drools-usage[the Drools usage forum and mailing list].
 
 Please follow these recommendations when posting a question:
 
@@ -22,6 +22,6 @@ Please follow these recommendations when posting a question:
 If you've link:../code/sourceCode.html[build Drools from source] and you would like to improve it,
 then come talk with us:
 
-* Join us on http://www.jboss.org/drools/lists[the Drools developer mailing list].
+* Join us on https://groups.google.com/forum/#!forum/drools-development[the Drools development forum and mailing list].
 
 * And link:chat.html[chat with us] (recommended).
