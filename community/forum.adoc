@@ -1,27 +1,34 @@
-= Forum (free support)
+= Forum (community volunteer support)
 :awestruct-layout: base
 :showtitle:
 
-== Usage questions
+All our forums now use Google Groups, which allows for both web and email interaction.
 
-If you have a question about Drools, just ask our friendly community:
-
-* Ask on https://groups.google.com/forum/#!forum/drools-setup[the Drools setup forum and mailing list].
-
-* Ask on https://groups.google.com/forum/#!forum/drools-usage[the Drools usage forum and mailing list].
 
 Please follow these recommendations when posting a question:
 
+* Before posting first search the archives for similar questions. Searches should include Google Groups, StackOverflow and Jira.
 * Get to the point. Keep it as short as possible.
-* Include _relevant_ technical details (stacktrace, short code snippet, ...).
+* Include _relevant_ technical details (version, stacktrace, short code snippet, ...).
 * Be polite, friendly and clear. Reread your question before posting it.
-* Be patient. This isn't link:product.html[paid support].
+* Be patient. Do not email people directly. This isn't link:product.html[paid support].
+
+== Setup questions and discussions
+Installation, configuration, setup and administration discussions for the Workbench, Eclipse, runtime environments and general enterprise architectures. 
+
+* https://groups.google.com/forum/#!forum/drools-setup[the Drools setup forum and mailing list].
+
+== Usage questions and discussions
+Authoring and execution with Drools. Includes all authoring metaphores from text DRL to UI scorecards. General API help and best practices in building rule based systems.
+
+* https://groups.google.com/forum/#!forum/drools-usage[the Drools usage forum and mailing list].
+
+== StackOverflow
+StackOverflow is popular externally run question and answer site, it does not allow for general discussions, and provides scoring and moderation.
+* http://stackoverflow.com/questions/tagged/drools[StackOverflow].
 
 == Development discussions
-
-If you've link:../code/sourceCode.html[build Drools from source] and you would like to improve it,
-then come talk with us:
-
-* Join us on https://groups.google.com/forum/#!forum/drools-development[the Drools development forum and mailing list].
-
-* And link:chat.html[chat with us] (recommended).
+If you want to help improve Drools or have ideas you want to discuss (bug fixing, documentation or feature development) then come talk with us. 
+* https://groups.google.com/forum/#!forum/drools-development[the Drools development forum and mailing list].
+* link:../code/sourceCode.html[Help Building Drools from source]
+* And link:chat.html[chat with us] (recommended). Contributors will get priority real time assistance on irc.
