@@ -24,7 +24,7 @@ Authoring and execution with Drools. Includes all authoring metaphores from text
 * https://groups.google.com/forum/#!forum/drools-usage[Drools usage forum and mailing list].
 
 == StackOverflow
-StackOverflow is popular externally run question and answer site, it does not allow for general discussions, and provides scoring and moderation.
+StackOverflow is a popular externally run question and answer site, it does not allow for general discussions, and provides scoring and moderation.
 
 * http://stackoverflow.com/questions/tagged/drools[StackOverflow Q&A site].
 
