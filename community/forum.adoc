@@ -25,10 +25,12 @@ Authoring and execution with Drools. Includes all authoring metaphores from text
 
 == StackOverflow
 StackOverflow is popular externally run question and answer site, it does not allow for general discussions, and provides scoring and moderation.
+
 * http://stackoverflow.com/questions/tagged/drools[StackOverflow].
 
 == Development discussions
 If you want to help improve Drools or have ideas you want to discuss (bug fixing, documentation or feature development) then come talk with us. 
+
 * https://groups.google.com/forum/#!forum/drools-development[the Drools development forum and mailing list].
 * link:../code/sourceCode.html[Help Building Drools from source]
 * And link:chat.html[chat with us] (recommended). Contributors will get priority real time assistance on irc.
