@@ -16,21 +16,21 @@ Please follow these recommendations when posting a question:
 == Setup questions and discussions
 Installation, configuration, setup and administration discussions for the Workbench, Eclipse, runtime environments and general enterprise architectures. 
 
-* https://groups.google.com/forum/#!forum/drools-setup[the Drools setup forum and mailing list].
+* https://groups.google.com/forum/#!forum/drools-setup[Drools setup forum and mailing list].
 
 == Usage questions and discussions
 Authoring and execution with Drools. Includes all authoring metaphores from text DRL to UI scorecards. General API help and best practices in building rule based systems.
 
-* https://groups.google.com/forum/#!forum/drools-usage[the Drools usage forum and mailing list].
+* https://groups.google.com/forum/#!forum/drools-usage[Drools usage forum and mailing list].
 
 == StackOverflow
 StackOverflow is popular externally run question and answer site, it does not allow for general discussions, and provides scoring and moderation.
 
-* http://stackoverflow.com/questions/tagged/drools[StackOverflow].
+* http://stackoverflow.com/questions/tagged/drools[StackOverflow Q&A site].
 
 == Development discussions
 If you want to help improve Drools or have ideas you want to discuss (bug fixing, documentation or feature development) then come talk with us. 
 
-* https://groups.google.com/forum/#!forum/drools-development[the Drools development forum and mailing list].
+* https://groups.google.com/forum/#!forum/drools-development[Drools development forum and mailing list].
 * link:../code/sourceCode.html[Help Building Drools from source]
 * And link:chat.html[chat with us] (recommended). Contributors will get priority real time assistance on irc.
