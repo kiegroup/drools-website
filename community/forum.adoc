@@ -7,6 +7,7 @@ All our forums now use Google Groups, which allows for both web and email intera
 
 Please follow these recommendations when posting a question:
 
+* Please post to the relevant group. DO NOT post setup, configuration, adminstration questions to Drools Usage
 * Before posting first search the archives for similar questions. Searches should include Google Groups, StackOverflow and Jira.
 * Get to the point. Keep it as short as possible.
 * Include _relevant_ technical details (version, stacktrace, short code snippet, ...).
@@ -19,7 +20,7 @@ Installation, configuration, setup and administration discussions for the Workbe
 * https://groups.google.com/forum/#!forum/drools-setup[Drools setup forum and mailing list].
 
 == Usage questions and discussions
-Authoring and execution with Drools. Includes all authoring metaphores from text DRL to UI scorecards. General API help and best practices in building rule based systems.
+Authoring and execution with Drools. Includes all authoring metaphors from text DRL to UI scorecards. General API help and best practices in building rule based systems.
 
 * https://groups.google.com/forum/#!forum/drools-usage[Drools usage forum and mailing list].
 
