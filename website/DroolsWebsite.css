@@ -18,12 +18,12 @@ html {
     background-color: #FFFFFF;
 }
 body {
-    /* background: linear-gradient(to bottom, #fff3e8 0px, #FAFAFA 40%) no-repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+    /* background: linear-gradient(to bottom, #fff3e8 0px, #FAFAFA 40%) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     height: 100%;
     color: #333333;
     font-family: "Open Sans",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    line-height: 1.66667;
+    line-height: 1.66667;*/
 }
 
 #Content {
@@ -218,7 +218,6 @@ footer {
 ******************************************************************************/
 
 #header {
-    height: 55px;
     width: 100%;
     z-index: 999;
 }
@@ -243,23 +242,19 @@ footer {
 #header li a {
     color: #777;
     font-size: 100%;
-    font-weight: bold;
+    font-weight: 300;
     line-height: 25px;
-    text-align: center;
     text-transform: capitalize;
 }
 #header .dropdown.open {
-    background: none repeat scroll 0 0 #E7E7E7;
     color: #555;
 }
 #header .dropdown .dropdown-toggle {
-    background: none repeat scroll 0 0 ;
     color: #777;
     font-size: 100%;
-    font-weight: bold;
+    font-weight: 300;
     line-height: 25px;
     padding: 14px 20px;
-    text-align: center;
     text-transform: capitalize;
 }
 #header .dropdown .dropdown-toggle span {
@@ -267,19 +262,19 @@ footer {
     margin-left: 4px;
 }
 #header .dropdown-menu {
-    background: none repeat scroll 0 0 #FFFFFF;
+/*  background: none repeat scroll 0 0 #FFFFFF;
     box-shadow: none;
     margin-top: 0;
-    min-width: 132px;
+    min-width: 132px;  */
 }
 #header .dropdown-menu a {
-    background: none repeat scroll 0 0 #FFFFFF;
+/*  background: none repeat scroll 0 0 #FFFFFF;
     color: #333;
     font-size: 14px;
     font-weight: 300;
     padding: 5px;
     text-align: left;
-    text-transform: capitalize;
+    text-transform: capitalize;*/
 }
 #header .dropdown-menu a:hover {
     background-color: #f5f5f5;

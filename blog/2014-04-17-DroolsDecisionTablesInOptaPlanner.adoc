@@ -1,9 +1,0 @@
-= Drools Decision Tables in OptaPlanner - Put the user in control of the score function 
-:page-interpolate: true
-:awestruct-author: ge0ffrey
-:awestruct-layout: blogPostBase
-:awestruct-tags: [Drools, OptaPlanner]
-
-Wondering how to use Drools decision tables in OptaPlanner?
-
-http://www.optaplanner.org/blog/2014/04/17/PutTheUserInControlOfTheScoreConstraints.html[Take a look at this OptaPlanner blog post: Put the user in control of the score function].
