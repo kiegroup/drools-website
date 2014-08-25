@@ -1,4 +1,4 @@
-#  Available properties per user
+# Available properties per user
 #  userId: Should be the same as githubUsername
 #  fullName: First name and last name (in that order)
 #  role: Role in this project
@@ -57,13 +57,6 @@
   employedBy: Red Hat
   githubUsername: Rikkola
   ircNickname: Rikkola
-- userId: jliu
-  fullName: Jervis Liu
-  role: Drools Guvnor
-  gravatarHashId: 4bcd3acb2ca6774d9ac793f597723e98
-  email: jervisliu [at] gmail [dot] com
-  githubUsername: jervisliu
-  ircNickname: jliu
 - userId: tsurdilovic
   fullName: Tihomir Surdilovic
   role: jBPM, Drools Container and Drools Expert
