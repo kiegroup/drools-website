@@ -40,15 +40,15 @@ OptaPlanner is:
 ==== Performance speedups
 
 * *EntitySelector caching speedup for large datasets*: Benchmarked on MachineReassignment's B datasets.
-** Tabu Search: +{plus}3%+ on average, +{plus}4%+ on largest
-** Late Acceptance: +{plus}234%+ (+x3.34+) on average, +{plus}430%+ (+x5.3+) on largest
+** Tabu Search: `{plus}3%` on average, `{plus}4%` on largest
+** Late Acceptance: `{plus}234%` (`x3.34`) on average, `{plus}430%` (`x5.3`) on largest
 * *Generic cloning speedup for large datasets*: Benchmarked on MachineReassignment's B datasets.
-** Tabu Search: +{plus}18%+ on average, +{plus}24%+ on largest
-** Late Acceptance: +{plus}23%+ on average, +{plus}121%+ (+x2.21+) on largest
+** Tabu Search: `{plus}18%` on average, `{plus}24%` on largest
+** Late Acceptance: `{plus}23%` on average, `{plus}121%` (`x2.21`) on largest
 
 ==== Declarative value ranges
 
-When the planning value range of a planning variable is a number (such as +int+, +double+ or +BigDecimal+),
+When the planning value range of a planning variable is a number (such as `int`, `double` or `BigDecimal`),
 you can now declare the range by its bounds, instead of enumerating all values in the range.
 
 So instead of reserving 5000 memory spaces for all the integer values:
@@ -97,7 +97,7 @@ Contributed by Matej Čimbora.
 
 ==== Generic move improvements
 
-* New +PillarChangeMove+:
+* New `PillarChangeMove`:
 A pillar is a set of planning entities which have the same planning value(s) for their planning variable(s).
 The PillarChangeMove selects 1 entity pillar and changes the value of 1 variable for all entities.
 * The pillar moves can now select subPillars too.
