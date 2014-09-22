@@ -56,38 +56,41 @@ layout: base
             %button(type="button" class="close" aria-hidden="true")
             %h4.modal-title"
 
-%div(style="margin-bottom: 20px")
-  :markdown
-    ## Overview
+.row
+  .col-md-8(style="margin-bottom: 20px")
+    :markdown
+      ## Overview
 
-    Drools is a Business Rules Management System (BRMS) solution. It provides a core Business Rules Engine (BRE), a web authoring and rules management application (Drools Workbench) and an Eclipse IDE plugin for core development.
+      Drools is a Business Rules Management System (BRMS) solution. It provides a core Business Rules Engine (BRE), a web authoring and rules management application (Drools Workbench) and an Eclipse IDE plugin for core development.
 
-    More information can be found on the following links:
+      More information can be found on the following links:
 
-  %ul
-    %li
-      %img(src = "headerFooter/guvnor_icon_32x.png")
-        %a(href="http://drools.jboss.org/drools-guvnor.html") Drools Workbench (web UI for authoring and management)
-    %li
-      %img(src = "headerFooter/expert_icon_32x.png")
-        %a(href="http://drools.jboss.org/drools-expert.html") Drools Expert (business rules engine)
-    %li
-      %img(src = "headerFooter/fusion_icon_32x.png")
-        %a(href="http://drools.jboss.org/drools-fusion.html") Drools Fusion (complex event processing features)
-    %li
-      %img(src = "headerFooter/flow_icon_32x.png")
-        %a(href="http://www.jboss.org/jbpm") jBPM (process/workflow integration for rule orchestration/flow)
-    %li
-      %img(src = "headerFooter/planner_icon_32px.png")
-        %a(href="http://www.optaplanner.org/") OptaPlanner (automated planning)
+    %ul
+      %li
+        %img(src = "headerFooter/guvnor_icon_32x.png")
+          %a(href="http://drools.jboss.org/drools-guvnor.html") Drools Workbench (web UI for authoring and management)
+      %li
+        %img(src = "headerFooter/expert_icon_32x.png")
+          %a(href="http://drools.jboss.org/drools-expert.html") Drools Expert (business rules engine)
+      %li
+        %img(src = "headerFooter/fusion_icon_32x.png")
+          %a(href="http://drools.jboss.org/drools-fusion.html") Drools Fusion (complex event processing features)
+      %li
+        %img(src = "headerFooter/flow_icon_32x.png")
+          %a(href="http://www.jboss.org/jbpm") jBPM (process/workflow integration for rule orchestration/flow)
+      %li
+        %img(src = "headerFooter/planner_icon_32px.png")
+          %a(href="http://www.optaplanner.org/") OptaPlanner (automated planning)
 
     
-  These projects have community releases from JBoss.org that come without support. Community releases focus on fast paced innovation to give you the latest and greatest, with releases every few months that include both features and fixes. Red Hat JBoss BRMS is our enterprise product for mission critical releases, with a multi year commitment for backport of fixes, based off a sanitised community release of Drools. A range of support packages are available including up to mission critical 24/7, as well as training and consultancy via our Global Professional Services unit. Email sales@jboss.com for more details.
+    These projects have community releases from JBoss.org that come without support. Community releases focus on fast paced innovation to give you the latest and greatest, with releases every few months that include both features and fixes. Red Hat JBoss BRMS is our enterprise product for mission critical releases, with a multi year commitment for backport of fixes, based off a sanitised community release of Drools. A range of support packages are available including up to mission critical 24/7, as well as training and consultancy via our Global Professional Services unit. Email sales@jboss.com for more details.
 
-  :markdown
-    ## Upcoming events
+    :markdown
+      ## Upcoming events
 
-    TBA
+      TBA
+  .col-md-4
+    = partial('events.html.haml', :outputPage => page)
 
 
 .alert.alert-info.alert-dismissable
