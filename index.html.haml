@@ -57,7 +57,7 @@ layout: base
             %h4.modal-title"
 
 .row
-  .col-md-8(style="margin-bottom: 20px")
+  .col-md-8(style="margin-top: -17px;margin-bottom: 20px")
     :markdown
       ## Overview
 
@@ -85,12 +85,9 @@ layout: base
     
     These projects have community releases from JBoss.org that come without support. Community releases focus on fast paced innovation to give you the latest and greatest, with releases every few months that include both features and fixes. Red Hat JBoss BRMS is our enterprise product for mission critical releases, with a multi year commitment for backport of fixes, based off a sanitised community release of Drools. A range of support packages are available including up to mission critical 24/7, as well as training and consultancy via our Global Professional Services unit. Email sales@jboss.com for more details.
 
-    :markdown
-      ## Upcoming events
-
-      TBA
   .col-md-4
-    = partial('events.html.haml', :outputPage => page)
+    %div(style="margin-top: 10px;")
+      = partial('events.html.haml', :outputPage => page)
 
 
 .alert.alert-info.alert-dismissable
