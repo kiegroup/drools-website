@@ -1,5 +1,5 @@
 = Videos
-:awestruct-layout: base
+:awestruct-layout: normalBase
 :showtitle:
 
 See https://www.youtube.com/playlist?list=PLb9jQNHBKBRj9IJkc_F5nCJAvXaegOGW8[Mark Proctor's playlist on YouTube^]

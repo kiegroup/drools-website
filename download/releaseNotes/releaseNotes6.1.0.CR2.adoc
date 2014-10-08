@@ -1,5 +1,5 @@
 = Release Notes 6.1.0.CR2
-:awestruct-layout: base
+:awestruct-layout: normalBase
 :showtitle:
 
 == Drools 6.1.0.CR2

@@ -1,0 +1,9 @@
+---
+layout: base
+---
+.container
+  .row
+    .col-md-9(style="margin-top: -17px;margin-bottom: 20px")
+      ~ content
+    .col-md-3(style="margin-top: 10px;")
+      = partial('events.html.haml', :outputPage => page)

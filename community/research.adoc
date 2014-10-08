@@ -1,5 +1,5 @@
 = Research papers
-:awestruct-layout: base
+:awestruct-layout: normalBase
 :showtitle:
 
 == Introduction

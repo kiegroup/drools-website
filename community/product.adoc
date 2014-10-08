@@ -1,5 +1,5 @@
 = Product
-:awestruct-layout: base
+:awestruct-layout: normalBase
 :showtitle:
 
 === Red Hat JBoss BRMS

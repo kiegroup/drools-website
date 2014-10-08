@@ -1,5 +1,5 @@
 = Forum (community volunteer support)
-:awestruct-layout: base
+:awestruct-layout: normalBase
 :showtitle:
 
 All our forums now use Google Groups, which allows for both web and email interaction.
