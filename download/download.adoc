@@ -57,7 +57,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools*
 |#{site.pom.latest.drools_version}
 |#{site.pom.latest.drools_description}
-|94,6 MB
+|97,5 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsZip}[Download]
@@ -65,7 +65,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools and jBPM integration*
 |#{site.pom.latest.droolsjbpmIntegration_version}
 |#{site.pom.latest.droolsjbpmIntegration_description}
-|135,6 MB
+|133,4 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsjbpmIntegrationZip}[Download]
@@ -73,7 +73,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools Workbench*
 |#{site.pom.latest.droolsWorkbench_version}
 |#{site.pom.latest.droolsWorkbench_description}
-|453,1 MB
+|543,9 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsWorkbenchZip}[Download]
@@ -81,7 +81,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools and jBPM tools*
 |#{site.pom.latest.droolsjbpmTools_version}
 |#{site.pom.latest.droolsjbpmTools_description}
-|61,1 MB
+|62,2 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsjbpmToolsZip}[Download]
@@ -96,7 +96,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 
 === Maven Repository
 
-* The latest releases, including 6.2.0.Beta3 are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
+* The latest releases, including 6.2.0.CR1 are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
 * To use them, first http://community.jboss.org/wiki/MavenGettingStarted-Users[configure the JBoss maven repository].
 * Nightly snapshots are available for download http://downloads.jboss.org/drools/release/snapshot/[here].
 

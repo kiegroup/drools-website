@@ -37,32 +37,32 @@ latestFinal:
 # latest.version can be equal to latestFinal.version
 latest:
     version: 6.2
-    distributionZip: http://download.jboss.org/drools/release/6.2.0.Beta3/droolsjbpm-integration-distribution-6.2.0.Beta3.zip
-    releaseDate: 2014-08-07
-    releaseNotesVersion: 6.2.0.Beta3
+    distributionZip: http://download.jboss.org/drools/release/6.2.0.CR1/droolsjbpm-integration-distribution-6.2.0.CR1.zip
+    releaseDate: 2014-10-27
+    releaseNotesVersion: 6.2.0.CR1
 
-    droolsZip: http://download.jboss.org/drools/release/6.2.0.Beta3/drools-distribution-6.2.0.Beta3.zip
+    droolsZip: http://download.jboss.org/drools/release/6.2.0.CR1/drools-distribution-6.2.0.CR1.zip
     drools_version: 6.2
     drools_description: Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).
 
-    droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.2.0.Beta3/droolsjbpm-integration-distribution-6.2.0.Beta3.zip
+    droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.2.0.CR1/droolsjbpm-integration-distribution-6.2.0.CR1.zip
     droolsjbpmIntegration_version: 6.2
     droolsjbpmIntegration_description: Drools and jBPM integration with spring, camel...
 
-    droolsWorkbenchZip: http://download.jboss.org/drools/release/6.2.0.Beta3/kie-drools-wb-distribution-6.2.0.Beta3.zip
+    droolsWorkbenchZip: http://download.jboss.org/drools/release/6.2.0.CR1/kie-drools-wb-distribution-6.2.0.CR1.zip
     droolsWorkbench_version: 6.2
     droolsWorkbench_description: Drools Workbench is the web application and repository to govern Drools and jBPM assets. 
     
-    droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.2.0.Beta3/droolsjbpm-tools-distribution-6.2.0.Beta3.zip
+    droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.2.0.CR1/droolsjbpm-tools-distribution-6.2.0.CR1.zip
     droolsjbpmTools_version: 6.2
     droolsjbpmTools_description: Ant, eclipse, ... plugins and support for Drools, jBPM and Guvnor functionality.
 
-    documentationHtmlSingle: http://docs.jboss.org/drools/release/6.2.0.Beta3/drools-docs/html_single/index.html
-    documentationHtml: http://docs.jboss.org/drools/release/6.2.0.Beta3/drools-docs/html/index.html
-    documentationPdf: http://docs.jboss.org/drools/release/6.2.0.Beta3/drools-docs/pdf/drools-docs.pdf
+    documentationHtmlSingle: http://docs.jboss.org/drools/release/6.2.0.CR1/drools-docs/html_single/index.html
+    documentationHtml: http://docs.jboss.org/drools/release/6.2.0.CR1/drools-docs/html/index.html
+    documentationPdf: http://docs.jboss.org/drools/release/6.2.0.CR1/drools-docs/pdf/drools-docs.pdf
 
     
-    KIE_API_documentationJavadoc: http://docs.jboss.org/drools/release/6.2.0.Beta3/kie-api-javadoc/index.html
+    KIE_API_documentationJavadoc: http://docs.jboss.org/drools/release/6.2.0.CR1/kie-api-javadoc/index.html
 
 
     
