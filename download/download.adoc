@@ -73,7 +73,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools Workbench*
 |#{site.pom.latest.droolsWorkbench_version}
 |#{site.pom.latest.droolsWorkbench_description}
-|543,9 MB
+|536,7 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsWorkbenchZip}[Download]
@@ -81,7 +81,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools and jBPM tools*
 |#{site.pom.latest.droolsjbpmTools_version}
 |#{site.pom.latest.droolsjbpmTools_description}
-|62,2 MB
+|83,1 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsjbpmToolsZip}[Download]
@@ -96,7 +96,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 
 === Maven Repository
 
-* The latest releases, including 6.2.0.CR1 are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
+* The latest releases, including 6.2.0.CR2 are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
 * To use them, first http://community.jboss.org/wiki/MavenGettingStarted-Users[configure the JBoss maven repository].
 * Nightly snapshots are available for download http://downloads.jboss.org/drools/release/snapshot/[here].
 
