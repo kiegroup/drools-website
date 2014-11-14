@@ -45,6 +45,8 @@ latest:
     drools_version: 6.2
     drools_description: Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).
 
+    drools_development_version: CR2
+
     droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.2.0.CR2/droolsjbpm-integration-distribution-6.2.0.CR2.zip
     droolsjbpmIntegration_version: 6.2
     droolsjbpmIntegration_description: Drools and jBPM integration with spring, camel...
