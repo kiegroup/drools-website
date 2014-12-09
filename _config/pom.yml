@@ -36,27 +36,27 @@ latestFinal:
 
 # latest.version can be equal to latestFinal.version
 latest:
-    version: 6.3
+    version: 6.2
     distributionZip: http://download.jboss.org/drools/release/6.2.0.CR3/droolsjbpm-integration-distribution-6.2.0.CR3.zip
     releaseDate: 2014-12-08
     releaseNotesVersion: 6.2.0.CR3
 
     droolsZip: http://download.jboss.org/drools/release/6.2.0.CR3/drools-distribution-6.2.0.CR3.zip
-    drools_version: 6.3
+    drools_version: 6.2
     drools_description: Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).
 
     drools_development_version: CR3
 
     droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.2.0.CR3/droolsjbpm-integration-distribution-6.2.0.CR3.zip
-    droolsjbpmIntegration_version: 6.3
+    droolsjbpmIntegration_version: 6.2
     droolsjbpmIntegration_description: Drools and jBPM integration with spring, camel...
 
     droolsWorkbenchZip: http://download.jboss.org/drools/release/6.2.0.CR3/kie-drools-wb-distribution-6.2.0.CR3.zip
-    droolsWorkbench_version: 6.3
+    droolsWorkbench_version: 6.2
     droolsWorkbench_description: Drools Workbench is the web application and repository to govern Drools and jBPM assets. 
     
     droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.2.0.CR3/droolsjbpm-tools-distribution-6.2.0.CR3.zip
-    droolsjbpmTools_version: 6.3
+    droolsjbpmTools_version: 6.2
     droolsjbpmTools_description: Ant, eclipse, ... plugins and support for Drools, jBPM and Guvnor functionality.
 
     documentationHtmlSingle: http://docs.jboss.org/drools/release/6.2.0.CR3/drools-docs/html_single/index.html
