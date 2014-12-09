@@ -22,6 +22,3 @@ profiles:
   production:
     developmentMode: false
     base_url: http://www.drools.org
-    deploy:
-      host: drools@filemgmt.jboss.org
-      path: /www_htdocs/drools/
