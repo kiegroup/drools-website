@@ -34,6 +34,8 @@ latestFinal:
     droolsExpert_documentationHtml: http://docs.jboss.org/drools/release/6.1.0.Final/drools-expert-docs/html/index.html
     droolsExpert_documentationPdf: http://docs.jboss.org/drools/release/6.1.0.Final/drools-expert-docs/pdf/drools-expert-docs.pdf
 
+    droolsReleaseNotes: http://docs.jboss.org/drools/release/6.1.0.Final/drools-docs/html/DroolsReleaseNotesChapter.html
+
 # latest.version can be equal to latestFinal.version
 latest:
     version: 6.2
@@ -66,5 +68,5 @@ latest:
     
     KIE_API_documentationJavadoc: http://docs.jboss.org/drools/release/6.2.0.CR3/kie-api-javadoc/index.html
 
-
+    droolsReleaseNotes: http://docs.jboss.org/drools/release/6.2.0.CR3/drools-docs/html/DroolsReleaseNotesChapter.html
     
