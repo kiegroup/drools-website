@@ -98,7 +98,10 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 
 * The latest releases, including 6.2.0.CR3 are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
 * To use them, first http://community.jboss.org/wiki/MavenGettingStarted-Users[configure the JBoss maven repository].
-* Nightly snapshots are available for download http://downloads.jboss.org/drools/release/snapshot/[here].
+
+=== Nightly Builds
+
+* Nightly SNAPSHOTS are available for download http://downloads.jboss.org/drools/release/snapshot/[here].
 
 === Eclipse update site
 
