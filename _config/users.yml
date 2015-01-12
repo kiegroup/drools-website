@@ -120,6 +120,13 @@
   employedBy: Red Hat
   githubUsername: mrietveld
   ircNickname: mriet
+- userId: wmedvede
+  fullName: Walter Medvedeo
+  role: Software Engineer
+  gravatarHashId: 4a8c787544c0b40bc033f631dc2256c2
+  employedBy: Red Hat
+  githubUsername: wmedvede
+  ircNickname: wmedvede
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
