@@ -38,10 +38,13 @@ latestFinal:
 
 # latest.version can be equal to latestFinal.version
 latest:
+
+
     version: 6.2
     distributionZip: http://download.jboss.org/drools/release/6.2.0.CR4/droolsjbpm-integration-distribution-6.2.0.CR4.zip
     releaseDate: 2015-01-09
     releaseNotesVersion: 6.2.0.CR4
+    latestVersion: 6.2.0.CR4
 
     droolsZip: http://download.jboss.org/drools/release/6.2.0.CR4/drools-distribution-6.2.0.CR4.zip
     drools_version: 6.2
