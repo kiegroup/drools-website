@@ -44,6 +44,14 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsjbpmToolsZip}[Download]
 
+|*KIE Execution Server*
+|#{site.pom.latestFinal.kieExecutionServer_version}
+|#{site.pom.latestFinal.kieExecutionServer_description}
+|61,1 MB
+|#{site.pom.latestFinal.releaseDate}
+| link:../code/license.html[ASL 2.0]
+|#{site.pom.latestFinal.kieExecutionServerZip}[Download]
+
 |===
 
 ////
@@ -83,6 +91,14 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsjbpmToolsZip}[Download]
+
+|*KIE Execution Server*
+|#{site.pom.latestFinal.kieExecutionServer_version}
+|#{site.pom.latestFinal.kieExecutionServer_description}
+|61,1 MB
+|#{site.pom.latestFinal.releaseDate}
+| link:../code/license.html[ASL 2.0]
+|#{site.pom.latestFinal.kieExecutionServerZip}[Download]
 
 |===
 ////

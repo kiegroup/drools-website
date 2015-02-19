@@ -36,6 +36,10 @@ latestFinal:
 
     droolsReleaseNotes: http://docs.jboss.org/drools/release/6.2.0.Final/drools-docs/html/DroolsReleaseNotesChapter.html
 
+    kieExecutionServerZip: http://download.jboss.org/drools/release/6.2.0.Final/kie-server-distribution-6.2.0.Final.zip
+    kieExecutionServer_version: 6.2
+    kieExecutionServer_description: Standalone execution server that can be used to remotely execute rules using REST, JMS or Java interface.
+
 # latest.version can be equal to latestFinal.version
 latest:
 
@@ -72,4 +76,9 @@ latest:
     KIE_API_documentationJavadoc: http://docs.jboss.org/drools/release/6.2.0.CR4/kie-api-javadoc/index.html
 
     droolsReleaseNotes: http://docs.jboss.org/drools/release/6.2.0.Final/drools-docs/html/DroolsReleaseNotesChapter.html
+
+    kieExecutionServerZip: http://download.jboss.org/drools/release/6.2.0.Final/kie-server-distribution-6.2.0.Final.zip
+    kieExecutionServer_version: 6.2
+    kieExecutionServer_description: Standalone execution server that can be used to remotely execute rules using REST, JMS or Java interface.
+
     
