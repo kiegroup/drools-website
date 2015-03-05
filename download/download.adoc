@@ -15,7 +15,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools*
 |#{site.pom.latestFinal.drools_version}
 |#{site.pom.latestFinal.drools_description}
-|92,5 MB
+|104 MB
 |#{site.pom.latestFinal.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsZip}[Download]
@@ -23,7 +23,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools and jBPM integration*
 |#{site.pom.latestFinal.droolsjbpmIntegration_version}
 |#{site.pom.latestFinal.droolsjbpmIntegration_description}
-|135,6 MB
+|86,4 MB
 |#{site.pom.latestFinal.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsjbpmIntegrationZip}[Download]
@@ -31,7 +31,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools Workbench*
 |#{site.pom.latestFinal.droolsWorkbench_version}
 |#{site.pom.latestFinal.droolsWorkbench_description}
-|454 MB
+|989 MB
 |#{site.pom.latestFinal.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsWorkbenchZip}[Download]
@@ -39,7 +39,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools and jBPM tools*
 |#{site.pom.latestFinal.droolsjbpmTools_version}
 |#{site.pom.latestFinal.droolsjbpmTools_description}
-|61,1 MB
+|79,6 MB
 |#{site.pom.latestFinal.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsjbpmToolsZip}[Download]
@@ -47,7 +47,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*KIE Execution Server*
 |#{site.pom.latestFinal.kieExecutionServer_version}
 |#{site.pom.latestFinal.kieExecutionServer_description}
-|61,1 MB
+|58,5 MB
 |#{site.pom.latestFinal.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.kieExecutionServerZip}[Download]
@@ -63,7 +63,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools*
 |#{site.pom.latest.drools_version}
 |#{site.pom.latest.drools_description}
-|97,6 MB
+|104 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsZip}[Download]
@@ -71,7 +71,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools and jBPM integration*
 |#{site.pom.latest.droolsjbpmIntegration_version}
 |#{site.pom.latest.droolsjbpmIntegration_description}
-|136,9 MB
+|86,4 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsjbpmIntegrationZip}[Download]
@@ -110,7 +110,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 
 === Maven Repository
 
-* The latest releases, including 6.2.0.CR4 are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
+* The latest releases, including 6.2.0.Final are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
 * To use them, first http://community.jboss.org/wiki/MavenGettingStarted-Users[configure the JBoss maven repository].
 
 === Nightly Builds
