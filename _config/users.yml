@@ -134,6 +134,13 @@
   employedBy: Red Hat
   githubUsername: psiroky
   ircNickname: psiroky
+- userId: pefernan
+  fullName: Pere Fernandez
+  role: Software Engineer
+  gravatarHashId: f99e971c52ef2cfca112e836ceee8572
+  employedBy: Red Hat
+  githubUsername: pefernan
+  ircNickname: sr_pere
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
