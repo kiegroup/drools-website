@@ -127,6 +127,13 @@
   employedBy: Red Hat
   githubUsername: wmedvede
   ircNickname: wmedvede
+- userId: psiroky
+  fullName: Petr Široký
+  role: Software Engineer
+  gravatarHashId: e8eb2caefbe452befc919ea0977864c1
+  employedBy: Red Hat
+  githubUsername: psiroky
+  ircNickname: psiroky
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
