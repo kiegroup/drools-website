@@ -1,7 +1,0 @@
-= Release Notes 6.1.0.CR2
-:awestruct-layout: normalBase
-:showtitle:
-
-== Drools 6.1.0.CR2
-
-We are happy to announce a 6.1.0.CR2 release of Drools.

@@ -127,6 +127,14 @@
   employedBy: Red Hat
   githubUsername: wmedvede
   ircNickname: wmedvede
+- userId: mbiarnes
+  fullName: Michael Biarnes Kiefer
+  role: Release engineer
+  gravatarHashId: b259671a57bb987c00a2e1ba37ff05c5
+  employedBy: Red Hat
+  githubUsername: mbiarnes
+  employedBy: Red Hat
+  ircNickname: mbiarnes
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
