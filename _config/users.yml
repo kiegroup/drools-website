@@ -141,6 +141,13 @@
   employedBy: Red Hat
   githubUsername: pefernan
   ircNickname: sr_pere
+- userId: jrenaat
+  fullName: Jan Schatteman
+  role: Software Engineer
+  gravatarHashId: 57e600470d83cd8fe4c36578b2b5c9dd
+  employedBy: Red Hat
+  githubUsername: jrenaat
+  ircNickname: jrenaat
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
