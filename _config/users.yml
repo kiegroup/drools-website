@@ -100,7 +100,7 @@
 - userId: jlindop
   fullName: Jeremy Lindop
   role: Senior Software Engineer
-  gravatarHashId: fa6a99ce22997ea37036b276854ff74r
+  gravatarHashId: 70f07209f7a254b93ae6ccb030aefb61
   employedBy: Red Hat
   githubUsername: jlindop
   ircNickname: jeremyl
@@ -135,6 +135,34 @@
   githubUsername: mbiarnes
   employedBy: Red Hat
   ircNickname: mbiarnes
+- userId: psiroky
+  fullName: Petr Široký
+  role: Software Engineer
+  gravatarHashId: e8eb2caefbe452befc919ea0977864c1
+  employedBy: Red Hat
+  githubUsername: psiroky
+  ircNickname: psiroky
+- userId: pefernan
+  fullName: Pere Fernandez
+  role: Software Engineer
+  gravatarHashId: f99e971c52ef2cfca112e836ceee8572
+  employedBy: Red Hat
+  githubUsername: pefernan
+  ircNickname: sr_pere
+- userId: jrenaat
+  fullName: Jan Schatteman
+  role: Software Engineer
+  gravatarHashId: 57e600470d83cd8fe4c36578b2b5c9dd
+  employedBy: Red Hat
+  githubUsername: jrenaat
+  ircNickname: jrenaat
+- userId: dgutierr
+  fullName: David Gutierrez
+  role: Dashbuilder Lead
+  gravatarHashId: a7e5809a36c5a095022b07c5fc642765
+  employedBy: Red Hat
+  githubUsername: dgutierr
+  ircNickname: dgutierr
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
@@ -389,4 +417,3 @@
   role: Founder (now manager of jboss.org)
   gravatarHashId: 918847782c26cddfb831ce9a68e94a1a
   twitterUsername: bobmcwhirter
-  email: bob [at] openxource [dot] com
