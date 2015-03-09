@@ -163,6 +163,13 @@
   employedBy: Red Hat
   githubUsername: dgutierr
   ircNickname: dgutierr
+- userId: nmirasch
+  fullName: Nieves Miras
+  role: Software Engineer
+  gravatarHashId: 94212c8edd3c1691e2ae691ade741599
+  employedBy: Red Hat
+  githubUsername: nmirasch
+  ircNickname: neus
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
