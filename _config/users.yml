@@ -170,6 +170,13 @@
   employedBy: Red Hat
   githubUsername: nmirasch
   ircNickname: neus
+- userId: romartin
+  fullName: Roger Martinez
+  role: Software Engineer
+  gravatarHashId: 1d3f300ff44d08c5d071830d382e55b0
+  employedBy: Red Hat
+  githubUsername: romartin
+  ircNickname: roger600
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
