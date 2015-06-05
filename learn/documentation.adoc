@@ -17,7 +17,7 @@
 #{site.pom.latestFinal.javadocs}[Javadoc]
 
 '''
-////
+
 == Non-Final releases
 
 * *Documentation for #{site.pom.latest.version}*
@@ -31,7 +31,7 @@
 ** Kie API (Drools, jBPM) #{site.pom.latest.version}:
 #{site.pom.latest.KIE_API_documentationJavadoc}[Javadoc]
 
-////
+
 
 == Drools 5.x Books
 

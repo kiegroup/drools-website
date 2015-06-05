@@ -54,7 +54,8 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 
 |===
 
-////
+== Latest development version:  #{site.pom.latest.drools_version}
+
 [cols=".<3,.^1,.<7,.<2,.<2,.^2,.^2", options="header", frame="topbot"] 
 |===
 
@@ -63,7 +64,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools*
 |#{site.pom.latest.drools_version}
 |#{site.pom.latest.drools_description}
-|104 MB
+|42 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsZip}[Download]
@@ -71,7 +72,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools and jBPM integration*
 |#{site.pom.latest.droolsjbpmIntegration_version}
 |#{site.pom.latest.droolsjbpmIntegration_description}
-|86,4 MB
+|23 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsjbpmIntegrationZip}[Download]
@@ -79,7 +80,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools Workbench*
 |#{site.pom.latest.droolsWorkbench_version}
 |#{site.pom.latest.droolsWorkbench_description}
-|501,3 MB
+|841 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsWorkbenchZip}[Download]
@@ -87,21 +88,21 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools and jBPM tools*
 |#{site.pom.latest.droolsjbpmTools_version}
 |#{site.pom.latest.droolsjbpmTools_description}
-|83,3 MB
+|43 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsjbpmToolsZip}[Download]
 
 |*KIE Execution Server*
-|#{site.pom.latestFinal.kieExecutionServer_version}
-|#{site.pom.latestFinal.kieExecutionServer_description}
-|61,1 MB
-|#{site.pom.latestFinal.releaseDate}
+|#{site.pom.latest.kieExecutionServer_version}
+|#{site.pom.latest.kieExecutionServer_description}
+|125 MB
+|#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
-|#{site.pom.latestFinal.kieExecutionServerZip}[Download]
+|#{site.pom.latest.kieExecutionServerZip}[Download]
 
 |===
-////
+
 ==== Other downloads:
 
 * http://sourceforge.net/projects/jbpm/files/designer/[jBPM Web Designer for Guvnor] (http://www.jboss.org/jbpm/components/designer[homepage]).
@@ -119,6 +120,6 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 
 === Eclipse update site
 
-* http://download.jboss.org/drools/release/6.2.0.Final/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site 6.2.0.Final.
+* http://download.jboss.org/drools/release/6.3.0.Beta1/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site 6.3.0.Beta1.
 * The Drools and jBPM plugin for Eclipse can also be discovered from http://www.jboss.org/tools[JBoss Tools].
 * Alternatively, you can download the "Drools and jBPM tools" zip (from the table above), unzip it and configure the directory "binaries/org.drools.updatesite" as a local updatesite.
