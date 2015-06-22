@@ -109,6 +109,16 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 * Older community releases can be found in http://download.jboss.org/drools/release/[the release archive].
 * Red Hat customers can download the product platforms http://www.jboss.com/downloads/[from the product downloads site].
 
+=== http://www.docker.com/[Docker] images
+
+* You can find the Docker images and how to use them for last final version 6.2 at
+** http://registry.hub.docker.com/u/jboss/drools-workbench/[Drools Workbench]
+** http://registry.hub.docker.com/u/jboss/drools-workbench-showcase/[Drools Workbench Showcase]
+** http://registry.hub.docker.com/u/jboss/kie-server/[KIE Execution Server]
+** http://registry.hub.docker.com/u/jboss/kie-server-showcase/[KIE Execution Server Showcase]
+
+More info at http://blog.athico.com/2015/06/drools-jbpm-get-dockerized.html[this post]
+
 === Maven Repository
 
 * The latest releases, including 6.3.0.Beta1 are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
