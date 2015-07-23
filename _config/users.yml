@@ -177,6 +177,14 @@
   employedBy: Red Hat
   githubUsername: romartin
   ircNickname: roger600
+- userId: cristiano
+  fullName: Cristiano Nicolai
+  role: Senior Software Engineer
+  gravatarHashId: bb01eff89bf810df5a2f4151cecac7d3
+  twitterUsername: cris_nicolai
+  employedBy: Red Hat
+  githubUsername: cristianonicolai
+  ircNickname: cristiano
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
