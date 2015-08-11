@@ -64,7 +64,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools*
 |#{site.pom.latest.drools_version}
 |#{site.pom.latest.drools_description}
-|44,0 MB
+|49,4 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsZip}[Download]
@@ -72,7 +72,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools and jBPM integration*
 |#{site.pom.latest.droolsjbpmIntegration_version}
 |#{site.pom.latest.droolsjbpmIntegration_description}
-|24,6 MB
+|24,7 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsjbpmIntegrationZip}[Download]
@@ -80,7 +80,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools Workbench*
 |#{site.pom.latest.droolsWorkbench_version}
 |#{site.pom.latest.droolsWorkbench_description}
-|875,7 MB
+|882,2 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsWorkbenchZip}[Download]
@@ -88,7 +88,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools and jBPM tools*
 |#{site.pom.latest.droolsjbpmTools_version}
 |#{site.pom.latest.droolsjbpmTools_description}
-|44,5 MB
+|44,7 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.droolsjbpmToolsZip}[Download]
@@ -96,7 +96,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*KIE Execution Server*
 |#{site.pom.latest.kieExecutionServer_version}
 |#{site.pom.latest.kieExecutionServer_description}
-|134,4 MB
+|130,9 MB
 |#{site.pom.latest.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latest.kieExecutionServerZip}[Download]
@@ -121,7 +121,7 @@ More info at http://blog.athico.com/2015/06/drools-jbpm-get-dockerized.html[this
 
 === Maven Repository
 
-* The latest releases, including 6.3.0.Beta2 are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
+* The latest releases, including 6.3.0.CR1 are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
 * To use them, first http://community.jboss.org/wiki/MavenGettingStarted-Users[configure the JBoss maven repository].
 * The latest SNAPSHOTS deployed to Nexus are available https://repository.jboss.org/nexus/content/repositories/snapshots/org/drools/[here]
 
@@ -131,6 +131,6 @@ More info at http://blog.athico.com/2015/06/drools-jbpm-get-dockerized.html[this
 
 === Eclipse update site
 
-* http://download.jboss.org/drools/release/6.3.0.Beta2/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site 6.3.0.Beta2.
+* http://download.jboss.org/drools/release/6.3.0.CR1/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site 6.3.0.CR1.
 * The Drools and jBPM plugin for Eclipse can also be discovered from http://www.jboss.org/tools[JBoss Tools].
 * Alternatively, you can download the "Drools and jBPM tools" zip (from the table above), unzip it and configure the directory "binaries/org.drools.updatesite" as a local updatesite.
