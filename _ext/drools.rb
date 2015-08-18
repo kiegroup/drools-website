@@ -1,7 +1,7 @@
 
 module Awestruct
   module Extensions
-    module Optaplanner
+    module Drools
 
       def truncate_string(text, length)
         if text.length > length

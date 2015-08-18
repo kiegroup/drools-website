@@ -15,7 +15,7 @@ if [ "${helpEnabled}" = "true" ]; then
 	echo "  --help this help message"
 	echo "  clean - Delete generated files"
 	echo "  build - Build website"
-	echo "  publish - Publish to optaplanner.org"
+	echo "  publish - Publish to drools.org"
 	echo "In development, just use \"awestract -d\""
 	exit 0;
 fi

@@ -103,7 +103,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 
 |===
 
-==== Other downloads:
+=== Other downloads:
 
 * http://sourceforge.net/projects/jbpm/files/designer/[jBPM Web Designer for Guvnor] (http://www.jboss.org/jbpm/components/designer[homepage]).
 * Older community releases can be found in http://download.jboss.org/drools/release/[the release archive].

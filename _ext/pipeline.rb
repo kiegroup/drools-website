@@ -1,10 +1,10 @@
 require File.expand_path '../haml/filters/asciidoc.rb', __FILE__
-require 'optaplanner'
+require 'drools'
 
 Awestruct::Extensions::Pipeline.new do
 	helper Awestruct::Extensions::Partial
 	helper Awestruct::Extensions::Relative
-	helper Awestruct::Extensions::Optaplanner
+	helper Awestruct::Extensions::Drools
 
   extension Awestruct::Extensions::Posts.new('/blog')
   extension Awestruct::Extensions::Paginator.new(:posts, '/blog/index', :per_page => 5)

@@ -19,12 +19,7 @@ latestFinal:
     droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.2.0.Final/droolsjbpm-tools-distribution-6.2.0.Final.zip
     droolsjbpmTools_version: 6.2
     droolsjbpmTools_description: Ant, eclipse, ... plugins and support for Drools, jBPM and Guvnor functionality.
-    
-    droolsPlannerZip: http://download.jboss.org/drools/release/6.0.1.Final/optaplanner-distribution-6.0.1.Final.zip
-    droolsPlanner_version: 6.1
-    droolsPlanner_description: OptaPlanner (=Drools Planner) optimizes automated planning.
-    
-    
+
     documentationHtmlSingle: http://docs.jboss.org/drools/release/6.2.0.Final/drools-docs/html_single/index.html
     documentationHtml: http://docs.jboss.org/drools/release/6.2.0.Final/drools-docs/html/index.html
     documentationPdf: http://docs.jboss.org/drools/release/6.2.0.Final/drools-docs/pdf/drools-docs.pdf
