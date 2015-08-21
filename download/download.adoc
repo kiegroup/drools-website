@@ -127,7 +127,7 @@ More info at http://blog.athico.com/2015/06/drools-jbpm-get-dockerized.html[this
 
 === Nightly Builds
 
-* Nightly SNAPSHOTS are available for download http://downloads.jboss.org/drools/release/snapshot/[here].
+* Nightly SNAPSHOTS are available for download http://downloads.jboss.org/drools/release/snapshot/master/index.html[here].
 
 === Eclipse update site
 
