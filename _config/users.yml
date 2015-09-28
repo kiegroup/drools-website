@@ -185,6 +185,14 @@
   employedBy: Red Hat
   githubUsername: cristianonicolai
   ircNickname: cristiano
+- userId: qmx
+  fullName: Douglas Campos
+  role: Senior Software Engineer
+  gravatarHashId: 684b4bfe97a40454db104abcb601e375
+  twitterUsername: qmx
+  employedBy: Red Hat
+  githubUsername: qmx
+  ircNickname: qmx
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
