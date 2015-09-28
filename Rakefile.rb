@@ -10,6 +10,7 @@ end
 desc "Clean out generated site and temporary files"
 task :clean do
   require 'fileutils'
+  system("echo Cleaning...")
   ['.awestruct', '.sass-cache', '_site', '_tmp'].each do |dir|
     FileUtils.remove_dir dir unless !File.directory? dir
   end
@@ -22,11 +23,12 @@ end
 
 desc "Build the site"
 task :build => :check do
+  system("echo Building...")
   system "bundle exec awestruct -P production --force"
 end
 
 desc "Build the site and publish"
-task :publish => :check do
+task :publish => [:check, :clean, :build] do
   system("echo Publishing...")
   deploy_url = "drools@filemgmt.jboss.org:/www_htdocs/drools/"
   success = system("rsync -Pqr --protocol=28 --delete-after _site/* #{deploy_url}")

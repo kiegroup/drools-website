@@ -1,38 +1,38 @@
 latestFinal:
-    version: 6.2
-    distributionZip: http://download.jboss.org/drools/release/6.2.0.Final/droolsjbpm-integration-distribution-6.2.0.Final.zip
-    releaseDate: 2015-03-05
-    releaseNotesVersion: 6.2.0
+    version: 6.3
+    distributionZip: http://download.jboss.org/drools/release/6.3.0.Final/droolsjbpm-integration-distribution-6.3.0.Final.zip
+    releaseDate: 2015-09-25
+    releaseNotesVersion: 6.3.0
     
-    droolsZip: http://download.jboss.org/drools/release/6.2.0.Final/drools-distribution-6.2.0.Final.zip
-    drools_version: 6.2
+    droolsZip: http://download.jboss.org/drools/release/6.3.0.Final/drools-distribution-6.3.0.Final.zip
+    drools_version: 6.3
     drools_description: Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).
 
-    droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.2.0.Final/droolsjbpm-integration-distribution-6.2.0.Final.zip
-    droolsjbpmIntegration_version: 6.2
+    droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.3.0.Final/droolsjbpm-integration-distribution-6.3.0.Final.zip
+    droolsjbpmIntegration_version: 6.3
     droolsjbpmIntegration_description: Drools and jBPM integration with spring ...
 
-    droolsWorkbenchZip: http://download.jboss.org/drools/release/6.2.0.Final/kie-drools-wb-distribution-6.2.0.Final.zip
-    droolsWorkbench_version: 6.2
+    droolsWorkbenchZip: http://download.jboss.org/drools/release/6.3.0.Final/kie-drools-wb-distribution-6.3.0.Final.zip
+    droolsWorkbench_version: 6.3
     droolsWorkbench_description: Drools Workbench is the web application and repository to govern Drools and jBPM assets. 
     
-    droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.2.0.Final/droolsjbpm-tools-distribution-6.2.0.Final.zip
-    droolsjbpmTools_version: 6.2
+    droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.3.0.Final/droolsjbpm-tools-distribution-6.3.0.Final.zip
+    droolsjbpmTools_version: 6.3
     droolsjbpmTools_description: Ant, eclipse, ... plugins and support for Drools, jBPM and Guvnor functionality.
 
-    documentationHtmlSingle: http://docs.jboss.org/drools/release/6.2.0.Final/drools-docs/html_single/index.html
-    documentationHtml: http://docs.jboss.org/drools/release/6.2.0.Final/drools-docs/html/index.html
-    documentationPdf: http://docs.jboss.org/drools/release/6.2.0.Final/drools-docs/pdf/drools-docs.pdf
-    javadocs: http://docs.jboss.org/drools/release/6.2.0.Final/kie-api-javadoc/index.html
+    documentationHtmlSingle: http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html_single/index.html
+    documentationHtml: http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/index.html
+    documentationPdf: http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/pdf/drools-docs.pdf
+    javadocs: http://docs.jboss.org/drools/release/6.3.0.Final/kie-api-javadoc/index.html
 
-    droolsExpert_documentationHtmlSingle: http://docs.jboss.org/drools/release/6.2.0.Final/drools-expert-docs/html_single/index.html
-    droolsExpert_documentationHtml: http://docs.jboss.org/drools/release/6.2.0.Final/drools-expert-docs/html/index.html
-    droolsExpert_documentationPdf: http://docs.jboss.org/drools/release/6.2.0.Final/drools-expert-docs/pdf/drools-expert-docs.pdf
+    droolsExpert_documentationHtmlSingle: http://docs.jboss.org/drools/release/6.3.0.Final/drools-expert-docs/html_single/index.html
+    droolsExpert_documentationHtml: http://docs.jboss.org/drools/release/6.3.0.Final/drools-expert-docs/html/index.html
+    droolsExpert_documentationPdf: http://docs.jboss.org/drools/release/6.3.0.Final/drools-expert-docs/pdf/drools-expert-docs.pdf
 
-    droolsReleaseNotes: http://docs.jboss.org/drools/release/6.2.0.Final/drools-docs/html/DroolsReleaseNotesChapter.html
+    droolsReleaseNotes: http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/DroolsReleaseNotesChapter.html
 
-    kieExecutionServerZip: http://download.jboss.org/drools/release/6.2.0.Final/kie-server-distribution-6.2.0.Final.zip
-    kieExecutionServer_version: 6.2
+    kieExecutionServerZip: http://download.jboss.org/drools/release/6.3.0.Final/kie-server-distribution-6.3.0.Final.zip
+    kieExecutionServer_version: 6.3
     kieExecutionServer_description: Standalone execution server that can be used to remotely execute rules using REST, JMS or Java interface.
 
 # latest.version can be equal to latestFinal.version
@@ -41,9 +41,9 @@ latest:
 
     version: 6.3
     distributionZip: http://download.jboss.org/drools/release/6.3.0.CR2/droolsjbpm-integration-distribution-6.3.0.CR2.zip
-    releaseDate: 2015-09-01
-    releaseNotesVersion: 6.3.0.CR2
-    latestVersion: 6.3.0.CR2
+    releaseDate: 2015-09-25
+    releaseNotesVersion: 6.3.0.Final
+    latestVersion: 6.3.0.Final
 
     droolsZip: http://download.jboss.org/drools/release/6.3.0.CR2/drools-distribution-6.3.0.CR2.zip
     drools_version: 6.3

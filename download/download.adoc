@@ -15,7 +15,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools*
 |#{site.pom.latestFinal.drools_version}
 |#{site.pom.latestFinal.drools_description}
-|104 MB
+|47,2 MB
 |#{site.pom.latestFinal.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsZip}[Download]
@@ -23,7 +23,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools and jBPM integration*
 |#{site.pom.latestFinal.droolsjbpmIntegration_version}
 |#{site.pom.latestFinal.droolsjbpmIntegration_description}
-|86,4 MB
+|23,6 MB
 |#{site.pom.latestFinal.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsjbpmIntegrationZip}[Download]
@@ -31,7 +31,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools Workbench*
 |#{site.pom.latestFinal.droolsWorkbench_version}
 |#{site.pom.latestFinal.droolsWorkbench_description}
-|989 MB
+|838,2 MB
 |#{site.pom.latestFinal.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsWorkbenchZip}[Download]
@@ -39,7 +39,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*Drools and jBPM tools*
 |#{site.pom.latestFinal.droolsjbpmTools_version}
 |#{site.pom.latestFinal.droolsjbpmTools_description}
-|79,6 MB
+|43.3 MB
 |#{site.pom.latestFinal.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.droolsjbpmToolsZip}[Download]
@@ -47,12 +47,14 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 |*KIE Execution Server*
 |#{site.pom.latestFinal.kieExecutionServer_version}
 |#{site.pom.latestFinal.kieExecutionServer_description}
-|58,5 MB
+|137,8 MB
 |#{site.pom.latestFinal.releaseDate}
 | link:../code/license.html[ASL 2.0]
 |#{site.pom.latestFinal.kieExecutionServerZip}[Download]
 
 |===
+
+////
 
 == Latest development version:  #{site.pom.latest.latestVersion}
 
@@ -103,6 +105,8 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 
 |===
 
+////
+
 === Other downloads:
 
 * http://sourceforge.net/projects/jbpm/files/designer/[jBPM Web Designer for Guvnor] (http://www.jboss.org/jbpm/components/designer[homepage]).
@@ -111,7 +115,7 @@ Each download contains **binaries**, **documentation**, **examples** and **sourc
 
 === http://www.docker.com/[Docker] images
 
-* You can find the Docker images and how to use them for last final version 6.2 at
+* You can find the Docker images and how to use them for last final version 6.3 at
 ** http://registry.hub.docker.com/u/jboss/drools-workbench/[Drools Workbench]
 ** http://registry.hub.docker.com/u/jboss/drools-workbench-showcase/[Drools Workbench Showcase]
 ** http://registry.hub.docker.com/u/jboss/kie-server/[KIE Execution Server]
@@ -121,7 +125,7 @@ More info at http://blog.athico.com/2015/06/drools-jbpm-get-dockerized.html[this
 
 === Maven Repository
 
-* The latest releases, including 6.3.0.CR2 are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
+* The latest releases, including 6.3.0.Final are available on the http://search.maven.org/#search|ga|1|org.drools[central maven repository].
 * To use them, first http://community.jboss.org/wiki/MavenGettingStarted-Users[configure the JBoss maven repository].
 * The latest SNAPSHOTS deployed to Nexus are available https://repository.jboss.org/nexus/content/repositories/snapshots/org/drools/[here]
 
@@ -131,6 +135,6 @@ More info at http://blog.athico.com/2015/06/drools-jbpm-get-dockerized.html[this
 
 === Eclipse update site
 
-* http://download.jboss.org/drools/release/6.3.0.CR2/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site 6.3.0.CR2.
+* http://download.jboss.org/drools/release/6.3.0.CR2/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site 6.3.0.Final.
 * The Drools and jBPM plugin for Eclipse can also be discovered from http://www.jboss.org/tools[JBoss Tools].
 * Alternatively, you can download the "Drools and jBPM tools" zip (from the table above), unzip it and configure the directory "binaries/org.drools.updatesite" as a local updatesite.
