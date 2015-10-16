@@ -96,13 +96,13 @@ layout: base
 .alert.alert-info.alert-dismissable
   %button.close(type="button" data-dismiss="alert" aria-hidden="true") &times;
   #{site.pom.latest.releaseDate}:
-  %a.alert-link(href="#{site.pom.latest.droolsReleaseNotes}")Drools #{site.pom.latest.latestVersion} has been released.
+  %a.alert-link(href="#{site.pom.latest.droolsReleaseNotes}")Drools #{site.pom.latest.version} has been released.
 
 .row
   .col-md-6
     .jumbotron(style="padding: 10px; margin-bottom: 20px;")
       .text-center<
-        %a.btn.btn-lg.btn-success(href="#{site.pom.latestFinal.distributionZip}")<
+        %a.btn.btn-lg.btn-success(href="#{site.pom.latestFinal.droolsZip}")<
           %img(src = "download/download.png")
           Download Drools #{site.pom.latestFinal.version}
       %h3 Try the examples now

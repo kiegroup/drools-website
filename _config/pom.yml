@@ -1,24 +1,36 @@
+droolsDescription: Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).
+  Distribution zip contains binaries, examples, sources and javadocs.
+
+droolsWorkbenchDescription: Drools Workbench is the web application and repository to govern Drools and jBPM assets.
+  See link:../learn/documentation.html[documentation] for details about installation.
+
+droolsjbpmIntegrationDescription: Drools and jBPM integration with third party project like Spring.
+  Distribution zip contains binaries, examples and sources.
+
+droolsjbpmToolsDescription: Eclipse plugins and support for Drools, jBPM and Guvnor functionality.
+  Distribution zip contains binaries and sources.
+
+kieExecutionServerDescription: Standalone execution server that can be used to remotely execute rules using REST, JMS or Java interface.
+  Distribution zip contains WAR files for all supported containers.
+
 latestFinal:
-    version: 6.3
-    distributionZip: http://download.jboss.org/drools/release/6.3.0.Final/droolsjbpm-integration-distribution-6.3.0.Final.zip
+    version: 6.3.0.Final
     releaseDate: 2015-09-25
-    releaseNotesVersion: 6.3.0
-    
+
     droolsZip: http://download.jboss.org/drools/release/6.3.0.Final/drools-distribution-6.3.0.Final.zip
-    drools_version: 6.3
-    drools_description: Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).
 
     droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.3.0.Final/droolsjbpm-integration-distribution-6.3.0.Final.zip
-    droolsjbpmIntegration_version: 6.3
-    droolsjbpmIntegration_description: Drools and jBPM integration with spring ...
 
-    droolsWorkbenchZip: http://download.jboss.org/drools/release/6.3.0.Final/kie-drools-wb-distribution-6.3.0.Final.zip
-    droolsWorkbench_version: 6.3
-    droolsWorkbench_description: Drools Workbench is the web application and repository to govern Drools and jBPM assets. 
-    
+    droolsWorkbenchEAPWAR: http://download.jboss.org/drools/release/6.3.0.Final/kie-drools-wb-6.3.0.Final-eap6_4.war
+    droolsWorkbenchWildFlyWAR: http://download.jboss.org/drools/release/6.3.0.Final/kie-drools-wb-6.3.0.Final-wildfly8.war
+    droolsWorkbenchTomcatWAR: http://download.jboss.org/drools/release/6.3.0.Final/kie-drools-wb-6.3.0.Final-tomcat7.war
+    droolsWorkbenchWASWAR: http://download.jboss.org/drools/release/6.3.0.Final/kie-drools-wb-6.3.0.Final-was8.war
+    droolsWorkbenchWLSWAR: http://download.jboss.org/drools/release/6.3.0.Final/kie-drools-wb-6.3.0.Final-weblogic12.war
+    droolsWorkbenchJcr2vfsZip: http://download.jboss.org/drools/release/6.3.0.Final/drools-wb-jcr2vfs-distribution-6.3.0.Final.zip
+    droolsWorkbenchCLIConfigZip: http://download.jboss.org/drools/release/6.3.0.Final/kie-config-cli-6.3.0.Final-dist.zip
+    droolsWorkbenchExampleGitReposZip: http://download.jboss.org/drools/release/6.3.0.Final/kie-wb-example-repositories-6.3.0.Final.zip
+
     droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.3.0.Final/droolsjbpm-tools-distribution-6.3.0.Final.zip
-    droolsjbpmTools_version: 6.3
-    droolsjbpmTools_description: Ant, eclipse, ... plugins and support for Drools, jBPM and Guvnor functionality.
 
     documentationHtmlSingle: http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html_single/index.html
     documentationHtml: http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/index.html
@@ -32,48 +44,33 @@ latestFinal:
     droolsReleaseNotes: http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/DroolsReleaseNotesChapter.html
 
     kieExecutionServerZip: http://download.jboss.org/drools/release/6.3.0.Final/kie-server-distribution-6.3.0.Final.zip
-    kieExecutionServer_version: 6.3
-    kieExecutionServer_description: Standalone execution server that can be used to remotely execute rules using REST, JMS or Java interface.
 
 # latest.version can be equal to latestFinal.version
 latest:
-
-
-    version: 6.3
-    distributionZip: http://download.jboss.org/drools/release/6.3.0.CR2/droolsjbpm-integration-distribution-6.3.0.CR2.zip
+    version: 6.3.0.Final
     releaseDate: 2015-09-25
-    releaseNotesVersion: 6.3.0.Final
-    latestVersion: 6.3.0.Final
 
-    droolsZip: http://download.jboss.org/drools/release/6.3.0.CR2/drools-distribution-6.3.0.CR2.zip
-    drools_version: 6.3
-    drools_description: Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).
+    droolsZip: http://download.jboss.org/drools/release/6.3.0.Final/drools-distribution-6.3.0.Final.zip
 
-    drools_development_version: CR2
+    droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.3.0.Final/droolsjbpm-integration-distribution-6.3.0.Final.zip
 
-    droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.3.0.CR2/droolsjbpm-integration-distribution-6.3.0.CR2.zip
-    droolsjbpmIntegration_version: 6.3
-    droolsjbpmIntegration_description: Drools and jBPM integration with spring ...
+    droolsWorkbenchEAPWAR: http://download.jboss.org/drools/release/6.3.0.Final/kie-drools-wb-6.3.0.Final-eap6_4.war
+    droolsWorkbenchWildFlyWAR: http://download.jboss.org/drools/release/6.3.0.Final/kie-drools-wb-6.3.0.Final-wildfly8.war
+    droolsWorkbenchTomcatWAR: http://download.jboss.org/drools/release/6.3.0.Final/kie-drools-wb-6.3.0.Final-tomcat7.war
+    droolsWorkbenchWASWAR: http://download.jboss.org/drools/release/6.3.0.Final/kie-drools-wb-6.3.0.Final-was8.war
+    droolsWorkbenchWLSWAR: http://download.jboss.org/drools/release/6.3.0.Final/kie-drools-wb-6.3.0.Final-weblogic12.war
+    droolsWorkbenchJcr2vfsZip: http://download.jboss.org/drools/release/6.3.0.Final/drools-wb-jcr2vfs-distribution-6.3.0.Final.zip
+    droolsWorkbenchCLIConfigZip: http://download.jboss.org/drools/release/6.3.0.Final/kie-config-cli-6.3.0.Final-dist.zip
+    droolsWorkbenchExampleGitReposZip: http://download.jboss.org/drools/release/6.3.0.Final/kie-wb-example-repositories-6.3.0.Final.zip
 
-    droolsWorkbenchZip: http://download.jboss.org/drools/release/6.3.0.CR2/kie-drools-wb-distribution-6.3.0.CR2.zip
-    droolsWorkbench_version: 6.3
-    droolsWorkbench_description: Drools Workbench is the web application and repository to govern Drools and jBPM assets. 
-    
-    droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.3.0.CR2/droolsjbpm-tools-distribution-6.3.0.CR2.zip
-    droolsjbpmTools_version: 6.3
-    droolsjbpmTools_description: Ant, eclipse, ... plugins and support for Drools, jBPM and Guvnor functionality.
+    droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.3.0.Final/droolsjbpm-tools-distribution-6.3.0.Final.zip
 
-    documentationHtmlSingle: http://docs.jboss.org/drools/release/6.3.0.CR2/drools-docs/html_single/index.html
-    documentationHtml: http://docs.jboss.org/drools/release/6.3.0.CR2/drools-docs/html/index.html
-    documentationPdf: http://docs.jboss.org/drools/release/6.3.0.CR2/drools-docs/pdf/drools-docs.pdf
+    documentationHtmlSingle: http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html_single/index.html
+    documentationHtml: http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/index.html
+    documentationPdf: http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/pdf/drools-docs.pdf
 
-    
-    KIE_API_documentationJavadoc: http://docs.jboss.org/drools/release/6.3.0.CR2/kie-api-javadoc/index.html
+    KIE_API_documentationJavadoc: http://docs.jboss.org/drools/release/6.3.0.Final/kie-api-javadoc/index.html
 
-    droolsReleaseNotes: http://docs.jboss.org/drools/release/6.3.0.CR2/drools-docs/html/ch02.html
+    droolsReleaseNotes: http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/ch02.html
 
-    kieExecutionServerZip: http://download.jboss.org/drools/release/6.3.0.CR2/kie-server-distribution-6.3.0.CR2.zip
-    kieExecutionServer_version: 6.3
-    kieExecutionServer_description: Standalone execution server that can be used to remotely execute rules using REST, JMS or Java interface.
-
-    
+    kieExecutionServerZip: http://download.jboss.org/drools/release/6.3.0.Final/kie-server-distribution-6.3.0.Final.zip
