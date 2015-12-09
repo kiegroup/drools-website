@@ -193,6 +193,13 @@
   employedBy: Red Hat
   githubUsername: qmx
   ircNickname: qmx
+- userId: paulovmr
+  fullName: Paulo Rego
+  role: Software Engineer
+  gravatarHashId: 351d20840f76ca87d97f4e5b4e314f0f
+  employedBy: Red Hat
+  githubUsername: paulovmr
+  ircNickname: paulovmr
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
