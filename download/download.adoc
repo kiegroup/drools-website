@@ -48,7 +48,6 @@
 
 |===
 
-////
 
 == Latest development version:  #{site.pom.latest.version}
  * Release date: `#{site.pom.latest.releaseDate}`
@@ -57,9 +56,9 @@
 [cols=".<3,.<7,.<4", options="header", frame="topbot"]
 |===
 
-|Name | Description |Download
+|Name |Description |Download
 
-|*Drools*
+|*Drools Engine*
 |#{site.pom.droolsDescription}
 |#{site.pom.latest.droolsZip}[Distribution ZIP]
 
@@ -95,7 +94,7 @@
 
 |===
 
-////
+
 
 === Other downloads:
 
