@@ -95,8 +95,12 @@ layout: base
 
 .alert.alert-info.alert-dismissable
   %button.close(type="button" data-dismiss="alert" aria-hidden="true") &times;
-  #{site.pom.latest.releaseDate}:
-  %a.alert-link(href="#{site.pom.latest.droolsReleaseNotes}")Drools #{site.pom.latest.version} has been released.
+
+  / #{site.pom.latest.releaseDate}:
+  / %a.alert-link(href="#{site.pom.latest.droolsReleaseNotes}")Drools #{site.pom.latest.version} has been released.
+
+  #{site.pom.latestFinal.releaseDate}:
+  %a.alert-link(href="#{site.pom.latestFinal.droolsReleaseNotes}")Drools #{site.pom.latestFinal.version} has been released.
 
 .row
   .col-md-6

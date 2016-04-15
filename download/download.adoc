@@ -48,7 +48,7 @@
 
 |===
 
-
+////
 == Latest development version:  #{site.pom.latest.version}
  * Release date: `#{site.pom.latest.releaseDate}`
  * License: link:../code/license.html[ASL 2.0]
@@ -94,7 +94,7 @@
 
 |===
 
-
+////
 
 === Other downloads:
 
