@@ -48,7 +48,7 @@
 
 |===
 
-////
+
 == Latest development version:  #{site.pom.latest.version}
  * Release date: `#{site.pom.latest.releaseDate}`
  * License: link:../code/license.html[ASL 2.0]
@@ -68,11 +68,9 @@
 
 |*Drools Workbench*
 |#{site.pom.droolsWorkbenchDescription}
-| #{site.pom.latest.droolsWorkbenchWildFlyWAR}[WildFly 8+ WAR]
+| #{site.pom.latest.droolsWorkbenchWildFlyWAR}[WildFly 10+ WAR]
 
   #{site.pom.latest.droolsWorkbenchTomcatWAR}[Tomcat 7+ WAR]
-
-  #{site.pom.latest.droolsWorkbenchEAPWAR}[EAP 6.4.x WAR]
 
   #{site.pom.latest.droolsWorkbenchWASWAR}[WebSphere 8.5.x WAR]
 
@@ -94,7 +92,7 @@
 
 |===
 
-////
+
 
 === Other downloads:
 
