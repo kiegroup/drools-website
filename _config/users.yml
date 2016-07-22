@@ -200,6 +200,13 @@
   employedBy: Red Hat
   githubUsername: paulovmr
   ircNickname: paulovmr
+- userId: karreiro
+  fullName: Guilherme Carreiro
+  role: Software Engineer
+  gravatarHashId: 16be5820a296f5bce151f0c1b5e16fc8
+  employedBy: Red Hat
+  githubUsername: karreiro
+  ircNickname: karreiro
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
