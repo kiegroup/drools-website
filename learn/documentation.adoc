@@ -32,6 +32,17 @@
 ** Kie API (Drools, jBPM) #{site.pom.latest.version}:
 #{site.pom.latest.KIE_API_documentationJavadoc}[Javadoc]
 
+* *Documentation for #{site.pom.latest_65x.version}*
+
+** image:documentation.png[] *Reference manual #{site.pom.latest_65x.version}*:
+#{site.pom.latest_65x.documentationHtmlSingle}[HTML Single] -
+#{site.pom.latest_65x.documentationHtml}[HTML] -
+#{site.pom.latest_65x.documentationPdf}[PDF]
+
+
+** Kie API (Drools, jBPM) #{site.pom.latest_65x.version}:
+#{site.pom.latest_65x.KIE_API_documentationJavadoc}[Javadoc]
+
 '''
 
 == Drools 5.x Books
