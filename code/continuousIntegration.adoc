@@ -4,6 +4,6 @@
 
 We use Jenkins for continuous integration.
 
-*Show https://jenkins-kieci.rhcloud.com/[the Jenkins jobs].* These are mirrors of a Red Hat internal Jenkins jobs.
+*Show http://ci.drools.org/[the Jenkins jobs].* These are mirrors of a Red Hat internal Jenkins jobs.
 
 Keep the builds green!
