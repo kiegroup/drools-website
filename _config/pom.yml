@@ -78,31 +78,31 @@ latest:
 # since there are two branches 7.0.x and 6.5.x and there are releases for both, they have to be shown
 
 latest_65x:
-    version: 6.5.0.CR1
-    releaseDate: 2016-08-28
+    version: 6.5.0.CR2
+    releaseDate: 2016-09-13
 
-    droolsZip: http://download.jboss.org/drools/release/6.5.0.CR1/drools-distribution-6.5.0.CR1.zip
+    droolsZip: http://download.jboss.org/drools/release/6.5.0.CR2/drools-distribution-6.5.0.CR2.zip
 
-    droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.5.0.CR1/droolsjbpm-integration-distribution-6.5.0.CR1.zip
+    droolsjbpmIntegrationZip: http://download.jboss.org/drools/release/6.5.0.CR2/droolsjbpm-integration-distribution-6.5.0.CR2.zip
 
-    droolsWorkbenchEAPWAR: http://download.jboss.org/drools/release/6.5.0.CR1/kie-drools-wb-6.5.0.CR1-eap6_4.war
-    droolsWorkbenchEAP7WAR: http://download.jboss.org/drools/release/6.5.0.CR1/kie-drools-wb-6.5.0.CR1-eap7.war
-    droolsWorkbenchWildFlyWAR: http://download.jboss.org/drools/release/6.5.0.CR1/kie-drools-wb-6.5.0.CR1-wildfly10.war
-    droolsWorkbenchTomcatWAR: http://download.jboss.org/drools/release/6.5.0.CR1/kie-drools-wb-6.5.0.CR1-tomcat7.war
-    droolsWorkbenchWASWAR: http://download.jboss.org/drools/release/6.5.0.CR1/kie-drools-wb-6.5.0.CR1-was8.war
-    droolsWorkbenchWLSWAR: http://download.jboss.org/drools/release/6.5.0.CR1/kie-drools-wb-6.5.0.CR1-weblogic12.war
-    droolsWorkbenchJcr2vfsZip: http://download.jboss.org/drools/release/6.5.0.CR1/drools-wb-jcr2vfs-distribution-6.5.0.CR1.zip
-    droolsWorkbenchCLIConfigZip: http://download.jboss.org/drools/release/6.5.0.CR1/kie-config-cli-6.5.0.CR1-dist.zip
-    droolsWorkbenchExampleGitReposZip: http://download.jboss.org/drools/release/6.5.0.CR1/kie-wb-example-repositories-6.5.0.CR1.zip
+    droolsWorkbenchEAPWAR: http://download.jboss.org/drools/release/6.5.0.CR2/kie-drools-wb-6.5.0.CR2-eap6_4.war
+    droolsWorkbenchEAP7WAR: http://download.jboss.org/drools/release/6.5.0.CR2/kie-drools-wb-6.5.0.CR2-eap7.war
+    droolsWorkbenchWildFlyWAR: http://download.jboss.org/drools/release/6.5.0.CR2/kie-drools-wb-6.5.0.CR2-wildfly10.war
+    droolsWorkbenchTomcatWAR: http://download.jboss.org/drools/release/6.5.0.CR2/kie-drools-wb-6.5.0.CR2-tomcat7.war
+    droolsWorkbenchWASWAR: http://download.jboss.org/drools/release/6.5.0.CR2/kie-drools-wb-6.5.0.CR2-was8.war
+    droolsWorkbenchWLSWAR: http://download.jboss.org/drools/release/6.5.0.CR2/kie-drools-wb-6.5.0.CR2-weblogic12.war
+    droolsWorkbenchJcr2vfsZip: http://download.jboss.org/drools/release/6.5.0.CR2/drools-wb-jcr2vfs-distribution-6.5.0.CR2.zip
+    droolsWorkbenchCLIConfigZip: http://download.jboss.org/drools/release/6.5.0.CR2/kie-config-cli-6.5.0.CR2-dist.zip
+    droolsWorkbenchExampleGitReposZip: http://download.jboss.org/drools/release/6.5.0.CR2/kie-wb-example-repositories-6.5.0.CR2.zip
 
-    droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.5.0.CR1/droolsjbpm-tools-distribution-6.5.0.CR1.zip
+    droolsjbpmToolsZip: http://download.jboss.org/drools/release/6.5.0.CR2/droolsjbpm-tools-distribution-6.5.0.CR2.zip
 
-    documentationHtmlSingle: http://docs.jboss.org/drools/release/6.5.0.CR1/drools-docs/html_single/index.html
-    documentationHtml: http://docs.jboss.org/drools/release/6.5.0.CR1/drools-docs/html/index.html
-    documentationPdf: http://docs.jboss.org/drools/release/6.5.0.CR1/drools-docs/pdf/drools-docs.pdf
+    documentationHtmlSingle: http://docs.jboss.org/drools/release/6.5.0.CR2/drools-docs/html_single/index.html
+    documentationHtml: http://docs.jboss.org/drools/release/6.5.0.CR2/drools-docs/html/index.html
+    documentationPdf: http://docs.jboss.org/drools/release/6.5.0.CR2/drools-docs/pdf/drools-docs.pdf
 
-    KIE_API_documentationJavadoc: http://docs.jboss.org/drools/release/6.5.0.CR1/kie-api-javadoc/index.html
+    KIE_API_documentationJavadoc: http://docs.jboss.org/drools/release/6.5.0.CR2/kie-api-javadoc/index.html
 
-    droolsReleaseNotes: http://docs.jboss.org/drools/release/6.5.0.CR1/drools-docs/html/ch02.html
+    droolsReleaseNotes: http://docs.jboss.org/drools/release/6.5.0.CR2/drools-docs/html/ch02.html
 
-    kieExecutionServerZip: http://download.jboss.org/drools/release/6.5.0.CR1/kie-server-distribution-6.5.0.CR1.zip
+    kieExecutionServerZip: http://download.jboss.org/drools/release/6.5.0.CR2/kie-server-distribution-6.5.0.CR2.zip
