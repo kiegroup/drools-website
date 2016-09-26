@@ -12,11 +12,28 @@ If you want your pull requests (or patches) to be merged into master, please res
 
 Follow the instructions of Awestruct's [getting started guide](http://awestruct.org/getting_started/).
 
-First set up your environment correctly:
+First set up your environment correctly, for example on Fedora 24:
 
-    $ curl -L https://get.rvm.io | bash -s stable --ruby=1.9.3
-    $ gem install awestruct bundler
-    $ rake setup
+$ sudo dnf install ruby
+$ ruby --version
+ruby 2.2.5p319 (2016-04-26 revision 54774) [x86_64-linux]
+
+$ sudo dnf install rubygem-rake
+
+# This won't immediately work
+$ rake setup
+
+# rake setup: Using the bundler fails, this fixes it:
+$ sudo dnf install rubygem-bundler
+
+# rake setup: Installing the gem ffi fails, this fixes it:
+$ sudo dnf install ruby-devel rpm-build
+
+# rake setup: Installing the gem eventmachine fails, this fixes it:
+$ sudo dnf install gcc-c++
+
+# Now it works
+$ rake setup
 
 Then build the website (before and after your changes):
 
@@ -25,4 +42,5 @@ Then build the website (before and after your changes):
 
 And publish your changes:
 
-    $ rake publish
+    $ rake clean build publish
+
