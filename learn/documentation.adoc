@@ -97,4 +97,5 @@ Technical Report 94-28, Department of Computer Sciences, University of Texas at 
 === Websites of interest
 
 http://www.javarules.org/[Java Rules community] +
-http://www.brcommunity.com/[Business Rules Community]
+http://www.brcommunity.com/[Business Rules Community] +
+https://www.gitbook.com/@nheron[GitBook]
