@@ -24,9 +24,7 @@
 * *Documentation for #{site.pom.latest.version}*
 
 ** image:documentation.png[] *Reference manual #{site.pom.latest.version}*:
-#{site.pom.latest.documentationHtmlSingle}[HTML Single] -
-#{site.pom.latest.documentationHtml}[HTML] -
-#{site.pom.latest.documentationPdf}[PDF]
+#{site.pom.latest.documentationHtmlSingle}[HTML Single]
 
 
 ** Kie API (Drools, jBPM) #{site.pom.latest.version}:

@@ -70,15 +70,11 @@
 |#{site.pom.droolsWorkbenchDescription}
 | #{site.pom.latest.droolsWorkbenchWildFlyWAR}[WildFly 10+ WAR]
 
+  #{site.pom.latest.droolsWorkbenchEAP7WAR}[EAP 7.0.x WAR]
+
   #{site.pom.latest.droolsWorkbenchTomcatWAR}[Tomcat 7+ WAR]
 
-  #{site.pom.latest.droolsWorkbenchWASWAR}[WebSphere 8.5.x WAR]
-
-  #{site.pom.latest.droolsWorkbenchWLSWAR}[WebLogic 12c WAR]
-
   #{site.pom.latest.droolsWorkbenchJcr2vfsZip}[Guvnor 5.x migration tool ZIP]
-
-  #{site.pom.latest.droolsWorkbenchCLIConfigZip}[KIE Config CLI ZIP]
 
   #{site.pom.latest.droolsWorkbenchExampleGitReposZip}[Example GIT Repositories ZIP]
 
