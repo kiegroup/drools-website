@@ -5,7 +5,7 @@
 
 == Final releases
 
-* Documentation for Drools #{site.pom.latestFinal.version}
+* *Documentation for Drools #{site.pom.latestFinal.version}*
 
 ** image:documentation.png[] *Reference manual Drools #{site.pom.latestFinal.version}*:
 #{site.pom.latestFinal.documentationHtmlSingle}[HTML Single] -
@@ -38,6 +38,9 @@
 #{site.pom.latest_65x.documentationHtmlSingle}[HTML Single] -
 #{site.pom.latest_65x.documentationHtml}[HTML] -
 #{site.pom.latest_65x.documentationPdf}[PDF]
+** image:documentation.png[] *User Guide #{site.pom.latest_65x.version}*:
+#{site.pom.latest_65x.userGuideBook}[Gitbook Source] -
+#{site.pom.latest_65x.userGuidePDF}[PDF]
 
 
 ** Kie API (Drools, jBPM) #{site.pom.latest_65x.version}:

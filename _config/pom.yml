@@ -106,3 +106,6 @@ latest_65x:
     droolsReleaseNotes: http://docs.jboss.org/drools/release/6.5.0.CR2/drools-docs/html/ch02.html
 
     kieExecutionServerZip: http://download.jboss.org/drools/release/6.5.0.CR2/kie-server-distribution-6.5.0.CR2.zip
+
+    userGuideBook: https://www.gitbook.com/@nheron
+    userGuidePDF: https://nheron.gitbooks.io/droolsonboarding/content/
