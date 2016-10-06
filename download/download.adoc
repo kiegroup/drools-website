@@ -5,6 +5,7 @@
 
 == Latest final version: #{site.pom.latestFinal.version}
  * Release date: `#{site.pom.latestFinal.releaseDate}`
+ * Release notes: #{site.pom.latestFinal.droolsReleaseNotes}[#{site.pom.latestFinal.version}]
  * License: link:../code/license.html[ASL 2.0]
 
 [cols=".<3,.<7,.<4", options="header", frame="topbot"]
@@ -51,6 +52,7 @@
 
 == Latest development version:  #{site.pom.latest.version}
  * Release date: `#{site.pom.latest.releaseDate}`
+ * Release notes: #{site.pom.latest.droolsReleaseNotes}[#{site.pom.latest.version}]
  * License: link:../code/license.html[ASL 2.0]
 
 [cols=".<3,.<7,.<4", options="header", frame="topbot"]
@@ -90,6 +92,7 @@
 
 == Latest development version:  #{site.pom.latest_65x.version}
  * Release date: `#{site.pom.latest_65x.releaseDate}`
+ * Release notes: #{site.pom.latest_65x.droolsReleaseNotes}[#{site.pom.latest_65x.version}]
  * License: link:../code/license.html[ASL 2.0]
 
 [cols=".<3,.<7,.<4", options="header", frame="topbot"]

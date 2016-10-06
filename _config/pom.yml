@@ -37,11 +37,7 @@ latestFinal:
     documentationPdf: https://docs.jboss.org/drools/release/6.4.0.Final/drools-docs/pdf/drools-docs.pdf
     javadocs: https://docs.jboss.org/drools/release/6.4.0.Final/kie-api-javadoc/index.html
 
-    droolsExpert_documentationHtmlSingle: https://docs.jboss.org/drools/release/6.4.0.Final/drools-expert-docs/html_single/index.html
-    droolsExpert_documentationHtml: https://docs.jboss.org/drools/release/6.4.0.Final/drools-expert-docs/html/index.html
-    droolsExpert_documentationPdf: https://docs.jboss.org/drools/release/6.4.0.Final/drools-expert-docs/pdf/drools-expert-docs.pdf
-
-    droolsReleaseNotes: https://docs.jboss.org/drools/release/6.4.0.Final/drools-docs/html/DroolsReleaseNotesChapter.html
+    droolsReleaseNotes: https://docs.jboss.org/drools/release/6.4.0.Final/drools-docs/html/ch02.html
 
     kieExecutionServerZip: https://download.jboss.org/drools/release/6.4.0.Final/kie-server-distribution-6.4.0.Final.zip
 
@@ -63,12 +59,10 @@ latest:
     droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.0.0.Beta2/droolsjbpm-tools-distribution-7.0.0.Beta2.zip
 
     documentationHtmlSingle: https://docs.jboss.org/drools/release/7.0.0.Beta2/drools-docs/html_single/index.html
-    documentationHtml: https://docs.jboss.org/drools/release/7.0.0.Beta2/drools-docs/html/index.html
-    documentationPdf: https://docs.jboss.org/drools/release/7.0.0.Beta2/drools-docs/pdf/drools-docs.pdf
 
     KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.0.0.Beta2/kie-api-javadoc/index.html
 
-    droolsReleaseNotes: https://docs.jboss.org/drools/release/7.0.0.Beta2/drools-docs/html/ch02.html
+    droolsReleaseNotes: https://docs.drools.org/7.0.0.Beta2/drools-docs/html_single/#_droolsreleasenoteschapter
 
     kieExecutionServerZip: https://download.jboss.org/drools/release/7.0.0.Beta2/kie-server-distribution-7.0.0.Beta2.zip
 
