@@ -5,7 +5,7 @@
 
 We use http://git-scm.com/[Git] to manage our source code. The reference repositories are on GitHub:
 
-http://github.com/droolsjbpm[http://github.com/droolsjbpm]
+https://github.com/droolsjbpm[https://github.com/droolsjbpm]
 
 To build our sources, follow the instructions https://github.com/droolsjbpm/droolsjbpm-build-bootstrap/blob/master/README.md[in the README file in droolsjbpm-build-bootstrap].
 
