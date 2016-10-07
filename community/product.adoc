@@ -4,4 +4,4 @@
 
 == Red Hat JBoss BRMS
 
-=== http://www.jboss.org/products/brms[Learn more about JBoss BRMS.]
+=== https://www.jboss.org/products/brms[Learn more about JBoss BRMS.]

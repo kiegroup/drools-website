@@ -2,10 +2,10 @@ encoding: UTF-8
 title: Drools
 description: Drools introduces the Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing.
 keywords: metaheuristic, heuristic, constraint satisfaction, constraint programming, operations research, NP-complete, NP-hard, optimization, planning, scheduling, java, open source, software, library, solver, tabu search, simulated annealing, pareto
-canonicalBaseUrl: http://www.drools.org
+canonicalBaseUrl: https://www.drools.org
 
-# jbossorg_bootstrap_css: http://static.jboss.org/theme/css/bootstrap/2.1.0.0.0/bootstrap-community.css
-# jbossorg_bootstrap_js: http://static.jboss.org/theme/js/libs/bootstrap/2.1.0.0.0/bootstrap-community.js
+# jbossorg_bootstrap_css: https://static.jboss.org/theme/css/bootstrap/2.1.0.0.0/bootstrap-community.css
+# jbossorg_bootstrap_js: https://static.jboss.org/theme/js/libs/bootstrap/2.1.0.0.0/bootstrap-community.js
 
 googleAnalyticsId: UA-62250098-1
 googleTagManagerId: GTM-NJWS5L
@@ -23,4 +23,4 @@ profiles:
     developmentMode: true
   production:
     developmentMode: false
-    base_url: http://www.drools.org
+    base_url: https://www.drools.org

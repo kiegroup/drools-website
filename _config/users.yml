@@ -2,7 +2,7 @@
 #  userId: Should be the same as githubUsername
 #  fullName: First name and last name (in that order)
 #  role: Role in this project
-#  gravatarHashId: Used to show your avatar image. Change your avatar any time at http://www.gravatar.com/
+#  gravatarHashId: Used to show your avatar image. Change your avatar any time at https://www.gravatar.com/
 #                  To find the gravatar hash id, use: "echo -n youremail@gmail.com | md5sum"
 #  googlePlusId: (optional)
 #  twitterUsername: without the @ (optional)

@@ -137,16 +137,16 @@
 
 === Other downloads:
 
-* Older community releases can be found in http://download.jboss.org/drools/release/[the release archive].
-* Red Hat customers can download the product platforms http://www.jboss.com/downloads/[from the product downloads site].
+* Older community releases can be found in https://download.jboss.org/drools/release/[the release archive].
+* Red Hat customers can download the product platforms https://www.jboss.com/downloads/[from the product downloads site].
 
 === http://www.docker.com/[Docker] images
 
 * You can find the Docker images and how to use them for last final version  at
-** http://registry.hub.docker.com/u/jboss/drools-workbench/[Drools Workbench]
-** http://registry.hub.docker.com/u/jboss/drools-workbench-showcase/[Drools Workbench Showcase]
-** http://registry.hub.docker.com/u/jboss/kie-server/[KIE Execution Server]
-** http://registry.hub.docker.com/u/jboss/kie-server-showcase/[KIE Execution Server Showcase]
+** https://registry.hub.docker.com/u/jboss/drools-workbench/[Drools Workbench]
+** https://registry.hub.docker.com/u/jboss/drools-workbench-showcase/[Drools Workbench Showcase]
+** https://registry.hub.docker.com/u/jboss/kie-server/[KIE Execution Server]
+** https://registry.hub.docker.com/u/jboss/kie-server-showcase/[KIE Execution Server Showcase]
 
 For more info about the Drools Docker images see this http://blog.athico.com/2015/06/drools-jbpm-get-dockerized.html[blog post].
 
@@ -154,14 +154,14 @@ For more info about the Drools Docker images see this http://blog.athico.com/201
 
 * The latest releases, including #{site.pom.latestFinal.version} are available in the http://search.maven.org/#search|ga|1|org.drools[Maven Central Repository].
 * The latest SNAPSHOTS deployed to Nexus are available https://repository.jboss.org/nexus/content/repositories/snapshots/org/drools/[here]
-** To use them, first http://community.jboss.org/wiki/MavenGettingStarted-Users[configure the JBoss Maven repository].
+** To use them, first https://community.jboss.org/wiki/MavenGettingStarted-Users[configure the JBoss Maven repository].
 
 === Nightly Builds
 
-* Nightly SNAPSHOTS are available for download http://downloads.jboss.org/drools/release/snapshot/master/index.html[here].
+* Nightly SNAPSHOTS are available for download https://downloads.jboss.org/drools/release/snapshot/master/index.html[here].
 
 === Eclipse update site
 
-* http://download.jboss.org/drools/release/#{site.pom.latestFinal.version}/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site #{site.pom.latestFinal.version}.
-* The Drools and jBPM plugin for Eclipse can also be discovered from http://www.jboss.org/tools[JBoss Tools].
+* https://download.jboss.org/drools/release/#{site.pom.latestFinal.version}/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site #{site.pom.latestFinal.version}.
+* The Drools and jBPM plugin for Eclipse can also be discovered from https://www.jboss.org/tools[JBoss Tools].
 * Alternatively, you can download the "Drools and jBPM tools" zip (from the table above), unzip it and configure the directory "binaries/org.drools.updatesite" as a local updatesite.
