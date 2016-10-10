@@ -103,6 +103,44 @@ footer {
 }
 
 /******************************************************************************
+* Upgrade recipe
+******************************************************************************/
+
+ul.upgrade-recipe-label-list {
+    padding-left: 10px;
+}
+
+.upgrade-recipe-label-list > li {
+    list-style: none;
+}
+
+.upgrade-recipe-note {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    padding: 0 10px 0 10px;
+    margin-bottom: 10px;
+}
+
+a.upgrade-recipe-note-header {
+    text-decoration: none;
+    color: #333;
+}
+
+.upgrade-recipe-note-header > h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.upgrade-recipe-note-header > h3 > span:first-child {
+    margin-right: 5px;
+}
+
+.upgrade-recipe-note-header > h3 > span:last-child {
+    margin-left: 5px;
+}
+
+/******************************************************************************
 * Tabs left, right and below (not supported in Twitter Bootstrap 3.1)
 ******************************************************************************/
 
