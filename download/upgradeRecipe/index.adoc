@@ -1,0 +1,9 @@
+= Upgrade Recipe Archive
+:awestruct-description: A list of all upgrade recipes for each Drools version.
+:awestruct-layout: normalBase
+:awestruct-priority: 0.1
+:showtitle:
+
+These are all past, present and future upgrade recipes:
+
+* link:upgradeRecipe7.0.html[Upgrade recipe from Drools 6.5 to 7.0] (work in progress)
