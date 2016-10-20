@@ -29,11 +29,11 @@ Filenames should use this format: yyyy-mm-dd event - title.odp
 
 * *2013-05-24 - Drools Backwards chaining*
     ** Mark Proctor
-    ** http://docs.jboss.org/drools/blog/BackwardChainingWithDrools/[Presentation^]
+    ** https://docs.jboss.org/drools/blog/BackwardChainingWithDrools/[Presentation^]
 
 * *2013-05-24 -  JBug User Group - London  - What's new in Drools 6.0*
     ** Mark Proctor
-    ** http://docs.jboss.org/drools/blog/LondonJBUG2013rulesmarkp/[Presentation^]
+    ** https://docs.jboss.org/drools/blog/LondonJBUG2013rulesmarkp/[Presentation^]
 
 == 2012
 
@@ -150,7 +150,7 @@ Filenames should use this format: yyyy-mm-dd event - title.odp
       *** Kris Verlaenen
       *** http://www.slideshare.net/krisverlaenen/jbpm5-bringing-more-power-to-your-business-processes-7967992[Slideshare^]
 
-* *2011-05-02 - 2011-05-06 -  http://www.jboss.org/events/JUDCon/presentations.html[JUDCon\^] & http://www.redhat.com/summit/2011/presentations/jbossworld/[JBoss World^]*
+* *2011-05-02 - 2011-05-06 -  https://www.jboss.org/events/JUDCon/presentations.html[JUDCon\^] & http://www.redhat.com/summit/2011/presentations/jbossworld/[JBoss World^]*
     ** Drools and jBPM5 in Real Life: Business Rules, Business Processes and Complex Event Processing 
       *** Mauricio Salatino
       *** http://www.slideshare.net/salaboy/judcon-2011-drools-and-jbpm5-in-real-life[Slideshare^]
