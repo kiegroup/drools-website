@@ -18,3 +18,24 @@
   location: San Francisco, US
   date: 2016-06-28
   url: https://www.redhat.com/summit/
+
+- eventId: 20161108-devoxxbe
+  eventOrganization: Devoxx Be
+  location: Antwerp, Belgium
+  date: 2016-11-08
+  title: Hackergarten
+  url: http://www.devoxx.be
+
+- eventId: 20161122-jbuglondon
+  eventOrganization: JBoss User Group
+  location: London, UK
+  date: 2016-11-22
+  title: Red Hat BRMS and BPMS Roadmap Presentation
+  url: http://www.meetup.com/JBoss-User-Group/events/234803765/
+  presenters: Mark Proctor, Kris Verlaenen, Geoffrey De Smet, Mauricio Salatino, Max Barkley
+
+- eventId: 20170502-redhatsummit
+  eventOrganization: Red Hat Summit
+  location: Boston, MA, USA
+  date: 2017-05-02
+  url: https://www.redhat.com/summit/
