@@ -15,17 +15,18 @@ kieExecutionServerDescription: Standalone execution server that can be used to r
 
 latestFinal:
     version: 6.5.0.Final
-    releaseDate: 2016-10-24
+    releaseDate: 2016-10-25
 
     droolsZip: https://download.jboss.org/drools/release/6.5.0.Final/drools-distribution-6.5.0.Final.zip
 
     droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/6.5.0.Final/droolsjbpm-integration-distribution-6.5.0.Final.zip
 
-    droolsWorkbenchEAPWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-distribution-wars-6.5.0.Final-eap6_4.war
-    droolsWorkbenchWildFlyWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-distribution-wars-6.5.0.Final-wildfly8.war
-    droolsWorkbenchTomcatWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-distribution-wars-6.5.0.Final-tomcat7.war
-    droolsWorkbenchWASWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-distribution-wars-6.5.0.Final-was8.war
-    droolsWorkbenchWLSWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-distribution-wars-6.5.0.Final-weblogic12.war
+    droolsWorkbenchEAPWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-eap6_4.war
+    droolsWorkbenchEAP7WAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-eap7.war
+    droolsWorkbenchWildFlyWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-wildfly10.war
+    droolsWorkbenchTomcatWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-tomcat7.war
+    droolsWorkbenchWASWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-was8.war
+    droolsWorkbenchWLSWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-weblogic12.war
     droolsWorkbenchJcr2vfsZip: https://download.jboss.org/drools/release/6.5.0.Final/drools-wb-jcr2vfs-distribution-6.5.0.Final.zip
     droolsWorkbenchCLIConfigZip: https://download.jboss.org/drools/release/6.5.0.Final/kie-config-cli-6.5.0.Final-dist.zip
     droolsWorkbenchExampleGitReposZip: https://download.jboss.org/drools/release/6.5.0.Final/kie-wb-example-repositories-6.5.0.Final.zip
