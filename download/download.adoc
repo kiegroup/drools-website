@@ -88,53 +88,6 @@
 
 |===
 
-== Latest development version:  #{site.pom.latest_65x.version}
- * Release date: `#{site.pom.latest_65x.releaseDate}`
- * License: link:../code/license.html[ASL 2.0]
-
-[cols=".<3,.<7,.<4", options="header", frame="topbot"]
-|===
-
-|Name |Description |Download
-
-|*Drools Engine*
-|#{site.pom.droolsDescription}
-|#{site.pom.latest_65x.droolsZip}[Distribution ZIP]
-
-|*Drools and jBPM integration*
-|#{site.pom.droolsjbpmIntegrationDescription}
-|#{site.pom.latest_65x.droolsjbpmIntegrationZip}[Distribution ZIP]
-
-|*Drools Workbench*
-|#{site.pom.droolsWorkbenchDescription}
-| #{site.pom.latest_65x.droolsWorkbenchWildFlyWAR}[WildFly 10+ WAR]
-
-  #{site.pom.latest_65x.droolsWorkbenchTomcatWAR}[Tomcat 7+ WAR]
-
-  #{site.pom.latest_65x.droolsWorkbenchEAPWAR}[EAP 6.4.x WAR]
-
-  #{site.pom.latest_65x.droolsWorkbenchEAP7WAR}[EAP 6.7.x WAR]
-
-  #{site.pom.latest_65x.droolsWorkbenchWASWAR}[WebSphere 8.5.x WAR]
-
-  #{site.pom.latest_65x.droolsWorkbenchWLSWAR}[WebLogic 12c WAR]
-
-  #{site.pom.latest_65x.droolsWorkbenchJcr2vfsZip}[Guvnor 5.x migration tool ZIP]
-
-  #{site.pom.latest_65x.droolsWorkbenchCLIConfigZip}[KIE Config CLI ZIP]
-
-  #{site.pom.latest_65x.droolsWorkbenchExampleGitReposZip}[Example GIT Repositories ZIP]
-
-|*Drools and jBPM tools*
-|#{site.pom.droolsjbpmToolsDescription}
-|#{site.pom.latest_65x.droolsjbpmToolsZip}[Distribution ZIP]
-
-|*KIE Execution Server*
-|#{site.pom.kieExecutionServerDescription}
-|#{site.pom.latest_65x.kieExecutionServerZip}[Distribution ZIP]
-
-|===
-
 === Other downloads:
 
 * Older community releases can be found in https://download.jboss.org/drools/release/[the release archive].

@@ -11,6 +11,9 @@
 #{site.pom.latestFinal.documentationHtmlSingle}[HTML Single] -
 #{site.pom.latestFinal.documentationHtml}[HTML] -
 #{site.pom.latestFinal.documentationPdf}[PDF]
+** image:documentation.png[] *User Guide #{site.pom.latestFinal.version}*:
+#{site.pom.latestFinal.userGuideBook}[Gitbook Source] -
+#{site.pom.latestFinal.userGuidePDF}[PDF]
 
 
 ** Drools javadocs Drools #{site.pom.latestFinal.version}:
@@ -29,20 +32,6 @@
 
 ** Kie API (Drools, jBPM) #{site.pom.latest.version}:
 #{site.pom.latest.KIE_API_documentationJavadoc}[Javadoc]
-
-* *Documentation for #{site.pom.latest_65x.version}*
-
-** image:documentation.png[] *Reference manual #{site.pom.latest_65x.version}*:
-#{site.pom.latest_65x.documentationHtmlSingle}[HTML Single] -
-#{site.pom.latest_65x.documentationHtml}[HTML] -
-#{site.pom.latest_65x.documentationPdf}[PDF]
-** image:documentation.png[] *User Guide #{site.pom.latest_65x.version}*:
-#{site.pom.latest_65x.userGuideBook}[Gitbook Source] -
-#{site.pom.latest_65x.userGuidePDF}[PDF]
-
-
-** Kie API (Drools, jBPM) #{site.pom.latest_65x.version}:
-#{site.pom.latest_65x.KIE_API_documentationJavadoc}[Javadoc]
 
 '''
 
