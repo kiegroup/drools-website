@@ -35,9 +35,14 @@
 
 '''
 
+== Drools 6.x Books
+
+https://www.packtpub.com/networking-and-servers/mastering-jboss-drools-6[image:books/Mastering-JBOSS-Drools-6.png[]]
+
 == Drools 5.x Books
 
 http://www.packtpub.com/jboss-drools-business-rules/book[image:books/Books-JBoss_Drools_Business_Rules.png[]] http://www.packtpub.com/jboss-rules-5-x-developers-guide/book[image:books/Books-Drools_JBoss_Rules.png[]] http://www.packtpub.com/drools-developers-using-jboss-cookbook/book[image:books/Books-Drools_Developers_Cookbook.png[]] http://www.packtpub.com/getting-started-with-drools/book[image:books/Books-Instant_Drools_Starter.png[]]
+
 
 === Related Books
 
