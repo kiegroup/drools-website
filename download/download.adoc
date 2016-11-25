@@ -22,11 +22,13 @@
 
 |*Drools Workbench*
 |#{site.pom.droolsWorkbenchDescription}
-| #{site.pom.latestFinal.droolsWorkbenchWildFlyWAR}[WildFly 8+ WAR]
+| #{site.pom.latestFinal.droolsWorkbenchWildFlyWAR}[WildFly 10 WAR]
 
   #{site.pom.latestFinal.droolsWorkbenchTomcatWAR}[Tomcat 7+ WAR]
 
   #{site.pom.latestFinal.droolsWorkbenchEAPWAR}[EAP 6.4.x WAR]
+
+  #{site.pom.latestFinal.droolsWorkbenchEAP7WAR}[EAP 7.x WAR]
 
   #{site.pom.latestFinal.droolsWorkbenchWASWAR}[WebSphere 8.5.x WAR]
 
