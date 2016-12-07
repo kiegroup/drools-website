@@ -90,6 +90,14 @@
 
 |===
 
+=== Known Issues in #{site.pom.latest.version}:
+
+* #{site.pom.latest.droolsWorkbenchTomcatWAR}[Tomcat 7+ WAR]:
+  The current build is not deployable on Tomcat, please use Wildfly for now.
+
+* Firefox/IE: The process designer is not working properly on FireFox neither on IE.
+  Please use Chrome for now.
+
 === Other downloads:
 
 * Older community releases can be found in https://download.jboss.org/drools/release/[the release archive].
