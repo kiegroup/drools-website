@@ -74,11 +74,9 @@
 
   #{site.pom.latest.droolsWorkbenchEAP7WAR}[EAP 7.0.x WAR]
 
-  #{site.pom.latest.droolsWorkbenchTomcatWAR}[Tomcat 7+ WAR]
+//  #{site.pom.latest.droolsWorkbenchTomcatWAR}[Tomcat 7+ WAR]
 
   #{site.pom.latest.droolsWorkbenchJcr2vfsZip}[Guvnor 5.x migration tool ZIP]
-
-  #{site.pom.latest.droolsWorkbenchExampleGitReposZip}[Example GIT Repositories ZIP]
 
 |*Drools and jBPM tools*
 |#{site.pom.droolsjbpmToolsDescription}
@@ -89,6 +87,10 @@
 |#{site.pom.latest.kieExecutionServerZip}[Distribution ZIP]
 
 |===
+
+=== Known Issues in #{site.pom.latest.version}:
+
+* #{site.pom.latest.droolsWorkbenchTomcatWAR}[Tomcat 7+ WAR]: The current KIE Workbench #{site.pom.latest.version} build is not deployable on Tomcat, please use WildFly for now.
 
 === Other downloads:
 
