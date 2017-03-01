@@ -15,7 +15,7 @@ Our current intention is to keep these backwards incompatible changes to a stric
 Any backwards incompatible changes are annotated with a [.label.label-danger.label-as-badge.label-public-api]#Public API# badge.
 
 
-== From 6.5.0.Final to 7.0.0.Beta2
+== From 6.5.0.Final to 7.0.0.Final
 
 
 [.upgrade-recipe-major.upgrade-recipe-public-api]
@@ -50,7 +50,7 @@ After in `pom.xml`:
 <dependency>
   <groupId>org.kie</groupId>
   <artifactId>kie-osgi-integration</artifactId>
-  <version>7.0.0.Beta2</version>
+  <version>7.0.0.Final</version>
 </dependency>
 ----
 
@@ -78,4 +78,32 @@ After in Spring configuration file:
 <bean id="kiePostProcessor" class="org.kie.osgi.spring.OsgiKModuleBeanFactoryPostProcessor"/>
 ----
 
+[.upgrade-recipe-major.upgrade-recipe-public-api]
+=== KIE Drools Workbench WARs renamed
+The KIE Drools Workbench WARs were renamed from `kie-drools-wb-distribution-wars-<version>-<container>.war`
+to just `kie-drools-wb-<version>-<container>.war`. In case you depend directly on the Maven GAV you need to change
+the `artifactId`:
 
+Before in `pom.xml`:
+[source, xml]
+----
+<dependency>
+  <groupId>org.kie</groupId>
+  <artifactId>kie-drools-wb-distribution-wars</artifactId>
+  <version>6.5.0.Final</version>
+  <type>war</type>
+  <classifier>wildfly10</classifier>
+</dependency>
+----
+
+After in `pom.xml`:
+[source, xml]
+----
+<dependency>
+  <groupId>org.kie</groupId>
+  <artifactId>kie-drools-wb</artifactId>
+  <version>7.0.0.Final</version>
+  <type>war</type>
+  <classifier>wildfly10</classifier>
+</dependency>
+----
