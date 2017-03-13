@@ -7,7 +7,7 @@ We use http://git-scm.com/[Git] to manage our source code. The reference reposit
 
 https://github.com/droolsjbpm[https://github.com/droolsjbpm]
 
-To build our sources, follow the instructions https://github.com/droolsjbpm/droolsjbpm-build-bootstrap/blob/master/README.md[in the README file in droolsjbpm-build-bootstrap].
+To build our sources, follow the instructions https://github.com/kiegroup/droolsjbpm-build-bootstrap/blob/master/README.md[in the README file in droolsjbpm-build-bootstrap].
 
 . Edit the sources in your favorite IDE (such as http://www.jetbrains.com/idea/[IntelliJ IDEA], http://www.eclipse.org/[Eclipse] or https://netbeans.org/[NetBeans]).
 +
@@ -28,7 +28,7 @@ To learn more about git, read the free book http://progit.org/book/[Git Pro].
 It's easy to keep an eye on the source code changes on the project:
 
 
-* Go to the https://github.com/droolsjbpm/repositories[GitHub website].
+* Go to the https://github.com/kiegroup/repositories[GitHub website].
 * Click on the repository you're intrested in
 * Click on the link Commits to show the commit history.
 * You can subscribe to that feed with the orange feed icon link.
