@@ -5,6 +5,7 @@
 
 == Latest final version: #{site.pom.latestFinal.version}
  * Release date: `#{site.pom.latestFinal.releaseDate}`
+ * #{site.pom.latestFinal.droolsReleaseNotes}[Release Notes]
  * License: link:../code/license.html[ASL 2.0]
 
 [cols=".<3,.<7,.<4", options="header", frame="topbot"]
@@ -53,6 +54,7 @@
 
 == Latest development version:  #{site.pom.latest.version}
  * Release date: `#{site.pom.latest.releaseDate}`
+ * #{site.pom.latest.droolsReleaseNotes}[Release Notes]
  * License: link:../code/license.html[ASL 2.0]
 
 [cols=".<3,.<7,.<4", options="header", frame="topbot"]
@@ -74,7 +76,7 @@
 
   #{site.pom.latest.droolsWorkbenchEAP7WAR}[EAP 7.0.x WAR]
 
-//  #{site.pom.latest.droolsWorkbenchTomcatWAR}[Tomcat 7+ WAR]
+  #{site.pom.latest.droolsWorkbenchTomcatWAR}[Tomcat 8+ WAR]
 
   #{site.pom.latest.droolsWorkbenchJcr2vfsZip}[Guvnor 5.x migration tool ZIP]
 
@@ -87,10 +89,6 @@
 |#{site.pom.latest.kieExecutionServerZip}[Distribution ZIP]
 
 |===
-
-=== Known Issues in #{site.pom.latest.version}:
-
-* #{site.pom.latest.droolsWorkbenchTomcatWAR}[Tomcat 7+ WAR]: The current KIE Workbench #{site.pom.latest.version} build is not deployable on Tomcat, please use WildFly for now.
 
 === Other downloads:
 
