@@ -51,28 +51,28 @@ latestFinal:
 
 # latest.version can be equal to latestFinal.version
 latest:
-    version: 7.0.0.Beta8
-    releaseDate: 2017-03-30
+    version: 7.0.0.CR1
+    releaseDate: 2017-04-07
 
-    droolsZip: https://download.jboss.org/drools/release/7.0.0.Beta8/drools-distribution-7.0.0.Beta8.zip
+    droolsZip: https://download.jboss.org/drools/release/7.0.0.CR1/drools-distribution-7.0.0.CR1.zip
 
-    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.0.0.Beta8/droolsjbpm-integration-distribution-7.0.0.Beta8.zip
+    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.0.0.CR1/droolsjbpm-integration-distribution-7.0.0.CR1.zip
 
-    droolsWorkbenchEAP7WAR: https://download.jboss.org/drools/release/7.0.0.Beta8/kie-drools-wb-7.0.0.Beta8-eap7.war
-    droolsWorkbenchWildFlyWAR: https://download.jboss.org/drools/release/7.0.0.Beta8/kie-drools-wb-7.0.0.Beta8-wildfly10.war
-    droolsWorkbenchTomcatWAR: https://download.jboss.org/drools/release/7.0.0.Beta8/kie-drools-wb-7.0.0.Beta8-tomcat8.war
-    droolsWorkbenchJcr2vfsZip: https://download.jboss.org/drools/release/7.0.0.Beta8/drools-wb-jcr2vfs-distribution-7.0.0.Beta8.zip
-    droolsWorkbenchExampleGitReposZip: https://download.jboss.org/drools/release/7.0.0.Beta8/kie-wb-example-repositories-7.0.0.Beta8.zip
+    droolsWorkbenchEAP7WAR: https://download.jboss.org/drools/release/7.0.0.CR1/kie-drools-wb-7.0.0.CR1-eap7.war
+    droolsWorkbenchWildFlyWAR: https://download.jboss.org/drools/release/7.0.0.CR1/kie-drools-wb-7.0.0.CR1-wildfly10.war
+    droolsWorkbenchTomcatWAR: https://download.jboss.org/drools/release/7.0.0.CR1/kie-drools-wb-7.0.0.CR1-tomcat8.war
+    droolsWorkbenchJcr2vfsZip: https://download.jboss.org/drools/release/7.0.0.CR1/drools-wb-jcr2vfs-distribution-7.0.0.CR1.zip
+    droolsWorkbenchExampleGitReposZip: https://download.jboss.org/drools/release/7.0.0.CR1/kie-wb-example-repositories-7.0.0.CR1.zip
 
-    droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.0.0.Beta8/droolsjbpm-tools-distribution-7.0.0.Beta8.zip
+    droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.0.0.CR1/droolsjbpm-tools-distribution-7.0.0.CR1.zip
 
-    documentationHtmlSingle: https://docs.jboss.org/drools/release/7.0.0.Beta8/drools-docs/html_single/index.html
+    documentationHtmlSingle: https://docs.jboss.org/drools/release/7.0.0.CR1/drools-docs/html_single/index.html
 
-    KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.0.0.Beta8/kie-api-javadoc/index.html
+    KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.0.0.CR1/kie-api-javadoc/index.html
 
-    droolsReleaseNotes: https://docs.jboss.org/drools/release/7.0.0.Beta8/drools-docs/html_single/#_droolsreleasenoteschapter
+    droolsReleaseNotes: https://docs.jboss.org/drools/release/7.0.0.CR1/drools-docs/html_single/#_droolsreleasenoteschapter
 
-    kieExecutionServerZip: https://download.jboss.org/drools/release/7.0.0.Beta8/kie-server-distribution-7.0.0.Beta8.zip
+    kieExecutionServerZip: https://download.jboss.org/drools/release/7.0.0.CR1/kie-server-distribution-7.0.0.CR1.zip
 
 # since there are two branches 7.0.x and 6.5.x and there are releases for both, they have to be shown
 
