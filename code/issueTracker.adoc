@@ -17,7 +17,7 @@ We usually process all pull requests within a few days.
 
 == Kanban boards
 
-* Drools (todo)
+* https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=4016[Drools]
 * https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3828[OptaPlanner]
 * https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3972[jBPM]
 * AppFormer (todo)
