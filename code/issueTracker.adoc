@@ -14,3 +14,11 @@ Log in and click on the button _Create Issue_ to report a bug, improvement or fe
 
 Want to fix the issue yourself? Fork https://github.com/droolsjbpm[the git repository] and send in a pull request.
 We usually process all pull requests within a few days.
+
+== Kanban boards
+
+* https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=4016[Drools]
+* https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3828[OptaPlanner]
+* https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3972[jBPM]
+* AppFormer (todo)
+* https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3838[Designer.NEXT]
