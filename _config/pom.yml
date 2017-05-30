@@ -14,65 +14,55 @@ kieExecutionServerDescription: Standalone execution server that can be used to r
   Distribution zip contains WAR files for all supported containers.
 
 latestFinal:
-    version: 6.5.0.Final
-    releaseDate: 2016-10-25
+    version: 7.0.0.Final
+    releaseDate: 2017-05-29
 
-    droolsZip: https://download.jboss.org/drools/release/6.5.0.Final/drools-distribution-6.5.0.Final.zip
+    droolsZip: https://download.jboss.org/drools/release/7.0.0.Final/drools-distribution-7.0.0.Final.zip
 
-    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/6.5.0.Final/droolsjbpm-integration-distribution-6.5.0.Final.zip
+    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.0.0.Final/droolsjbpm-integration-distribution-7.0.0.Final.zip
 
-    droolsWorkbenchEAPWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-eap6_4.war
-    droolsWorkbenchEAP7WAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-eap7.war
-    droolsWorkbenchWildFlyWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-wildfly10.war
-    droolsWorkbenchTomcatWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-tomcat7.war
-    droolsWorkbenchWASWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-was8.war
-    droolsWorkbenchWLSWAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-weblogic12.war
-    droolsWorkbenchJcr2vfsZip: https://download.jboss.org/drools/release/6.5.0.Final/drools-wb-jcr2vfs-distribution-6.5.0.Final.zip
-    droolsWorkbenchCLIConfigZip: https://download.jboss.org/drools/release/6.5.0.Final/kie-config-cli-6.5.0.Final-dist.zip
-    droolsWorkbenchExampleGitReposZip: https://download.jboss.org/drools/release/6.5.0.Final/kie-wb-example-repositories-6.5.0.Final.zip
+    droolsWorkbenchEAP7WAR: https://download.jboss.org/drools/release/7.0.0.Final/kie-drools-wb-7.0.0.Final-eap7.war
+    droolsWorkbenchWildFlyWAR: https://download.jboss.org/drools/release/7.0.0.Final/kie-drools-wb-7.0.0.Final-wildfly10.war
+    droolsWorkbenchTomcatWAR: https://download.jboss.org/drools/release/7.0.0.Final/kie-drools-wb-7.0.0.Final-tomcat8.war
+    droolsWorkbenchJcr2vfsZip: https://download.jboss.org/drools/release/7.0.0.Final/drools-wb-jcr2vfs-distribution-7.0.0.Final.zip
 
-    droolsjbpmToolsZip: https://download.jboss.org/drools/release/6.5.0.Final/droolsjbpm-tools-distribution-6.5.0.Final.zip
+    droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.0.0.Final/droolsjbpm-tools-distribution-7.0.0.Final.zip
 
-    documentationHtmlSingle: https://docs.jboss.org/drools/release/6.5.0.Final/drools-docs/html_single/index.html
-    documentationHtml: https://docs.jboss.org/drools/release/6.5.0.Final/drools-docs/html/index.html
-    documentationPdf: https://docs.jboss.org/drools/release/6.5.0.Final/drools-docs/pdf/drools-docs.pdf
-    javadocs: https://docs.jboss.org/drools/release/6.5.0.Final/kie-api-javadoc/index.html
+    documentationHtmlSingle: https://docs.jboss.org/drools/release/7.0.0.Final/drools-docs/html_single/index.html
 
-    droolsExpert_documentationHtmlSingle: https://docs.jboss.org/drools/release/6.5.0.Final/drools-expert-docs/html_single/index.html
-    droolsExpert_documentationHtml: https://docs.jboss.org/drools/release/6.5.0.Final/drools-expert-docs/html/index.html
-    droolsExpert_documentationPdf: https://docs.jboss.org/drools/release/6.5.0.Final/drools-expert-docs/pdf/drools-expert-docs.pdf
+    KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.0.0.Final/kie-api-javadoc/index.html
 
-    droolsReleaseNotes: https://docs.jboss.org/drools/release/6.5.0.Final/drools-docs/html_single/#DroolsReleaseNotesChapter
+    droolsReleaseNotes: https://docs.jboss.org/drools/release/7.0.0.Final/drools-docs/html_single/#DroolsReleaseNotesChapter
 
-    kieExecutionServerZip: https://download.jboss.org/drools/release/6.5.0.Final/kie-server-distribution-6.5.0.Final.zip
+    kieExecutionServerZip: https://download.jboss.org/drools/release/7.0.0.Final/kie-server-distribution-7.0.0.Final.zip
 
     userGuideBook: https://www.gitbook.com/@nheron
     userGuidePDF: https://nheron.gitbooks.io/droolsonboarding/content/
 
 # latest.version can be equal to latestFinal.version
 latest:
-    version: 7.0.0.CR3
-    releaseDate: 2017-05-03
+    version: 7.1.0.Beta2
+    releaseDate: 2017-06-01
 
-    droolsZip: https://download.jboss.org/drools/release/7.0.0.CR3/drools-distribution-7.0.0.CR3.zip
+    droolsZip: https://download.jboss.org/drools/release/7.1.0.Beta2/drools-distribution-7.1.0.Beta2.zip
 
-    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.0.0.CR3/droolsjbpm-integration-distribution-7.0.0.CR3.zip
+    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.1.0.Beta2/droolsjbpm-integration-distribution-7.1.0.Beta2.zip
 
-    droolsWorkbenchEAP7WAR: https://download.jboss.org/drools/release/7.0.0.CR3/kie-drools-wb-7.0.0.CR3-eap7.war
-    droolsWorkbenchWildFlyWAR: https://download.jboss.org/drools/release/7.0.0.CR3/kie-drools-wb-7.0.0.CR3-wildfly10.war
-    droolsWorkbenchTomcatWAR: https://download.jboss.org/drools/release/7.0.0.CR3/kie-drools-wb-7.0.0.CR3-tomcat8.war
-    droolsWorkbenchJcr2vfsZip: https://download.jboss.org/drools/release/7.0.0.CR3/drools-wb-jcr2vfs-distribution-7.0.0.CR3.zip
-    droolsWorkbenchExampleGitReposZip: https://download.jboss.org/drools/release/7.0.0.CR3/kie-wb-example-repositories-7.0.0.CR3.zip
+    droolsWorkbenchEAP7WAR: https://download.jboss.org/drools/release/7.1.0.Beta2/kie-drools-wb-7.1.0.Beta2-eap7.war
+    droolsWorkbenchWildFlyWAR: https://download.jboss.org/drools/release/7.1.0.Beta2/kie-drools-wb-7.1.0.Beta2-wildfly10.war
+    droolsWorkbenchTomcatWAR: https://download.jboss.org/drools/release/7.1.0.Beta2/kie-drools-wb-7.1.0.Beta2-tomcat8.war
+    droolsWorkbenchJcr2vfsZip: https://download.jboss.org/drools/release/7.1.0.Beta2/drools-wb-jcr2vfs-distribution-7.1.0.Beta2.zip
+    droolsWorkbenchExampleGitReposZip: https://download.jboss.org/drools/release/7.1.0.Beta2/kie-wb-example-repositories-7.1.0.Beta2.zip
 
-    droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.0.0.CR3/droolsjbpm-tools-distribution-7.0.0.CR3.zip
+    droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.1.0.Beta2/droolsjbpm-tools-distribution-7.1.0.Beta2.zip
 
-    documentationHtmlSingle: https://docs.jboss.org/drools/release/7.0.0.CR3/drools-docs/html_single/index.html
+    documentationHtmlSingle: https://docs.jboss.org/drools/release/7.1.0.Beta2/drools-docs/html_single/index.html
 
-    KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.0.0.CR3/kie-api-javadoc/index.html
+    KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.1.0.Beta2/kie-api-javadoc/index.html
 
-    droolsReleaseNotes: https://docs.jboss.org/drools/release/7.0.0.CR3/drools-docs/html_single/#_droolsreleasenoteschapter
+    droolsReleaseNotes: https://docs.jboss.org/drools/release/7.1.0.Beta2/drools-docs/html_single/#_droolsreleasenoteschapter
 
-    kieExecutionServerZip: https://download.jboss.org/drools/release/7.0.0.CR3/kie-server-distribution-7.0.0.CR3.zip
+    kieExecutionServerZip: https://download.jboss.org/drools/release/7.1.0.Beta2/kie-server-distribution-7.1.0.Beta2.zip
 
 # since there are two branches 7.0.x and 6.5.x and there are releases for both, they have to be shown
 
