@@ -18,6 +18,7 @@ We usually process all pull requests within a few days.
 == Kanban boards
 
 * https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=4016[Drools]
+* https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=4048[Decision Model and Notation - DMN]
 * https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=4032[OptaPlanner]
 * https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3972[jBPM]
 * https://issues.jboss.org/secure/RapidBoard.jspa?rapidView=3462[Guvnor]
