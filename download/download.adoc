@@ -25,21 +25,11 @@
 |#{site.pom.droolsWorkbenchDescription}
 | #{site.pom.latestFinal.droolsWorkbenchWildFlyWAR}[WildFly 10 WAR]
 
-  #{site.pom.latestFinal.droolsWorkbenchTomcatWAR}[Tomcat 7 WAR]
-
-  #{site.pom.latestFinal.droolsWorkbenchEAPWAR}[EAP 6.4 WAR]
-
   #{site.pom.latestFinal.droolsWorkbenchEAP7WAR}[EAP 7 WAR]
 
-  #{site.pom.latestFinal.droolsWorkbenchWASWAR}[WebSphere 8.5.x WAR]
-
-  #{site.pom.latestFinal.droolsWorkbenchWLSWAR}[WebLogic 12c WAR]
+  #{site.pom.latestFinal.droolsWorkbenchTomcatWAR}[Tomcat 8 WAR]
 
   #{site.pom.latestFinal.droolsWorkbenchJcr2vfsZip}[Guvnor 5.x migration tool ZIP]
-
-  #{site.pom.latestFinal.droolsWorkbenchCLIConfigZip}[KIE Config CLI ZIP]
-
-  #{site.pom.latestFinal.droolsWorkbenchExampleGitReposZip}[Example GIT Repositories ZIP]
 
 |*Drools and jBPM tools*
 |#{site.pom.droolsjbpmToolsDescription}

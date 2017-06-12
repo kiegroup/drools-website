@@ -8,19 +8,16 @@
 * *Documentation for Drools #{site.pom.latestFinal.version}*
 
 ** image:documentation.png[] *Reference manual Drools #{site.pom.latestFinal.version}*:
-#{site.pom.latestFinal.documentationHtmlSingle}[HTML Single] -
-#{site.pom.latestFinal.documentationHtml}[HTML] -
-#{site.pom.latestFinal.documentationPdf}[PDF]
+#{site.pom.latestFinal.documentationHtmlSingle}[HTML Single]
 ** image:documentation.png[] *User Guide #{site.pom.latestFinal.version}*:
 #{site.pom.latestFinal.userGuideBook}[Gitbook Source] -
 #{site.pom.latestFinal.userGuidePDF}[PDF]
 
 
-** Drools javadocs Drools #{site.pom.latestFinal.version}:
-#{site.pom.latestFinal.javadocs}[Javadoc]
+** Kie API (Drools, jBPM) #{site.pom.latestFinal.version}:
+#{site.pom.latestFinal.KIE_API_documentationJavadoc}[Javadoc]
 
 '''
-
 
 == Non-Final releases
 
