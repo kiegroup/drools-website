@@ -32,6 +32,19 @@
 
 '''
 
+== Latest 6.x releases
+
+* *Documentation for Drools #{site.pom.latest6.version}*
+** image:documentation.png[] *Reference manual Drools #{site.pom.latest6.version}*:
+ #{site.pom.latest6.documentationHtmlSingle}[HTML Single] -
+ #{site.pom.latest6.documentationHtml}[HTML] -
+ #{site.pom.latest6.documentationPdf}[PDF]
+
+** Kie API (Drools, jBPM) #{site.pom.latest6.version}:
+#{site.pom.latest6.KIE_API_documentationJavadoc}[Javadoc]
+
+'''
+
 == Drools 6.x Books
 
 https://www.packtpub.com/networking-and-servers/mastering-jboss-drools-6[image:books/Mastering-JBOSS-Drools-6.png[]]
