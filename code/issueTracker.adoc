@@ -12,7 +12,7 @@ Log in and click on the button _Create Issue_ to report a bug, improvement or fe
 
 == Pull requests on GitHub
 
-Want to fix the issue yourself? Fork https://github.com/droolsjbpm[the git repository] and send in a pull request.
+Want to fix the issue yourself? Fork https://github.com/kiegroup[the git repository] and send in a pull request.
 We usually process all pull requests within a few days.
 
 == Kanban boards
