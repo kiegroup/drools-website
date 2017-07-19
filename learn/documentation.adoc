@@ -19,19 +19,6 @@
 
 '''
 
-== Non-Final releases
-
-* *Documentation for #{site.pom.latest.version}*
-
-** image:documentation.png[] *Reference manual #{site.pom.latest.version}*:
-#{site.pom.latest.documentationHtmlSingle}[HTML Single]
-
-
-** Kie API (Drools, jBPM) #{site.pom.latest.version}:
-#{site.pom.latest.KIE_API_documentationJavadoc}[Javadoc]
-
-'''
-
 == Latest 6.x releases
 
 * *Documentation for Drools #{site.pom.latest6.version}*
