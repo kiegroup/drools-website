@@ -116,6 +116,6 @@ For more info about the Drools Docker images see this http://blog.athico.com/201
 
 === Eclipse update site
 
-* https://download.jboss.org/drools/release/#{site.pom.latest.version}/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site #{site.pom.latest.version}.
+* https://download.jboss.org/drools/release/#{site.pom.latestFinal.version}/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site #{site.pom.latestFinal.version}.
 * The Drools and jBPM plugin for Eclipse can also be discovered from https://www.jboss.org/tools[JBoss Tools].
 * Alternatively, you can download the "Drools and jBPM tools" zip (from the table above), unzip it and configure the directory "binaries/org.drools.updatesite" as a local updatesite.
