@@ -50,14 +50,14 @@
 
 - eventId: 20170926-droolsday
   eventOrganization: "Drools, jBPM and OptaPlanner day New York"
-  eventUrl: https://droolsday.com/New_York?sc_cid=701f2000000h3V9AAI
+  url: https://droolsday.com/New_York?sc_cid=701f2000000h3V9AAI
   location: New York, NY, US
   date: 2017-09-26
   presenters: Mark Proctor, Edson Tirelli, Kris Verlaenen, Geoffrey De Smet, Alexandre Porcelli, Prakash Aradhya
 
 - eventId: 20170928-droolsday
   eventOrganization: "Drools, jBPM and OptaPlanner day Washington DC"
-  eventUrl: https://droolsday.com/DC?sc_cid=701f2000000h3V9AAI
+  url: https://droolsday.com/DC?sc_cid=701f2000000h3V9AAI
   location: Washington, DC, US
   date: 2017-09-28
   presenters: Mark Proctor, Edson Tirelli, Kris Verlaenen, Geoffrey De Smet, Alexandre Porcelli, Prakash Aradhya
