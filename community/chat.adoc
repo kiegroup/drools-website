@@ -26,7 +26,7 @@ Most of our project discussion take place on IRC, usually during European and Am
 
         *** *#droolsdev*
         *** *#guvnordev*
-        *** *#jbmdev*
+        *** *#jbpmdev*
 
 ==  Guidelines
 
