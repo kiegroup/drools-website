@@ -142,31 +142,65 @@
       .container#Content(style="padding-top: 20px;")
         ~ content
 
-    %footer#footer
+    %footer
       .container
         .row
-          .col-md-6
-            %p
-              Development is sponsored by
+          .col-md-3
+            %h4 KIE projects
+            %ul
+              %li<
+                %a(href="https://www.drools.org/" target="_blank") Drools rule engine
+              %li<
+                %a(href="https://www.optaplanner.org/" target="_blank") OptaPlanner constraint solver
+              %li<
+                %a(href="https://www.jbpm.org/" target="_blank") jBPM workflow engine
+          .col-md-3
+            %h4 Community
+            %ul
+              %li<
+                %a(href="http://blog.athico.com/" target="_blank") Blog
+              %li<
+                %a{:href => relative("/community/getHelp.html")} Get Help
+              %li<
+                %a{:href => relative("/community/team.html")} Team
+              %li<
+                %a{:href => relative("/community/governance.html")} Governance
+              %li<
+                %a{:href => relative("/community/research.html")} Academic research
+          .col-md-3
+            %h4 Code
+            %ul
+              %li<
+                %a{:href => relative("/code/sourceCode.html")} Build from source
+              %li<
+                %a{:href => site.issueTracker} Submit a bug
+              %li<
+                %a{:href => relative("/code/license.html")} License (Apache)
+              %li<
+                %a{:href => site.pom.latest.droolsReleaseNotes} Release notes
+              %li<
+                %a{:href => relative("/download/upgradeRecipe/upgradeRecipe7.0.html")} Upgrade recipes
+          .col-md-3
+            .sponsorMessage
+              %span Sponsored by
+              %br
               %a(href="https://www.redhat.com/")<
                 %img{:src => relative("/headerFooter/redHatLogo.png"), :alt => "Red Hat"}
-            %p
-              Drools is part of the
-              %a(href="https://www.jboss.org/")<
-                %img{:src => relative("/headerFooter/jbossCommunityLogo.png"), :alt => "JBoss Community"}
-          .col-md-6
-            :markdown
-              &copy; Copyright 2006-#{Time.now.strftime( '%Y' )}, Red Hat, Inc. or third-party contributors
-            %p
-              %a(href="https://www.redhat.com/legal/legal_statement.html") Terms of use
-              \-
-              %a(href="https://www.redhat.com/legal/privacy_statement.html") Privacy policy
-              \-
-              %a(href="#{relative("/website/websiteInfo.html")}") Website info
-              \-
-              %span.btn-group.btn-group-xs
-                %a.btn.btn-default(role="button" href="https://github.com/kiegroup/drools-website/blob/master#{page.relative_source_path}") Page source
-                %a.btn.btn-default(role="button" href="https://github.com/kiegroup/drools-website/edit/master#{page.relative_source_path}") Edit this page
+            .sponsorMessage
+              %span More coder content at
+              %br
+              %a(href="https://developers.redhat.com/")<
+                %img{:src => relative("/headerFooter/redHatDevelopersLogo.png"), :alt => "Red Hat Developers"}
+
+        .row
+          .col-md-12
+            © Copyright 2006-#{Time.now.strftime( '%Y' )}, Red Hat, Inc. or third-party contributors
+            \-
+            %a(href="https://www.redhat.com/en/about/privacy-policy" target="_blank") Privacy statement
+            \-
+            %a(href="https://www.redhat.com/en/about/terms-use" target="_blank") Terms of use
+            \-
+            %a{:href => relative("/website/websiteInfo.html")} Website info
 
     -# Google Tag Manager (which includes Google Analytics) script part 2/2, if javascript is enabled
     :plain
