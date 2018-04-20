@@ -26,19 +26,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
     %link{:rel => "shortcut icon", :href => relative("/favicon.ico")}
-    
+
   %body(data-spy="scroll" data-target=".bs-docs-sidebar")
     -# Google Tag Manager (which includes Google Analytics) script part 1/2, if javascript is disabled
     :plain
       <noscript><iframe src="//www.googletagmanager.com/ns.html?id=#{site.googleTagManagerId}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     %header.navbar.navbar-default.navbar-fixed-top(role="navigation")
-      #tabzillaHolder
-      .dropup
-        %div#ajbossproject A JBoss Project
-        %a#tab.tabnav-closed{:href => "#"} Red Hat
-        %script
-          window.addEventListener('load', function() { renderTabzilla("Drools","drools", true) });
       .container
         .navbar-header
           -# When the screen width is too little, these 3 icon-bar spans are needed to show the collapsed navbar
@@ -47,8 +41,8 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.navbar-brand(style="padding: 0px;"){:href => relative("/")}
-            %img{:src => relative("/headerFooter/DroolsLogo210px.png")}
+          %a.navbar-brand(style="padding: 10px;"){:href => relative("/")}
+            %img(alt="OptaPlanner logo"){:src => relative("/headerFooter/DroolsLogo200px.png")}
         .collapse.navbar-collapse#baseNavigation
           %ul.nav.navbar-nav
             %li<
@@ -69,40 +63,12 @@
                 %li.divider
                 %li<
                   %a{:href => relative("/learn/testimonialsAndCaseStudies.html")} Testimonials and Case Studies
-            %li.dropdown
-              %a.dropdown-toggle(data-toggle="dropdown" href="#")<
-                = precede 'Community ' do
-                  %b.caret>
-              %ul.dropdown-menu
-                %li<
-                  %a{:href => relative("/community/forum.html")} Forum
-                %li<
-                  %a{:href => relative("/community/chat.html")} Chat
-                %li<
-                  %a{:href => relative("/community/product.html")} Product (support &amp; consulting)
-                %li.divider
-                %li<
-                  %a{:href => relative("/community/governance.html")} Governance
-                %li<
-                  %a{:href => relative("/community/socialMedia.html")} Social Media
-                %li<
-                  %a(href="http://blog.athico.com/"  target="_blank") Blog
-                %li<
-                  %a{:href => relative("/community/team.html")} Team
-            %li.dropdown
-              %a.dropdown-toggle(data-toggle="dropdown" href="#")<
-                = precede 'Code ' do
-                  %b.caret>
-              %ul.dropdown-menu
-                %li<
-                  %a{:href => relative("/code/issueTracker.html")} Report an issue
-                %li<
-                  %a{:href => relative("/code/sourceCode.html")} Source code
-                %li<
-                  %a{:href => relative("/code/continuousIntegration.html")} Continuous integration
-                %li.divider
-                %li<
-                  %a{:href => relative("/code/license.html")} License
+            %li<
+              %a{:href => relative("/community/getHelp.html")} Get Help
+            %li<
+              %a{:href => relative("/code/sourceCode.html")} Source
+            %li<
+              %a{:href => relative("/product/services.html")} Services
             %li.dropdown
               %a.dropdown-toggle(data-toggle="dropdown" href="#")<
                 = precede 'KIE ' do
@@ -118,20 +84,11 @@
                 %li<
                   %a(href="https://www.kiegroup.org/" target="_blank" title="Knowledge is everything group") KIE group
           %ul.nav.navbar-nav.navbar-right
-            %li.dropdown
-              %a.dropdown-toggle(data-toggle="dropdown" href="#")<
-                = precede 'Follow us ' do
-                  %b.caret>
-              %ul.dropdown-menu
-                %li<
-                  %a(href="https://plus.google.com/101003552532172845268/" rel="publisher" target="_blank" title="News stream via Google+")<
-                    %img{:src => relative("/headerFooter/googlePlusLogo.png"), :alt => "G+"} &nbsp;Google+
-                %li<
-                  %a(href="https://twitter.com/DroolsRules" target="_blank" title="News stream via Twitter")<
-                    %img{:src => relative("/headerFooter/twitterLogo.png"), :alt => "T"} &nbsp;Twitter
             %li.navbar-form(style="padding-top: 5px;")
-              -# The plusone button fails with data-href="https://plus.google.com/101003552532172845268/"
-              %div(class="g-plusone" data-href="https://plus.google.com/101003552532172845268/") &nbsp;
+              %span
+                %a.twitter-follow-button(href="https://twitter.com/OptaPlanner" data-show-count="false" data-show-screen-name="false")< @OptaPlanner
+                %a(href="https://www.facebook.com/OptaPlanner" target="_blank" title="Follow OptaPlanner on Facebook")<
+                  %img{:src => relative("/headerFooter/facebookLogo.png"), :alt => "Fb"}
 
 
     .body-without-header-footer
