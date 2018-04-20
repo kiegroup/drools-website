@@ -9,8 +9,6 @@ issueTracker: https://issues.jboss.org/projects/DROOLS
 # jbossorg_bootstrap_js: https://static.jboss.org/theme/js/libs/bootstrap/2.1.0.0.0/bootstrap-community.js
 
 googleAnalyticsId: UA-62250098-1
-googleTagManagerId: GTM-NJWS5L
-googleTagManagerChannel: Drools
 disqus: Drools
 disqus_generate_id: true
 
