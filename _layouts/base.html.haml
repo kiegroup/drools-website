@@ -33,6 +33,12 @@
       <noscript><iframe src="//www.googletagmanager.com/ns.html?id=#{site.googleTagManagerId}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     %header.navbar.navbar-default.navbar-fixed-top(role="navigation")
+      #tabzillaHolder
+      .dropup
+        %div#ajbossproject A JBoss Project
+        %a#tab.tabnav-closed{:href => "#"} Red Hat
+        %script
+          window.addEventListener('load', function() { renderTabzilla("Drools","drools", true) });
       .container
         .navbar-header
           -# When the screen width is too little, these 3 icon-bar spans are needed to show the collapsed navbar
@@ -42,7 +48,7 @@
             %span.icon-bar
             %span.icon-bar
           %a.navbar-brand(style="padding: 10px;"){:href => relative("/")}
-            %img(alt="OptaPlanner logo"){:src => relative("/headerFooter/DroolsLogo200px.png")}
+            %img(alt="Drools logo"){:src => relative("/headerFooter/DroolsLogo200px.png")}
         .collapse.navbar-collapse#baseNavigation
           %ul.nav.navbar-nav
             %li<
@@ -84,11 +90,21 @@
                 %li<
                   %a(href="https://www.kiegroup.org/" target="_blank" title="Knowledge is everything group") KIE group
           %ul.nav.navbar-nav.navbar-right
+            %li.dropdown
+              %a.dropdown-toggle(data-toggle="dropdown" href="#")<
+                = precede 'Follow us ' do
+                  %b.caret>
+              %ul.dropdown-menu
+                %li<
+                  %a(href="https://plus.google.com/101003552532172845268/" rel="publisher" target="_blank" title="News stream via Google+")<
+                    %img{:src => relative("/headerFooter/googlePlusLogo.png"), :alt => "G+"} &nbsp;Google+
+                %li<
+                  %a(href="https://twitter.com/DroolsRules" target="_blank" title="News stream via Twitter")<
+                    %img{:src => relative("/headerFooter/twitterLogo.png"), :alt => "T"} &nbsp;Twitter
             %li.navbar-form(style="padding-top: 5px;")
-              %span
-                %a.twitter-follow-button(href="https://twitter.com/OptaPlanner" data-show-count="false" data-show-screen-name="false")< @OptaPlanner
-                %a(href="https://www.facebook.com/OptaPlanner" target="_blank" title="Follow OptaPlanner on Facebook")<
-                  %img{:src => relative("/headerFooter/facebookLogo.png"), :alt => "Fb"}
+              -# The plusone button fails with data-href="https://plus.google.com/101003552532172845268/"
+              %div(class="g-plusone" data-href="https://plus.google.com/101003552532172845268/") &nbsp;
+
 
 
     .body-without-header-footer
