@@ -1,9 +1,0 @@
-= Continuous integration
-:awestruct-layout: normalBase
-:showtitle:
-
-We use Jenkins for continuous integration.
-
-*Show http://ci.drools.org/[the Jenkins jobs].* These are mirrors of a Red Hat internal Jenkins jobs.
-
-Keep the builds green!

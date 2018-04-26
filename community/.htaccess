@@ -1,0 +1,5 @@
+Redirect 301 /community/forum.html https://www.drools.org/community/getHelp.html
+Redirect 301 /community/chat.html https://www.drools.org/community/getHelp.html
+Redirect 301 /community/questions.html https://www.drools.org/community/getHelp.html
+Redirect 301 /community/product.html https://www.drools.org/product/services.html
+Redirect 301 /community/socialMedia.html https://www.drools.org/community/team.html
