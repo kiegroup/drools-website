@@ -3,58 +3,34 @@ title: Drools - Business Rules Management System (Java™, Open Source)
 layout: base
 ---
 .jumbotron.pagination-centered(style="padding: 10px; margin-bottom: 20px;")
-  .carousel.slide#whatIsCarousel(data-ride="carousel" data-interval="false" style="background-color: white;")
+  %ul.nav.nav-justified.frontPageCarouselButtons#whatIsCarouselButtons
+    %li.active(data-target="#whatIsCarousel" data-slide-to="0")
+      %a(href="#" data-toggle="tab") Data Modeller
+    %li(data-target="#whatIsCarousel" data-slide-to="1")
+      %a(href="#" data-toggle="tab") Conditions
+    %li(data-target="#whatIsCarousel" data-slide-to="2")
+      %a(href="#" data-toggle="tab") Actions
+    %li(data-target="#whatIsCarousel" data-slide-to="3")
+      %a(href="#" data-toggle="tab") Rules
+    %li(data-target="#whatIsCarousel" data-slide-to="4")
+      %a(href="#" data-toggle="tab") Visualization
+  .carousel.slide.frontPageCarousel#whatIsCarousel(data-ride="carousel" data-interval="false" style="background-color: white;")
     -#.carousel-inner(style="align: center;")
     .carousel-inner
-      .item.active#links
-        %a(href="landingPage/Build_Running_Big.png" title="Build Running" data-gallery="")
-          %img(src="landingPage/Build_Running.png" title="Build Running")
+      .item.active
+        %img(src="landingPage/Data_Modeller.png" alt="Data Modeller" width="800" height="600")
       .item
-        %a(href="landingPage/Data_Modeller_Big.png" titlet="Data Modeller" data-gallery="")
-          %img(src="landingPage/Data_Modeller.png" title="Data Modeller")
+        %img(src="landingPage/Conditions.png" alt="Conditions" width="800" height="600")
       .item
-        %a(href="landingPage/Limited_Decision_Table_Big.png" title="Limited Decision Table" data-gallery="")
-          %img(src="landingPage/Limited_Decision_Table.png" title="Limited Decision Table")
+        %img(src="landingPage/Actions.png" alt="Actions" width="800" height="600")
       .item
-        %a(href="landingPage/Guided_Decision_Table_Big.png" title="Guided Decision Table" data-gallery="")
-          %img(src="landingPage/Guided_Decision_Table.png" title="Guided Decision Table")
+        %img(src="landingPage/Rules.png" alt="Rules" width="800" height="600")
       .item
-        %a(href="landingPage/Guided_Rule_Editor_Big.png" title="Guided Rule Editor" data-gallery="")
-          %img(src="landingPage/Guided_Rule_Editor.png" title="Guided Rule Editor")
-      .item
-        %a(href="landingPage/Test_Running_Big.png" title="Test Running" data-gallery="")
-          %img(src="landingPage/Test_Running.png" title="Test Running")
-    %div.TextZoom Click on the image to zoom in
+        %img(src="landingPage/Visualization.png" alt="Visualization" width="800" height="600")
     %a.left.carousel-control(href="#whatIsCarousel" data-slide="prev")
       %span.glyphicon.glyphicon-chevron-left
     %a.right.carousel-control(href="#whatIsCarousel" data-slide="next")
       %span.glyphicon.glyphicon-chevron-right
-  %ul.nav.nav-justified#whatIsCarouselButtons
-    %li.active(data-target="#whatIsCarousel" data-slide-to="0")
-      %a(href="#" data-toggle="tab") Build Running
-    %li(data-target="#whatIsCarousel" data-slide-to="1")
-      %a(href="#" data-toggle="tab") Data Modeller
-    %li(data-target="#whatIsCarousel" data-slide-to="2")
-      %a(href="#" data-toggle="tab") Limited Decision Table
-    %li(data-target="#whatIsCarousel" data-slide-to="3")
-      %a(href="#" data-toggle="tab") Guided Decision Table
-    %li(data-target="#whatIsCarousel" data-slide-to="4")
-      %a(href="#" data-toggle="tab") Guided Rule Editor
-    %li(data-target="#whatIsCarousel" data-slide-to="5")
-      %a(href="#" data-toggle="tab") Test Running
-  #blueimp-gallery.blueimp-gallery
-    .slides
-    %a.prev‹
-    %a.next›
-    %a.close×
-    %a.play-pause
-    %ol.indicator
-    .modal.fade
-      .modal-dialog
-        .modal-content
-          .modal-header
-            %button(type="button" class="close" aria-hidden="true")
-            %h4.modal-title"
 
 .row
   .col-md-8(style="margin-top: -17px;margin-bottom: 20px")
