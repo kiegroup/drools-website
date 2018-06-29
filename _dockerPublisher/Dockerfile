@@ -24,13 +24,19 @@ RUN dnf install -y rsync
 RUN dnf install -y openssh-clients
 RUN dnf install -y net-tools
 RUN dnf install -y iputils
+RUN dnf install -y wget
 RUN dnf clean all
+
+RUN bash -l -c "gem install bundler awestruct"
 
 RUN useradd -m jenkins -u 1001 --shell /bin/bash
 
 USER jenkins
 
 WORKDIR /home/jenkins
+
+RUN wget https://github.com/kiegroup/drools-website/archive/master.zip
+RUN unzip master.zip
 
 ENV HOME /home/jenkins
 ENV LANG en_US.UTF-8
