@@ -31,7 +31,8 @@ latestFinal:
 
     KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.8.0.Final/kie-api-javadoc/index.html
 
-    droolsReleaseNotes: https://docs.jboss.org/drools/release/7.8.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
+    droolsWhatsNew: https://docs.jboss.org/drools/release/7.8.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
+    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12337237
 
     kieExecutionServerZip: https://download.jboss.org/drools/release/7.8.0.Final/kie-server-distribution-7.8.0.Final.zip
 
@@ -58,7 +59,8 @@ latest:
 
     KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.8.0.Final/kie-api-javadoc/index.html
 
-    droolsReleaseNotes: https://docs.jboss.org/drools/release/7.8.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
+    droolsWhatsNew: https://docs.jboss.org/drools/release/7.8.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
+    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12337237
 
     kieExecutionServerZip: https://download.jboss.org/drools/release/7.8.0.Final/kie-server-distribution-7.8.0.Final.zip
 

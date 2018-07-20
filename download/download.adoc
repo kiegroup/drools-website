@@ -5,6 +5,7 @@
 
 == Latest final version: #{site.pom.latestFinal.version}
  * Release date: `#{site.pom.latestFinal.releaseDate}`
+ * #{site.pom.latestFinal.droolsWhatsNew}[New and Noteworthy in drools #{site.pom.latestFinal.version}]
  * #{site.pom.latestFinal.droolsReleaseNotes}[Release Notes]
  * License: link:../code/license.html[ASL 2.0]
 
