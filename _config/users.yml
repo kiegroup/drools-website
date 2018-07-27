@@ -207,6 +207,12 @@
   employedBy: Red Hat
   githubUsername: karreiro
   ircNickname: karreiro
+- userId: tarilabs
+  fullName: Matteo Mortari
+  role: Senior Software Engineer
+  gravatarHashId: 9777c95daf66418bc54f6a78b3a72e5e
+  employedBy: Red Hat
+  githubUsername: tarilabs
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
@@ -461,3 +467,8 @@
   role: Founder (now manager of jboss.org)
   gravatarHashId: 918847782c26cddfb831ce9a68e94a1a
   twitterUsername: bobmcwhirter
+- userId: tarilabs_community
+  fullName: Matteo Mortari
+  role: Bug reports, reproducers, fixes and Drools Maven Archetype
+  gravatarHashId: 9777c95daf66418bc54f6a78b3a72e5e
+  githubUsername: tarilabs
