@@ -213,6 +213,12 @@
   gravatarHashId: 9777c95daf66418bc54f6a78b3a72e5e
   employedBy: Red Hat
   githubUsername: tarilabs
+- userId: volothamp
+  fullName: Luca Molteni
+  role: Senior Software Engineer
+  gravatarHashId: cd40128e044f39d7063b5cfdeace80f6
+  employedBy: Red Hat
+  githubUsername: lucamolteni
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
@@ -472,3 +478,8 @@
   role: Bug reports, reproducers, fixes and Drools Maven Archetype
   gravatarHashId: 9777c95daf66418bc54f6a78b3a72e5e
   githubUsername: tarilabs
+- userId: volothamp_community
+  fullName: Luca Molteni
+  role: Drools developer
+  gravatarHashId: cd40128e044f39d7063b5cfdeace80f6
+  githubUsername: lucamolteni
