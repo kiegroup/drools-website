@@ -219,6 +219,13 @@
   gravatarHashId: cd40128e044f39d7063b5cfdeace80f6
   employedBy: Red Hat
   githubUsername: lucamolteni
+- userId: dzonca
+  fullName: Daniele Zonca
+  role: Senior Software Engineer
+  gravatarHashId: b3cae44acd006e8bbe45d4dd5ee04939
+  employedBy: Red Hat
+  githubUsername: danielezonca
+  ircNickname: dzonca
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
