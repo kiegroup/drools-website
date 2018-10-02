@@ -28,8 +28,6 @@
 
   #{site.pom.latestFinal.droolsWorkbenchEAP7WAR}[EAP 7 WAR]
 
-  #{site.pom.latestFinal.droolsWorkbenchTomcatWAR}[Tomcat 8 WAR]
-
 
 |*Drools and jBPM tools*
 |#{site.pom.droolsjbpmToolsDescription}
