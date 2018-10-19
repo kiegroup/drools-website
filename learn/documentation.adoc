@@ -9,8 +9,6 @@
 
 ** image:documentation.png[] *Reference manual Drools #{site.pom.latestFinal.version}*:
 #{site.pom.latestFinal.documentationHtmlSingle}[HTML Single]
-** image:documentation.png[] *User Guide #{site.pom.latestFinal.version}*:
-#{site.pom.latestFinal.userGuidePDF}[PDF]
 
 
 ** Kie API (Drools, jBPM) #{site.pom.latestFinal.version}:
