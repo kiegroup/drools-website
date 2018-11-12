@@ -24,7 +24,7 @@
 
 |*Drools Workbench*
 |#{site.pom.droolsWorkbenchDescription}
-| #{site.pom.latestFinal.droolsWorkbenchWildFlyWAR}[WildFly 11 WAR]
+| #{site.pom.latestFinal.droolsWorkbenchWildFlyWAR}[WildFly 14 WAR]
 
   #{site.pom.latestFinal.droolsWorkbenchEAP7WAR}[EAP 7 WAR]
 
