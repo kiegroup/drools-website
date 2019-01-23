@@ -61,3 +61,10 @@
   location: Washington, DC, US
   date: 2017-09-28
   presenters: Mark Proctor, Edson Tirelli, Kris Verlaenen, Geoffrey De Smet, Alexandre Porcelli, Prakash Aradhya
+  
+- eventId: 20190212-pamworkshop
+  eventOrganization: "Business Process and Decion Management Workshop New York City"
+  url: https://events.redhat.com/profile/form/index.cfm?PKformID=0x27114abcd
+  location: New York, NY, US
+  date: 2019-02-12
+  presenters: Myriam Fentanes, Phil Simpson
