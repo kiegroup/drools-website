@@ -90,7 +90,7 @@
 === Other downloads:
 
 * Older community releases can be found in https://download.jboss.org/drools/release/[the release archive].
-* Red Hat customers can download the product platforms https://www.jboss.com/downloads/[from the product downloads site].
+* Red Hat customers can download the product platforms http://www.jboss.com/downloads/[from the product downloads site].
 
 === http://www.docker.com/[Docker] images
 
