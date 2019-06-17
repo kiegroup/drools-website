@@ -95,8 +95,8 @@
 === http://www.docker.com/[Docker] images
 
 * You can find the Docker images and how to use them for last final version  at
-** https://registry.hub.docker.com/u/jboss/drools-workbench/[Drools Workbench]
-** https://registry.hub.docker.com/u/jboss/drools-workbench-showcase/[Drools Workbench Showcase]
+** https://registry.hub.docker.com/u/jboss/business-central-workbench/[Business Central Workbench]
+** https://registry.hub.docker.com/u/jboss/business-central-workbench-showcase/[Business Central Workbench Showcase]
 ** https://registry.hub.docker.com/u/jboss/kie-server/[KIE Execution Server]
 ** https://registry.hub.docker.com/u/jboss/kie-server-showcase/[KIE Execution Server Showcase]
 
