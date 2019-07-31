@@ -37,6 +37,15 @@
 |#{site.pom.kieExecutionServerDescription}
 |#{site.pom.latestFinal.kieExecutionServerZip}[Distribution ZIP]
 
+|*KIE Server WARS*
+|#{site.pom.kieWarsDescription}
+| #{site.pom.latestFinal.kieWARS}[ee7 WAR]
+
+  #{site.pom.latestFinal.kieWARS}[ee8 WAR]
+
+  #{site.pom.latestFinal.kieWARS}[webc WAR]
+
+
 |===
 
 == Latest 6.x version:  #{site.pom.latest6.version}
