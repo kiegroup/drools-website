@@ -13,6 +13,8 @@ droolsjbpmToolsDescription: Eclipse plugins and support for Drools, jBPM and Guv
 kieExecutionServerDescription: Standalone execution server that can be used to remotely execute rules using REST, JMS or Java interface.
   Distribution zip contains WAR files for all supported containers.
 
+kieWarsDescription: WAR files for all supported containers
+
 latestFinal:
     version: 7.24.0.Final
     releaseDate: 2019-07-19
@@ -35,6 +37,7 @@ latestFinal:
 
 
     kieExecutionServerZip: https://download.jboss.org/drools/release/7.24.0.Final/kie-server-distribution-7.24.0.Final.zip
+    kieWARS: https://repo1.maven.org/maven2/org/kie/server/kie-server/7.24.0.Final/
 
     userGuideBook: https://www.gitbook.com/@nheron
     userGuidePDF: https://nheron.gitbooks.io/droolsonboarding/content/
@@ -62,6 +65,7 @@ latest:
     droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12342176
 
     kieExecutionServerZip: https://download.jboss.org/drools/release/7.24.0.Final/kie-server-distribution-7.24.0.Final.zip
+    kieWARS: https://repo1.maven.org/maven2/org/kie/server/kie-server/7.24.0.Final/
 
 # since there are two branches 7.0.x and 6.5.x and there are releases for both, they have to be shown
 
