@@ -119,7 +119,7 @@ For more info about the Drools Docker images see this http://blog.athico.com/201
 
 === Nightly Builds
 
-* Nightly SNAPSHOTS are available for download https://downloads.jboss.org/drools/release/snapshot/master/index.html[here].
+* Selected nightly SNAPSHOTS are available for download link:snapshots.html[here].
 
 === Eclipse update site
 
