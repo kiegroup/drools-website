@@ -38,12 +38,3 @@ It's easy to keep an eye on the source code changes on the project:
 * Anonymous: http://anonsvn.jboss.org/repos/labs/labs/jbossrules/trunk/[http://anonsvn.jboss.org/repos/labs/labs/jbossrules/trunk/]
 * Committer: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk/[https://svn.jboss.org/repos/labs/labs/jbossrules/trunk/]
 
-== Continuous integration
-:awestruct-layout: normalBase
-:showtitle:
-
-We use Jenkins for continuous integration.
-
-*Show http://ci.drools.org/[the Jenkins jobs].* These are mirrors of a Red Hat internal Jenkins jobs.
-
-Keep the builds green!
