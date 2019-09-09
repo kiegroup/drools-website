@@ -26,9 +26,6 @@
 |#{site.pom.businessCentralDescription}
 | #{site.pom.latestFinal.businessCentralWildFlyWAR}[WildFly 14 WAR]
 
-  #{site.pom.latestFinal.businessCentralEAP7WAR}[EAP 7 WAR]
-
-
 |*Drools and jBPM tools*
 |#{site.pom.droolsjbpmToolsDescription}
 |#{site.pom.latestFinal.droolsjbpmToolsZip}[Distribution ZIP]
@@ -39,12 +36,7 @@
 
 |*KIE Server WARS*
 |#{site.pom.kieWarsDescription}
-| #{site.pom.latestFinal.kieWARS}[ee7 WAR]
-
-  #{site.pom.latestFinal.kieWARS}[ee8 WAR]
-
-  #{site.pom.latestFinal.kieWARS}[webc WAR]
-
+| #{site.pom.latestFinal.kieWARS}[ee7, ee8, webc WAR]
 
 |===
 
