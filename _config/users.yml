@@ -226,6 +226,14 @@
   employedBy: Red Hat
   githubUsername: danielezonca
   ircNickname: dzonca
+- userId: evacchi
+  fullName: Edoardo Vacchi
+  role: Senior Software Engineer
+  gravatarHashId: 06af491f015c1278d8c650a2e8598162
+  employedBy: Red Hat
+  twitterUsername: evacchi
+  githubUsername: evacchi
+  ircNickname: evacchi
 # Properties per contributor
 - userId: vkiran
   fullName: Vinod Kiran P.
