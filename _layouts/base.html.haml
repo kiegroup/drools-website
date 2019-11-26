@@ -15,7 +15,7 @@
       </script>
     %meta(http-equiv="Content-Type" content="text/html; charset=UTF-8")
     %meta(name="viewport" content="width=device-width, initial-scale=1")
-    %title #{escape_once(site.title + " - " + page.title)}
+    %title #{escape_once(page.title.start_with?('Drools') ? page.title : site.title + " - " + page.title)}
     %meta(name="description"){:content => page.description ? page.description : site.description}
     %meta(name="keywords"){:content => page.keywords ? page.keywords : site.keywords}
     %link(rel="canonical"){:href => "#{site.canonicalBaseUrl}#{page.url}"}
