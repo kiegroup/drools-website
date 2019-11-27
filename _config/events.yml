@@ -103,3 +103,17 @@
   location: Antwerp, Belgium
   date: 2019-11-04
   presenters: Mario Fusco, Maciej Swiderski, Edoardo Vacchi
+
+- eventId: 20191120-redhatosd
+  eventOrganization: "Red Hat Open Source Day 2019"
+  url: https://www.redhat.com/it/events/red-hat-open-source-day-italia
+  location: Rome, Italy
+  date: 2019-11-20
+  presenters: Donato Marrazzo, Matteo Mortari, Edoardo Vacchi
+
+- eventId: 20191203-redhatosd
+  eventOrganization: "Red Hat Open Source Day 2019"
+  url: https://www.redhat.com/it/events/red-hat-open-source-day-italia
+  location: Milan, Italy
+  date: 2019-12-03
+  presenters: Donato Marrazzo, Matteo Mortari, Edoardo Vacchi
