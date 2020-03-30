@@ -7,7 +7,7 @@
  * Release date: `#{site.pom.latestFinal.releaseDate}`
  * #{site.pom.latestFinal.droolsWhatsNew}[New and Noteworthy in drools #{site.pom.latestFinal.version}]
  * #{site.pom.latestFinal.droolsReleaseNotes}[Release Notes]
- * License: link:../code/license.html[ASL 2.0]
+ * License: link:../code/license.html[Apache License 2.0]
 
 [cols=".<3,.<7,.<4", options="header", frame="topbot"]
 |===
@@ -43,7 +43,7 @@
 == Latest 6.x version:  #{site.pom.latest6.version}
  * Release date: `#{site.pom.latest6.releaseDate}`
  * #{site.pom.latest6.droolsReleaseNotes}[Release Notes]
- * License: link:../code/license.html[ASL 2.0]
+ * License: link:../code/license.html[Apache License 2.0]
 
 [cols=".<3,.<7,.<4", options="header", frame="topbot"]
 |===
