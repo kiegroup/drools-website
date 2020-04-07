@@ -40,7 +40,7 @@ latestFinal:
     kieWARS: https://repo1.maven.org/maven2/org/kie/server/kie-server/7.35.0.Final/
 
     userGuideBook: https://www.gitbook.com/@nheron
-    userGuidePDF: https://nheron.gitbooks.io/droolsonboarding/content/
+    userGuidePDF: https://nicolas-heron.gitbook.io/droolsonboarding/
 
     droolsSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.drools&a=drools-distribution&v=7.36.0-SNAPSHOT&e=zip
     jbpmSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jbpm&a=jbpm-distribution&v=7.36.0-SNAPSHOT&e=zip&c=bin
@@ -115,5 +115,3 @@ latest6:
     droolsReleaseNotes: https://docs.jboss.org/drools/release/6.5.0.Final/drools-docs/html_single/#DroolsReleaseNotesChapter
 
     kieExecutionServerZip: https://download.jboss.org/drools/release/6.5.0.Final/kie-server-distribution-6.5.0.Final.zip
-
-
