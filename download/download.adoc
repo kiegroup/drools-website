@@ -24,7 +24,7 @@
 
 |*Business Central Workbench*
 |#{site.pom.businessCentralDescription}
-| #{site.pom.latestFinal.businessCentralWildFlyWAR}[WildFly 14 WAR]
+|#{site.pom.latestFinal.businessCentralWildFlyWAR}[WildFly 14 WAR]
 
 |*Drools and jBPM tools*
 |#{site.pom.droolsjbpmToolsDescription}
@@ -36,7 +36,7 @@
 
 |*KIE Server WARS*
 |#{site.pom.kieWarsDescription}
-| #{site.pom.latestFinal.kieWARS}[ee7, ee8, webc WAR]
+|#{site.pom.latestFinal.kieWARS}[ee7, ee8, webc WAR]
 
 |===
 
