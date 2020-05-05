@@ -5,19 +5,24 @@ layout: base
 .jumbotron.pagination-centered(style="padding: 10px; margin-bottom: 20px;")
   %ul.nav.nav-justified.frontPageCarouselButtons#whatIsCarouselButtons
     %li.active(data-target="#whatIsCarousel" data-slide-to="0")
-      %a(href="#" data-toggle="tab") Data Modeller
+      %a(href="#" data-toggle="tab") DMN
     %li(data-target="#whatIsCarousel" data-slide-to="1")
-      %a(href="#" data-toggle="tab") Conditions
+      %a(href="#" data-toggle="tab") Data Modeller
     %li(data-target="#whatIsCarousel" data-slide-to="2")
-      %a(href="#" data-toggle="tab") Actions
+      %a(href="#" data-toggle="tab") Conditions
     %li(data-target="#whatIsCarousel" data-slide-to="3")
-      %a(href="#" data-toggle="tab") Rules
+      %a(href="#" data-toggle="tab") Actions
     %li(data-target="#whatIsCarousel" data-slide-to="4")
+      %a(href="#" data-toggle="tab") Rules
+    %li(data-target="#whatIsCarousel" data-slide-to="5")
       %a(href="#" data-toggle="tab") Visualization
   .carousel.slide.frontPageCarousel#whatIsCarousel(data-ride="carousel" data-interval="false" style="background-color: white;")
     -#.carousel-inner(style="align: center;")
     .carousel-inner
       .item.active
+        %a(href="learn/dmn.html")
+          %img(src="landingPage/DMN.png" alt="DMN" width="800" height="600")
+      .item
         %img(src="landingPage/Data_Modeller.png" alt="Data Modeller" width="800" height="600")
       .item
         %img(src="landingPage/Conditions.png" alt="Conditions" width="800" height="600")
