@@ -24,7 +24,7 @@
 
 |*Business Central Workbench*
 |#{site.pom.businessCentralDescription}
-|#{site.pom.latestFinal.businessCentralWildFlyWAR}[WildFly 14 WAR]
+|#{site.pom.latestFinal.businessCentralWildFlyWAR}[WildFly 18 WAR]
 
 |*Drools and jBPM tools*
 |#{site.pom.droolsjbpmToolsDescription}
