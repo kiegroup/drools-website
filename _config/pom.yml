@@ -16,65 +16,65 @@ kieExecutionServerDescription: Standalone execution server that can be used to r
 kieWarsDescription: WAR files for all supported containers
 
 latestFinal:
-    version: 7.44.0.Final
-    releaseDate: 2020-10-06
+    version: 7.45.0.Final
+    releaseDate: 2020-10-23
 
-    droolsZip: https://download.jboss.org/drools/release/7.44.0.Final/drools-distribution-7.44.0.Final.zip
+    droolsZip: https://download.jboss.org/drools/release/7.45.0.Final/drools-distribution-7.45.0.Final.zip
 
-    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.44.0.Final/droolsjbpm-integration-distribution-7.44.0.Final.zip
+    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.45.0.Final/droolsjbpm-integration-distribution-7.45.0.Final.zip
 
-    businessCentralEAP7WAR: https://download.jboss.org/drools/release/7.44.0.Final/business-central-7.44.0.Final-eap7.war
-    businessCentralWildFlyWAR: https://download.jboss.org/drools/release/7.44.0.Final/business-central-7.44.0.Final-wildfly19.war
+    businessCentralEAP7WAR: https://download.jboss.org/drools/release/7.45.0.Final/business-central-7.45.0.Final-eap7.war
+    businessCentralWildFlyWAR: https://download.jboss.org/drools/release/7.45.0.Final/business-central-7.45.0.Final-wildfly19.war
 
-    droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.44.0.Final/droolsjbpm-tools-distribution-7.44.0.Final.zip
+    droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.45.0.Final/droolsjbpm-tools-distribution-7.45.0.Final.zip
 
-    documentationHtmlSingle: https://docs.jboss.org/drools/release/7.44.0.Final/drools-docs/html_single/index.html
+    documentationHtmlSingle: https://docs.jboss.org/drools/release/7.45.0.Final/drools-docs/html_single/index.html
 
-    KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.44.0.Final/kie-api-javadoc/index.html
+    KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.45.0.Final/kie-api-javadoc/index.html
 
-    droolsWhatsNew: https://docs.jboss.org/drools/release/7.44.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
-    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12347372
+    droolsWhatsNew: https://docs.jboss.org/drools/release/7.45.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
+    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12350798
 
-    kieExecutionServerZip: https://download.jboss.org/drools/release/7.44.0.Final/kie-server-distribution-7.44.0.Final.zip
-    kieWARS: https://repo1.maven.org/maven2/org/kie/server/kie-server/7.44.0.Final/
+    kieExecutionServerZip: https://download.jboss.org/drools/release/7.45.0.Final/kie-server-distribution-7.45.0.Final.zip
+    kieWARS: https://repo1.maven.org/maven2/org/kie/server/kie-server/7.45.0.Final/
 
     userGuideBook: https://www.gitbook.com/@nheron
     userGuidePDF: https://nicolas-heron.gitbook.io/droolsonboarding/
 
-    droolsSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.drools&a=drools-distribution&v=7.45.0-SNAPSHOT&e=zip
-    jbpmSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jbpm&a=jbpm-distribution&v=7.45.0-SNAPSHOT&e=zip&c=bin
-    businessCentralSnapWF: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie&a=business-central&v=7.45.0-SNAPSHOT&e=war&c=wildfly19
-    kieserverSnapEe7: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server&v=7.45.0-SNAPSHOT&e=war&c=ee7
-    kieserverSnapEe8: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server&v=7.45.0-SNAPSHOT&e=war&c=ee8
-    kieserverSnapWebc: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server&v=7.45.0-SNAPSHOT&e=war&c=webc
-    kieserverSnapDistZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server-distribution&v=7.45.0-SNAPSHOT&e=zip
-    tomcatIntergrationSnap: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie&a=kie-tomcat-integration&v=7.45.0-SNAPSHOT&e=jar
-    updatesiteSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.drools&a=org.drools.updatesite&v=7.45.0-SNAPSHOT&e=zip
+    droolsSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.drools&a=drools-distribution&v=7.46.0-SNAPSHOT&e=zip
+    jbpmSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jbpm&a=jbpm-distribution&v=7.46.0-SNAPSHOT&e=zip&c=bin
+    businessCentralSnapWF: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie&a=business-central&v=7.46.0-SNAPSHOT&e=war&c=wildfly19
+    kieserverSnapEe7: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server&v=7.46.0-SNAPSHOT&e=war&c=ee7
+    kieserverSnapEe8: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server&v=7.46.0-SNAPSHOT&e=war&c=ee8
+    kieserverSnapWebc: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server&v=7.46.0-SNAPSHOT&e=war&c=webc
+    kieserverSnapDistZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server-distribution&v=7.46.0-SNAPSHOT&e=zip
+    tomcatIntergrationSnap: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie&a=kie-tomcat-integration&v=7.46.0-SNAPSHOT&e=jar
+    updatesiteSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.drools&a=org.drools.updatesite&v=7.46.0-SNAPSHOT&e=zip
 
 # latest.version can be equal to latestFinal.version
 latest:
-    version: 7.44.0.Final
-    releaseDate: 2020-10-06
-    droolsZip: https://download.jboss.org/drools/release/7.44.0.Final/drools-distribution-7.44.0.Final.zip
+    version: 7.45.0.Final
+    releaseDate: 2020-10-23
+    droolsZip: https://download.jboss.org/drools/release/7.45.0.Final/drools-distribution-7.45.0.Final.zip
 
-    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.44.0.Final/droolsjbpm-integration-distribution-7.44.0.Final.zip
+    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.45.0.Final/droolsjbpm-integration-distribution-7.45.0.Final.zip
 
-    droolsWorkbenchEAP7WAR: https://download.jboss.org/drools/release/7.44.0.Final/business-central-7.44.0.Final-eap7.war
-    droolsWorkbenchWildFlyWAR: https://download.jboss.org/drools/release/7.44.0.Final/business-central-7.44.0.Final-wildfly19.war
-    droolsWorkbenchJcr2vfsZip: https://download.jboss.org/drools/release/7.44.0.Final/drools-wb-jcr2vfs-distribution-7.44.0.Final.zip
-    droolsWorkbenchExampleGitReposZip: https://download.jboss.org/drools/release/7.44.0.Final/kie-wb-example-repositories-7.44.0.Final.zip
+    droolsWorkbenchEAP7WAR: https://download.jboss.org/drools/release/7.45.0.Final/business-central-7.45.0.Final-eap7.war
+    droolsWorkbenchWildFlyWAR: https://download.jboss.org/drools/release/7.45.0.Final/business-central-7.45.0.Final-wildfly19.war
+    droolsWorkbenchJcr2vfsZip: https://download.jboss.org/drools/release/7.45.0.Final/drools-wb-jcr2vfs-distribution-7.45.0.Final.zip
+    droolsWorkbenchExampleGitReposZip: https://download.jboss.org/drools/release/7.45.0.Final/kie-wb-example-repositories-7.45.0.Final.zip
 
-    droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.44.0.Final/droolsjbpm-tools-distribution-7.44.0.Final.zip
+    droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.45.0.Final/droolsjbpm-tools-distribution-7.45.0.Final.zip
 
-    documentationHtmlSingle: https://docs.jboss.org/drools/release/7.44.0.Final/drools-docs/html_single/index.html
+    documentationHtmlSingle: https://docs.jboss.org/drools/release/7.45.0.Final/drools-docs/html_single/index.html
 
-    KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.44.0.Final/kie-api-javadoc/index.html
+    KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.45.0.Final/kie-api-javadoc/index.html
 
-    droolsWhatsNew: https://docs.jboss.org/drools/release/7.44.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
-    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12347372
+    droolsWhatsNew: https://docs.jboss.org/drools/release/7.45.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
+    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12350798
 
-    kieExecutionServerZip: https://download.jboss.org/drools/release/7.44.0.Final/kie-server-distribution-7.44.0.Final.zip
-    kieWARS: https://repo1.maven.org/maven2/org/kie/server/kie-server/7.44.0.Final/
+    kieExecutionServerZip: https://download.jboss.org/drools/release/7.45.0.Final/kie-server-distribution-7.45.0.Final.zip
+    kieWARS: https://repo1.maven.org/maven2/org/kie/server/kie-server/7.45.0.Final/
 
 # since there are two branches 7.0.x and 6.5.x and there are releases for both, they have to be shown
 
