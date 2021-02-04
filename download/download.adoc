@@ -26,10 +26,6 @@
 |#{site.pom.businessCentralDescription}
 |#{site.pom.latestFinal.businessCentralWildFlyWAR}[WildFly 19 WAR]
 
-|*Drools and jBPM tools*
-|#{site.pom.droolsjbpmToolsDescription}
-|#{site.pom.latestFinal.droolsjbpmToolsZip}[Distribution ZIP]
-
 |*KIE Execution Server*
 |#{site.pom.kieExecutionServerDescription}
 |#{site.pom.latestFinal.kieExecutionServerZip}[Distribution ZIP]
@@ -115,6 +111,8 @@ For more info about the Drools Docker images see this http://blog.athico.com/201
 
 === Eclipse update site
 
-* https://download.jboss.org/drools/release/#{site.pom.latestFinal.version}/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site #{site.pom.latestFinal.version}.
+We stopped to release Eclipse tools synchronously with Drools, thus the recent version of Drools and of latest released Eclipse tools (updatesite) may differ.
+
+* https://download.jboss.org/drools/release/7.48.0.Final/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site (latest released version *7.48.0.Final*).
 * The Drools and jBPM plugin for Eclipse can also be discovered from https://www.jboss.org/tools[JBoss Tools].
-* Alternatively, you can download the "Drools and jBPM tools" zip (from the table above), unzip it and configure the directory "binaries/org.drools.updatesite" as a local updatesite.
+* Alternatively, you can download the latest released version of #{site.pom.latestFinal.latestDroolsJbpmToolsZip}[Drools and jBPM tools zip] (*7.48.0.Final*), unzip it and configure the directory "binaries/org.drools.updatesite" as a local updatesite.
