@@ -31,8 +31,8 @@ USER jenkins
 WORKDIR /home/jenkins
 
 RUN mkdir /home/jenkins/.ssh
-RUN wget https://github.com/kiegroup/drools-website/archive/master.zip
-RUN unzip master.zip
+RUN wget https://github.com/kiegroup/drools-website/archive/main.zip
+RUN unzip main.zip
 
 ENV HOME /home/jenkins
 ENV LANG en_US.UTF-8
