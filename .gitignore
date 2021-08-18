@@ -19,3 +19,5 @@
 /.awestruct
 /.sass-cache
 /Gemfile.lock
+output
+build
