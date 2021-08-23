@@ -1,0 +1,500 @@
+# Available properties per user
+#  userId: Should be the same as githubUsername
+#  fullName: First name and last name (in that order)
+#  role: Role in this project
+#  gravatarHashId: Used to show your avatar image. Change your avatar any time at https://www.gravatar.com/
+#                  To find the gravatar hash id, use: "echo -n youremail@gmail.com | md5sum"
+#  googlePlusId: (optional)
+#  twitterUsername: without the @ (optional)
+#  facebookUsername: (optional)
+#  githubUsername: (optional)
+#  email: It's best to anti-spam this (optional)
+#  employedBy: (optional)
+#  ircNickname: (optional)
+#  contributionsDescription: only work related to this project (optional)
+#  biography: (optional)
+- userId: mdproctor
+  fullName: Mark Proctor
+  role: KIE lead
+  gravatarHashId: 37e3e4a1e196a53748dcb127cea7d1c1
+  twitterUsername: markproctor
+  githubUsername: mdproctor
+  employedBy: Red Hat
+  ircNickname: conan
+- userId: kverlaenen
+  fullName: Kris Verlaenen
+  role: jBPM Lead
+  gravatarHashId: 48514750add199714a1ab5f525f6f7b5
+  twitterUsername: KrisVerlaenen
+  email: kris.verlaenen [at] gmail [dot] com
+  employedBy: Red Hat
+  githubUsername: krisv
+  ircNickname: krisv
+- userId: etirelli
+  fullName: Edson Tirelli
+  role: Drools lead
+  gravatarHashId: 1b7f091584d6362942215fa51d5913ba
+  twitterUsername: edsontirelli
+  githubUsername: etirelli
+  employedBy: Red Hat
+  ircNickname: etirelli
+- userId: ge0ffrey
+  fullName: Geoffrey De Smet
+  role: OptaPlanner lead
+  gravatarHashId: 27147a6679a4bfb6461ff1c0ae10473e
+  googlePlusId: +GeoffreyDeSmet
+  twitterUsername: geoffreydesmet
+  githubUsername: ge0ffrey
+  email: gds.geoffrey.de.smet [at] gmail [dot] com
+  employedBy: Red Hat
+  ircNickname: ge0ffrey
+- userId: trikkola
+  fullName: Toni Rikkola
+  role: Drools Analysis lead
+  gravatarHashId: c0141089d9194697aeb0c7e56f02373f
+  twitterUsername: Rikkola
+  email: toni.rikkola [at] gmail [dot] com
+  employedBy: Red Hat
+  githubUsername: Rikkola
+  ircNickname: Rikkola
+- userId: tsurdilovic
+  fullName: Tihomir Surdilovic
+  role: Senior Software Engineer
+  gravatarHashId: 9396ed3dc3311cc76d6c2c7af59a53e9
+  twitterUsername: tsurdilo
+  employedBy: Red Hat
+  githubUsername: tsurdilo
+  ircNickname: tsurdilo
+- userId: mariofusco
+  fullName: Mario Fusco
+  role: Drools Expert
+  gravatarHashId: 9eafc29df96e6aaf4a3eb4c0209086ae
+  twitterUsername: mariofusco
+  employedBy: Red Hat
+  githubUsername: mariofusco
+  ircNickname: mfusco
+- userId: michaelanstis
+  fullName: Michael Anstis
+  role: Drools Guvnor
+  gravatarHashId: a4bfc256ef0468092bd116bb935b5bad
+  twitterUsername: michael_anstis
+  employedBy: Red Hat
+  githubUsername: manstis
+  ircNickname: manstis
+- userId: mauriciosalatino
+  fullName: Mauricio Salatino
+  role: Senior Engineer
+  gravatarHashId: 7666e02db7c2afa17051ef9d480443d1
+  twitterUsername: salaboy
+  employedBy: Red Hat
+  githubUsername: Salaboy
+  ircNickname: salaboy
+- userId: porcelli
+  fullName: Alexandre Porcelli
+  role: Software Engineer
+  gravatarHashId: fa6a99ce22997ea37036b276854ff74a
+  twitterUsername: porcelli
+  employedBy: Red Hat
+  githubUsername: porcelli
+  ircNickname: porcelli
+- userId: jlindop
+  fullName: Jeremy Lindop
+  role: Senior Software Engineer
+  gravatarHashId: 70f07209f7a254b93ae6ccb030aefb61
+  employedBy: Red Hat
+  githubUsername: jlindop
+  ircNickname: jeremyl
+- userId: ederign
+  fullName: Eder Ignatowicz
+  role: Senior Software Engineer
+  gravatarHashId: b937ab5ebe4923869c0da0d3c1b58778
+  twitterUsername: ederign
+  employedBy: Red Hat
+  githubUsername: ederign
+  ircNickname: ederign
+- userId: mrietvel
+  fullName: Marco Rietveld
+  role: Senior Software Engineer
+  gravatarHashId: d4dacb2e9fe88961621b8a89d119c6aa
+  twitterUsername: marcorietveld
+  employedBy: Red Hat
+  githubUsername: mrietveld
+  ircNickname: mriet
+- userId: wmedvede
+  fullName: Walter Medvedeo
+  role: Senior Software Engineer
+  gravatarHashId: 4a8c787544c0b40bc033f631dc2256c2
+  employedBy: Red Hat
+  githubUsername: wmedvede
+  ircNickname: wmedvede
+- userId: mbiarnes
+  fullName: Michael Biarnes Kiefer
+  role: Release engineer
+  gravatarHashId: b259671a57bb987c00a2e1ba37ff05c5
+  employedBy: Red Hat
+  githubUsername: mbiarnes
+  employedBy: Red Hat
+  ircNickname: mbiarnes
+- userId: psiroky
+  fullName: Petr Široký
+  role: Software Engineer
+  gravatarHashId: e8eb2caefbe452befc919ea0977864c1
+  employedBy: Red Hat
+  githubUsername: psiroky
+  ircNickname: psiroky
+- userId: pefernan
+  fullName: Pere Fernandez
+  role: Software Engineer
+  gravatarHashId: f99e971c52ef2cfca112e836ceee8572
+  employedBy: Red Hat
+  githubUsername: pefernan
+  ircNickname: sr_pere
+- userId: jrenaat
+  fullName: Jan Schatteman
+  role: Software Engineer
+  gravatarHashId: 57e600470d83cd8fe4c36578b2b5c9dd
+  employedBy: Red Hat
+  githubUsername: jrenaat
+  ircNickname: jrenaat
+- userId: dgutierr
+  fullName: David Gutierrez
+  role: Dashbuilder Lead
+  gravatarHashId: a7e5809a36c5a095022b07c5fc642765
+  employedBy: Red Hat
+  githubUsername: dgutierr
+  ircNickname: dgutierr
+- userId: nmirasch
+  fullName: Nieves Miras
+  role: Software Engineer
+  gravatarHashId: 94212c8edd3c1691e2ae691ade741599
+  employedBy: Red Hat
+  githubUsername: nmirasch
+  ircNickname: neus
+- userId: romartin
+  fullName: Roger Martinez
+  role: Software Engineer
+  gravatarHashId: 1d3f300ff44d08c5d071830d382e55b0
+  employedBy: Red Hat
+  githubUsername: romartin
+  ircNickname: roger600
+- userId: cristiano
+  fullName: Cristiano Nicolai
+  role: Senior Software Engineer
+  gravatarHashId: bb01eff89bf810df5a2f4151cecac7d3
+  twitterUsername: cris_nicolai
+  employedBy: Red Hat
+  githubUsername: cristianonicolai
+  ircNickname: cristiano
+- userId: qmx
+  fullName: Douglas Campos
+  role: Senior Software Engineer
+  gravatarHashId: 684b4bfe97a40454db104abcb601e375
+  twitterUsername: qmx
+  employedBy: Red Hat
+  githubUsername: qmx
+  ircNickname: qmx
+- userId: paulovmr
+  fullName: Paulo Rego
+  role: Software Engineer
+  gravatarHashId: 351d20840f76ca87d97f4e5b4e314f0f
+  employedBy: Red Hat
+  githubUsername: paulovmr
+  ircNickname: paulovmr
+- userId: karreiro
+  fullName: Guilherme Carreiro
+  role: Software Engineer
+  gravatarHashId: 16be5820a296f5bce151f0c1b5e16fc8
+  employedBy: Red Hat
+  githubUsername: karreiro
+  ircNickname: karreiro
+- userId: tarilabs
+  fullName: Matteo Mortari
+  role: Senior Software Engineer
+  gravatarHashId: 9777c95daf66418bc54f6a78b3a72e5e
+  employedBy: Red Hat
+  githubUsername: tarilabs
+- userId: volothamp
+  fullName: Luca Molteni
+  role: Senior Software Engineer
+  gravatarHashId: cd40128e044f39d7063b5cfdeace80f6
+  employedBy: Red Hat
+  githubUsername: lucamolteni
+- userId: dzonca
+  fullName: Daniele Zonca
+  role: Senior Software Engineer
+  gravatarHashId: b3cae44acd006e8bbe45d4dd5ee04939
+  employedBy: Red Hat
+  githubUsername: danielezonca
+  ircNickname: dzonca
+- userId: evacchi
+  fullName: Edoardo Vacchi
+  role: Senior Software Engineer
+  gravatarHashId: 06af491f015c1278d8c650a2e8598162
+  employedBy: Red Hat
+  twitterUsername: evacchi
+  githubUsername: evacchi
+  ircNickname: evacchi
+# Properties per contributor
+- userId: vkiran
+  fullName: Vinod Kiran P.
+  role: Drools Spring (5.2, 5.3, 5.4). Drools Scorecard (5.5), Kie-Spring, Kie-Camel, Kie-Aries-Blueprint (6.x)
+  gravatarHashId: d94ddad2916017e3b605ac3c68710cc6
+  githubUsername: vinodkiran
+  ircNickname: vkiran
+- userId: tkobayas
+  fullName: Toshiya Kobayashi
+  role: Guvnor 5.2, 5.3
+  gravatarHashId: db3a590d9699ed3687641c46ee14b023
+  githubUsername: tkobayas
+  ircNickname: tkobayas
+- userId: zenix
+  fullName: Jari Timonen
+  role: Guvnor 5.2, 5.3
+  gravatarHashId: 7808371e67012122db1e0bcdc5860b42
+  twitterUsername: jtimonen
+  email: jari.timonen [at] zeniitti [dot] net
+  githubUsername: tsurdilo
+  ircNickname: zenix
+- userId: awaterma
+  fullName: Andrew Glenn Waterman
+  role: Guvnor 5.2
+  gravatarHashId: 13825244ea3d981ca78df9ee92a2b2b7
+  twitterUsername: awaterma
+  githubUsername: awaterma
+- userId: leogomes
+  fullName: Leonardo Gomes
+  role: Drools 5.2
+  gravatarHashId: 238b80e1278d06c845f840609d0cdc3f
+  twitterUsername: lgomes
+  email: leonardo.f.gomes [at] gmail [dot] com
+  githubUsername: leogomes
+- userId: nicolassanchez
+  fullName: Nicolas Sanchez
+  role: Drools 5.2
+  gravatarHashId: 238b80e1278d06c845f840609d0cdc33
+  githubUsername: nicolas-sanchez
+- userId: leandroromero
+  fullName: Leandro Romero
+  role: Drools 5.2
+  gravatarHashId: 238b80e1278d06c845f840609d0cdc36
+  githubUsername: leandro-romero
+- userId: bauna
+  fullName: Pablo Nussembaum
+  role: Drools 5.1, 5.2, jBPM 5.1
+  gravatarHashId: 19f8046bd6d28b49b81a2db55cd87efe
+  githubUsername: bauna
+- userId: lucazamador
+  fullName: Lucaz Amador
+  role: Drools 5.1
+  gravatarHashId: 09810a291502ecd0bf9aee44beac3136
+  githubUsername: lucazamador
+- userId: estebanaliverti
+  fullName: Esteban Aliverti
+  role: Drools and Guvnor 5.1, 5.2, 5.3
+  gravatarHashId: 9d523442c05834ca07d4e621038715cd
+  twitterUsername: ilesteban
+  githubUsername: esteban-aliverti
+- userId: diega
+  fullName: Diego López León
+  role: Drools 5.1, 5.2
+  gravatarHashId: 138ff7a37f402e8887945b9ce927ddea
+  twitterUsername: diega
+  githubUsername: diega
+- userId: toulmean
+  fullName: Antoine Toulme
+  role: Drools 5.1, 5.2
+  gravatarHashId: 3176c649c1657112f94f3a1180142f42
+  twitterUsername: toulmean
+  ircNickname: toulmean
+- userId: laune
+  fullName: Wolfgang Laun
+  role: Drools 5.1, 5.2
+  gravatarHashId: 238b80e1278d06c845f840609d0cdc39
+  ircNickname: laune
+- userId: nicolasheron
+  fullName: Nicolas Héron
+  role: Drools 5.1, 5.2, 5.3
+  gravatarHashId: 12f6e340266ab43074569a29916fa0a8
+  githubUsername: nheron
+  ircNickname: nicolasheron
+- userId: hzbarcea
+  fullName: Hadrian Zbarcea
+  role: Drools 5.1
+  gravatarHashId: adf235eed8eb298daa3f3f3cf60d27d1
+  githubUsername: hzbarcea
+- userId: abagerman
+  fullName: Alexander Bagerman
+  role: Leaps lead
+  gravatarHashId: 228d0af390d334671db409b666b83e0e
+  email: bagerman [at] gmail [dot] com
+- userId: mfrandsen
+  fullName: Michael Frandsen
+  role: jsr94 lead
+  gravatarHashId: 5354e56a6b190ce290255f00479e44bf
+  email: michael.frandsen [at] syngenio [dot] de
+- userId: swilliams
+  fullName: Steven Williams
+  role:
+  gravatarHashId: 9fb869f63beb721ec0d75590ef4e94bc
+  email: stevenw [at] objectconsulting [dot] com.au
+- userId: btruit
+  fullName: Ben Truit
+  role: Rule repository JCR repo-man
+  gravatarHashId: ce306eabc8a6d46b1764b7d3c47ec659
+  email: ben.truitt [at] Rackspace [dot] com
+- userId: bkaplan
+  fullName: Barry Kaplan
+  role: pojo rules with annotations (Drools 2), spring integration (Drools 2)
+  gravatarHashId: ae2364620e6adcac8df2ca63995c8710
+  email: groups1 [at] memelet [dot] com
+- userId: sharris
+  fullName: Simon Harris
+  role: core developer and performance wizard
+  gravatarHashId: a944b656e1e9cfd45f1e6714435b0a54
+  email: simon [at] redhillconsulting [dot] com.au
+- userId: abarnett
+  fullName: Andy Barnett
+  role: jsr94 (Drools 2), examples (Drools 2), code cleanups (Drools 2)
+  gravatarHashId: a944b656e1e9cfd45f1e6714435b0a57
+- userId: ascroix
+  fullName: Alex Saint Croix
+  role: jsr94 Lead (Drools 2), examples (Drools 2)
+  gravatarHashId: 295c287fd678b040e18df8f61438b958
+  email: alex [at] alexsaintcroix [dot] com
+- userId: bmcAllister
+  fullName: Brian McAllister
+  role: spi refactoring (Drools 2)
+  gravatarHashId: bdaa2bcf6c5b91d77519bc0ca62b9d70
+  email: brian [at] skife [dot] org
+- userId: dcramer
+  fullName: David Cramer
+  role: schema (Drools 2), jelly (Drools 2), examples (Drools 2)
+  gravatarHashId: bdaa2bcf6c5b91d77519bc0ca62b9d73
+- userId: mhald
+  fullName: Martin Hald
+  role: build (Drools 2), io (Drools 2), examples (Drools 2)
+  gravatarHashId: bdaa2bcf6c5b91d77519bc0ca62b9d76
+- userId: rsearl
+  fullName: Robert Searl
+  role: examples (Drools 2), documentation (Drools 2)
+  gravatarHashId: bdaa2bcf6c5b91d77519bc0ca62b9d79
+- userId: tdeisler
+  fullName: Thomas Deisler
+  role: jsr94 (Drools 2)
+  gravatarHashId: 228f8b047acb82df06cba315a788a765
+  email: thomas.deisler [at] jboss [dot] com
+- userId: btopping
+  fullName: Brian Topping
+  role: Logo (Drools 2)
+  gravatarHashId: 67a34207163ee02ced063cd09dc6194b
+  email: topping [at] codehaus [dot] org
+- userId: ctkoster
+  fullName: Christiaan Ten Koster
+  role: groovy fixes (Drools 2), python fixxes (Drools 2), jelly build updates (Drools 2)
+  gravatarHashId: 228f8b047acb82df06cba315a788a768
+- userId: dbryant
+  fullName: Doug Bryant
+  role: groovy fixes (Drools 2), python fixes (Drools 2), smftest fixes (Drools 2)
+  gravatarHashId: eb6cdb43c6e98eedc2e2d452ac63bf05
+  email: dbryant [at] scra [dot] org
+- userId: pkazmier
+  fullName: Pete Kazmier
+  role: examples (Drools 2), code clean ups (Drools 2)
+  gravatarHashId: 228f8b047acb82df06cba315a788a771
+- userId: rfgay
+  fullName: Roger F. Gay
+  role: Schema (Drools 2)
+  gravatarHashId: 228f8b047acb82df06cba315a788a774
+- userId: jstrachan
+  fullName: James Strachan
+  role: initial groovy contribution (Drools 2)
+  gravatarHashId: 228f8b047acb82df06cba315a788a777
+- userId: jsreevalsan
+  fullName: Jayaram Sreevalsann
+  role: Contributor
+  gravatarHashId: 228f8b047acb82df06cba315a788a780
+- userId: rbarone
+  fullName: Ricardo Barone
+  role: Super tester, fixer of nasty bugs
+  gravatarHashId: 6c2c912608ed97b347fe692f8234735f
+  email: ricardo.barone [at] auster [dot] com.br
+- userId: mpratap
+  fullName: Mahendra Pratap Singh Insolexen Corp (Aquired by Perficient recently)
+  role: Contributor
+  gravatarHashId: 228f8b047acb82df06cba315a788a783
+- userId: jbrown
+  fullName: Jeff Brown
+  role: Contributor Eclipse, Examples
+  gravatarHashId: efe1fe6d87a05749088a70f2deca2fdf
+  email: brown_j [at] ociweb [dot] com
+- userId: rjain
+  fullName: Ritu Jain
+  role: .Net co-lead developer
+  gravatarHashId: 25d75946d9649f9088aace5890fdb3c6
+  email: ritujain18 [at] yahoo [dot] com
+- userId: cnagarkar
+  fullName: Chinmay Nagarkar
+  role: .Net co-lead and visionary
+  gravatarHashId: 8153e5efee081b761ca0ec1ea2434e1a
+  email: chinmay.nagarkar [at] gmail [dot] com
+- userId: dahearn
+  fullName: Denis Ahearn
+  role: .Net Developer
+  gravatarHashId: 5bcba8eb58321b5bcfa7dcf74b94a4fa
+  email: denisahearn [at] yahoo [dot] com
+- userId: mmiller
+  fullName: Michael Miller
+  role: Drools.net
+  gravatarHashId: 2bd71ce2b470cb46baba584d1056439c
+  email: mmiller [at] bluecypress [dot] net
+- userId: enzhao
+  fullName: Ellen N. Zhao
+  role: Documentation
+  gravatarHashId: 44119dbbd05a381df98030dfcc2fcf01
+  email: enzhao [at] gmail [dot] com
+- userId: dhamu
+  fullName: David Hamu
+  role: Active helpful fellow
+  gravatarHashId: dfeb8ad1e0a3a4ef2c2bf173799ec0f8
+  email: Dave.Hamu [at] Avnet [dot] com
+- userId: gwiseman
+  fullName: Geoffrey Wiseman
+  role: Active helpful fellow
+  gravatarHashId: 01d4425afaecc751220456d71a9189a2
+  email: gwiseman [at] exchangesolutions [dot] net
+- userId: pjorquera
+  fullName: Pedro Jorquera
+  role: Active helpful fellow
+  gravatarHashId: 1ff8e24027d03d13396f366bfe2f57c9
+  email: pjorquera [at] okode [dot] com
+- userId: psmith
+  fullName: Paul Smith
+  role: Active helpful fellow
+  gravatarHashId: 9e04fa5eae680e1d9eb4a99aa1207d87
+  email: paul.t.smith [at] gmail [dot] com
+- userId: dlaMotta
+  fullName: David LaMotta
+  role: Active helpful fellow
+  gravatarHashId: 16ff730956ca3dbb69b25e2b3813fb5a
+  email: dlamotta [at] cisco [dot] com
+- userId: michaelneale
+  fullName: Michael Neale
+  role: Former Drools Guvnor lead
+  gravatarHashId: 329a95bb329eb35b1093ab1ff7576231
+  twitterUsername: michaelneale
+  email: michael.neale [at] jboss [dot] com
+- userId: bobmcwhirter
+  fullName: Bob McWhirter
+  role: Founder (now manager of jboss.org)
+  gravatarHashId: 918847782c26cddfb831ce9a68e94a1a
+  twitterUsername: bobmcwhirter
+- userId: tarilabs_community
+  fullName: Matteo Mortari
+  role: Bug reports, reproducers, fixes and Drools Maven Archetype
+  gravatarHashId: 9777c95daf66418bc54f6a78b3a72e5e
+  githubUsername: tarilabs
+- userId: volothamp_community
+  fullName: Luca Molteni
+  role: Drools developer
+  gravatarHashId: cd40128e044f39d7063b5cfdeace80f6
+  githubUsername: lucamolteni

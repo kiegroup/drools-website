@@ -1,0 +1,109 @@
+= Upgrade recipe 7.0
+:awestruct-description: Upgrade to Drools 7.0 from a previous version.
+:awestruct-layout: upgradeRecipeBase
+:awestruct-priority: 0.5
+:awestruct-upgrade_recipe_version: 7.0
+
+== Backwards incompatible changes to the public API
+
+Because this is a new major version number (7.0), which is the foundation for the 7.x series for the next few years,
+it allows us to make backwards incompatible changes to the public API _for the long term benefit of this project_.
+
+Our current intention is to keep these backwards incompatible changes to a strict minimum
+(by favoring deprecation over removal) and do not introduce any additional ones after 7.0.
+
+Any backwards incompatible changes are annotated with a [.label.label-danger.label-as-badge.label-public-api]#Public API# badge.
+
+
+== From 6.5.0.Final to 7.0.0.Final
+
+
+[.upgrade-recipe-major.upgrade-recipe-public-api]
+=== Java 8 or higher required
+
+If you're using JRE or JDK 6 or 7, upgrade to JDK 8 or higher.
+
+We currently intend to support a minimal version of Java 8 throughout the entire 7.x series.
+
+
+[.upgrade-recipe-major.upgrade-recipe-public-api]
+=== OSGi integration artifacts renamed
+
+OSGi integration artifacts were renamed from `drools-\*` to `kie-*`. We have also renamed the Java package names from
+`org.drools.osgi` to org `org.kie.osgi.`. The main reason for these changes is that the artifacts no longer contain just
+Drools specific code, but also jBPM and OptaPlanner OSGi integration (KIE is the umbrella term for those three projects).
+The change affects `drools-osgi-integration` Maven artifact, Karaf features file URL and Spring's `OsgiKModuleBeanFactoryPostProcessor`:
+
+Before in `pom.xml`:
+[source, xml]
+----
+<dependency>
+  <groupId>org.drools</groupId>
+  <artifactId>drools-osgi-integration</artifactId>
+  <version>6.5.0.Final</version>
+</dependency>
+----
+
+After in `pom.xml`:
+[source, xml]
+----
+<dependency>
+  <groupId>org.kie</groupId>
+  <artifactId>kie-osgi-integration</artifactId>
+  <version>7.0.0.Final</version>
+</dependency>
+----
+
+Before when using Karaf features file:
+[source,shell]
+----
+features:addurl mvn:org.drools/drools-karaf-features/6.5.0.Final/xml/features
+----
+
+After when using Karaf features files:
+[source]
+----
+features:addurl mvn:org.kie/kie-karaf-features/7.0.0.Beta2/xml/features
+----
+
+Before in Spring configuration file:
+[source, xml]
+----
+<bean id="kiePostProcessor" class="org.drools.osgi.spring.OsgiKModuleBeanFactoryPostProcessor"/>
+----
+
+After in Spring configuration file:
+[source, xml]
+----
+<bean id="kiePostProcessor" class="org.kie.osgi.spring.OsgiKModuleBeanFactoryPostProcessor"/>
+----
+
+[.upgrade-recipe-major.upgrade-recipe-public-api]
+=== KIE Drools Workbench WARs renamed
+The KIE Drools Workbench WARs were renamed from `kie-drools-wb-distribution-wars-<version>-<container>.war`
+to just `kie-drools-wb-<version>-<container>.war`. In case you depend directly on the Maven GAV you need to change
+the `artifactId`:
+
+Before in `pom.xml`:
+[source, xml]
+----
+<dependency>
+  <groupId>org.kie</groupId>
+  <artifactId>kie-drools-wb-distribution-wars</artifactId>
+  <version>6.5.0.Final</version>
+  <type>war</type>
+  <classifier>wildfly10</classifier>
+</dependency>
+----
+
+After in `pom.xml`:
+[source, xml]
+----
+<dependency>
+  <groupId>org.kie</groupId>
+  <artifactId>kie-drools-wb</artifactId>
+  <version>7.0.0.Final</version>
+  <type>war</type>
+  <classifier>wildfly10</classifier>
+</dependency>
+----

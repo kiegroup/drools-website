@@ -1,0 +1,52 @@
+---
+description: Professional services for drools by Red Hat
+layout: normalBase
+title: Selected nightly Snapshots
+---
+
+%h1 #{page.title}
+
+:asciidoc
+
+  [.summaryParagraph]
+  On this page you can download selected binaries of nightly builds.
+
+-#.panel.panel-default
+-#  .panel-body
+-#    %iframe(src="https://www.redhat.com/forms/?config=droolsFromId" style="width: 100%; height: 700px; border: none;")
+
+:asciidoc
+
+  |===
+
+  |Name |Download
+
+  |*Drools distribution*
+  |#{site.pom.latestFinal.droolsSnapZip}[Drools-distribution ZIP]
+
+  |*Jbpm distribution*
+  |#{site.pom.latestFinal.jbpmSnapZip}[Jbpm-distribution-bin ZIP]
+
+  |*Business Central WAR*
+  |#{site.pom.latestFinal.businessCentralSnapWF}[Wildfly 19 WAR]
+
+  |*kie server ee7*
+  |#{site.pom.latestFinal.kieserverSnapEe7}[ee7 WAR]
+
+  |*kie server ee8*
+  |#{site.pom.latestFinal.kieserverSnapEe8}[ee8 WAR]
+
+  |*kie server webc*
+  |#{site.pom.latestFinal.kieserverSnapWebc}[webc WAR]
+
+  |*kie server distribution*
+  |#{site.pom.latestFinal.kieserverSnapDistZip}[Distribution ZIP]
+
+  |*kie tomcat integration*
+  |#{site.pom.latestFinal.tomcatIntergrationSnap}[Tomcat integration JAR]
+
+  // the comment will be removed once org.drools.updatesite is created again (droolsjbpm-tools forms art again of the kiegroup reps or the updatesite will be created in another rep)
+  // |*org.drools.updatesite*
+  // |#{site.pom.latestFinal.updatesiteSnapZip}[updatesite ZIP]
+
+  |===

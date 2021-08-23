@@ -1,0 +1,107 @@
+---
+title: Drools DMN engine, an open source Java™ providing full runtime support for Decision Model and Notation (DMN™) models at Conformance level 3
+description: Drools DMN engine is an open source Java™ implementation providing full runtime support for DMN models at Conformance level 3, meaning 100% of the features in the Standard
+keywords: DMN, open source, Java, drools, Decision Model and Notation
+layout: learnTopicBase
+---
+
+%h1 DMN
+%p{:class => "lead"} 
+  The Decision Model and Notation (DMN™) is a Standard by OMG® providing a common and visual notation readily understandable by all users and personas.
+  With DMN, business analysts can define the initial decision requirements and then formalize more detailed decision models; technical developers can automate the decisions in any process with a portable execution semantic, while business stakeholders can manage and monitor those decisions.
+%p
+  The official webpage of the DMN Standard specification is available at
+  %a{ :href => "https://www.omg.org/dmn", :title => "DMN Specification" } OMG website
+  %span> .
+  %br
+  %br
+  Drools DMN engine is an open source Java™ implementation providing full runtime support for DMN models at Conformance level 3, meaning 100% of the features in the Standard.
+
+%h2 At a glance
+%br
+%div{:class => "quoteblock text-right"}
+  %blockquote
+    %div{:class => "paragraph"}
+      %p
+        DMN is trying to do for Business Decision Management what BPMN did for Business Process Management a decade ago: empower the business to take charge of the logic that drives its operations, through a vendor-independent diagramming language.
+        To be effective, that language must be both usable by business analysts and stakeholders in the business and verifiable for completeness and consistency.
+        DMN is both.
+  %div{:class => "attribution"}
+    — Bruce Silver
+    %br
+    %cite
+      %a{ :href => "https://methodandstyle.com/what-is-dmn", :title => "What is DMN?" } What is DMN?
+
+%br
+%br
+%br
+
+%div{:class => "row", :style=>"display: flex; align-items: center;"}
+  .col-md-8
+    %img{:src=>"DMNDRG.png"}
+  .col-md-4
+    %p Manage any decision complexity by decomposing and structuring decision services with Decision Requirement Graph (DRG)
+
+%br
+%br
+%br
+
+%div{:class => "row", :style=>"display: flex; align-items: center;"}
+  .col-md-6.text-right
+    %p Model business logic with DMN Decision Table, an effective instrument understandable by all personas. Drools DMN engine performs static analysis of the DMN Decision Table to detect Gaps, Overlaps and ensure the table rules follows industry best-practices. 
+  .col-md-6.text-right
+    %img{:src=>"DMNDT.png"}
+
+%br
+%br
+%br
+
+%div{:class => "row", :style=>"display: flex; align-items: center;"}
+  .col-md-8
+    %img{:src=>"DMNBoxed.png"}
+  .col-md-4
+    %p Model more complex business logic with the power of all the FEEL Boxed Expression constructs made available by the DMN Standard specification.
+
+%br
+%br
+%br
+
+%div{:class => "row", :style=>"display: flex; align-items: center;"}
+  .col-md-6.text-right
+    %p
+    Integrate DMN with
+    %a{ :href => "https://jbpm.org", :title => "BPMN" } BPMN
+    and
+    %a{ :href => "https://jbpm.org", :title => "CMMN" } CMMN
+    to describe an executable and semantically defined business logic to be used in business proccesses.
+  .col-md-6.text-right
+    %img{:src=>"DMNBPMN.png"}
+
+%br
+%br
+%br
+
+%div{:class => "row", :style=>"display: flex; align-items: center;"}
+  .col-md-8
+    %img{:src=>"DMNTCK.png"}
+  .col-md-4
+    %p
+      Drools DMN engine provides full runtime support for DMN models at Conformance level 3, meaning 100% of the features in the Standard.
+      %br
+      %br
+      We contribute to the
+      %a{ :href => "https://dmn-tck.github.io/tck", :title => "DMN TCK" } DMN Technology Compatibility Kit (DMN TCK)
+      %span> , a community-led proposal for a verifiable and executable method to demonstrate the Conformance level of support provided by a Vendor supplied DMN implementation.
+
+%h2 Resources
+%p
+  Looking for a gentle introduction to the DMN standard?
+  %br
+  We have just the right crash course on DMN, freely available for you at:
+  %a{ :href => "http://learn-dmn-in-15-minutes.com", :title => "learn-dmn-in-15-minutes.com" }learn-dmn-in-15-minutes.com
+%p
+  Drools documentation:
+  %a{ :href => "https://docs.jboss.org/drools/release/latest/drools-docs/html_single/index.html#drools.DMN"}DMN support in Drools
+%p
+  A tutorial showing how to create and test an example DMN model with Red Hat Decision Manager:
+  %a{ :href => "https://access.redhat.com/documentation/en-us/red_hat_decision_manager/7.8/html-single/getting_started_with_decision_services/index", :title => "Getting started with decision services" }Getting started with decision services

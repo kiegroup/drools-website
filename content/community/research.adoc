@@ -1,0 +1,245 @@
+= Research papers
+:awestruct-layout: normalBase
+:showtitle:
+
+== Introduction
+
+This page lists the known research projects.
+
+If you would like to have this page updated, either correction or addition, then please update the wiki page and we will sync back to this published page.
+
+If you are a staff member at research institute I would encourage you to subscribe to the drools research mailing list. This is a mailing list for people to discuss existing and potential drools research, students, funding, etc.
+
+== 2009
+
+*Application of Drools in network fault management  system*
+
+* Authors - Ma Xiu-li, Wang Hong-xia, Zhang Ling-yun
+* Paper - Computer Engineering and Design, Vol. 30, No. 8.  (2009/04/28)
+* http://www.citeulike.org/user/mzygmunt/article/6482668[Paper URL]
+* University - University,Shenyang 110168,China
+
+*A Snort-based agent for a JADE multi-agent intrusion detection system*
+
+* Authors - Mosqueira-Rey, Alonso-Betanzos, Guijarro-Berdinas, Alonso-Rios, Lago-Pineiro
+* http://www.ingentaconnect.com/content/ind/ijiids/2009/00000003/00000001/art00007[Paper URL]
+* University - Department of Computer Science, University of A Corufia,  ESPAGNE
+
+*Achieving Rule Interoperability Using Chains of Model Transformations*
+
+* Authors - Marcos Didonet Del Fabro, Patrick Albert, Jean Bézivi, Frédéric Jouault
+* http://www.springerlink.com/content/0174252285737q74/[Paper URL]
+* Paper ISBN - 978-3-642-02407-8
+
+*Implementing a Rule-Based Contract Compliance Checker*
+
+* Authors - Massimo Strano, Carlos Molina-Jimenez, Santosh Shrivastava
+* http://www.cs.ncl.ac.uk/publications/trs/papers/1150.pdf[Paper URL]
+* Paper ISBN - 978-3-642-04279-9
+* University - Newcastle University, Newcastle upon Tyne, UK
+
+*Want to Know How to Play the Game? Ask the ORACLE!*
+
+* Authors - Paola Rizzo, Michael Kriege, Rui Figueiredo, MeiYii Lim and Ruth Aylett
+* Paper ISBN - 978-3-642-04379-6
+* http://www.springerlink.com/content/855l02875w70221p/[Paper URL]
+* Universities - Interagens s.r.l., c/o ITech, Rome, Italy; Heriot-Watt University, Riccarton, Edinburgh,  UK; INESC-ID, Porto Salvo, Portugal
+
+*Off-line Analysis Research and Implementation Based on Drools*
+
+* Authors - XIU Jie-lei XU Nan-shan WEI Sheng-jun
+* http://en.cnki.com.cn/Article_en/CJFDTOTAL-WJSJ200903063.htm[Paper URL]
+* Universities - School of Information Science, Beijing University of Chemical Technology,Beijing, China; Laboratory of Computer Network Defense Technology, Beijing Institute of Technology,Beijing,China
+
+*An industry survey of autonomic infrastructure*
+
+* Authors - Michael Keith Nunez, Gary Mueller
+* http://portal.acm.org/citation.cfm?id=1555312.1555316[Paper URL]
+* Paper ISBN - 978-1-60558-612-0
+* Organisation - Sun Microsystems, Inc. , Broomfield, CO, USA
+
+*An Automatically Composable OWL Reasoner for Resource Constrained Devices*
+
+* Authors - BRENNAN, ROB, O'SULLIVAN, DECLAN, KEENEY, JOHN
+* http://www.tara.tcd.ie/handle/2262/38086[Paper URL]
+* University -  Trinity College Dublin, Dublin 2, Ireland
+
+== 2008
+
+*Semi-automatic Composition of Geospatial Web Services Using JBoss Rules*
+
+* Authors - Raluca Zaharia (1) and Laurentiu Vasiliu (1) and Costin Badica (2)
+* (1) Digital Enterprise Research Institute, National University of Ireland, Galway, Ireland
+* (2) Software Engineering Department, University of Craiova, Romania
+* Keywords: Semantic Web Services, WSMO/L/X, ASM
+* http://www.springerlink.com/content/j347l97t18137163/fulltext.pdf[Paper URL]
+
+*Building Machine Learning with Drools Reteoo (Red Hat sponsored research)*
+
+* Student - Gizil Oguz
+* Mentor - Viktor Kuncak
+* http://infoscience.epfl.ch/record/126292/files/oguz-thesis_final.pdf[Paper URL]
+* University - Ecol Polytechnique Federale de Lausanne
+
+*Development of a Rich Client based GUI for Expert Systems* (in German)
+
+* Student - Dennis Huning
+* Mentor - Prof. Nikolaus Wulff
+* Bachelor Thesis  http://www.lab4inf.fh-muenster.de/lab4inf/docs/thesis/BA_DHuning.pdf[URL]
+* University - University of Applied Sciences, Fachhochschule Muenster, Germany
+
+*Reasoning with Uncertainty in Drools*
+
+* Student - Davide Sottara
+* Mentor - Prof. Paola Mello
+* Paper - Adding Uncertainty to Rete-OO engines (To be published)
+* University - DEIS, Faculty of Engineering, University of Bologna
+
+*Program, Enhance Thyself! Demand-Driven Pattern-Oriented Program Enhancement*
+
+* Student - Eli Tilevich
+* Mentor - Godmar Back
+* Paper ISBN - ISBN:978-1-60558-044-9
+* http://portal.acm.org/citation.cfm?id=1353482.1353485&coll=GUIDE&dl=GUIDE&CFID=1526005&CFTOKEN=47419151[Paper URL]
+* University - Virginia Tech
+
+*Can URML model successfully Drools rules?*
+
+* Student: Emilian Pascalau
+* Mentor: Dr Adrian Giurca
+* Paper ISBN: 978-960-6843-02-0
+* http://www.informatik.tu-cottbus.de/~agiurca/papers/RuleApps2008.pdf[Paper URL]
+* University - Brandenburg University of Technology
+
+*Knowledge-based Desing Pattern for Detailed Steel Structural Design*
+
+* Student: Michael Zimmermann
+* Mentor - Prof. Dr. Robert Bronsart
+* Phd Thesis
+** work in progress
+** for a short summary, see http://blog.athico.com/2008/09/improving-naval-engineering-process.html[URL]
+* University - University of Rostock, Chair of Naval Architecture
+
+*Policy-driven middleware*
+
+* Student - Kris Verlaenen
+* Mentor - Prof. Dr. ir. W. Joosen
+* Phd dissertation - K. Verlaenen, Middleware for advanced service configuration: a policy-based approach. March 2008.
+* University - Katholieke Universiteit Leuven
+
+*Solving Patient Admission Scheduling problem with Drools Solver and Constraint Solver Library*
+
+* Student - Wim Van Croonenburg
+* Mentor - Peter Demeester
+* University - Katholieke Hogeschool Sint-Lieven Gent
+
+*Knowledge Representation in Services Oriented Architecture*
+
+* Student - Piotr Grobelny
+* Mentor - >
+* http://www.astec.net/brochure/Paper_KNWS2008_Piotr_Grobelny.pdf[Paper URL]
+* University - University of Zielona Gora, Faculty of Electrical Engineering, Computer Science and Telecommunications
+
+*Runtime Evolution for Online Gaming: A Case Study using JBoss and Drools*
+
+* Student - Lei Zhu
+* Mentor - Graham Morgan
+* http://homepages.cs.ncl.ac.uk/lei.zhu1/source/leiZhuGDTW08.pdf[Paper URL]
+* University - University of Newcastle, School of Computing Science
+
+*Time to the Rescue - Supporting Temporal Reasoning in the Rete Algorithm for Complex Event Processing*
+
+* Authors - Karen Walzer, Matthias Groch1 and Tino Breddin
+* Paper ISBN - 978-3-540-85653-5
+* http://www.springerlink.com/content/303241m22n52g0g2/[Paper URL]
+
+*Combat SystemApplication of Change-Tolerant Technology: Using Rules Engine for Decision Automation*
+
+* Authors - Catherine L. Payne, Mark E. Schmid, Barbara A. Shapter, and Brian T. Taylor
+* http://member.navalengineers.org/SiteCollectionDocuments/2008%20Proceedings%20Documents%20%28Papers%20and%20Presentations%29/ASNE%20Day%202008/paper7.pdf[Papers URL]
+* Organisation - Naval Engineers
+
+*A Knowledge Authoring Tool for Clinical Decision Support*
+
+* Authors - Dustin Dunsmuir, Jeremy Daniels, Christopher Brouse, Simon Ford and J. Mark Ansermino
+* http://www.springerlink.com/content/03246251j36pn6q2/[Paper URL]
+* University - The University of British Columbia, Vancouver,  Canada
+
+*JSON Rules*
+
+* Authors - A Giurca, E Pascalau, G  Kaiserslautern
+* http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.142.6370&rep=rep1&type=pdf#page=15[Paper URL]
+* Organisation -31st German Conference on Artificial Intelligence
+
+*Advances in Autonomic Components & Services*
+
+* Authors - Marco Aldinucci, Marco Danelutto, Giorgio Zoppi and  Peter Kilpatrick
+* http://www.springerlink.com/content/m0k7562u0v043610/[Paper URL]
+* Paper ISBN - 978-0-387-09454-0 (Print) 978-0-387-09455-7 (Online)
+* Universities - Dept. Computer Science, University of Pisa, Pisa,  IT; Dept. Computer Science, Queen's University Belfast, UK
+
+*Integrating flaw-response modelling tools used for inspection qualification into a Multi-Agent System software platform*
+
+* Authors - J P McKenna, N McLean, A Gachagan1, S D J McArthur, G Hayward
+* http://www.atypon-link.com/BINT/doi/abs/10.1784/insi.2008.50.2.70[Paper URL]
+* University -  University of Strathclyde, Glasgow
+
+*Mobile and Stationary Sensors for Local Surveillance: System Architecture and Applications*
+
+* Authors - Sandro Leuchter, Thomas Partmann and Lothar Berger
+* http://www.springerlink.com/content/l62048u947n69735/[Paper URL]
+* Paper ISBN - 978-3-540-89899-3
+* University - Fraunhofer Institute for Information and Data  Processing
+
+*Behavioural Skeletons Meeting Services*
+
+* Authors - M. Danelutto and G. Zoppi
+* http://www.springerlink.com/content/m186g31118144078/[Paper URL]
+* Paper ISBN - 978-3-540-69383-3
+* Universities - Dept. Computer Science, Univ. Pisa; CoreGRID Programming Model Institute,
+
+*An Intelligent Plot-Centric Interface for Mastering Computer Role-Playing Games*
+
+* Authors - Carlos León, Federico Peinado, Álvaro Navarro and Héctor Cortiguera
+* http://www.springerlink.com/content/a371722747m4u652/[Paper URL]
+* Paper ISBN - 978-3-540-89424-7
+* University - Departamento de Ingeniería del Software e Inteligencia Artificial, Universidad Complutense de Madrid, Spain
+
+*Design and realization of rule-based workflow task assignment system*
+
+* Authors - Li, Chun-Fang | Tan, Qing-Ping | Xu, Jian-Jun | Xiao, Xiao-Li
+* http://md1.csa.com/partners/viewrecord.php?requester=gs&collection=TRD&recid=200902900014604CI&q=drools+OR+%22jboss+rules%22&uid=789178026&setcookie=yes[Paper URL]
+* Organisation - Jisuanji Gongcheng yu Sheji (Computer Engineering and Design). Vol. 29, no. 21, pp. 5572-5575. Nov. 2008
+
+== 2007
+
+*Arriclides: An architecture  integrating clinical decision support models*
+
+* Student - Kris Verlaenen
+* Mentor - Prof. Dr. ir. W. Joosen
+* Published  Paper - K. Verlaenen, W. Joosen, and P. Verbaeten. Arriclides: An  architecture integrating clinical decision support models. In  Proceedings of the 40th Annual Hawaii International Conference on System  Sciences, January 2007.
+* University -  Katholieke Universiteit Leuven
+
+*Towards simplified policy  specification and reasoning*
+
+* Student -  Kris Verlaenen
+* Mentor - Prof. Dr. ir. W. Joosen
+* Published  Paper - K. Verlaenen, B. De Win, and W. Joosen. Towards simplified  specification of policies in different domains. In Proceedings of the  10th Symposium on Integrated Network Management, May 2007.
+* Published Paper - K. Verlaenen, B. De Win, and W. Joosen.  Policy analysis using a hybrid semantic reasoning engine. In Proceedings  of the 8th International Workshop on Policies for Distributed Systems  and Networks, June 2007.
+* University -  Katholieke Universiteit Leuven
+
+*On Interchange between JBoss  Rules and Jess*
+
+* Student: Oana Nicolae
+* Mentor: Dr Adrian Giurca
+* Paper ISBN: 978-3-540-74929-5
+* http://www.springer.com/cda/content/document/cda_downloaddocument/9783540749295-t1.pdf[Paper  URL]
+* University - Brandenburg University of Technology
+
+*Sharing  rules between JBoss Rules and Jena*
+
+* Student  - Oana Nicolae, Mircea Diaconescu,
+* Mentor: Dr.  Adrian Giurca,  Prof. Gerd Wagner
+* Paper ISBN: 0-7695-3078-8
+* http://csdl.computer.org/dl/proceedings/synasc/2007/3078/00/30780105.pdf[Paper URL]
+* University - Brandenburg University of Technology
