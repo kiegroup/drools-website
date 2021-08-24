@@ -1,17 +1,12 @@
-droolsDescription: Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).
-  Distribution zip contains binaries, examples, sources and javadocs.
+droolsDescription: Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).  Distribution zip contains binaries, examples, sources and javadocs.
 
-businessCentralDescription: Business Central Workbench is the web application and repository to govern Drools and jBPM assets.
-  See link:../learn/documentation.html[documentation] for details about installation.
+businessCentralDescription: Business Central Workbench is the web application and repository to govern Drools and jBPM assets. See link:../learn/documentation.html[documentation] for details about installation.
 
-droolsjbpmIntegrationDescription: Drools and jBPM integration with third party project like Spring.
-  Distribution zip contains binaries, examples and sources.
+droolsjbpmIntegrationDescription: Drools and jBPM integration with third party project like Spring. Distribution zip contains binaries, examples and sources.
 
-droolsjbpmToolsDescription: Eclipse plugins and support for Drools, jBPM and Guvnor functionality.
-  Distribution zip contains binaries and sources.
+droolsjbpmToolsDescription: Eclipse plugins and support for Drools, jBPM and Guvnor functionality. Distribution zip contains binaries and sources.
 
-kieExecutionServerDescription: Standalone execution server that can be used to remotely execute rules using REST, JMS or Java interface.
-  Distribution zip contains WAR files for all supported containers.
+kieExecutionServerDescription: Standalone execution server that can be used to remotely execute rules using REST, JMS or Java interface. Distribution zip contains WAR files for all supported containers.
 
 kieWarsDescription: WAR files for all supported containers
 
@@ -89,8 +84,7 @@ latest6:
 
     droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/6.5.0.Final/droolsjbpm-integration-distribution-6.5.0.Final.zip
 
-    droolsWorkbench6Description: Drools Workbench is the web application and repository to govern Drools and jBPM assets.
-     See link:../learn/documentation.html[documentation] for details about installation.
+    droolsWorkbench6Description: Drools Workbench is the web application and repository to govern Drools and jBPM assets. See link:../learn/documentation.html[documentation] for details about installation.
 
     droolsWorkbenchEAP6WAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-eap6_4.war
     droolsWorkbenchEAP7WAR: https://download.jboss.org/drools/release/6.5.0.Final/kie-drools-wb-6.5.0.Final-eap7.war
