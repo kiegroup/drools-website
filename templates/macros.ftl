@@ -302,12 +302,31 @@
         </div>
     </div>
     <div class="card border-0">
+        <h3 class="card-title">Are you using <a href="https://www.docker.com/">Docker</a>?</h3>
         <div class="card-body">
-            <a class="btn btn-lg btn-light w-100"
-               href="https://github.com/kiegroup/optaplanner-quickstarts">
-                <img alt="GitHub" src="${content.rootpath}headerFooter/gitHubLogo.png">
-                <div>Clone the Quickstarts code.</div>
-            </a>
+            <span>Try our Docker images and run Drools in just seconds</span>
+            <ul class="list-unstyled">
+                <li>
+                    <a href="https://registry.hub.docker.com/r/jboss/business-central-workbench/">Business
+                        Central Workbench</a>
+                </li>
+                <li>
+                    <a href="https://registry.hub.docker.com/r/jboss/business-central-workbench-showcase/">Business
+                        Central Workbench Showcase</a>
+                </li>
+                <li>
+                    <a href="https://registry.hub.docker.com/r/jboss/kie-server/">KIE Execution Server</a>
+                </li>
+                <li>
+                    <a href="https://registry.hub.docker.com/r/jboss/kie-server-showcase/">KIE Execution
+                        Server
+                        Showcase</a>
+                </li>
+            </ul>
+            <div class="small">
+                More info at
+                <a href="http://blog.athico.com/2015/06/drools-jbpm-get-dockerized.html">this post</a>
+            </div>
         </div>
     </div>
 </#macro>

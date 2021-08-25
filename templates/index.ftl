@@ -5,90 +5,66 @@
 
 <#macro layout>
     <@parent.layout
-            title="Constraint satisfaction solver (Java™, Open Source)"
-            description="OptaPlanner optimizes business resource usage. It is a lightweight, embeddable, open source planning engine, written in 100% Java."
-            uri=""
-            googleWebmasterToolsVerification=true>
-        <div class="row">
-            <div class="col-md-8 col-sm-5">
-                <h1>What is OptaPlanner?</h1>
-                <div class="paragraph">
-                    <p>OptaPlanner is <strong>an AI constraint solver.</strong>
-                        It optimizes planning and scheduling problems,
-                        such as <a href="${content.rootpath}learn/useCases/vehicleRoutingProblem.html">the Vehicle Routing Problem</a>,
-                        <a href="${content.rootpath}learn/useCases/employeeRostering.html">Employee Rostering</a>,
-                        <a href="${content.rootpath}learn/useCases/maintenanceScheduling.html">Maintenance Scheduling</a>,
-                        <a href="${content.rootpath}learn/useCases/taskAssignmentOptimization.html">Task Assignment</a>,
-                        <a href="${content.rootpath}learn/useCases/schoolTimetabling.html">School Timetabling</a>,
-                        <a href="${content.rootpath}learn/useCases/cloudOptimization.html">Cloud Optimization</a>,
-                        <a href="${content.rootpath}learn/useCases/conferenceScheduling.html">Conference Scheduling</a>,
-                        Job Shop Scheduling, Bin Packing
-                        and <a href="${content.rootpath}learn/useCases/">many more</a>.
-                        Every organization faces such challenges:
-                        assign a limited set of <em>constrained</em> resources (employees, assets, time and/or money)
-                        to provide products or services.
-                        OptaPlanner delivers more efficient plans, which reduce costs and improve service quality.</p>
-                </div>
-                <div class="paragraph">
-                    <p>OptaPlanner is <strong>a lightweight, embeddable planning engine</strong>.
-                        It enables everyday <a href="${content.rootpath}compatibility/java.html">Java</a> programmers to solve optimization problems efficiently.
-                        It is also compatible with other JVM languages (such as <a href="${content.rootpath}compatibility/kotlin.html">Kotlin</a> and <a href="${content.rootpath}compatibility/scala.html">Scala</a>).
-                        Constraints apply on plain domain objects and can call existing code.
-                        There&#8217;s no need to input constraints as mathematical equations.
-                        Under the hood, OptaPlanner combines sophisticated Artificial Intelligence optimization algorithms
-                        (such as Tabu Search, Simulated Annealing, Late Acceptance and other metaheuristics)
-                        with very efficient score calculation and other state-of-the-art constraint solving techniques.</p>
-                </div>
-                <div class="paragraph">
-                    <p>OptaPlanner is <strong>open source software</strong>, released under <a href="${content.rootpath}code/license.html">the Apache License</a>.
-                        It is written in 100% pure Java™, runs on any JVM and is available in <a href="${content.rootpath}download/download.html">the Maven Central repository</a> too.
-                        It works with <a href="${content.rootpath}compatibility/quarkus.html">Quarkus</a> and <a href="${content.rootpath}compatibility/springBoot.html">Spring Boot</a>.</p>
-                </div>
-                <@macros.flags/>
-            </div>
-            <div class="col-md-4 col-sm-5">
-                <@macros.downloadJumbotron/>
-                <@macros.servicesOffer/>
-                <@macros.documentationJumbotron/>
-            </div>
+    title="Constraint satisfaction solver (Java™, Open Source)"
+    description="OptaPlanner optimizes business resource usage. It is a lightweight, embeddable, open source planning engine, written in 100% Java."
+    uri=""
+    googleWebmasterToolsVerification=true>
+        <div class="alert alert-info alert-dismissible" role="alert" id="release-version-alert">
+            <i class="fas fa-info-circle"></i>
+            <!-- 2021-08-05: -->
+            <!-- %a.alert-link(href="https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12359307")Drools 7.58.0.Final has been released. -->
+            2021-08-05:
+            <a class="alert-link"
+            href="https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&amp;version=12359307">Drools
+                7.58.0.Final has been released.</a>
+            <button class="btn-close" data-bs-dismiss="alert" type="button" aria-label="Close"></button>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                <div id="whatIsCarouselButtons" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div class="col-md-8" style="margin-top: -17px;margin-bottom: 20px">
+                <p>
+                    Drools is a Business Rules Management System (BRMS) solution. It provides a core Business Rules
+                    Engine (BRE), a web authoring and rules management application (Drools Workbench), full runtime
+                    support for <a href="learn/dmn.html">Decision Model and Notation (DMN)</a> models at Conformance
+                    level 3 and an Eclipse IDE plugin for core development.
+                </p>
+                <p>
+                    Drools is open source software, released under the Apache License 2.0. It is written in 100% pure
+                    Java™, runs on any JVM and is available in the Maven Central repository too.
+                </p>
+                <div class="carousel slide carousel-dark" data-bs-ride="carousel" id="whatIsCarouselButtons">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#whatIsCarouselButtons" data-bs-slide-to="0"
-                                aria-label="Video" class="active" aria-current="true"></button>
-                        <button type="button" data-bs-target="#whatIsCarouselButtons" data-bs-slide-to="1"
-                                aria-label="Use Cases"></button>
-                        <button type="button" data-bs-target="#whatIsCarouselButtons" data-bs-slide-to="2"
-                                aria-label="Usage"></button>
-                        <button type="button" data-bs-target="#whatIsCarouselButtons" data-bs-slide-to="3"
-                                aria-label="Integration"></button>
-                        <button type="button" data-bs-target="#whatIsCarouselButtons" data-bs-slide-to="4"
-                                aria-label="Compatibility"></button>
-                        <button type="button" data-bs-target="#whatIsCarouselButtons" data-bs-slide-to="5"
-                                aria-label="Scalability"></button>
+                        <button type="button" aria-label="DMN" data-bs-slide-to="0" data-bs-target="#whatIsCarouselButtons"
+                                class="active"></button>
+                        <button type="button" aria-label="Data Modeller" data-bs-slide-to="1" data-bs-target="#whatIsCarouselButtons"></button>
+                        <button type="button" aria-label="Conditions" data-bs-slide-to="2" data-bs-target="#whatIsCarouselButtons"></button>
+                        <button type="button" aria-label="Actions" data-bs-slide-to="3" data-bs-target="#whatIsCarouselButtons"></button>
+                        <button type="button" aria-label="Rules" data-bs-slide-to="4" data-bs-target="#whatIsCarouselButtons"></button>
+                        <button type="button" aria-label="Visualization" data-bs-slide-to="5" data-bs-target="#whatIsCarouselButtons"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <iframe allowfullscreen frameborder="0" height="385" src="https://www.youtube.com/embed/f4jIWbQpjdE?rel=0" width="640"></iframe>
+                            <div class="carousel-item active">
+                                <a href="learn/dmn.html">
+                                    <img alt="DMN" src="landingPage/DMN.png" width="800" height="600">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <img alt="Data Modeller" src="landingPage/Data_Modeller.png" width="800"
+                                     height="600">
+                            </div>
+                            <div class="carousel-item">
+                                <img alt="Conditions" src="landingPage/Conditions.png" width="800" height="600">
+                            </div>
+                            <div class="carousel-item">
+                                <img alt="Actions" src="landingPage/Actions.png" width="800" height="600">
+                            </div>
+                            <div class="carousel-item">
+                                <img alt="Rules" src="landingPage/Rules.png" width="800" height="600">
+                            </div>
+                            <div class="carousel-item">
+                                <img alt="Visualization" src="landingPage/Visualization.png" width="800"
+                                     height="600">
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="d-block" alt="Use case overview" src="${content.rootpath}landingPage/useCaseOverview.png">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block" alt="Usage" src="${content.rootpath}landingPage/inputOutputOverview.png">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block" alt="Integration" src="${content.rootpath}landingPage/integrationOverview.png">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block" alt="Compatibility" src="${content.rootpath}landingPage/compatibility.png">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block" alt="Scalability" src="${content.rootpath}landingPage/scalabilityOfOptimizationAlgorithms.png">
-                        </div>
-                    </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#whatIsCarouselButtons" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
@@ -98,28 +74,63 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div>
-                    <div style="padding: 20px;">
-                        <div class="paragraph">
-                            <p>To optimize a problem from Java™ code, add the <code>optaplanner-core</code> jar and call <code>Solver.solve()</code>:</p>
+                <p>More information can be found on the following links:</p>
+                <ul class="list-unstyled">
+                    <li>
+                        <img src="headerFooter/guvnor_icon_32x.png">
+                        Drools Workbench (web UI for authoring and management)
+                    </li>
+                    <li>
+                        <img src="headerFooter/expert_icon_32x.png">
+                        Drools Expert (business rules engine)
+                    </li>
+                    <li>
+                        <img src="headerFooter/fusion_icon_32x.png">
+                        Drools Fusion (complex event processing features)
+                    </li>
+                    <li>
+                        <img src="headerFooter/flow_icon_32x.png">
+                        <a href="https://www.jbpm.org">jBPM (process/workflow integration for rule
+                            orchestration/flow)</a>
+                    </li>
+                    <li>
+                        <img src="headerFooter/planner_icon_32px.png">
+                        <a href="https://www.optaplanner.org/">OptaPlanner (automated planning)</a>
+                    </li>
+                </ul>
+                <p>
+                    These projects have community releases from JBoss.org that come without support. Community releases
+                    focus on fast paced innovation to give you the latest and greatest, with releases every few months that
+                    include both features and fixes. Red Hat JBoss BRMS is our enterprise product for mission critical
+                    releases, with a multi year commitment for backport of fixes, based off a sanitised community release of
+                    Drools. A range of support packages are available including up to mission critical 24/7, as well as
+                    training and consultancy via our Global Professional Services unit.
+                    Check
+                    <a href="https://www.redhat.com/en/technologies/jboss-middleware/process-automation-manager">Red Hat
+                        Process Automation Manager</a>
+                    for more details.
+                </p>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 id="special-thanks-to">Special thanks to:</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" style="padding: 10px; margin-top: 20px">
+                        <div class="text-center"><a href="http://www.oxygenxml.com"><img src="headerFooter/oxygen.png"></a>
                         </div>
-                        <div class="listingblock">
-                            <div class="content">
-                                <pre class="highlight"><code class="language-java" data-lang="java">// My domain specific class as input&#x000A;MyRoster problem = ...;&#x000A;&#x000A;SolverFactory&lt;MyRoster&gt; factory = SolverFactory&#x000A;    .createFromXmlResource(".../mySolverConfig.xml");&#x000A;Solver&lt;MyRoster&gt; solver = factory.buildSolver();&#x000A;&#x000A;// My domain specific class as output&#x000A;MyRoster solution = solver.solve(problem);&#x000A;&#x000A;for (MyShift shift : solution.getShifts()) {&#x000A;  // Each shift is now assigned to an employee&#x000A;  assertNotNull(shift.getEmployee());&#x000A;}</code></pre>
-                            </div>
-                        </div>
+                    </div>
+                    <div class="col-md-6" style="padding: 10px; margin-top: 20px">
+                        <div class="text-center"><a
+                                    href="http://www.ej-technologies.com/products/jprofiler/overview.html"><img
+                                        src="headerFooter/jprofiler-logo.png"></a></div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-4">
+                <@macros.downloadJumbotron/>
+                <@macros.documentationJumbotron/>
                 <@macros.latestEvents/>
-            </div>
-            <div class="col-md-4">
-
             </div>
         </div>
     </@parent.layout>
