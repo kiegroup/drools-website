@@ -39,7 +39,7 @@
             <p>
                 <b>Want to talk to the experts?</b>
                 Red Hat offers certified binaries with enterprise consulting.
-                Contact <a class="servicesMailAddress">optaplanner-info</a> for more information.
+                See <a href="/product/services.html">services</a> for more information.
             </p>
         </div>
     </div>
