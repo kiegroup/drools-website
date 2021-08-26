@@ -182,7 +182,7 @@
                         </#if>
                     </span>
                     <h4 class="card-title m-0">${user.fullName}</h4>
-                    <p class="small card-text">${user.role}</p>
+                    <#-- <p class="small card-text">${user.role}</p> -->
                     <#if long>
                         <#if user.email??>
                             <p class="card-text">
