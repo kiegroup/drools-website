@@ -1,5 +1,6 @@
 = Download
-:awestruct-layout: normalBase
+:jbake-type: normalBase
+:jbake-description: Download information for Drools
 :page-interpolate: true
 :showtitle:
 

@@ -1,5 +1,6 @@
 = Slides
-:awestruct-layout: normalBase
+:jbake-type: normalBase
+:jbake-description: Presentations about Drools
 :showtitle:
 
 == Introduction

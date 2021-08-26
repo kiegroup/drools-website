@@ -1,5 +1,6 @@
 = Videos
-:awestruct-layout: normalBase
+:jbake-type: normalBase
+:jbake-description: Various videos about Drools
 :showtitle:
 
 See https://www.youtube.com/playlist?list=PLb9jQNHBKBRj9IJkc_F5nCJAvXaegOGW8[Mark Proctor's playlist on YouTube^]

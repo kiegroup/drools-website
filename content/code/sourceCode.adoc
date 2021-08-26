@@ -1,5 +1,6 @@
 = Source code
-:awestruct-layout: normalBase
+:jbake-type: normalBase
+:jbake-description: Where to find information about the source code of Drools
 :linkattrs:
 :showtitle:
 

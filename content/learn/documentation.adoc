@@ -1,5 +1,6 @@
 = Documentation
-:awestruct-layout: normalBase
+:jbake-type: normalBase
+:jbake-description: Documentation for Drools
 :page-interpolate: true
 :showtitle:
 

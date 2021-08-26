@@ -1,5 +1,6 @@
 = Testimonials and Case Studies
-:awestruct-layout: normalBase
+:jbake-type: normalBase
+:jbake-description: Users and testimonials about Drools
 :showtitle:
 
 This page lists the Drools users and also software offering Drools integration. If you can add to this page please do contact us, mproctor [at] redhat [dot] com.

@@ -1,5 +1,6 @@
 = Research papers
-:awestruct-layout: normalBase
+:jbake-type: normalBase
+:jbake-description: Research projects involving  Drools
 :showtitle:
 
 == Introduction

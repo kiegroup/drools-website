@@ -1,6 +1,6 @@
 = License
-:awestruct-description: Drools is open source, under the Apache License 2.0.
-:awestruct-layout: normalBase
+:jbake-description: Drools is open source, under the Apache License 2.0.
+:jbake-type: normalBase
 :showtitle:
 
 Drools is open source software, released under the http://www.apache.org/licenses/LICENSE-2.0.html[Apache License 2.0].

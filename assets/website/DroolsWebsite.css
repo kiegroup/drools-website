@@ -95,15 +95,6 @@ ul.upgrade-recipe-label-list {
 .upgrade-recipe-label-list > li {
     list-style: none;
 }
-
-.upgrade-recipe-note {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0,0,0,.05);
-    padding: 0 10px 0 10px;
-    margin-bottom: 10px;
-}
-
 a.upgrade-recipe-note-header {
     text-decoration: none;
     color: #333;

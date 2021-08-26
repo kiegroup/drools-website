@@ -375,10 +375,10 @@
 
 <#macro productToProjectVersionMapping>
     <div class="card border-0">
-        <div class="card-heading">Note for Red Hat Decision Manager customers</div>
+        <div class="card-heading">Note for Red Hat customers</div>
         <div class="card-body">
             <p>
-                The RHDM version differs from the OptaPlanner version:
+                The BRMS and BPM Suite version does <strong>NOT</strong> match the Drools version:
             </p>
             <table class="tableblock frame-all grid-all spread">
                 <colgroup>
@@ -387,33 +387,36 @@
                 </colgroup>
                 <thead>
                 <tr>
-                    <th>RHDM version</th>
-                    <th>OptaPlanner version</th>
+                    <th>BRMS / BPM Suite version</th>
+                    <th>Drools version</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>7.7</td>
-                    <td>7.33</td>
+                    <td>6.0</td>
+                    <td>6.0</td>
                 </tr>
                 <tr>
-                    <td>7.8</td>
-                    <td>7.39</td>
+                    <td>6.1</td>
+                    <td>6.2</td>
                 </tr>
                 <tr>
-                    <td>7.9</td>
-                    <td>7.44</td>
+                    <td>6.2</td>
+                    <td>6.3</td>
                 </tr>
                 <tr>
-                    <td>7.10</td>
-                    <td>7.48</td>
+                    <td>6.3</td>
+                    <td>6.4</td>
                 </tr>
                 <tr>
-                    <td>7.11</td>
-                    <td>8.5 (and 7.52)</td>
+                    <td>6.4</td>
+                    <td>6.5</td>
                 </tr>
                 </tbody>
             </table>
+            <p>
+                Apply the recipe of the apprepriate Drools version.
+            </p>
         </div>
     </div>
 </#macro>
