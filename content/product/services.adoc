@@ -62,7 +62,7 @@ and adjust the version numbers to include the `-redhat` suffix.
 
 == KIE features and the enterprise products overview
 
-image:kieFunctionalityOverview.png[KIE functionality overview]
+image::kieFunctionalityOverview.png[KIE Functionality Overview]
 
 Drools is a fully supported component (called _Decision Manager_) of the following products:
 
