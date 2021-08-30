@@ -24,7 +24,7 @@
 
 |*Business Central Workbench*
 |#{site.pom.businessCentralDescription}
-|#{site.pom.latestFinal.businessCentralWildFlyWAR}[WildFly 19 WAR]
+|#{site.pom.latestFinal.businessCentralWildFlyWAR}[WildFly 23 WAR]
 
 |*KIE Execution Server*
 |#{site.pom.kieExecutionServerDescription}
