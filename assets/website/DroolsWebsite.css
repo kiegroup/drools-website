@@ -14,6 +14,10 @@
  * limitations under the License.
  */
 
+:root {
+    --bs-font-sans-serif: RedHatText,"Red Hat Text",Overpass,Overpass,"Helvetica Neue",Arial,sans-serif;
+}
+
 html {
     background-color: #f8f8f8;
 }
