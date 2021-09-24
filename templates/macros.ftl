@@ -11,7 +11,7 @@
                    href="${content.rootpath}download/download.html">
                     <img alt="Download" src="/download/download.png">
                     <div>
-                        <span>Try Drools</span><br>
+                        <span>Try ${config.title}</span><br>
                         <span class="small">${pom.latestFinal.version}</span>
                     </div>
                 </a>
@@ -21,7 +21,7 @@
                    href="${content.rootpath}download/download.html">
                     <img alt="Download" src="/download/download.png">
                     <div>
-                        <span>Try Drools</span><br>
+                        <span>Try ${config.title}</span><br>
                         <span class="small">${pom.latest.version}</span>
                     </div>
                     <div class="small">
