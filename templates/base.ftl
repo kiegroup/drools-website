@@ -75,7 +75,7 @@
                 <div class="col-md-4 offset-md-3">
                     <h4 class="text-white">Community</h4>
                     <ul>
-                        <li><a href="${content.rootpath}blog/">Blog</a></li>
+                        <li><a href="https://blog.kie.org">Blog</a></li>
                         <li><a href="${content.rootpath}community/getHelp.html">Get Help</a></li>
                         <li><a href="${content.rootpath}community/team.html">Team</a></li>
                         <li><a href="${content.rootpath}community/governance.html">Governance</a></li>

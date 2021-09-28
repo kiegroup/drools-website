@@ -21,3 +21,6 @@
 /Gemfile.lock
 output
 build
+
+# jbake produces output in standard maven directories
+/target
