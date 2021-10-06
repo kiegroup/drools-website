@@ -1,3 +1,4 @@
+<#assign pom = data.get('pom.yml')>
 <#macro layout title="" description="" uri="" googleWebmasterToolsVerification=false>
 <#assign _title = content.title!title/>
 <#-- Description is mandatory because it is very important for SEO. -->
@@ -88,7 +89,7 @@
                         <li><a href="${content.rootpath}code/sourceCode.html">Build from source</a></li>
                         <li><a href="${config.issueTracker}">Submit a bug</a></li>
                         <li><a href="${content.rootpath}code/license.html">License (Apache-2.0)</a></li>
-                        <li><a href="${content.rootpath}download/releaseNotes/">Release notes</a></li>
+                        <li><a href="${pom.latest.droolsReleaseNotes}">Release notes</a></li>
                         <li><a href="${content.rootpath}download/upgradeRecipe/">Upgrade recipes</a></li>
                     </ul>
                 </div>
