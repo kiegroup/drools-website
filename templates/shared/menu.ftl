@@ -355,7 +355,7 @@
     <nav class="navigation container" aria-label="Main Navigation">
         <div class="navigation--primary-left">
             <div class="navigation--logo">
-                <div class="logo ${(content.active_menu!config.active_menu!"kie")}" aria-label="logo"></div>
+                <a href="/" class="logo ${(content.active_menu!config.active_menu!"kie")}" aria-label="logo"></a>
                 <h1><a href="/"
                        <#if ((content.active_menu!config.active_menu!"kie") == "kie")>class="navigation-item--active"</#if>
                        aria-label="Home">${(content.active_menu!config.active_menu!"kie")}</a></h1>
