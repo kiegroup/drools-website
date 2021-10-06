@@ -1,5 +1,6 @@
 <#import "base.ftl" as parent>
 <#import "macros.ftl" as macros>
+<#assign pom = data.get('pom.yml')>
 
 <@layout></@layout>
 
@@ -15,8 +16,7 @@
             <!-- %a.alert-link(href="https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12359307")Drools 7.58.0.Final has been released. -->
             2021-08-05:
             <a class="alert-link"
-            href="https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&amp;version=12359307">Drools
-                7.58.0.Final has been released.</a>
+            href="${pom.latest.droolsReleaseNotes}">Drools ${pom.latestFinal.version} has been released.</a>
             <button class="btn-close" data-bs-dismiss="alert" type="button" aria-label="Close"></button>
         </div>
         <div class="row">
