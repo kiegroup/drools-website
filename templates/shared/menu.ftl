@@ -1,4 +1,9 @@
 <style>
+    @font-face {
+        font-family: "Khmer Nettra";
+        src: url('/website/khmnettra.ttf') format("truetype");
+    }
+
     :root {
         --secondary-color: #adadad;
         --cta-primary-color: white;
@@ -15,7 +20,11 @@
 
     header.header nav.navigation h1,
     header.header nav.navigation h1 a {
+        font-family: "Khmer Nettra";
         font-size: 18pt;
+        text-transform: capitalize;
+        letter-spacing: normal;
+        color: #747474;
     }
 
     .navigation--primary,
