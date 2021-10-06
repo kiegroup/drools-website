@@ -1,4 +1,5 @@
 <ul>
+    <li><a href="${content.rootpath}/download/download.html">Download</a></li>
     <li class="dropdown">
         <buttton type="button" class="dropdown--title" aria-expanded="false" aria-controls="learn-dropdown">Learn</buttton>
         <ul class="dropdown--menu" id="learn-dropdown">
