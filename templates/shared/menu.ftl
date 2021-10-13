@@ -1,9 +1,4 @@
 <style>
-    @font-face {
-        font-family: "Khmer Nettra";
-        src: url('/website/khmnettra.ttf') format("truetype");
-    }
-
     :root {
         --secondary-color: #adadad;
         --cta-primary-color: white;
@@ -13,18 +8,34 @@
         --primary-nav-color: #f8f8f8;
     }
 
-    header.header nav.navigation,
-    header.header nav.navigation a {
-        font-size: 12pt;
+    header.header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
     }
 
+    header.header nav.navigation,
+    header.header nav.navigation a {
+        font-size: 16px;
+    }
+
+    header.header nav,
+    header.header nav a,
+    header.header nav a:link {
+        line-height: unset;
+        vertical-align: middle;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    header.header nav a:hover,
+    header.header nav button:focus,
+    header.header nav button:hover {
+        text-decoration: underline;
+    }
     header.header nav.navigation h1,
     header.header nav.navigation h1 a {
-        font-family: "Khmer Nettra";
         font-size: 18pt;
-        text-transform: capitalize;
-        letter-spacing: normal;
-        color: #747474;
+        color: #7a7a7a;
     }
 
     .navigation--primary,
@@ -35,7 +46,8 @@
     /* Wrapper ends */ /* NAV Starts */
     header {
         background-color: var(--primary-nav-color);
-        box-shadow: 0 1px 5px 5px var(--secondary-color);
+        box-shadow: 0 0 10px 2px var(--secondary-color);
+        border-bottom: 1px solid #d8d8d8;
     }
 
     .navigation {
@@ -49,11 +61,11 @@
 
     .navigation h1 {
         display: inline-block;
-        margin: 0 -0.5rem 0 0;
+        margin: 0 0.5rem;
         color: #475058;
-        font-weight: 800;
         font-family: "Overpass", sans-serif;
-        letter-spacing: -0.1rem;
+        letter-spacing: -0.05rem;
+        font-weight: 200;
     }
 
     .navigation a,
@@ -64,11 +76,9 @@
 
     .navigation a,
     .navigation button {
-        font-weight: 800;
         color: #475058;
-        text-transform: uppercase;
         text-decoration: none;
-        padding: 0.2rem .54rem;
+        padding: 0.2rem .2rem;
     }
 
     .navigation ul {
@@ -91,6 +101,83 @@
         margin: 0 0.5rem;
     }
 
+    .kie-tooltip:before {
+        display: none;
+        max-width: 12rem;
+        background-color: var(--secondary-color);
+        color: var(--primary-nav-color);
+        z-index: 100;
+        margin-top: 2.5rem;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px;
+        content: attr(title);
+        position: absolute;
+    }
+
+    .kie-tooltip:after {
+        content: "";
+        position:absolute;
+        display: none;
+        top: 3.5rem;
+        transform: translateY(-75%) translateX(50%);
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid var(--secondary-color);
+    }
+
+    .kie-tooltip:hover:after,
+    .kie-tooltip:focus:after,
+    .kie-tooltip:focus-visible:after {
+        display: block;
+    }
+
+    .kie-tooltip:hover:before,
+    .kie-tooltip:focus:before,
+    .kie-tooltip:focus-visible:before {
+        display: block;
+    }
+
+    /* Responsive primary navigation */
+    @media screen and (max-width: 1023px) {
+        header.header .navigation--primary {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 750px) {
+        header.header .navigation--primary > ul > li {
+            margin: 0 0.2rem;
+        }
+    }
+    @media screen and (max-width: 700px) {
+        header.header .navigation--primary > ul > li > a {
+            padding: 1rem 0.3rem 1.2rem;
+        }
+        header.header .navigation--primary > ul > li {
+            margin: 0 0.1rem;
+        }
+    }
+    @media screen and (max-width: 650px) {
+        header.header nav .navigation--logo h1 {
+            margin: 0;
+        }
+        header.header nav .navigation--logo h1 a {
+        }
+        header.header .navigation--primary > ul > li > a {
+            padding: 1rem 0.1rem 1.1rem;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        header.header .navigation .logo {
+            width: 50px;
+            height: 50px;
+        }
+        header.header .navigation button {
+            padding: 1rem;
+            margin: 0;
+        }
+    }
+
     .navigation--primary-right .dropdown--title:after {
         position: relative;
         top: .75rem;
@@ -98,7 +185,7 @@
 
     .navigation--primary > ul > li > a,
     .navigation--primary > ul > li .dropdown--title {
-        padding: 1rem 0.5rem
+        padding: 1rem 0.3rem
     }
 
     .navigation .logo {
@@ -112,22 +199,8 @@
         justify-self: right;
         top: 1rem;
         z-index: 2;
-    }
-
-    .logo.optaplanner {
-        background-image: url("../../static/images/optaplanner_icon.svg");
-    }
-    .logo.kie {
-        background-image: url("../../static/images/kie_logo.png");
-    }
-    .logo.kogito {
-        background-image: url("../../static/images/kogito_icon.svg");
-    }
-    .logo.jbpm {
-        background-image: url("../../static/images/jbpm_icon.svg");
-    }
-    .navigation .responsive-menu-button {
-
+        margin: unset;
+        position: inherit;
     }
 
     .navigation--logo {
@@ -186,7 +259,8 @@
         display: inline;
     }
 
-    .navigation-item--active {
+    .navigation-item--active,
+    .navigation-item--active a span {
         text-decoration: underline;
     }
 
@@ -197,7 +271,7 @@
         }
     }
 
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: 982px) {
         .navigation {
             grid-template-columns: 2% 2fr auto 2%;
         }
@@ -227,7 +301,7 @@
             min-width: 15ch;
             position: absolute;
             top: calc(100% - 0.25rem);
-            left: 35%;
+            left: 5rem;
             z-index: 100;
             transform: rotateX(-90deg) translateX(-50%);
             transform-origin: top center;
@@ -244,9 +318,8 @@
         .dropdown--title {
             background-color: transparent;
             border: none;
-            font-weight: 800;
+            font-weight: normal;
             color: #475058;
-            text-transform: uppercase;
             display: inline-flex;
             align-items: center;
         }
@@ -260,14 +333,8 @@
         }
     }
 
-    @media screen and (min-width: 1200px) {
-        .navigation h1 {
-            border-right: 1px solid #dedede;
-        }
-    }
-
-    @media screen and (max-width: 990px) {
-        .navigation--primary, .navigation--primary-right {
+    @media screen and (max-width: 1023px) {
+        .navigation--primary-right {
             visibility: hidden;
             transform: rotateX(-90deg) translateX(-50%);
             opacity: 0.3;
@@ -280,6 +347,8 @@
             position: absolute;
             right: 0;
             border: none;
+            margin: 20px;
+            background: none;
         }
     }
 
@@ -361,34 +430,37 @@
     }
 </style>
 <header class="header">
-    <nav class="navigation container" aria-label="Main Navigation">
+    <nav class="navigation" aria-label="Main Navigation">
         <div class="navigation--primary-left">
             <div class="navigation--logo">
-                <a href="/" class="logo ${(content.active_menu!config.active_menu!"kie")}" aria-label="logo"></a>
-                <h1><a href="/"
-                       <#if ((content.active_menu!config.active_menu!"kie") == "kie")>class="navigation-item--active"</#if>
-                       aria-label="Home">${(content.active_menu!config.active_menu!"kie")}</a></h1>
+                <a class="logo ${(active_menu!config.active_menu!"kie")?lower_case}" aria-label="logo"></a>
+                <h1><a href="/" class="logo-text <#if ((active_menu!config.active_menu!"kie")?lower_case == "kie")>navigation-item--active</#if>"
+                       aria-label="Home"></a></h1>
             </div>
             <div class="navigation--primary">
-                <#include (((content.active_menu)!config.active_menu!"kie") + "-submenu.ftl")>
+                <#include (((active_menu)!config.active_menu!"kie")?lower_case + "-submenu.ftl")>
             </div>
         </div>
         <div class="navigation--primary-right">
-            <ul>
-                <li class="dropdown">
-                    <button type="button" class="dropdown--title" aria-expanded="false" aria-controls="kie-dropdown">
-                        KIE
-                    </button>
-                    <ul class="dropdown--menu" id="kie-dropdown">
-                        <li><a aria-label="KIE Home" href="https://kie.org">KIE Home</a></li>
-                        <li><a aria-label="Blog" href="https://blog.kie.org">Blog</a></li>
-                        <li><a aria-label="Kogito" href="https://kogito.kie.org/">Kogito</a></li>
-                        <li><a aria-label="Drools" href="https://drools.org/">Drools</a></li>
-                        <li><a aria-label="jBPM" href="https://jbpm.org/">jBPM</a></li>
-                        <li><a aria-label="Optaplanner" href="https://www.optaplanner.org/">OptaPlanner</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="navigation--primary">
+                <ul>
+                    <li>
+                        <a aria-label="KIE" href="https://kie.org" title="KIE Group Website" class="kie-tooltip">KIE</a>
+                    </li>
+                    <li>
+                        <a aria-label="Kogito" href="https://kogito.kie.org/"
+                           title="Cloud-native business automation" class="kie-tooltip">Kogito</a>
+                    </li>
+                    <li>
+                        <a aria-label="jBPM" href="https://jbpm.org/"
+                           class="kie-tooltip" title="Business process management">jBPM</a>
+                    </li>
+                    <li>
+                        <a aria-label="Optaplanner" href="https://www.optaplanner.org/"
+                           class="kie-tooltip" title="Optimizing constraint solver">OptaPlanner</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="navigation--secondary">
             <#-- Secondary nav depending on what is being viewed will go here -->
@@ -400,17 +472,15 @@
     <ul>
         <li>
             <a href="#" class="responsive-menu-button close-button">✕</a>
-            <#include (((content.active_menu)!config.active_menu!"kie") + "-submenu.ftl")>
-            <h4>
-                KIE websites
-            </h4>
+            <#include (((active_menu)!config.active_menu!"kie")?lower_case + "-submenu.ftl")>
+            <h3>
+                KIE Projects
+            </h3>
             <ul>
-                <li><a aria-label="KIE Home" href="https://kie.org">KIE Home</a></li>
-                <li><a aria-label="Blog" href="https://blog.kie.org">Blog</a></li>
+                <li><a aria-label="KIE" href="https://kie.org/">KIE</a></li>
                 <li><a aria-label="Kogito" href="https://kogito.kie.org/">Kogito</a></li>
-                <li><a aria-label="Drools" href="https://drools.org/">Drools</a></li>
                 <li><a aria-label="jBPM" href="https://jbpm.org/">jBPM</a></li>
-                <li><a aria-label="Optaplanner" href="https://www.optaplanner.org/">OptaPlanner</a></li>
+                <li><a aria-label="OptaPlanner" href="https://optaplanner.org/">jBPM</a></li>
             </ul>
         </li>
     </ul>

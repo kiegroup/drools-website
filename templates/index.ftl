@@ -6,8 +6,8 @@
 
 <#macro layout>
     <@parent.layout
-    title="Constraint satisfaction solver (Java™, Open Source)"
-    description="OptaPlanner optimizes business resource usage. It is a lightweight, embeddable, open source planning engine, written in 100% Java."
+    title="Drools - Business Rules Management System (Java™, Open Source)"
+    description="Drools introduces the Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing."
     uri=""
     googleWebmasterToolsVerification=true>
         <div class="alert alert-info alert-dismissible" role="alert" id="release-version-alert">

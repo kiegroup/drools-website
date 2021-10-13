@@ -22,15 +22,6 @@
 html {
     background-color: #f8f8f8;
 }
-body {
-    /* background: linear-gradient(to bottom, #fff3e8 0px, #FAFAFA 40%) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-    height: 100%;
-    color: #333333;
-    font-family: "Open Sans",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.66667;*/
-}
-
 #Content {
     background-color: #FFFFFF;
     padding-left: 30px;
@@ -72,12 +63,6 @@ footer .sponsorMessage {
     border: 0;
     max-width: 20%;
 }
-
-.bgHeader {
-/*  -webkit-box-shadow: 0 0 3px 0 rgba(0,0,,100);
-    box-shadow: 0 0 3px 0 rgba(0,0,,100); */
-}
-
 @media (max-width: 767px) {
     .navbar-toggle {
         margin-right: 100px;
@@ -277,8 +262,23 @@ table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoo
     font-style: italic;
 }
 
+.logo.drools,
+.logo-text {
+    background-image: url("images/drools_logo.svg");
+}
+
 .logo.drools {
-    background-image: url("/website/images/drools_icon.svg");
+    background-position: 8px center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-bottom: inherit;
+}
+
+.navigation--logo .logo-text {
+    background-position: right;
+    width: 8rem;
+    background-size: cover;
+    height: 50px;
 }
 
 .imageblock img {
