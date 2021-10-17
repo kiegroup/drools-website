@@ -1,0 +1,17 @@
+# To add a video in the GitHub user interface, click on the Edit button at the top right which will submit a pull request.
+#
+# Available properties per video:
+#  youtubeId: The id part of the YouTube URL
+#  title: Title of the video
+#  author: (optional) Existing userId from users.yml
+#  date: Must be in format "yyyy-mm-dd".
+#  tags: Avoid inventing new tags. Existing tags include:
+#    Use cases: "conference scheduling", "employee rostering", "maintenance scheduling", "school timetabling",
+#               "task assignment", "vehicle routing", "call-center scheduling"
+#    Compatibility: "android", "kotlin", "quarkus", "scala", "spring"
+#
+# Order videos by date descending
+
+- youtubeId: QJjtp8ky9Sw
+  title: "Red Hat Decision Manager Demo Video"
+  date: 2021-03-30

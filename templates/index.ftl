@@ -26,6 +26,9 @@
                     Engine (BRE), a web authoring and rules management application (Drools Workbench), full runtime
                     support for <a href="learn/dmn.html">Decision Model and Notation (DMN)</a> models at Conformance
                     level 3 and an Eclipse IDE plugin for core development.
+                    <div class="d-flex justify-content-center" style="width: auto;">
+                        <@macros.videoCard youtubeId="QJjtp8ky9Sw" long=false/>
+                    </div>
                 </p>
                 <p>
                     Drools is open source software, released under the Apache License 2.0. It is written in 100% pure

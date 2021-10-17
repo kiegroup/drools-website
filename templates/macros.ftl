@@ -1,6 +1,6 @@
 <#assign pom = data.get('pom.yml')>
 <#assign events = data.get('events.yml').data>
-<#--<#assign videos = data.get('videos.yml').data>-->
+<#assign videos = data.get('videos.yml').data>
 <#assign users = data.get('users.yml').data>
 
 <#macro latestReleases>
@@ -442,5 +442,33 @@
         <a href="${content.rootpath}localized/ja/index.html" style="text-decoration: none;">
             <img src="${content.rootpath}website/flags/jp.png">
         </a>
+    </div>
+</#macro>
+
+<#macro videoCard youtubeId long=true>
+    <#assign video = videos?filter(v -> v.youtubeId == youtubeId)?first >
+    <div class="card" style="cursor: pointer">
+        <#if long>
+            <img class="card-img-top ratio ratio-16x9" src="https://img.youtube.com/vi/${video.youtubeId}/mqdefault.jpg" alt="Video thumbnail">
+            <div class="card-img-overlay">
+                <div class="text-center mt-5"><i class="fas fa-play-circle fa-3x text-white bg-dark bg-opacity-25 rounded-pill p-1"></i></div>
+            </div>
+            <div class="card-body p-2">
+                <#-- As a stretched-link for the hover over effect -->
+                <a class="stretched-link" data-bs-toggle="modal" data-bs-target="#videoModal" data-youtube-id="${video.youtubeId}" data-video-title="${video.title}">${video.title}</a>
+                <br/>
+                <#if video.author??>
+                    <@userBadgeInline userId=video.author/>
+                </#if>
+                <span class="float-end align-bottom small">${video.date?string("d MMM yyyy")}</span>
+            </div>
+        <#else>
+            <a data-bs-toggle="modal" data-bs-target="#videoModal" data-youtube-id="${video.youtubeId}" data-video-title="${video.title}">
+                <img class="card-img-top ratio ratio-16x9" src="https://img.youtube.com/vi/${video.youtubeId}/mqdefault.jpg" alt="Video thumbnail">
+                <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                    <i class="fas fa-play-circle fa-3x text-white bg-dark bg-opacity-25 rounded-pill p-1"></i>
+                </div>
+            </a>
+        </#if>
     </div>
 </#macro>

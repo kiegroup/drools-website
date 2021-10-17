@@ -1,3 +1,17 @@
+function autoPlayYouTubeModal() {
+    var youtubeLink = $("body").find('[data-youtube-id]');
+    youtubeLink.click(function() {
+        var modalDialog = $(this).data("bs-target");
+        var videoUrl = `https://www.youtube.com/embed/${$(this).attr("data-youtube-id")}?autoplay=1&rel=0`;
+        var player = $("#player-container");
+        $(`<iframe src="${videoUrl}" allow="autoplay;" allowfullscreen/>`).appendTo(player);
+        $(modalDialog + " h5").text($(this).attr("data-video-title"));
+        $(modalDialog).on('hidden.bs.modal', function() {
+            player.empty();
+        });
+    });
+}
+
 function toggleCollapseSection(collapseButton, collapseSection) {
     if ($(collapseButton).hasClass("glyphicon-chevron-down")) {
         $(collapseButton).removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
@@ -57,6 +71,7 @@ function insertEmailSupportPopover() {
 }
 
 $(document).ready( function() {
+    $(autoPlayYouTubeModal);
     $(insertUpgradeRecipePriorities);
     $(insertEmailSupportPopover);
 
