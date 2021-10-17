@@ -15,46 +15,26 @@
  */
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
+/* Workaround: In 2021, a Firefox version was defaulting to 11px. Firefox 86 was fine. */
+:root { 
     --bs-font-sans-serif: Overpass,"Helvetica Neue",Arial,sans-serif;
+    --bs-body-font-size: 16px;
 }
 
-html {
-    background-color: #f8f8f8;
+/* Bootstrap 5 tweak: do not underline links unless hovered over */
+a:not([class*="btn"]) {
+    text-decoration: none;
 }
-#Content {
-    background-color: #FFFFFF;
-    padding-left: 30px;
-    padding-right: 30px;
+a:not([class*="btn"]):hover {
+    text-decoration: underline;
 }
-
-footer {
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: rgba(255,255,255,.5);
-    background-color: #1b1c1d;
+a.link-underlined {
+    text-decoration: underline !important;
 }
 
-footer h4 {
-    color: #fff;
-}
-footer ul {
-    list-style: none;
-    padding-left: 10px;
-}
-
-footer a {
-    color: rgba(255,255,255,.5);
-}
-
-footer a:hover, footer a:focus {
-    color: #fff;
-}
-
-footer .sponsorMessage {
-    color: rgba(255,255,255,.5);
-    margin-bottom: 10px;
+img {
+    /* No images in release notes or blog posts wider than screen. Also mobile friendly. */
+    max-width: 100%;
 }
 
 .forkMeOnGithub {
@@ -62,16 +42,50 @@ footer .sponsorMessage {
     right: 0;
     border: 0;
     max-width: 20%;
-}
-@media (max-width: 767px) {
-    .navbar-toggle {
-        margin-right: 100px;
-    }
+    z-index: 1;
 }
 
-/* WORKAROUND for Twitter bootstrap's navbar-fixed-top's hides content head */
-.body-without-header-footer {
-    padding-top: 40px;
+.versionedButton > img {
+    vertical-align: top;
+}
+
+.versionedButton > div {
+    text-align: left;
+    display: inline-block;
+    white-space: normal;
+}
+
+.summaryParagraph {
+    font-size: larger;
+}
+
+.positive {
+    color: #4E9A06;
+}
+
+.negative {
+    color: #A40000;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+/******************************************************************************
+* Asciidoctor tweaks
+******************************************************************************/
+
+/* Make Asciidoctor's ".listingblock > .content > pre" act like bootstrap's "code > pre" */
+.listingblock > .content {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+    padding: 0.5rem !important; /* Simulate p-2 */
+    margin: 0 0 1.0rem; /* Simulate mb-3 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.listingblock > .content > pre {
+    margin: 0;
 }
 
 /******************************************************************************
@@ -85,6 +99,15 @@ ul.upgrade-recipe-label-list {
 .upgrade-recipe-label-list > li {
     list-style: none;
 }
+
+.upgrade-recipe-note {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    padding: 0 10px 0 10px;
+    margin-bottom: 10px;
+}
+
 a.upgrade-recipe-note-header {
     text-decoration: none;
     color: #333;
@@ -103,184 +126,46 @@ a.upgrade-recipe-note-header {
     margin-left: 5px;
 }
 
+.upgrade-recipe-reverted h3 {
+    text-decoration: line-through;
+}
+
+.bg-public-api {
+    background-color: #6f5499;
+}
+
 /******************************************************************************
-* Tabs left, right and below (not supported in Twitter Bootstrap 3.1)
+* Blog content
 ******************************************************************************/
 
-.tabs-below > .nav-tabs,
-.tabs-right > .nav-tabs,
-.tabs-left > .nav-tabs {
-    border-bottom: 0;
+table, th, td {
+    border: 1px solid black;
 }
 
-.tab-content > .tab-pane,
-.pill-content > .pill-pane {
-    display: none;
+table {
+    margin-bottom: 10px;
 }
 
-.tab-content > .active,
-.pill-content > .active {
-    display: block;
+th, td {
+    padding: 5px;
 }
 
-.tabs-below > .nav-tabs {
-    border-top: 1px solid #ddd;
-}
-
-.tabs-below > .nav-tabs > li {
-    margin-top: 0px;
+td > p:last-child {
     margin-bottom: 0;
 }
 
-.tabs-below > .nav-tabs > li > a {
-    -webkit-border-radius: 0 0 4px 4px;
-    -moz-border-radius: 0 0 4px 4px;
-    border-radius: 0 0 4px 4px;
-}
-
-.tabs-below > .nav-tabs > li > a:hover,
-.tabs-below > .nav-tabs > li > a:focus {
-    border-top-color: #ddd;
-    border-bottom-color: transparent;
-}
-
-.tabs-below > .nav-tabs > .active > a,
-.tabs-below > .nav-tabs > .active > a:hover,
-.tabs-below > .nav-tabs > .active > a:focus {
-    border-color: transparent #ddd #ddd #ddd;
-}
-
-.tabs-left > .nav-tabs > li,
-.tabs-right > .nav-tabs > li {
-    float: none;
-}
-
-.tabs-left > .nav-tabs > li > a,
-.tabs-right > .nav-tabs > li > a {
-    min-width: 74px;
-    margin-right: 0;
-    margin-bottom: 3px;
-}
-
-.tabs-left > .nav-tabs {
-    float: left;
-    margin-right: 19px;
-    border-right: 1px solid #ddd;
-}
-
-.tabs-left > .nav-tabs > li > a {
-    margin-right: -1px;
-    -webkit-border-radius: 4px 0 0 4px;
-    -moz-border-radius: 4px 0 0 4px;
-    border-radius: 4px 0 0 4px;
-}
-
-.tabs-left > .nav-tabs > li > a:hover,
-.tabs-left > .nav-tabs > li > a:focus {
-    border-color: #eeeeee #dddddd #eeeeee #eeeeee;
-}
-
-.tabs-left > .nav-tabs .active > a,
-.tabs-left > .nav-tabs .active > a:hover,
-.tabs-left > .nav-tabs .active > a:focus {
-    border-color: #ddd transparent #ddd #ddd;
-    *border-right-color: #ffffff;
-}
-
-.tabs-right > .nav-tabs {
-    float: right;
-    margin-left: 19px;
-    border-left: 1px solid #ddd;
-}
-
-.tabs-right > .nav-tabs > li > a {
-    margin-left: -1px;
-    -webkit-border-radius: 0 4px 4px 0;
-    -moz-border-radius: 0 4px 4px 0;
-    border-radius: 0 4px 4px 0;
-}
-
-.tabs-right > .nav-tabs > li > a:hover,
-.tabs-right > .nav-tabs > li > a:focus {
-    border-color: #eeeeee #eeeeee #eeeeee #dddddd;
-}
-
-.tabs-right > .nav-tabs .active > a,
-.tabs-right > .nav-tabs .active > a:hover,
-.tabs-right > .nav-tabs .active > a:focus {
-    border-color: #ddd #ddd #ddd transparent;
-    *border-left-color: #ffffff;
+.content img {
+    margin-bottom: 10px;
+    max-width: 100%;
 }
 
 /******************************************************************************
-* Tabzilla Property
-******************************************************************************/
-.dropup {
-    right: 10px !Important;
-}
-
-/******************************************************************************
-* Tables Property
+* Components
 ******************************************************************************/
 
-table {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #DDDDDD;
-    margin-bottom: 1.25em;
-}
-table thead, table tfoot {
-    background: none repeat scroll 0 0 #F5F5F5;
-    font-weight: bold;
-}
-table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td {
-    color: #222222;
-    font-size: inherit;
-    padding: 0.5em;
-    text-align: left;
-}
-table tr th, table tr td {
-    color: #222222;
-    font-size: inherit;
-    padding: 0.5em;
-}
-table tr.even, table tr.alt, table tr:nth-of-type(2n) {
-    background: none repeat scroll 0 0 #F9F9F9;
-}
-table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {
-    display: table-cell;
-    line-height: 1.6;
-}
-
-/******************************************************************************
-* Text zoom in carousel
-******************************************************************************/
-
-.TextZoom {
-    text-align: center;
-    font-size: 10px;
-    margin: 0;
-    font-style: italic;
-}
-
-.logo.drools,
-.logo-text {
-    background-image: url("images/drools_logo.svg");
-}
-
-.logo.drools {
-    background-position: 8px center;
-    background-size: auto;
-    background-repeat: no-repeat;
-    border-bottom: inherit;
-}
-
-.navigation--logo .logo-text {
-    background-position: right;
-    width: 8rem;
-    background-size: cover;
-    height: 50px;
-}
-
-.imageblock img {
-    width: 100%;
+#frontPageCarousel .carousel-item * {
+    max-height: 600px;
+    max-width: 800px;
+    display: flex;
+    margin: 0 auto;
 }
