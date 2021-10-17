@@ -15,7 +15,7 @@
             <div class="col-md-3">
                 <h4>Community</h4>
                 <ul class="ps-2 list-unstyled">
-                    <li><a href="https://blog.kie.org">Blog</a></li>
+                    <li><a class="link-light" href="https://blog.kie.org">Blog</a></li>
                     <li><a class="link-light" href="${content.rootpath}community/getHelp.html">Get Help</a></li>
                     <li><a class="link-light" href="${content.rootpath}community/team.html">Team</a></li>
                     <li><a class="link-light" href="${content.rootpath}community/governance.html">Governance</a></li>
@@ -27,8 +27,8 @@
                 <ul class="ps-2 list-unstyled">
                     <li><a class="link-light" href="${content.rootpath}code/sourceCode.html">Build from source</a></li>
                     <li><a class="link-light" href="${config.issueTracker}">Submit a bug</a></li>
-                    <li><a href="${content.rootpath}code/license.html">License (Apache-2.0)</a></li>
-                    <li><a href="${pom.latest.droolsReleaseNotes}">Release notes</a></li>
+                    <li><a class="link-light" href="${content.rootpath}code/license.html">License (Apache-2.0)</a></li>
+                    <li><a class="link-light" href="${pom.latest.droolsReleaseNotes}">Release notes</a></li>
                     <li><a class="link-light" href="${content.rootpath}download/upgradeRecipe/">Upgrade recipes</a></li>
                 </ul>
             </div>
