@@ -70,49 +70,40 @@
             </div>
         </div>
     </div>
-    <footer class="bg-dark pt-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 offset-md-3">
-                    <h4 class="text-white">Community</h4>
-                    <ul>
-                        <li><a href="https://blog.kie.org">Blog</a></li>
-                        <li><a href="${content.rootpath}community/getHelp.html">Get Help</a></li>
-                        <li><a href="${content.rootpath}community/team.html">Team</a></li>
-                        <li><a href="${content.rootpath}community/governance.html">Governance</a></li>
-                        <li><a href="${content.rootpath}community/research.html">Academic research</a></li>
-                    </ul>
+    <#include "shared/footer.ftl"/>
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="col-md-4">
-                    <h4 class="text-white">Code</h4>
-                    <ul>
-                        <li><a href="${content.rootpath}code/sourceCode.html">Build from source</a></li>
-                        <li><a href="${config.issueTracker}">Submit a bug</a></li>
-                        <li><a href="${content.rootpath}code/license.html">License (Apache-2.0)</a></li>
-                        <li><a href="${pom.latest.droolsReleaseNotes}">Release notes</a></li>
-                        <li><a href="${content.rootpath}download/upgradeRecipe/">Upgrade recipes</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row text-white">
-                <div class="col-md-12 text-center">
-                    © Copyright 2006-${published_date?string("yyyy")}, Red Hat, Inc. or third-party contributors
-                    -
-                    <a href="https://www.redhat.com/en/about/terms-use" target="_blank">Terms of use</a>
-                    -
-                    <a href="${content.rootpath}website/websiteInfo.html">Website info</a>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9" id="player-container">
+                        <#-- iframe filled in dynamically by JavaScript -->
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <#include "shared/footer.ftl">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-            crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-    <script src="${content.rootpath}website/highlight/highlight.js"></script>
-    <script src="${content.rootpath}website/DroolsWebsite.js"></script>
-    <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js"
+            integrity="sha256-mfS2sXKEV8eehy39UH7+7BwaoUaIe2TuLO2DXS+c2mI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/languages/asciidoc.min.js"
+            integrity="sha256-gnB2LPAmHPkrj3czfog5GdIu4aByzcKeTUzC2agNMzM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/languages/properties.min.js"
+            integrity="sha256-1XSLaVD2dn/eCICDUx1DYprsC4UAEa4weDLYY/458wU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/languages/gradle.min.js"
+            integrity="sha256-B5HtfGpeJKLSEsoqtAdi6sSJ05K49CTGHZbrBiJ9CwE=" crossorigin="anonymous"></script>
+    <script src="${content.rootpath}website/droolsWebsite.js"></script>
+    <script>
+        // Ruby syntax highlighting works pretty well for DRL source code.
+        hljs.registerAliases(["drl"], { languageName: "ruby"});
+        hljs.highlightAll();
+    </script>
     <#-- GitHub star script -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <#-- Adobe Analytics for Red Hat - DPAL (DTM Property Auto-Loader) - part 2/2 -->
