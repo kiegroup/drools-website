@@ -8,6 +8,15 @@ It solves all known pitfalls that can disrupt your development.
 It also describes all guidelines, tips and tricks.
 If you want your pull requests (or patches) to be merged into master, please respect those guidelines.
 
+# How to build with JBake
+
+To build the drools-website (before and after your changes):
+
+```
+$ mvn clean generate-resources
+$ firefox target/website/index.html
+```
+
 # How to build with Awestruct
 
 Follow the instructions of Awestruct's [getting started guide](http://awestruct.org/getting_started/).
