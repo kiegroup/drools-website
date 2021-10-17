@@ -5,6 +5,9 @@
 /.*
 !.gitignore
 !.awestruct_ignore
+!.gitattributes
+!.htaccess
+!.github
 /nbproject
 /*.ipr
 /*.iws
