@@ -14,7 +14,22 @@ To build the drools-website (before and after your changes):
 
 ```
 $ mvn clean generate-resources
-$ firefox target/website/index.html
+```
+
+## Local Build and Test
+
+You can either use the JBake provided live-editing:
+
+```
+$ mvn clean jbake:inline
+$ firefox http://localhost:8820
+```
+
+Alternatively, you may opt to generate the website with the standard Maven build, and then serve the content from your local FS:
+
+```
+$ mvn clean generate-resources && cd target/website && npx serve && cd ../..
+$ firefox http://localhost:5000
 ```
 
 # How to build with Awestruct
