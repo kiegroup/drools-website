@@ -41,6 +41,8 @@
                         <li><a class="dropdown-item" href="https://kogito.kie.org/" target="_blank">Kogito</a></li>
                         <li><a class="dropdown-item" href="https://www.jbpm.org/" target="_blank">jBPM</a></li>
                         <li><a class="dropdown-item" href="https://www.optaplanner.org/" target="_blank">OptaPlanner</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="https://www.kie.org/" target="_blank">kie.org</a></li>
                     </ul>
                 </li>
             </ul>
