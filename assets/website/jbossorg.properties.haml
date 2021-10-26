@@ -1,0 +1,25 @@
+- # Properties file read by jboss.org for the project listing
+- # See https://www.jboss.org/help/awestructguide/projectpropertyfilestruction.html
+- values = {}
+
+- values['nodePath']= "/drools"
+- values['projectName']= "Drools"
+- values['homePage']= site.canonicalBaseUrl
+- values['description'] = site.description
+- values['license']= "ASL"
+- values['downloadsLink']= "#{site.canonicalBaseUrl}/download/download.html"
+- values['docsLink']= "#{site.canonicalBaseUrl}/learn/documentation.html"
+
+- # Community
+- values['userForumLink']= "#{site.canonicalBaseUrl}/community/forum.html"
+- values['chatLink']= "#{site.canonicalBaseUrl}/community/chat.html"
+- values['blogLink']= "#{site.canonicalBaseUrl}/blog/"
+- values['twitterLink']= "https://twitter.com/DroolsRules"
+
+- # Code
+- values['githubLink']= "https://github.com/kiegroup/"
+- values['jiraLink']= "https://issues.jboss.org/browse/DROOLS"
+- values['hudsonLink']= "https://hudson.jboss.org/hudson/job/drools"
+
+- for key in values.keys
+    #{key}=#{values[key]}

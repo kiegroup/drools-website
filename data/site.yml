@@ -1,0 +1,30 @@
+encoding: UTF-8
+title: Drools
+description: Drools introduces the Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing.
+keywords: rule engine, business rule, java, DMN, decision model notation, open source, forward chain, backward chain, inference, decision table, DSL, software, library, constraint programming
+canonicalBaseUrl: https://www.drools.org
+issueTracker: https://issues.jboss.org/projects/DROOLS
+
+# jbossorg_bootstrap_css: https://static.jboss.org/theme/css/bootstrap/2.1.0.0.0/bootstrap-community.css
+# jbossorg_bootstrap_js: https://static.jboss.org/theme/js/libs/bootstrap/2.1.0.0.0/bootstrap-community.js
+
+googleAnalyticsId: UA-62250098-1
+googleWebmasterToolsVerificationId: apZNW47Qpt0L5AUryCzZRJv2afHw-KMFxUXqx3meCvk
+disqus: Drools
+disqus_generate_id: true
+
+asciidoctor:
+  :safe: safe
+  :attributes:
+    imagesdir: ''
+
+# Avoid broken images in blog posts
+generation:
+  :in_threads: 0
+
+profiles:
+  development:
+    developmentMode: true
+  production:
+    developmentMode: false
+    base_url: https://www.drools.org

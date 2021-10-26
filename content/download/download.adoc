@@ -1,0 +1,5 @@
+= Download
+:jbake-type: _content_download_download
+:jbake-description: Download information for Drools
+:page-interpolate: true
+:showtitle:

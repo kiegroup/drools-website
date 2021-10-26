@@ -1,0 +1,5 @@
+= Documentation
+:jbake-type: _content_learn_documentation
+:jbake-description: Documentation for Drools
+:page-interpolate: true
+:showtitle:

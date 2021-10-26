@@ -1,0 +1,171 @@
+/*
+ * Copyright 2013 JBoss Inc
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+/* Workaround: In 2021, a Firefox version was defaulting to 11px. Firefox 86 was fine. */
+:root { 
+    --bs-font-sans-serif: Overpass,"Helvetica Neue",Arial,sans-serif;
+    --bs-body-font-size: 16px;
+}
+
+/* Bootstrap 5 tweak: do not underline links unless hovered over */
+a:not([class*="btn"]) {
+    text-decoration: none;
+}
+a:not([class*="btn"]):hover {
+    text-decoration: underline;
+}
+a.link-underlined {
+    text-decoration: underline !important;
+}
+
+img {
+    /* No images in release notes or blog posts wider than screen. Also mobile friendly. */
+    max-width: 100%;
+}
+
+.forkMeOnGithub {
+    position: absolute;
+    right: 0;
+    border: 0;
+    max-width: 20%;
+    z-index: 1;
+}
+
+.versionedButton > img {
+    vertical-align: top;
+}
+
+.versionedButton > div {
+    text-align: left;
+    display: inline-block;
+    white-space: normal;
+}
+
+.summaryParagraph {
+    font-size: larger;
+}
+
+.positive {
+    color: #4E9A06;
+}
+
+.negative {
+    color: #A40000;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+/******************************************************************************
+* Asciidoctor tweaks
+******************************************************************************/
+
+/* Make Asciidoctor's ".listingblock > .content > pre" act like bootstrap's "code > pre" */
+.listingblock > .content {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+    padding: 0.5rem !important; /* Simulate p-2 */
+    margin: 0 0 1.0rem; /* Simulate mb-3 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.listingblock > .content > pre {
+    margin: 0;
+}
+
+/******************************************************************************
+* Upgrade recipe
+******************************************************************************/
+
+ul.upgrade-recipe-label-list {
+    padding-left: 10px;
+}
+
+.upgrade-recipe-label-list > li {
+    list-style: none;
+}
+
+.upgrade-recipe-note {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    padding: 0 10px 0 10px;
+    margin-bottom: 10px;
+}
+
+a.upgrade-recipe-note-header {
+    text-decoration: none;
+    color: #333;
+}
+
+.upgrade-recipe-note-header > h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.upgrade-recipe-note-header > h3 > span:first-child {
+    margin-right: 5px;
+}
+
+.upgrade-recipe-note-header > h3 > span:last-child {
+    margin-left: 5px;
+}
+
+.upgrade-recipe-reverted h3 {
+    text-decoration: line-through;
+}
+
+.bg-public-api {
+    background-color: #6f5499;
+}
+
+/******************************************************************************
+* Blog content
+******************************************************************************/
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 5px;
+}
+
+td > p:last-child {
+    margin-bottom: 0;
+}
+
+.content img {
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+/******************************************************************************
+* Components
+******************************************************************************/
+
+#frontPageCarousel .carousel-item * {
+    max-height: 600px;
+    max-width: 800px;
+    display: flex;
+    margin: 0 auto;
+}
