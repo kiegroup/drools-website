@@ -1,4 +1,4 @@
-name: OptaPlanner Website Test Build
+name: Drools Website Test Build
 
 on:
   push:
