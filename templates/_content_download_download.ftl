@@ -92,7 +92,7 @@
                 <div class="ulist">
                     <ul>
                         <li>
-                            <p>Release date: <code>${pom.latest6.releaseDate?date}</code></p>
+                            <p>Release date: <code>${pom.latest6.releaseDateV6?date}</code></p>
                         </li>
                         <li>
                             <p><a href="${pom.latest6.droolsReleaseNotes}">Release Notes</a></p>

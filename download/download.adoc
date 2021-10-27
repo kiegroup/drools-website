@@ -37,7 +37,7 @@
 |===
 
 == Latest 6.x version:  #{site.pom.latest6.version}
- * Release date: `#{site.pom.latest6.releaseDate}`
+ * Release date: `#{site.pom.latest6.releaseDateV6}`
  * #{site.pom.latest6.droolsReleaseNotes}[Release Notes]
  * License: link:../code/license.html[Apache License 2.0]
 

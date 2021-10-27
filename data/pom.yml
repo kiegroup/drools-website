@@ -78,7 +78,7 @@ latest:
 #latest 6.x version
 latest6:
     version: 6.5.0.Final
-    releaseDate: 2016-10-20
+    releaseDateV6: 2016-10-20
 
     droolsZip: https://download.jboss.org/drools/release/6.5.0.Final/drools-distribution-6.5.0.Final.zip
 
