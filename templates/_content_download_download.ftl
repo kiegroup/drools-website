@@ -283,7 +283,7 @@
                             </li>
                             <li>
                                 <p>Alternatively, you can download the latest released version of <a
-                                    href="${pom.latestFinal.latestDroolsJbpmToolsZip}">Drools and jBPM tools zip</a>
+                                    href="https://download.jboss.org/drools/release/7.46.0.Final/droolsjbpm-tools-distribution-7.46.0.Final.zip">Drools and jBPM tools zip</a>
                                     (<strong>7.46.0.Final</strong>), unzip it and configure the directory
                                     "binaries/org.drools.updatesite" as a local updatesite.</p>
                             </li>
