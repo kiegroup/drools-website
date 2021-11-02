@@ -2,7 +2,7 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light border-bottom shadow">
     <div class="container">
         <a class="navbar-brand" href="${content.rootpath}">
-            <img alt="OptaPlanner logo" src="${content.rootpath}headerFooter/droolsLogo200px.png">
+            <img alt="Drools logo" src="${content.rootpath}headerFooter/DroolsLogo200px.png">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
