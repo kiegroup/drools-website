@@ -46,7 +46,7 @@
           integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/styles/default.min.css"
           integrity="sha256-CGf39SzxAmEe09Ojoh16/2xTRNleX9wBZcEXVnNqwSM=" crossorigin="anonymous">
-    <link rel="stylesheet" href="${content.rootpath}website/droolsWebsite.css">
+    <link rel="stylesheet" href="${content.rootpath}website/DroolsWebsite.css">
     <link href="${content.rootpath}favicon.ico" rel="shortcut icon">
 </head>
 
@@ -98,7 +98,7 @@
             integrity="sha256-1XSLaVD2dn/eCICDUx1DYprsC4UAEa4weDLYY/458wU=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/languages/gradle.min.js"
             integrity="sha256-B5HtfGpeJKLSEsoqtAdi6sSJ05K49CTGHZbrBiJ9CwE=" crossorigin="anonymous"></script>
-    <script src="${content.rootpath}website/droolsWebsite.js"></script>
+    <script src="${content.rootpath}website/DroolsWebsite.js"></script>
     <script>
         // Ruby syntax highlighting works pretty well for DRL source code.
         hljs.registerAliases(["drl"], { languageName: "ruby"});
