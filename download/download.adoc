@@ -37,7 +37,7 @@
 |===
 
 == Latest 6.x version:  #{site.pom.latest6.version}
- * Release date: `#{site.pom.latest6.releaseDate}`
+ * Release date: `#{site.pom.latest6.releaseDateV6}`
  * #{site.pom.latest6.droolsReleaseNotes}[Release Notes]
  * License: link:../code/license.html[Apache License 2.0]
 
@@ -115,4 +115,4 @@ We stopped to release Eclipse tools synchronously with Drools, thus the recent v
 
 * https://download.jboss.org/drools/release/7.46.0.Final/org.drools.updatesite/[Click here] to go to the Drools and jBPM update site (latest released version *7.46.0.Final*).
 * The Drools and jBPM plugin for Eclipse can also be discovered from https://www.jboss.org/tools[JBoss Tools].
-* Alternatively, you can download the latest released version of #{site.pom.latestFinal.latestDroolsJbpmToolsZip}[Drools and jBPM tools zip] (*7.46.0.Final*), unzip it and configure the directory "binaries/org.drools.updatesite" as a local updatesite.
+* Alternatively, you can download the latest released version of https://download.jboss.org/drools/release/7.46.0.Final/droolsjbpm-tools-distribution-7.46.0.Final.zip[Drools and jBPM tools zip] (*7.46.0.Final*), unzip it and configure the directory "binaries/org.drools.updatesite" as a local updatesite.

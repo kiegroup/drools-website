@@ -21,8 +21,11 @@ latestFinal:
     businessCentralEAP7WAR: https://download.jboss.org/drools/release/7.58.0.Final/business-central-7.58.0.Final-eap7.war
     businessCentralWildFlyWAR: https://download.jboss.org/drools/release/7.58.0.Final/business-central-7.58.0.Final-wildfly19.war
 
-    # droolsjbpm-tools iss not released any more, last stable version is 7.46.0.Final
-    latestDroolsJbpmToolsZip: https://download.jboss.org/drools/release/7.46.0.Final/droolsjbpm-tools-distribution-7.46.0.Final.zip
+    # as part of the migration to JBAke we have a regex based script to update the version
+    # as the below is hardcoded to a fixed version, we just inline the value in the content pages for now, so the regex based script won't change them
+    # droolsjbpm-tools iss not released any more, last stable version is 7. 46.0.Final
+    # latestDroolsJbpmToolsZip: https://download.jboss.org/drools/release/7. 46.0.Final/droolsjbpm-tools-distribution-7. 46.0.Final.zip
+
     # droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.58.0.Final/droolsjbpm-tools-distribution-7.58.0.Final.zip
 
     documentationHtmlSingle: https://docs.jboss.org/drools/release/7.58.0.Final/drools-docs/html_single/index.html
@@ -78,7 +81,7 @@ latest:
 #latest 6.x version
 latest6:
     version: 6.5.0.Final
-    releaseDate: 2016-10-20
+    releaseDateV6: 2016-10-20
 
     droolsZip: https://download.jboss.org/drools/release/6.5.0.Final/drools-distribution-6.5.0.Final.zip
 
