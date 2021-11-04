@@ -64,7 +64,7 @@
                         <td class="tableblock halign-left valign-top"><p
                                     class="tableblock">${pom.businessCentralDescription}</p></td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
-                                href="${pom.latestFinal.businessCentralWildFlyWAR}">WildFly 19 WAR</a></p></td>
+                                href="${pom.latestFinal.businessCentralWildFlyWAR}">WildFly 23 WAR</a></p></td>
                     </tr>
                     <tr>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>KIE Execution
