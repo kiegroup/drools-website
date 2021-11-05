@@ -6,6 +6,8 @@
     ((content.type == "post")?then(content.body?replace("<[\\w/][^>]*>", "", "r")?replace("\\s+", " ", "r")?truncate(200, "...")?trim,
     ((description == "")?then(config.errorDescriptionIsMandatory, description))))/>
 <#assign _uri = content.uri!uri/>
+<#setting time_zone="UTC">
+<#setting sql_date_and_time_time_zone="JVM default"><#-- as indicated by FreeMarker doc after setting time_zone=UTC manually -->
 <!DOCTYPE html>
 <html lang="${(content.lang)!"en"}">
 <head>

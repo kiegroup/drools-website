@@ -14,7 +14,7 @@
             <i class="fas fa-info-circle"></i>
             <!-- 2021-08-05: -->
             <!-- %a.alert-link(href="https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12359307")Drools 7.58.0.Final has been released. -->
-            ${pom.latest.releaseDate?string("yyyy-MM-dd")}:
+            ${pom.latest.releaseDate?date?string.iso}:
             <a class="alert-link"
             href="${pom.latest.droolsReleaseNotes}">Drools ${pom.latestFinal.version} has been released.</a>
             <button class="btn-close" data-bs-dismiss="alert" type="button" aria-label="Close"></button>
