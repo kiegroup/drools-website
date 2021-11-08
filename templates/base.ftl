@@ -38,7 +38,7 @@
     <meta content="${config.canonicalBaseUrl}/${_uri}" property="og:url">
     <meta content="Drools" property="og:site_name">
     <meta content="${(content.type == "post")?then("article", "website")}" property="og:type">
-    <meta content="${config.canonicalBaseUrl + "/" + ((content.social_media_share_image??)?then(_uri?replace("/[^/]*$", "/", "r") + content.social_media_share_image, "headerFooter/optaPlannerIcon.png"))}" property="og:image">
+    <meta content="${config.canonicalBaseUrl + "/" + ((content.social_media_share_image??)?then(_uri?replace("/[^/]*$", "/", "r") + content.social_media_share_image, "headerFooter/droolsIcon.png"))}" property="og:image">
     <meta content="summary" name="twitter:card">
     <meta content="@DroolsRules" name="twitter:site">
 
