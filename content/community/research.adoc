@@ -11,6 +11,25 @@ If you would like to have this page updated, either correction or addition, then
 
 If you are a staff member at research institute I would encourage you to subscribe to the drools research mailing list. This is a mailing list for people to discuss existing and potential drools research, students, funding, etc.
 
+== 2021
+
+*Putting BPMN and DMN to Work: a Pediatric Surgery Case Study*
+
+* Authors - Anna Maria Bianchi, Matteo Mortari, Claudio Pintavalle, Giuseppe Pozzi
+* Paper - 2021 IEEE International Conference on Digital Health (ICDH), 2021, pp. 154-159, doi: 10.1109/ICDH52753.2021.00028
+* https://doi.org/10.1109/ICDH52753.2021.00028[Paper URL]
+* University - Politecnico di Milano, Italy
+
+== 2019
+
+*Modeling surgical pediatric processes with BPMN and DMN*
+
+* Author - Claudio Pintavalle
+* Supervisor - Anna Maria Bianchi
+* Co-Supervisor - Giuseppe Pozzi
+* Master’s degree thesis http://hdl.handle.net/10589/150128[URL]
+* University - Politecnico di Milano, Italy
+
 == 2009
 
 *Application of Drools in network fault management  system*
