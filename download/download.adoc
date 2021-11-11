@@ -92,10 +92,10 @@
 === http://www.docker.com/[Docker] images
 
 * You can find the Docker images and how to use them for last final version  at
-** https://registry.hub.docker.com/r/jboss/business-central-workbench/[Business Central Workbench]
-** https://registry.hub.docker.com/r/jboss/business-central-workbench-showcase/[Business Central Workbench Showcase]
-** https://registry.hub.docker.com/r/jboss/kie-server/[KIE Execution Server]
-** https://registry.hub.docker.com/r/jboss/kie-server-showcase/[KIE Execution Server Showcase]
+** https://quay.io/repository/kiegroup/business-central-workbench/[Business Central Workbench]
+** https://quay.io/repository/kiegroup/business-central-workbench-showcase/[Business Central Workbench Showcase]
+** https://quay.io/repository/kiegroup/kie-server/[KIE Execution Server]
+** https://quay.io/repository/kiegroup/kie-server-showcase/[KIE Execution Server Showcase]
 
 For more info about the Drools Docker images see this http://blog.athico.com/2015/06/drools-jbpm-get-dockerized.html[blog post].
 
