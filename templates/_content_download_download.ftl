@@ -199,20 +199,20 @@
                                     <ul>
                                         <li>
                                             <p>
-                                                <a href="https://registry.hub.docker.com/r/jboss/business-central-workbench/">Business
+                                                <a href="https://quay.io/repository/kiegroup/business-central-workbench/">Business
                                                     Central Workbench</a></p>
                                         </li>
                                         <li>
                                             <p>
-                                                <a href="https://registry.hub.docker.com/r/jboss/business-central-workbench-showcase/">Business
+                                                <a href="https://quay.io/repository/kiegroup/business-central-workbench-showcase/">Business
                                                     Central Workbench Showcase</a></p>
                                         </li>
                                         <li>
-                                            <p><a href="https://registry.hub.docker.com/r/jboss/kie-server/">KIE
+                                            <p><a href="https://quay.io/repository/kiegroup/kie-server/">KIE
                                                     Execution Server</a></p>
                                         </li>
                                         <li>
-                                            <p><a href="https://registry.hub.docker.com/r/jboss/kie-server-showcase/">KIE
+                                            <p><a href="https://quay.io/repository/kiegroup/kie-server-showcase/">KIE
                                                     Execution Server Showcase</a></p>
                                         </li>
                                     </ul>
