@@ -3,3 +3,5 @@
 :jbake-description: Documentation for Drools
 :page-interpolate: true
 :showtitle:
+
+// Empty .adoc jbake /content, using FTL for data processing. Ref: https://github.com/jbake-org/jbake/issues/693
