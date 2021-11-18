@@ -1,30 +1,189 @@
-# To add an event in the GitHub user interface, click on the Edit button at the top right which will submit a pull request.
+# To add an event directly in the GitHub user interface, click on the Edit button at the top right which will submit a pull request.
 #
 # Available properties per event
 #  eventId: Should be in format "yyyymmdd-suffix". The yyyymmdd is the date
 #  eventOrganization: Name of the conference or organizer
+#  url: Link to the event page itself. If CFP not yet accepted, temporarily link the event organization itself.
 #  location: Should be in format "city, country" or "city, state, country"
 #  date: Must be in format "yyyy-mm-dd". If multiple days cover our project, only note the first day
 #  title: (optional) Session title (without the conference or organizer name). If CFP not yet accepted, temporarily do not include.
-#  url: Link to the event page itself. If CFP not yet accepted, temporarily link the event organization itself.
 #  presenters: (optional) Comma separated list of presenters. If CFP not yet accepted, temporarily do not include.
+#  (if the talk is part of a much broader event)
+#  talks: (optional) If the CFP is not yet accepted, do not include it yet.
+#    - title: Session title (without the conference or organizer name).
+#      url: (optional) Link to the event page itself.
+#      presenters: (optional) Comma separated list of presenters.
+#      videoUrl: (optional) Link to the video of the presentation
 #
 # Order events by date.
-# Remove past events.
 
+- eventId: 20211125-webinar
+  eventOrganization: "Fast Lane Italia"
+  location: online event
+  url: https://fast-lane.webex.com/fast-lane-it/onstage/g.php?MTID=efc72c57752e69b852f40b5ffdfc7fd00
+  date: 2021-11-25
+  title: "Puoi fidarti della tua Intelligenza Artificiale (IA)?"
+  presenters: Matteo Mortari, Daniele Zonca
 
-- eventId: 20160628-redhatsummit
-  eventOrganization: Red Hat Summit
-  location: San Francisco, US
-  date: 2016-06-28
-  url: https://www.redhat.com/summit/
+- eventId: 20211118-webinar
+  eventOrganization: "Voxxed Days Ticino"
+  url: https://voxxeddays.com/ticino/
+  location: Lugano, Switzerland
+  date: 2021-11-18
+  talks:
+  - title: "Can you trust your AI?"
+    presenters: Daniele Zonca
 
-- eventId: 20161108-devoxxbe
-  eventOrganization: Devoxx Be
+- eventId: 20211021-webinar
+  eventOrganization: "Fast Lane Italia"
+  location: online event
+  date: 2021-10-21
+  title: "Decision Automation con standard aperti: DMN"
+  presenters: Matteo Mortari, Daniele Zonca
+
+- eventId: 20210928-webinar
+  eventOrganization: "Connecticut Java Users Group"
+  url: https://www.meetup.com/it-IT/Connecticut-Java-Users-Group/events/280927250
+  location: online event
+  date: 2021-09-28
+  title: "Introducing Drools"
+  presenters: Mario Fusco, Matteo Mortari
+
+- eventId: 20210916-webinar
+  eventOrganization: "Fast Lane Italia"
+  location: online event
+  date: 2021-09-16
+  title: "eXplainable Predictive Decisioning - Trasparenza nell’automazione decisionale"
+  presenters: Matteo Mortari, Daniele Zonca
+
+- eventId: 20210913-decisioncamp
+  eventOrganization: "DecisionCAMP 2021"
+  url: https://decisioncamp2021.wordpress.com/
+  location: online event
+  date: 2021-09-13
+  presenters: Mario Fusco, Matteo Mortari, Daniele Zonca
+  talks:
+  - title: "Trustworthy Decision Management: How explainable, predictive decision making can help us trust our AI models"
+    presenters: Matteo Mortari, Daniele Zonca
+    videoUrl: https://www.youtube.com/watch?v=VK99kmwdb_Y
+  - title: 'Interactive Discussion "Ask a Vendor"'
+    presenters: Mario Fusco, Daniele Zonca
+    videoUrl: https://www.youtube.com/watch?v=8DnvuuWO3Ho
+
+- eventId: 20210907-ieee
+  eventOrganization: "IEEE International Conference on Digital Health (ICDH)"
+  url: https://conferences.computer.org/icdh/2021/
+  location: online event
+  date: 2021-09-07
+  presenters: Anna Maria Bianchi, Matteo Mortari, Claudio Pintavalle, Giuseppe Pozzi
+  talks:
+  - title: "Putting BPMN and DMN to Work: a Pediatric Surgery Case Study"
+    presenters: Anna Maria Bianchi, Matteo Mortari, Claudio Pintavalle, Giuseppe Pozzi
+    url: https://doi.org/10.1109/ICDH52753.2021.00028
+
+- eventId: 20210618-webinar
+  eventOrganization: "Cloud-native environment considerations for decision makers—a webinar series by Red Hat"
+  url: https://www.redhat.com/en/events/webinar/cloud-native-environment-considerations-decision-makers%E2%80%94webinar-series
+  location: online event
+  date: 2021-06-18
+  presenters: Matteo Mortari, Daniele Zonca
+  talks:
+  - title: "How explainable, predictive decision making can help us trust our AI models"
+    presenters: Matteo Mortari, Daniele Zonca
+
+- eventId: 20210520-iiba
+  eventOrganization: "International Institute of Business Analysis (IIBA)"
+  url: https://www.youtube.com/watch?v=0hQEMMRVHjA
+  title: "How to Capture Business Decisions using DMN: Introduction to Some Basic Patterns and Their Value"
+  location: online event
+  date: 2021-05-20
+  presenters: Denis Gagné, Matteo Mortari
+
+- eventId: 20210209-kielive
+  eventOrganization: "KIE Live"
+  url: https://www.youtube.com/watch?v=T3YU3M1eexc
+  title: "DMN: squeeze the most out these features"
+  location: online event
+  date: 2021-02-09
+  presenters: Matteo Mortari
+
+- eventId: 20210119-decision-camp-monthly-session
+  eventOrganization: "Decision Camp Monthly session"
+  url: https://www.youtube.com/watch?v=T3YU3M1eexc
+  title: "Kogito: Cloud-native Business Automation"
+  location: online event
+  date: 2021-01-19
+  presenters: Mario Fusco, Matteo Mortari
+
+- eventId: 20191203-redhatosd
+  eventOrganization: "Red Hat Open Source Day 2019"
+  url: https://www.redhat.com/it/events/red-hat-open-source-day-italia
+  location: Milan, Italy
+  date: 2019-12-03
+  presenters: Donato Marrazzo, Matteo Mortari, Edoardo Vacchi
+
+- eventId: 20191120-redhatosd
+  eventOrganization: "Red Hat Open Source Day 2019"
+  url: https://www.redhat.com/it/events/red-hat-open-source-day-italia
+  location: Rome, Italy
+  date: 2019-11-20
+  presenters: Donato Marrazzo, Matteo Mortari, Edoardo Vacchi
+
+- eventId: 20191104-devoxx
+  eventOrganization: "Devoxx Belgium 2019"
+  url: https://devoxx.be/
   location: Antwerp, Belgium
-  date: 2016-11-08
-  title: Hackergarten
-  url: http://www.devoxx.be
+  date: 2019-11-04
+  presenters: Mario Fusco, Maciej Swiderski, Edoardo Vacchi
+
+- eventId: 20191017-geecon
+  eventOrganization: "geeCon Prague 2019"
+  url: https://2019.geecon.cz/
+  location: Prague, Czech Republic
+  date: 2019-10-17
+  presenters: Mario Fusco, Maciej Swiderski
+
+- eventId: 20191005-VDT19
+  eventOrganization: "Voxxed Days Ticino 2019"
+  url: https://voxxeddays.com/ticino/
+  location: Lugano (Ticino), Switzerland
+  date: 2019-10-05
+  presenters: Mario Fusco, Maciej Swiderski
+
+- eventId: 20190926-JUGMilano
+  eventOrganization: "JUG Milano"
+  url: http://www.jugmilano.it/meeting-114.html
+  location: Milano, Italy
+  date: 2019-09-26
+  presenters: Mario Fusco, demo by Matteo Mortari
+
+- eventId: 20190917-DecisionCamp2019
+  eventOrganization: "Decision Camp 2019"
+  url: https://decisioncamp2019.wordpress.com/program/
+  location: Bolzano, Italy
+  date: 2019-09-17
+  presenters: Mario Fusco, Edson Tirelli, Matteo Mortari
+
+- eventId: 20190212-pamworkshop
+  eventOrganization: "Business Process and Decion Management Workshop New York City"
+  url: https://events.redhat.com/profile/form/index.cfm?PKformID=0x27114abcd
+  location: New York, NY, US
+  date: 2019-02-12
+  presenters: Myriam Fentanes, Phil Simpson
+
+- eventId: 20170928-droolsday
+  eventOrganization: "Drools, jBPM and OptaPlanner day Washington DC"
+  url: https://droolsday.com/DC?sc_cid=701f2000000h3V9AAI
+  location: Washington, DC, US
+  date: 2017-09-28
+  presenters: Mark Proctor, Edson Tirelli, Kris Verlaenen, Geoffrey De Smet, Alexandre Porcelli, Prakash Aradhya
+
+- eventId: 20170926-droolsday
+  eventOrganization: "Drools, jBPM and OptaPlanner day New York"
+  url: https://droolsday.com/New_York?sc_cid=701f2000000h3V9AAI
+  location: New York, NY, US
+  date: 2017-09-26
+  presenters: Mark Proctor, Edson Tirelli, Kris Verlaenen, Geoffrey De Smet, Alexandre Porcelli, Prakash Aradhya
 
 - eventId: 20161122-jbuglondon
   eventOrganization: JBoss User Group
@@ -48,72 +207,15 @@
   url: http://www.meetup.com/JBoss-User-Group/events/234803765/
   presenters: Mark Proctor, Kris Verlaenen, Geoffrey De Smet, Mauricio Salatino, Max Barkley
 
-- eventId: 20170926-droolsday
-  eventOrganization: "Drools, jBPM and OptaPlanner day New York"
-  url: https://droolsday.com/New_York?sc_cid=701f2000000h3V9AAI
-  location: New York, NY, US
-  date: 2017-09-26
-  presenters: Mark Proctor, Edson Tirelli, Kris Verlaenen, Geoffrey De Smet, Alexandre Porcelli, Prakash Aradhya
-
-- eventId: 20170928-droolsday
-  eventOrganization: "Drools, jBPM and OptaPlanner day Washington DC"
-  url: https://droolsday.com/DC?sc_cid=701f2000000h3V9AAI
-  location: Washington, DC, US
-  date: 2017-09-28
-  presenters: Mark Proctor, Edson Tirelli, Kris Verlaenen, Geoffrey De Smet, Alexandre Porcelli, Prakash Aradhya
-  
-- eventId: 20190212-pamworkshop
-  eventOrganization: "Business Process and Decion Management Workshop New York City"
-  url: https://events.redhat.com/profile/form/index.cfm?PKformID=0x27114abcd
-  location: New York, NY, US
-  date: 2019-02-12
-  presenters: Myriam Fentanes, Phil Simpson
-
-- eventId: 20190917-DecisionCamp2019
-  eventOrganization: "Decision Camp 2019"
-  url: https://decisioncamp2019.wordpress.com/program/
-  location: Bolzano, Italy
-  date: 2019-09-17
-  presenters: Mario Fusco, Edson Tirelli, Matteo Mortari
-
-- eventId: 20190926-JUGMilano
-  eventOrganization: "JUG Milano"
-  url: http://www.jugmilano.it/meeting-114.html
-  location: Milano, Italy
-  date: 2019-09-26
-  presenters: Mario Fusco, demo by Matteo Mortari
-  
-- eventId: 20191005-VDT19
-  eventOrganization: "Voxxed Days Ticino 2019"
-  url: https://voxxeddays.com/ticino/
-  location: Lugano (Ticino), Switzerland
-  date: 2019-10-05
-  presenters: Mario Fusco, Maciej Swiderski
-  
-- eventId: 20191017-geecon
-  eventOrganization: "geeCon Prague 2019"
-  url: https://2019.geecon.cz/
-  location: Prague, Czech Republic
-  date: 2019-10-17
-  presenters: Mario Fusco, Maciej Swiderski
-  
-- eventId: 20191104-devoxx
-  eventOrganization: "Devoxx Belgium 2019"
-  url: https://devoxx.be/
+- eventId: 20161108-devoxxbe
+  eventOrganization: Devoxx Be
   location: Antwerp, Belgium
-  date: 2019-11-04
-  presenters: Mario Fusco, Maciej Swiderski, Edoardo Vacchi
+  date: 2016-11-08
+  title: Hackergarten
+  url: http://www.devoxx.be
 
-- eventId: 20191120-redhatosd
-  eventOrganization: "Red Hat Open Source Day 2019"
-  url: https://www.redhat.com/it/events/red-hat-open-source-day-italia
-  location: Rome, Italy
-  date: 2019-11-20
-  presenters: Donato Marrazzo, Matteo Mortari, Edoardo Vacchi
-
-- eventId: 20191203-redhatosd
-  eventOrganization: "Red Hat Open Source Day 2019"
-  url: https://www.redhat.com/it/events/red-hat-open-source-day-italia
-  location: Milan, Italy
-  date: 2019-12-03
-  presenters: Donato Marrazzo, Matteo Mortari, Edoardo Vacchi
+- eventId: 20160628-redhatsummit
+  eventOrganization: Red Hat Summit
+  location: San Francisco, US
+  date: 2016-06-28
+  url: https://www.redhat.com/summit/
