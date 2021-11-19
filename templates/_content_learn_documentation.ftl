@@ -111,7 +111,7 @@
                     </div>
                     <div class="paragraph">
                         <p><strong>Smart Enough Systems</strong><br>
-                            James Taylour, Neil Raden<br>
+                            James Taylor, Neil Raden<br>
                             Print ISBN-10: 0-13-234796-2<br>
                             Print ISBN-13: 978-0-13-234796-9</p>
                     </div>
