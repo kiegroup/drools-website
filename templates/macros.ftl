@@ -50,12 +50,12 @@
         <h1 class="card-title">Events</h1>
         <div class="card-body">
             <ul class="list-unstyled">
-                <#list events as event>
+                <#list events?reverse as event>
                     <#if .now?date <= event.date?date>
                         <li style="margin-bottom: 10px;">
                             <div class="title">
-                                <#if event.eventUrl??>
-                                    <a href="${event.eventUrl}">${event.eventOrganization}</a>
+                                <#if event.url??>
+                                    <a href="${event.url}">${event.eventOrganization}</a>
                                 <#else>
                                     ${event.eventOrganization}
                                 </#if>
@@ -65,7 +65,7 @@
                                 <#if event.talks??>
                                     <ul class="list-unstyled">
                                         <#list event.talks as talk>
-                                            <li style="margin-left: 20px;">
+                                            <li class="ms-4">
                                                 <#if talk.url??>
                                                     <a href="${talk.url}">${talk.title}</a>
                                                 <#else>
@@ -76,6 +76,13 @@
                                                 </#if>
                                             </li>
                                         </#list>
+                                    </ul>
+                                <#elseif event.title?? && event.presenters??>
+                                    <ul class="list-unstyled">
+                                        <li class="ms-4">
+                                                ${event.title}
+                                                <span class="small">by ${event.presenters}</span>
+                                        </li>
                                     </ul>
                                 </#if>
                             </span>

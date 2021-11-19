@@ -9,8 +9,8 @@
         <#assign events = data.get('events.yml').data>
         <h1>${content.title}</h1>
         <ul class="list-unstyled">
-            <#list events?reverse as event>
-                <li>
+            <#list events as event>
+                <li class="mb-2">
                     <div class="title">
                         <#if event.url??>
                             <a href="${event.url}">${event.eventOrganization}</a>
@@ -23,7 +23,7 @@
                         <#if event.talks??>
                             <ul class="list-unstyled">
                             <#list event.talks as talk>
-                                <li>
+                                <li class="ms-4">
                                     <#if talk.url??>
                                         <a href="${talk.url}">${talk.title}</a>
                                     <#else>
@@ -37,7 +37,17 @@
                                     </#if>
                                 </li>
                             </#list>
-                        </ul>
+                            </ul>
+                        <#elseif event.title?? && event.presenters??>
+                            <ul class="list-unstyled">
+                                <li class="ms-4">
+                                        ${event.title}
+                                        <span class="small">by ${event.presenters}</span>
+                                    <#if event.videoUrl??>
+                                        <span>(<a href="${event.videoUrl}">video recording</a>)</span>
+                                    </#if>
+                                </li>
+                            </ul>
                         </#if>
                 </span>
                 </li>
