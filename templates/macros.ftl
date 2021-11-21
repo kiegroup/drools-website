@@ -78,7 +78,7 @@
                                             </li>
                                         </#list>
                                     </ul>
-                                    <#elseif event.title?? && event.presenters??>
+                                <#elseif event.title?? && event.presenters??>
                                     <ul class="list-unstyled">
                                         <li class="ms-4">
                                                 ${event.title}
