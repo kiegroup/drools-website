@@ -68,7 +68,7 @@
     <div class="container pb-2 mt-4">
         <div class="row">
             <div class="col-md-12 text-center">
-                <img src="/website/images/drools_icon.svg" style="width: 120px">
+                <img src="/website/images/drools_icon.svg" alt="Drools logo" style="width: 120px">
             </div>
         </div>
     </div>
