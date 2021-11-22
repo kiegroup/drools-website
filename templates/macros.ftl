@@ -34,7 +34,8 @@
 </#macro>
 
 <#macro servicesOffer>
-    <div class="card border-0">
+    <div class="card mb-4">
+        <div class="card-header bg-dark text-white">Paid support and consulting</div>
         <div class="card-body">
             <p>
                 <b>Want to talk to the experts?</b>
@@ -46,13 +47,13 @@
 </#macro>
 
 <#macro latestEvents>
-    <div class="card border-0">
-        <h1 class="card-title">Events</h1>
+    <div class="card mb-4">
+        <div class="card-header">Events</div>
         <div class="card-body">
             <ul class="list-unstyled">
                 <#list events?reverse as event>
                     <#if .now?date <= event.date?date>
-                        <li style="margin-bottom: 10px;">
+                        <li class="mb-2">
                             <div class="title">
                                 <#if event.url??>
                                     <a href="${event.url}">${event.eventOrganization}</a>
@@ -89,7 +90,7 @@
                         </li>
                     </#if>
                 </#list>
-                <div class="small pull-right">
+                <div class="small float-end">
                     <a href="https://github.com/kiegroup/drools-website/blob/main/data/events.yml">Add event</a>
                     /
                     <a href="${content.rootpath}community/eventsArchive.html">Archive</a>
