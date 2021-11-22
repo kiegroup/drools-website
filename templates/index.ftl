@@ -120,13 +120,13 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6" style="padding: 10px; margin-top: 20px">
-                        <div class="text-center"><a href="http://www.oxygenxml.com"><img src="headerFooter/oxygen.png"></a>
+                        <div class="text-center"><a href="http://www.oxygenxml.com"><img src="headerFooter/oxygen.png" alt="Oxygen logo"></a>
                         </div>
                     </div>
                     <div class="col-md-6" style="padding: 10px; margin-top: 20px">
                         <div class="text-center"><a
                                     href="http://www.ej-technologies.com/products/jprofiler/overview.html"><img
-                                        src="headerFooter/jprofiler-logo.png"></a></div>
+                                        src="headerFooter/jprofiler-logo.png" alt="jProfiler logo"></a></div>
                     </div>
                 </div>
             </div>
