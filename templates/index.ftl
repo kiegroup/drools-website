@@ -12,6 +12,11 @@
     googleWebmasterToolsVerification=true>
         <div class="alert alert-info alert-dismissible" role="alert" id="release-version-alert">
             <i class="fas fa-info-circle"></i>
+            Reassuring news about Drools, KIE and “Log4Shell” CVE-2021-44228; full details <a class="alert-link" href="https://blog.kie.org/2021/12/kie-log4j2-exploit-cve-2021-44228.html">in this blog post</a>.
+            <button class="btn-close" data-bs-dismiss="alert" type="button" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-info alert-dismissible" role="alert" id="release-version-alert">
+            <i class="fas fa-info-circle"></i>
             <!-- 2021-08-05: -->
             <!-- %a.alert-link(href="https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12359307")Drools 7.58.0.Final has been released. -->
             ${pom.latest.releaseDate?date?string.iso}:
