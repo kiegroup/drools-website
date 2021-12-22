@@ -32,7 +32,7 @@ latestFinal:
     KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.63.0.Final/kie-api-javadoc/index.html
 
     droolsWhatsNew: https://docs.jboss.org/drools/release/7.63.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
-    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12376352
+    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12377959
 
     userGuideBook: https://www.gitbook.com/@nheron
     userGuidePDF: https://nicolas-heron.gitbook.io/droolsonboarding/
@@ -63,7 +63,7 @@ latest:
     KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.63.0.Final/kie-api-javadoc/index.html
 
     droolsWhatsNew: https://docs.jboss.org/drools/release/7.63.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
-    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12376352
+    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12377959
 
 # since there are two branches 7.0.x and 6.5.x and there are releases for both, they have to be shown
 
