@@ -27,11 +27,11 @@ latestFinal:
 
     # droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.63.0.Final/droolsjbpm-tools-distribution-7.63.0.Final.zip
 
-    documentationHtmlSingle: https://docs.jboss.org/drools/release/7.63.0.Final/drools-docs/html_single/index.html
+    documentationHtmlSingle: https://docs.drools.org/7.63.0.Final/drools-docs/html_single/index.html
 
-    KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.63.0.Final/kie-api-javadoc/index.html
+    KIE_API_documentationJavadoc: https://docs.drools.org/7.63.0.Final/kie-api-javadoc/index.html
 
-    droolsWhatsNew: https://docs.jboss.org/drools/release/7.63.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
+    droolsWhatsNew: https://docs.drools.org/7.63.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
     droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12377959
 
     userGuideBook: https://www.gitbook.com/@nheron
@@ -58,11 +58,11 @@ latest:
     kieExecutionServerZip: https://download.jboss.org/drools/release/7.63.0.Final/kie-server-distribution-7.63.0.Final.zip
     kieWARS: https://repo1.maven.org/maven2/org/kie/server/kie-server/7.63.0.Final/
 
-    documentationHtmlSingle: https://docs.jboss.org/drools/release/7.63.0.Final/drools-docs/html_single/index.html
+    documentationHtmlSingle: https://docs.drools.org/7.63.0.Final/drools-docs/html_single/index.html
 
-    KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/7.63.0.Final/kie-api-javadoc/index.html
+    KIE_API_documentationJavadoc: https://docs.drools.org/7.63.0.Final/kie-api-javadoc/index.html
 
-    droolsWhatsNew: https://docs.jboss.org/drools/release/7.63.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
+    droolsWhatsNew: https://docs.drools.org/7.63.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
     droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12377959
 
 # since there are two branches 7.0.x and 6.5.x and there are releases for both, they have to be shown
@@ -90,15 +90,11 @@ latest6:
 
     droolsjbpmToolsZip: https://download.jboss.org/drools/release/6.5.0.Final/droolsjbpm-tools-distribution-6.5.0.Final.zip
 
-    documentationHtmlSingle: https://docs.jboss.org/drools/release/6.5.0.Final/drools-docs/html_single/index.html
-    documentationHtml: https://docs.jboss.org/drools/release/6.5.0.Final/drools-docs/html/index.html
-    documentationPdf: https://docs.jboss.org/drools/release/6.5.0.Final/drools-docs/pdf/drools-docs.pdf
-    KIE_API_documentationJavadoc: https://docs.jboss.org/drools/release/6.5.0.Final/kie-api-javadoc/index.html
+    documentationHtmlSingle: https://docs.drools.org/6.5.0.Final/drools-docs/html_single/index.html
+    documentationHtml: https://docs.drools.org/6.5.0.Final/drools-docs/html/index.html
+    documentationPdf: https://docs.drools.org/6.5.0.Final/drools-docs/pdf/drools-docs.pdf
+    KIE_API_documentationJavadoc: https://docs.drools.org/6.5.0.Final/kie-api-javadoc/index.html
 
-    droolsExpert_documentationHtmlSingle: https://docs.jboss.org/drools/release/6.5.0.Final/drools-expert-docs/html_single/index.html
-    droolsExpert_documentationHtml: https://docs.jboss.org/drools/release/6.5.0.Final/drools-expert-docs/html/index.html
-    droolsExpert_documentationPdf: https://docs.jboss.org/drools/release/6.5.0.Final/drools-expert-docs/pdf/drools-expert-docs.pdf
-
-    droolsReleaseNotes: https://docs.jboss.org/drools/release/6.5.0.Final/drools-docs/html_single/#DroolsReleaseNotesChapter
+    droolsReleaseNotes: https://docs.drools.org/6.5.0.Final/drools-docs/html_single/#DroolsReleaseNotesChapter
 
     kieExecutionServerZip: https://download.jboss.org/drools/release/6.5.0.Final/kie-server-distribution-6.5.0.Final.zip
