@@ -21,13 +21,24 @@
                                             <a href="${pom.latestFinal.documentationHtmlSingle}">HTML Single</a></p>
                                     </li>
                                     <li>
-                                        <p><span class="image"><img src="documentation.png" alt="documentation"></span>
-                                            <strong>User Guide ${pom.latestFinal.version}</strong>:
-                                            <a href="${pom.latestFinal.userGuidePDF}">PDF</a></p>
-                                    </li>
-                                    <li>
                                         <p>Kie API (Drools, jBPM) ${pom.latestFinal.version}:
                                             <a href="${pom.latestFinal.KIE_API_documentationJavadoc}">Javadoc</a></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ulist">
+                    <ul>
+                        <li>
+                            <p><strong>Drools and jBPM plugin for Eclipse</strong></p>
+                            <div class="ulist">
+                                <ul>
+                                    <li>
+                                        <p><span class="image"><img src="documentation.png" alt="documentation"></span>
+                                            <strong>User Guide 7.46.0.Final</strong>:
+                                            <a href="${pom.latestFinal.userGuidePDF}">PDF</a></p>
                                     </li>
                                 </ul>
                             </div>
