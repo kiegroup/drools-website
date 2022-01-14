@@ -27,3 +27,6 @@ build
 
 # jbake produces output in standard maven directories
 /target
+
+# Directory of Jenkinsfile for publishing website
+!.ci
