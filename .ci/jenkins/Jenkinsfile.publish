@@ -1,0 +1,93 @@
+@Library('jenkins-pipeline-shared-libraries')_
+import org.kie.jenkins.MavenCommand
+
+AGENT_LABEL="kie-rhel7 && kie-mem4g"
+MVN_TOOL="kie-maven-3.8.1"
+JDK_TOOL="kie-jdk11"
+REPO="drools-website"
+ORGANIZATION="kiegroup"
+BASE_BRANCH="main"
+MAIL_RECIPIENT="drools.b52addfd644a28664f16083dfe6e9453.show-sender@streams.zulipchat.com"
+
+pipeline {
+    agent {
+        label "$AGENT_LABEL"
+    }
+    options{
+        timestamps()
+    }
+    tools {
+        maven "$MVN_TOOL"
+        jdk "$JDK_TOOL"
+    }
+    stages {
+        stage('CleanWorkspace') {
+            steps {
+                cleanWs()
+            }
+        }
+        stage('clone drools-website') {
+            steps {
+                script {
+                    checkoutStartdroolsWeb()
+                }
+            }
+        }
+        stage('build drools-website'){
+            steps{
+                script {
+                    dir("${REPO}"){
+                        MavenCommand mvnCmd = new MavenCommand(this, ['-fae'])
+                            .withSettingsXmlId('kogito_release_settings')
+                        mvnCmd.run('clean package')
+                    }
+                }
+            }
+        }
+        stage('zip drools-website'){
+            steps{
+                dir("${REPO}"){
+                    sh "tar -cvzf drools-website.tar -C target/website/ ."
+                    archiveArtifacts "drools-website.tar"
+                }
+            }
+        }
+        stage('publish drools-website to filemgmt.jboss.org') {
+            steps {
+                dir("${REPO}") {
+                    sshagent(["drools-filemgmt"]) {
+                        sh './scripts/rsync_website.sh'
+                    }
+                }
+            }
+        }
+    }
+    post {
+        failure {
+            emailext to: "${MAIL_RECIPIENT}",
+            subject: 'status of drools-website automatic publishing',
+            body: ' The status of Jenkins CI job for automatic publishing of the drools-website #${BUILD_NUMBER} was: FAILURE \n' +
+            'because of ${BUILD_URL}consoleText \n' +
+            '(IMPORTANT: For visiting the links you need to have access to Red Hat VPN)'
+            cleanWs()
+        }
+        fixed {
+            emailext to: "${MAIL_RECIPIENT}",
+            subject: 'status of drools-website automatic publishing',
+            body: 'The Jenkins CI job of automatic publishing of the drools-website #${BUILD_NUMBER} was fixed'
+            cleanWs()
+        }
+        success {
+            emailext to: "${MAIL_RECIPIENT}",
+            subject: 'status of drools-website automatic publishing',
+            body: 'The status of Jenkins CI job for automatic publishing of the drools-website #${BUILD_NUMBER} was: SUCCESSFUL'
+            cleanWs()
+        }
+    }
+}
+
+void checkoutStartdroolsWeb() {
+    dir(REPO) {
+        checkout(githubscm.resolveRepository(REPO, ORGANIZATION, BASE_BRANCH, false))
+    }
+}
