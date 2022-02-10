@@ -11,59 +11,59 @@ kieExecutionServerDescription: Standalone execution server that can be used to r
 kieWarsDescription: WAR files for all supported containers
 
 latestFinal:
-    version: 7.64.0.Final
-    releaseDate: 2022-01-20
+    version: 7.65.0.Final
+    releaseDate: 2022-02-10
 
-    droolsZip: https://download.jboss.org/drools/release/7.64.0.Final/drools-distribution-7.64.0.Final.zip
-    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.64.0.Final/droolsjbpm-integration-distribution-7.64.0.Final.zip
-    businessCentralWildFlyWAR: https://download.jboss.org/drools/release/7.64.0.Final/business-central-7.64.0.Final-wildfly23.war
-    kieExecutionServerZip: https://download.jboss.org/drools/release/7.64.0.Final/kie-server-distribution-7.64.0.Final.zip
-    kieWARS: https://repo1.maven.org/maven2/org/kie/server/kie-server/7.64.0.Final/
+    droolsZip: https://download.jboss.org/drools/release/7.65.0.Final/drools-distribution-7.65.0.Final.zip
+    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.65.0.Final/droolsjbpm-integration-distribution-7.65.0.Final.zip
+    businessCentralWildFlyWAR: https://download.jboss.org/drools/release/7.65.0.Final/business-central-7.65.0.Final-wildfly23.war
+    kieExecutionServerZip: https://download.jboss.org/drools/release/7.65.0.Final/kie-server-distribution-7.65.0.Final.zip
+    kieWARS: https://repo1.maven.org/maven2/org/kie/server/kie-server/7.65.0.Final/
 
     # as part of the migration to JBAke we have a regex based script to update the version
     # as the below is hardcoded to a fixed version, we just inline the value in the content pages for now, so the regex based script won't change them
     # droolsjbpm-tools iss not released any more, last stable version is 7. 46.0.Final
     # latestDroolsJbpmToolsZip: https://download.jboss.org/drools/release/7. 46.0.Final/droolsjbpm-tools-distribution-7. 46.0.Final.zip
 
-    # droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.64.0.Final/droolsjbpm-tools-distribution-7.64.0.Final.zip
+    # droolsjbpmToolsZip: https://download.jboss.org/drools/release/7.65.0.Final/droolsjbpm-tools-distribution-7.65.0.Final.zip
 
-    documentationHtmlSingle: https://docs.drools.org/7.64.0.Final/drools-docs/html_single/index.html
+    documentationHtmlSingle: https://docs.drools.org/7.65.0.Final/drools-docs/html_single/index.html
 
-    KIE_API_documentationJavadoc: https://docs.drools.org/7.64.0.Final/kie-api-javadoc/index.html
+    KIE_API_documentationJavadoc: https://docs.drools.org/7.65.0.Final/kie-api-javadoc/index.html
 
-    droolsWhatsNew: https://docs.drools.org/7.64.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
-    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12378606
+    droolsWhatsNew: https://docs.drools.org/7.65.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
+    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12380080
 
     userGuideBook: https://www.gitbook.com/@nheron
     userGuidePDF: https://nicolas-heron.gitbook.io/droolsonboarding/
 
-    droolsSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.drools&a=drools-distribution&v=7.65.0-SNAPSHOT&e=zip
-    jbpmSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jbpm&a=jbpm-distribution&v=7.65.0-SNAPSHOT&e=zip&c=bin
-    businessCentralSnapWF: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie&a=business-central&v=7.65.0-SNAPSHOT&e=war&c=wildfly19
-    kieserverSnapEe7: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server&v=7.65.0-SNAPSHOT&e=war&c=ee7
-    kieserverSnapEe8: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server&v=7.65.0-SNAPSHOT&e=war&c=ee8
-    kieserverSnapWebc: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server&v=7.65.0-SNAPSHOT&e=war&c=webc
-    kieserverSnapDistZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server-distribution&v=7.65.0-SNAPSHOT&e=zip
-    tomcatIntergrationSnap: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie&a=kie-tomcat-integration&v=7.65.0-SNAPSHOT&e=jar
-    # updatesiteSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.drools&a=org.drools.updatesite&v=7.65.0-SNAPSHOT&e=zip
+    droolsSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.drools&a=drools-distribution&v=7.66.0-SNAPSHOT&e=zip
+    jbpmSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jbpm&a=jbpm-distribution&v=7.66.0-SNAPSHOT&e=zip&c=bin
+    businessCentralSnapWF: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie&a=business-central&v=7.66.0-SNAPSHOT&e=war&c=wildfly19
+    kieserverSnapEe7: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server&v=7.66.0-SNAPSHOT&e=war&c=ee7
+    kieserverSnapEe8: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server&v=7.66.0-SNAPSHOT&e=war&c=ee8
+    kieserverSnapWebc: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server&v=7.66.0-SNAPSHOT&e=war&c=webc
+    kieserverSnapDistZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie.server&a=kie-server-distribution&v=7.66.0-SNAPSHOT&e=zip
+    tomcatIntergrationSnap: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.kie&a=kie-tomcat-integration&v=7.66.0-SNAPSHOT&e=jar
+    # updatesiteSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.drools&a=org.drools.updatesite&v=7.66.0-SNAPSHOT&e=zip
 
 # latest.version can be equal to latestFinal.version
 latest:
-    version: 7.64.0.Final
-    releaseDate: 2022-01-20
+    version: 7.65.0.Final
+    releaseDate: 2022-02-10
 
-    droolsZip: https://download.jboss.org/drools/release/7.64.0.Final/drools-distribution-7.64.0.Final.zip
-    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.64.0.Final/droolsjbpm-integration-distribution-7.64.0.Final.zip
-    businessCentralWildFlyWAR: https://download.jboss.org/drools/release/7.64.0.Final/business-central-7.64.0.Final-wildfly23.war
-    kieExecutionServerZip: https://download.jboss.org/drools/release/7.64.0.Final/kie-server-distribution-7.64.0.Final.zip
-    kieWARS: https://repo1.maven.org/maven2/org/kie/server/kie-server/7.64.0.Final/
+    droolsZip: https://download.jboss.org/drools/release/7.65.0.Final/drools-distribution-7.65.0.Final.zip
+    droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.65.0.Final/droolsjbpm-integration-distribution-7.65.0.Final.zip
+    businessCentralWildFlyWAR: https://download.jboss.org/drools/release/7.65.0.Final/business-central-7.65.0.Final-wildfly23.war
+    kieExecutionServerZip: https://download.jboss.org/drools/release/7.65.0.Final/kie-server-distribution-7.65.0.Final.zip
+    kieWARS: https://repo1.maven.org/maven2/org/kie/server/kie-server/7.65.0.Final/
 
-    documentationHtmlSingle: https://docs.drools.org/7.64.0.Final/drools-docs/html_single/index.html
+    documentationHtmlSingle: https://docs.drools.org/7.65.0.Final/drools-docs/html_single/index.html
 
-    KIE_API_documentationJavadoc: https://docs.drools.org/7.64.0.Final/kie-api-javadoc/index.html
+    KIE_API_documentationJavadoc: https://docs.drools.org/7.65.0.Final/kie-api-javadoc/index.html
 
-    droolsWhatsNew: https://docs.drools.org/7.64.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
-    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12378606
+    droolsWhatsNew: https://docs.drools.org/7.65.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
+    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12380080
 
 # since there are two branches 7.0.x and 6.5.x and there are releases for both, they have to be shown
 
