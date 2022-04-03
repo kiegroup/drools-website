@@ -1,4 +1,5 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
+//JAVA 17+
 //DEPS info.picocli:picocli:4.5.0
 //DEPS com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.2
 //DEPS com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2
@@ -73,10 +74,11 @@ class FetchFromYouTube implements Callable<Integer> {
             PlaylistItemListResponse response = getPlayListItemList(nextPageToken);
             nextPageToken = response.getNextPageToken();
             for (PlaylistItem item : response.getItems()) {
-                Video video = new Video();
-                video.youtubeId = item.getContentDetails().getVideoId();
-                video.title = item.getSnippet().getTitle();
-                video.date = ZonedDateTime.parse(item.getSnippet().getPublishedAt().toStringRfc3339()).toLocalDate();
+                Video video = new Video(item.getContentDetails().getVideoId(),
+                        null,
+                        item.getSnippet().getTitle(),
+                        ZonedDateTime.parse(item.getSnippet().getPublishedAt().toStringRfc3339()).toLocalDate(),
+                        null);
                 videos.add(video);
             }
         } while (nextPageToken != null);
@@ -121,15 +123,9 @@ class FetchFromYouTube implements Callable<Integer> {
 }
 
 @JsonInclude(Include.NON_NULL)
-class Video {
-    public String youtubeId;
-    public String title;
-    public String author;
+record Video (String youtubeId,
+    String title,
+    String author,
     @JsonFormat(pattern="yyyy-MM-dd")
-    public LocalDate date;
-    public List<String> tags;
-
-    public LocalDate getDate() { 
-        return date;
-    }
-}
+    LocalDate date,
+    List<String> tags) { }
