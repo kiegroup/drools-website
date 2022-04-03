@@ -12,6 +12,448 @@
 #
 # Order videos by date descending
 
-- youtubeId: QJjtp8ky9Sw
-  title: "Red Hat Decision Manager (based on Drools) Demo Video"
+- youtubeId: -5VcMF40o_U
+  title: "JavaScript, Power Fx, and other expression languages with DMN"
+  date: 2022-03-25
+  tags:
+  - DMN
+
+- youtubeId: nXyKM-xds2M
+  title: Content Based Routing with Quarkus
+  date: 2022-03-09
+  tags:
+  - DMN
+
+- youtubeId: 6i4GFB_rlQo
+  title: Kogito TrustyAI demo
+  date: 2022-03-03
+  tags:
+  - DMN
+
+- youtubeId: NHigoAz1TRY
+  title: "Data enrichment - with DMN, BPMN and other open standards"
+  date: 2022-01-21
+  tags:
+  - DMN
+
+- youtubeId: j5_QpetYXIA
+  title: "[KIE Drop] Kogito Public API"
+  date: 2022-01-12
+
+- youtubeId: hbYjM4RFriQ
+  title: Puoi fidarti della tua Intelligenza Artificiale? (IA)
+  date: 2021-12-17
+  tags:
+  - DMN
+
+- youtubeId: PjOYpObmPw8
+  title: "Processi decisionali automatizzati con standard aperti: DMN"
+  date: 2021-12-08
+  tags:
+  - DMN
+
+- youtubeId: fmmfUEceirI
+  title: "[KIE Drop] Intelligent Decisions using DMN & PMML"
+  date: 2021-12-01
+  tags:
+  - DMN
+
+- youtubeId: F4CeNUyTZjo
+  title: "[KIELive#53] KIE Sandbox: Introducing a new generation of online authoring\
+    \ tools"
+  date: 2021-11-23
+  tags:
+  - DMN
+
+- youtubeId: HGprFfq_kHc
+  title: Trasparenza nell'automazione decisionale
+  date: 2021-11-23
+  tags:
+  - DMN
+
+- youtubeId: kjnNivG8fWo
+  title: "[KIELive#52] Stateless microservices with processes and decisions"
+  date: 2021-11-16
+  tags:
+  - DMN
+
+- youtubeId: q10jTu9bh9s
+  title: "[KIE Drop] DRL Working Memory"
+  date: 2021-11-16
+
+- youtubeId: 18XfjfafUVw
+  title: "[KIE Drop] Understanding DRL"
+  date: 2021-11-13
+
+- youtubeId: C5NGczQMHu0
+  title: "[KIELive#51] TrustyAI: Ensuring the Fairness and Transparency of Decision\
+    \ Models"
+  date: 2021-11-02
+
+- youtubeId: S84BejwfaKU
+  title: "[KIE Drop] Drools Complex Event Processing"
+  date: 2021-11-02
+
+- youtubeId: rJyYvNk4QZs
+  title: What is DMN? in 100 seconds
+  date: 2021-10-20
+  tags:
+  - DMN
+
+- youtubeId: 1EkD424Z1OE
+  title: "[KIELive#49] Event Driven Drools: CEP (Complex Event Processing) Explained"
+  date: 2021-10-19
+
+- youtubeId: CbTkr0JJ3cA
+  title: "[KIELive#47] The Road towards a Kogito Public API"
+  date: 2021-10-08
+
+- youtubeId: gdE5Nb5gT34
+  title: a KIE JBang! catalog
+  date: 2021-09-28
+  tags:
+  - DMN
+
+- youtubeId: KxZunQJL0n4
+  title: "Process Automation: an update from the trenches"
+  date: 2021-09-22
+
+- youtubeId: 66vnlOwRamM
+  title: "Decision Automation with DMN and other open standards, by Matteo Mortari"
+  date: 2021-09-21
+  tags:
+  - DMN
+
+- youtubeId: AAq8oUvSOUU
+  title: "[KIELive#43] Automating decision services deployment with CI/CD pipelines"
+  date: 2021-08-10
+  tags:
+  - DMN
+
+- youtubeId: Cm43NQXyk_o
+  title: "Integration of Drools DMN Validation capabilities on BC, Maven, Kogito,\
+    \ ..."
+  date: 2021-08-03
+  tags:
+  - DMN
+
+- youtubeId: 7CQqVlk6LdM
+  title: "[KIELive#42] The Intelligent Decisions journey with DMN and PMML"
+  date: 2021-08-03
+  tags:
+  - DMN
+  - PMML
+
+- youtubeId: -kWR1_n8RoI
+  title: "[KIELive#41] Reliable DMN with Test Scenarios"
+  date: 2021-07-27
+  tags:
+  - DMN
+
+- youtubeId: 2zY85TXFNuw
+  title: "[KIELive#40] DMN Dev Sandbox Developing and deploying DMN decisions in the\
+    \ cloud"
+  date: 2021-07-20
+  tags:
+  - DMN
+
+- youtubeId: u3KbGjEkkDM
+  title: "[KIELive#39] Migrating Drools to the cloud with Kogito: a step by step path"
+  date: 2021-07-13
+  tags:
+  - Kogito
+  - DRL
+
+- youtubeId: tNe6QU1Yq8U
+  title: Intelligent Kafka message routing with Drools DMN Engine & Camel
+  date: 2021-06-29
+  tags:
+  - DMN
+
+- youtubeId: HQHjrf3i91Q
+  title: "[KieLive#36]  How to play with DMN"
+  date: 2021-06-15
+  tags:
+  - DMN
+
+- youtubeId: pgj4jmkAl5A
+  title: "[KieLive#35] Streaming decisions with DMN and Kafka"
+  date: 2021-06-08
+  tags:
+  - DMN
+
+- youtubeId: VB9uV-x0gtg
+  title: Shapley Additive Explanations (SHAP)
+  date: 2021-06-07
+
+- youtubeId: zXwbzo_GcwA
+  title: Introduction to Counterfactuals and how it helps understanding black-box
+    prediction models
+  date: 2021-06-07
+
+- youtubeId: mg_4UvQzC3w
+  title: An introduction to Explainable AI
+  date: 2021-06-07
+
+- youtubeId: 7dHzh8mB8j0
+  title: ANC Demistyified
+  date: 2021-04-30
+
+- youtubeId: fFvobeuFHvk
+  title: "[KieLive#33] Drools troubleshooting"
+  date: 2021-04-28
+
+- youtubeId: zFcc5S1DB9w
+  title: LACE Score Demonstration with DMN
+  date: 2021-04-21
+  tags:
+  - DMN
+
+- youtubeId: -TGwIO--gEE
+  title: "[KieLive#32] Clinical Decision Support enablers : a technology toolbox for\
+    \ Health Care"
+  date: 2021-04-20
+  tags:
+  - DMN
+
+- youtubeId: WMnGDgVUwHQ
+  title: "[KieLive#31] Augmenting the developer experience with DMN Runner"
+  date: 2021-04-13
+  tags:
+  - DMN
+
+- youtubeId: yJnvA9H0eWY
+  title: "[KieLive#30] Robust local explanations for black box models, by Tommaso\
+    \ Teofili"
   date: 2021-03-30
+
+- youtubeId: QJjtp8ky9Sw
+  title: Red Hat Decision Manager (based on Drools) Demo Video
+  date: 2021-03-30
+
+- youtubeId: E9fmZWjllUs
+  title: "[KieLive#29] A chat about Open Source, leadership and communities with Mark\
+    \ Proctor"
+  date: 2021-03-24
+
+- youtubeId: e-YMVvPAEf0
+  title: NEW model-specific DMN kie-server endpoints
+  date: 2021-03-23
+  tags:
+  - DMN
+
+- youtubeId: BPBS6KXMNwA
+  title: "[KieLive#28] Making Drools available to everyone"
+  date: 2021-03-16
+
+- youtubeId: YISlYGIl-jY
+  title: DMN with Kogito on Quarkus (Dev notes)
+  date: 2021-03-02
+  tags:
+  - DMN
+
+- youtubeId: 4q694kP7jbY
+  title: DMN with Kogito on Spring Boot (Dev notes)
+  date: 2021-03-02
+  tags:
+  - DMN
+
+- youtubeId: E7JU0E5FN-w
+  title: "[KieLive#26] How to embed DMN and BPMN editors in your own application"
+  date: 2021-02-23
+  tags:
+  - DMN
+
+- youtubeId: DoxbhfQRpF4
+  title: "[KieLive#25]\_Using VSCode to build and deploy services in a real-world\
+    \ decision scenario: COVID-19"
+  date: 2021-02-16
+  tags:
+  - DMN
+
+- youtubeId: 5HSdDQzG0wE
+  title: "[KieLive#24] DMN: squeeze the most out these features, by Matteo Mortari"
+  date: 2021-02-09
+  tags:
+  - DMN
+
+- youtubeId: hY_eERFX_DQ
+  title: "[KieLive#23] Kogito + Quarkus: the Marriage Made on a Cloud"
+  date: 2021-02-02
+
+- youtubeId: kZ7zhLnLJcI
+  title: "[KieLive#21] Drools Deep Dive, with Mario Fusco"
+  date: 2021-01-12
+
+- youtubeId: PyUBEFe1CCc
+  title: "Why Is This Customer 'High Risk': How eXplainable Predictive Decisioning\
+    \ Can Help Us Trust Our AI"
+  date: 2020-12-16
+  tags:
+  - DMN
+
+- youtubeId: RGMVyoqNsLU
+  title: "[KieLive19] The Business Automation Journey, by Filippe Spolti"
+  date: 2020-12-15
+
+- youtubeId: gkT6V7Lv4_4
+  title: "[KieLive#18] Kogito - Powering Business Automation in the Cloud"
+  date: 2020-12-08
+
+- youtubeId: IdS7dgSj3ds
+  title: "[KieLive#17] Understanding DRL (Drools Rule Language)"
+  date: 2020-12-01
+
+- youtubeId: G_jgiu9JJgw
+  title: "[KieLive#16] Kogito: The past, present and future"
+  date: 2020-11-24
+
+- youtubeId: ji_8NFHxYVs
+  title: Language Engineering Talks 05 - Interview with Matteo Mortari on process
+    automation
+  date: 2020-11-11
+  tags:
+  - DMN
+
+- youtubeId: FsrpabJca7c
+  title: "[KieLive#14] The ultimate beginners guide to rules and processes"
+  date: 2020-11-10
+
+- youtubeId: HdEwp2RhG7w
+  title: "[KieLive#13] Can you trust your AI?, by Daniele Zonca"
+  date: 2020-11-03
+
+- youtubeId: BGcVXVMrBTQ
+  title: "[KieLive#12] Business Rules and Decision Engines: past, present and future\
+    \ - with Edson Tirelli"
+  date: 2020-10-27
+
+- youtubeId: eVQfGtyDrY8
+  title: "eXplainable Predictive Decisioning - Matteo, Mortari & Daniele Zonca"
+  date: 2020-10-27
+  tags:
+  - DMN
+
+- youtubeId: 66Q--bWibKQ
+  title: "[KieLive#11] DMN for Developers, by Guilherme Carreiro"
+  date: 2020-10-20
+  tags:
+  - DMN
+
+- youtubeId: uAz6pVg0RFQ
+  title: DMN Validation on Kogito runtimes platform
+  date: 2020-09-22
+  tags:
+  - DMN
+
+- youtubeId: E07RXxiZdYc
+  title: "[KieLive#7] Maven archetype support in Business Central, by Guilherme Caponetto"
+  date: 2020-09-15
+
+- youtubeId: wWpOKILLlZI
+  title: "[KieLive#6] Workspace collaboration in Business Central, by Guilherme Caponetto"
+  date: 2020-09-08
+
+- youtubeId: 8QtJTLVzmQQ
+  title: "[KieLive#5] Deploying custom Kogito services on Kubernetes with Kogito Operator"
+  date: 2020-08-12
+
+- youtubeId: av_DoGNl2jI
+  title: "Automatically build HTML Forms, by introspecting Swagger OpenAPI (Quick\
+    \ experiment)"
+  date: 2020-08-09
+  tags:
+  - DMN
+
+- youtubeId: _WVITsvT2jw
+  title: Writing and testing business rules with Guided Rules and Test Scenarios
+  date: 2020-07-07
+
+- youtubeId: eQRDc6fq2yw
+  title: "DecisionCAMP 2020:Bruce Silver, Matteo Mortari.Making Executable DMN Modeling\
+    \ More Business-Friendly"
+  date: 2020-06-30
+  tags:
+  - DMN
+
+- youtubeId: gOzwcdpbMFo
+  title: "[KieLive#3] The Developer Joy with Quarkus and Kogito"
+  date: 2020-06-24
+
+- youtubeId: zaTw1c5-47c
+  title: Business Monitoring BPM AI/ML DMN with Red Hat Process Automation Manager
+  date: 2020-06-18
+  tags:
+  - DMN
+
+- youtubeId: EkZziuFYVCY
+  title: "[KieLive#2] jBPM: Syncing Business Central projects with external repos"
+  date: 2020-06-17
+
+- youtubeId: 2MPX3CGUsVE
+  title: "[Kie Live #1] Serverless Workflow: A new approach to Business Automation"
+  date: 2020-06-03
+
+- youtubeId: Qa_mUAhaVdk
+  title: Kie Chrome Extension for Business Automation
+  date: 2020-05-26
+
+- youtubeId: 2Ci_WcYtLrU
+  title: Kogito for lightweight cloud-native business automation
+  date: 2020-04-20
+
+- youtubeId: 7XkPiHPe4Gw
+  title: Running kogito on Red Hat Code Ready Container
+  date: 2020-04-02
+
+- youtubeId: z-iv98s3Sfc
+  title: Importing a project into RHPAM Business Central
+  date: 2020-03-31
+
+- youtubeId: 2zCLbMhsKc0
+  title: Using a decision table inside your process with Red Hat Process Automation
+    Manager
+  date: 2020-03-31
+
+- youtubeId: xVpMTJ-BQMc
+  title: Learn DMN in 15 min
+  date: 2020-03-26
+
+- youtubeId: Y-5PlwYLoZc
+  title: Come e perché ho trasformato il mio vecchio progetto Java in componente per
+    architettura serverless
+  date: 2019-12-23
+  tags:
+  - DMN
+
+- youtubeId: EVXp2q_8yFw
+  title: "Machine Learning + Decision Management, a standards based approach (DEMO)"
+  date: 2019-12-10
+  tags:
+  - DMN
+
+- youtubeId: AEdQ2vOS2y4
+  title: Decision Management on OpenShift
+  date: 2018-07-03
+  tags:
+  - DMN
+
+- youtubeId: fXYD_HE7ufc
+  title: "Standards in Business Rules Space: Decision Model and Notation (DMN) and\
+    \ Other Standards"
+  date: 2018-07-01
+  tags:
+  - DMN
+
+- youtubeId: OeIlqvV2l0M
+  title: Clinical decision support with decision model and notation (DMN)
+  date: 2018-07-01
+  tags:
+  - DMN
+
+- youtubeId: tdpZgbQbF9Q
+  title: "Smarter Contracts with DMN: Edson Tirelli, Red Hat"
+  date: 2018-07-01
+  tags:
+  - DMN
+
