@@ -52,7 +52,7 @@ pipeline {
                 }
             }
         }
-        stage('publish drools-website to filemgmt.jboss.org') {
+        stage('publish drools-website to filemgmt-prod-sync.jboss.org') {
             steps {
                 dir("${REPO}") {
                     sshagent(["drools-filemgmt"]) {
