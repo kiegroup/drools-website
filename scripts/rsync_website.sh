@@ -12,4 +12,4 @@
 #
 #############################################################################################################################################################################
 
-rsync -Pavqr -p2222 --protocol=28 --delete-after target/website/* drools@filemgmt-prod-sync.jboss.org:www_htdocs/drools
+rsync -Pavqr -e 'ssh -p 2222' --protocol=28 --delete-after target/website/* drools@filemgmt-prod-sync.jboss.org:www_htdocs/drools
