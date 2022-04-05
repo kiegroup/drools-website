@@ -225,32 +225,6 @@
     </div>
 </#macro>
 
-<#macro relatedVideos>
-    <#assign relatedVideos = videos?filter(video -> video.tags?? &amp;&amp; video.tags.contains(content.related_tag))>
-    <#if relatedVideos?size &gt; 0>
-        <h2>Related videos</h2>
-        <#list relatedVideos as video>
-            <div class="card border-0">
-                <div class="card-body">
-                    <a href="https://youtu.be/${video.youtubeId}">
-                        <img src="https://img.youtube.com/vi/${video.youtubeId}/mqdefault.jpg" width="320" height="180"
-                             alt="Video screenshot">
-                        <div class="title">
-                            <img src="${content.rootpath}headerFooter/youtubeLogo.png" alt="YT"
-                                 style="height:16px; width:auto;"/>
-                            ${video.title}
-                        </div>
-                    </a>
-                    <#if video.author??>
-                        <@userBadgeInline userId=video.author/>
-                    </#if>
-                    <div class="small">${video.date?string("EEE d MMMM yyyy")}</div>
-                </div>
-            </div>
-        </#list>
-    </#if>
-</#macro>
-
 <#macro relatedBlogPosts>
     <#assign relatedTags = tags?filter(tag -> tag.name == content.related_tag)>
     <#if relatedTags?size &gt; 0>
@@ -451,6 +425,20 @@
             <img src="${content.rootpath}website/flags/jp.png">
         </a>
     </div>
+</#macro>
+
+<#macro relatedVideos>
+    <#assign relatedVideos = videos?filter(video -> video.tags?? &amp;&amp; video.tags.contains(content.related_tag))>
+    <#if relatedVideos?size &gt; 0>
+        <h2>Related videos</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-4">
+            <#list relatedVideos as video>
+                <div class="col">
+                    <@videoCard youtubeId=video.youtubeId/>
+                </div>
+            </#list>
+        </div>
+    </#if>
 </#macro>
 
 <#macro videoCard youtubeId long=true>

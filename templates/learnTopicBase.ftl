@@ -5,6 +5,9 @@
 
 <#macro layout>
     <@parent.layout>
-                <#nested>
+        <#nested>
+        <div class="row">
+            <@macros.relatedVideos/>
+        </div>
     </@parent.layout>
 </#macro>
