@@ -428,9 +428,15 @@
 </#macro>
 
 <#macro relatedVideos>
-    <#assign relatedVideos = videos?filter(video -> video.tags?? &amp;&amp; video.tags.contains(content.related_tag))>
-    <#if relatedVideos?size &gt; 0>
-        <h2>Related videos</h2>
+    <#if content.related_tag??>
+        <#local relatedVideos = videos?filter(video -> video.tags?? &amp;&amp; video.tags.contains(content.related_tag))>
+    <#elseif content.all_videos??>
+        <#local relatedVideos = videos>
+    </#if>
+    <#if relatedVideos?? && relatedVideos?has_content>
+        <#if content.related_tag??>
+            <h2>Related videos</h2>
+        </#if>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-4">
             <#list relatedVideos as video>
                 <div class="col">
