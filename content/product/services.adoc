@@ -17,7 +17,6 @@ To assist customers, Red Hat employs:
 - A 24/7 support team.
 - and of course the Drools team itself to implement missing features or fix bugs.
 
-To know more about how the community projects are different from the enterprise products, check https://www.redhat.com/en/resources/whats-the-difference-overview[this whitepaper].
 
 == Community and product comparison
 
