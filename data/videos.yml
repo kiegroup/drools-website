@@ -124,6 +124,18 @@
   tags:
   - DMN
 
+- youtubeId: Pg2hSYTQWvs
+  title: 'Extending Drools DMN Engine @ 40:10 to Model and Execute Legislations - DecisionCAMP-2021: "Decision Modeling in the context of the new Environmental and Planning Act"'
+  date: 2020-09-15
+  tags:
+  - DMN
+
+- youtubeId: VK99kmwdb_Y
+  title: 'DecisionCAMP-2021: "Trustworthy Decision Management" by Matteo Mortari and Daniele Zonca (Red Hat)'
+  date: 2021-09-13
+  tags:
+  - DMN
+
 - youtubeId: AAq8oUvSOUU
   title: "[KIELive#43] Automating decision services deployment with CI/CD pipelines"
   date: 2021-08-10
@@ -131,8 +143,7 @@
   - DMN
 
 - youtubeId: Cm43NQXyk_o
-  title: "Integration of Drools DMN Validation capabilities on BC, Maven, Kogito,\
-    \ ..."
+  title: "Integration of Drools DMN Validation capabilities on BC, Maven, Kogito, ..."
   date: 2021-08-03
   tags:
   - DMN
@@ -368,6 +379,12 @@
 - youtubeId: _WVITsvT2jw
   title: Writing and testing business rules with Guided Rules and Test Scenarios
   date: 2020-07-07
+
+- youtubeId: qnbpl644_ew
+  title: "Using Drools DMN Engine @ 26:41 - DecisionCAMP 2020: Wilfried Kurth. Modeling Insurance Products with DMN"
+  date: 2020-07-01
+  tags:
+  - DMN
 
 - youtubeId: eQRDc6fq2yw
   title: "DecisionCAMP 2020:Bruce Silver, Matteo Mortari.Making Executable DMN Modeling\
