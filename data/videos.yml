@@ -292,10 +292,6 @@
   title: "[KieLive#23] Kogito + Quarkus: the Marriage Made on a Cloud"
   date: 2021-02-02
 
-- youtubeId: kZ7zhLnLJcI
-  title: "[KieLive#21] Drools Deep Dive, with Mario Fusco"
-  date: 2021-01-12
-
 - youtubeId: T3YU3M1eexc
   title: 'DecisionCAMP Jan-2021 Session: "Kogito: Cloud-native Business Automation"'
   date: 2021-01-19
@@ -303,6 +299,10 @@
   - Kogito
   - Drools
   - DMN
+
+- youtubeId: kZ7zhLnLJcI
+  title: "[KieLive#21] Drools Deep Dive, with Mario Fusco"
+  date: 2021-01-12
 
 - youtubeId: PyUBEFe1CCc
   title: "Why Is This Customer 'High Risk': How eXplainable Predictive Decisioning\
