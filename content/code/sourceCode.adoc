@@ -30,7 +30,7 @@ It's easy to keep an eye on the source code changes on the project:
 
 
 * Go to the https://github.com/kiegroup/repositories[GitHub website].
-* Click on the repository you're intrested in
+* Click on the repository you're interested in
 * Click on the link Commits to show the commit history.
 * You can subscribe to that feed with the orange feed icon link.
 
