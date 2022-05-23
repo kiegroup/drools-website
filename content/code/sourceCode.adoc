@@ -22,7 +22,7 @@ To build our sources, follow the instructions https://github.com/kiegroup/drools
 <a href="http://www.ej-technologies.com/products/jprofiler/overview.html"><img src="http://www.ej-technologies.com/images/banners/jprofiler_small.png" alt="JProfiler"/></a>
 ++++
 
-To learn more about git, read the free book http://progit.org/book/[Git Pro].
+To learn more about git, read the free book https://git-scm.com/book[Pro Git].
 
 == Tracking our changes
 
