@@ -24,6 +24,10 @@
                                         <p>Kie API (Drools, jBPM) ${pom.latestFinal.version}:
                                             <a href="${pom.latestFinal.KIE_API_documentationJavadoc}">Javadoc</a></p>
                                     </li>
+                                    <li>
+                                        <p>Drools DMN engine, DMN FEEL handbook:
+                                            <a href="https://kiegroup.github.io/dmn-feel-handbook">HTML Single</a></p>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
