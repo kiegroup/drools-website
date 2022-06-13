@@ -289,26 +289,22 @@
             <span>Try our Docker images and run Drools in just seconds</span>
             <ul class="list-unstyled">
                 <li>
-                    <a href="https://quay.io/repository/kiegroup/business-central-workbench/">Business
+                    <a href="https://quay.io/repository/kiegroup/business-central-workbench">Business
                         Central Workbench</a>
                 </li>
                 <li>
-                    <a href="https://quay.io/repository/kiegroup/business-central-workbench-showcase/">Business
+                    <a href="https://quay.io/repository/kiegroup/business-central-workbench-showcase">Business
                         Central Workbench Showcase</a>
                 </li>
                 <li>
-                    <a href="https://quay.io/repository/kiegroup/kie-server/">KIE Execution Server</a>
+                    <a href="https://quay.io/repository/kiegroup/kie-server">KIE Execution Server</a>
                 </li>
                 <li>
-                    <a href="https://quay.io/repository/kiegroup/kie-server-showcase/">KIE Execution
+                    <a href="https://quay.io/repository/kiegroup/kie-server-showcase">KIE Execution
                         Server
                         Showcase</a>
                 </li>
             </ul>
-            <div class="small">
-                More info at
-                <a href="http://blog.athico.com/2015/06/drools-jbpm-get-dockerized.html">this post</a>
-            </div>
         </div>
     </div>
 </#macro>
