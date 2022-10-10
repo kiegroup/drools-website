@@ -68,14 +68,14 @@
                             WAR</a></p></td>
                     </tr>
                     <tr>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie server distribution (7.x stream)<</strong>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie server distribution (7.x stream)</strong>
                         </p></td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
                                 href="${pom.latest7Final.kieserverSnapDistZip}">Distribution
                             ZIP</a></p></td>
                     </tr>
                     <tr>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie tomcat integration (7.x stream)<</strong>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie tomcat integration (7.x stream)</strong>
                         </p></td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
                                 href="${pom.latest7Final.tomcatIntergrationSnap}">Tomcat
