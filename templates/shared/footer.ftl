@@ -29,7 +29,7 @@
                     <li><a class="link-light" href="${config.issueTracker}">Submit a bug</a></li>
                     <li><a class="link-light" href="https://access.redhat.com/security/team/contact/">Report a security issue</a></li>
                     <li><a class="link-light" href="${content.rootpath}code/license.html">License (Apache-2.0)</a></li>
-                    <li><a class="link-light" href="${pom.latest.droolsReleaseNotes}">Release notes</a></li>
+                    <li><a class="link-light" href="${pom.latestFinal.droolsReleaseNotes}">Release notes</a></li>
                     <li><a class="link-light" href="${content.rootpath}download/upgradeRecipe/">Upgrade recipes</a></li>
                 </ul>
             </div>

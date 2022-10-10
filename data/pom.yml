@@ -1,4 +1,4 @@
-droolsDescription: Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).  Distribution zip contains binaries, examples, sources and javadocs.
+droolsZipDescription: Distribution zip contains binaries, examples, sources and javadocs.
 
 businessCentralDescription: Business Central Workbench is the web application and repository to govern Drools and jBPM assets. See <a href="../learn/documentation.html">documentation</a> for details about installation.
 
@@ -11,6 +11,22 @@ kieExecutionServerDescription: Standalone execution server that can be used to r
 kieWarsDescription: WAR files for all supported containers
 
 latestFinal:
+    version: 8.28.0.Beta
+    releaseDate: 2022-10-10
+
+    droolsZip: https://download.jboss.org/drools/release/8.28.0.Beta/drools-distribution-8.28.0.Beta.zip
+
+    documentationHtmlSingle: https://docs.drools.org/8.28.0.Beta/drools-docs/docs-website/drools
+    KIE_API_documentationJavadoc: https://docs.drools.org/8.28.0.Beta/kie-api-javadoc/index.html
+
+    droolsWhatsNew: https://docs.drools.org/8.28.0.Beta/drools-docs/docs-website/drools/release-notes/index.html
+    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12341351
+
+    droolsSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.drools&a=drools-distribution&v=8.29.0-SNAPSHOT&e=zip
+
+# separating 7.x stream below
+
+latest7Final:
     version: 7.73.0.Final
     releaseDate: 2022-07-22
 
@@ -48,7 +64,7 @@ latestFinal:
     # updatesiteSnapZip: https://repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.drools&a=org.drools.updatesite&v=7.74.0-SNAPSHOT&e=zip
 
 # latest.version can be equal to latestFinal.version
-latest:
+latest7:
     version: 7.73.0.Final
     releaseDate: 2022-07-22
 

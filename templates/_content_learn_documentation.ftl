@@ -33,6 +33,36 @@
                         </li>
                     </ul>
                 </div>
+                <hr>
+            </div>
+        </div>
+        <div class="sect1">
+            <h2 id="_latest_7_x_releases">Latest 7.x releases</h2>
+            <div class="sectionbody">
+                <div class="ulist">
+                    <ul>
+                        <li>
+                            <p><strong>Documentation for Drools ${pom.latest7Final.version}</strong></p>
+                            <div class="ulist">
+                                <ul>
+                                    <li>
+                                        <p><span class="image"><img src="documentation.png" alt="documentation"></span>
+                                            <strong>Reference manual Drools ${pom.latest7Final.version}</strong>:
+                                            <a href="${pom.latest7Final.documentationHtmlSingle}">HTML Single</a></p>
+                                    </li>
+                                    <li>
+                                        <p>Kie API (Drools, jBPM) ${pom.latest7Final.version}:
+                                            <a href="${pom.latest7Final.KIE_API_documentationJavadoc}">Javadoc</a></p>
+                                    </li>
+                                    <li>
+                                        <p>Drools DMN engine, DMN FEEL handbook:
+                                            <a href="https://kiegroup.github.io/dmn-feel-handbook">HTML Single</a></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
                 <div class="ulist">
                     <ul>
                         <li>
@@ -42,7 +72,7 @@
                                     <li>
                                         <p><span class="image"><img src="documentation.png" alt="documentation"></span>
                                             <strong>User Guide 7.46.0.Final</strong>:
-                                            <a href="${pom.latestFinal.userGuidePDF}">PDF</a></p>
+                                            <a href="${pom.latest7Final.userGuidePDF}">PDF</a></p>
                                     </li>
                                 </ul>
                             </div>
@@ -81,7 +111,7 @@
             </div>
         </div>
         <div class="sect1">
-            <h2 id="_drools_6_x_books">Drools 6.x Books</h2>
+            <h2 id="_books">Books</h2>
             <div class="sectionbody">
                 <div class="paragraph">
                     <p><a href="https://www.packtpub.com/networking-and-servers/mastering-jboss-drools-6"><span
@@ -89,9 +119,6 @@
                                                        alt="Mastering JBOSS Drools 6"></span></a></p>
                 </div>
             </div>
-        </div>
-        <div class="sect1">
-            <h2 id="_drools_5_x_books">Drools 5.x Books</h2>
             <div class="sectionbody">
                 <div class="paragraph">
                     <p><a href="http://www.packtpub.com/jboss-drools-business-rules/book"><span class="image"><img

@@ -30,50 +30,55 @@
                             ZIP</a></p></td>
                     </tr>
                     <tr>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Jbpm distribution</strong></p>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>7.x stream:</strong></p>
+                        </td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+                    </tr>
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Jbpm distribution (7.x stream)</strong></p>
                         </td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
-                                href="${pom.latestFinal.jbpmSnapZip}">Jbpm-distribution-bin
+                                href="${pom.latest7Final.jbpmSnapZip}">Jbpm-distribution-bin
                             ZIP</a></p></td>
                     </tr>
                     <tr>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Business Central WAR</strong>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Business Central WAR (7.x stream)</strong>
                         </p></td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
-                                href="${pom.latestFinal.businessCentralSnapWF}">Wildfly
+                                href="${pom.latest7Final.businessCentralSnapWF}">Wildfly
                             19 WAR</a></p></td>
                     </tr>
                     <tr>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie server ee7</strong></p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie server ee7 (7.x stream)</strong></p></td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
-                                href="${pom.latestFinal.kieserverSnapEe7}">ee7
+                                href="${pom.latest7Final.kieserverSnapEe7}">ee7
                             WAR</a></p></td>
                     </tr>
                     <tr>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie server ee8</strong></p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie server ee8 (7.x stream)</strong></p></td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
-                                href="${pom.latestFinal.kieserverSnapEe8}">ee8
+                                href="${pom.latest7Final.kieserverSnapEe8}">ee8
                             WAR</a></p></td>
                     </tr>
                     <tr>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie server webc</strong></p>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie server webc (7.x stream)</strong></p>
                         </td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
-                                href="${pom.latestFinal.kieserverSnapWebc}">webc
+                                href="${pom.latest7Final.kieserverSnapWebc}">webc
                             WAR</a></p></td>
                     </tr>
                     <tr>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie server distribution</strong>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie server distribution (7.x stream)<</strong>
                         </p></td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
-                                href="${pom.latestFinal.kieserverSnapDistZip}">Distribution
+                                href="${pom.latest7Final.kieserverSnapDistZip}">Distribution
                             ZIP</a></p></td>
                     </tr>
                     <tr>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie tomcat integration</strong>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>kie tomcat integration (7.x stream)<</strong>
                         </p></td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
-                                href="${pom.latestFinal.tomcatIntergrationSnap}">Tomcat
+                                href="${pom.latest7Final.tomcatIntergrationSnap}">Tomcat
                             integration JAR</a></p></td>
                     </tr>
                     </tbody>
