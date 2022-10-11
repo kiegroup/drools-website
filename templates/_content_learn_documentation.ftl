@@ -18,7 +18,7 @@
                                     <li>
                                         <p><span class="image"><img src="documentation.png" alt="documentation"></span>
                                             <strong>Reference manual Drools ${pom.latestFinal.version}</strong>:
-                                            <a href="${pom.latestFinal.documentationHtmlSingle}">HTML Single</a></p>
+                                            <a href="${pom.latestFinal.documentationHtmlSingle}">Drools documentation and User Guide</a></p>
                                     </li>
                                     <li>
                                         <p>Kie API (Drools, jBPM) ${pom.latestFinal.version}:
