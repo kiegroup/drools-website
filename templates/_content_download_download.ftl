@@ -23,6 +23,11 @@
                             <p><a href="${pom.latestFinal.droolsReleaseNotes}">Release Notes</a></p>
                         </li>
                         <li>
+                            <p>The latest Drools releases, including ${pom.latestFinal.version} are available in the <a
+                                        href="http://search.maven.org/#search|ga|1|org.drools">Maven Central
+                                    Repository</a>.</p>
+                        </li>
+                        <li>
                             <p>License: <a href="../code/license.html">Apache License 2.0</a></p>
                         </li>
                     </ul>
@@ -44,10 +49,57 @@
                     <tr>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Drools
                                     Engine</strong></p></td>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock">${pom.droolsDescription}</p>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">${pom.droolsZipDescription}</p>
                         </td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
                                 href="${pom.latestFinal.droolsZip}">Distribution ZIP</a></p></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br/>
+        <div class="sect1">
+            <h2 id="_latest_7_x_version_pom_latest7_version">Latest 7.x version: ${pom.latest7Final.version}</h2>
+            <div class="sectionbody">
+                <div class="ulist">
+                    <ul>
+                        <li>
+                            <p>Release date: <code>${pom.latest7Final.releaseDate?date}</code></p>
+                        </li>
+                        <li>
+                            <p><a href="${pom.latest7Final.droolsWhatsNew}">New and Noteworthy in
+                                drools ${pom.latest7Final.version}</a></p>
+                        </li>
+                        <li>
+                            <p><a href="${pom.latest7Final.droolsReleaseNotes}">Release Notes</a></p>
+                        </li>
+                        <li>
+                            <p>License: <a href="../code/license.html">Apache License 2.0</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <table class="tableblock frame-ends grid-all stretch">
+                    <colgroup>
+                        <col style="width: 21.4285%;">
+                        <col style="width: 50%;">
+                        <col style="width: 28.5715%;">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="tableblock halign-left valign-top">Name</th>
+                        <th class="tableblock halign-left valign-top">Description</th>
+                        <th class="tableblock halign-left valign-top">Download</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Drools
+                                    Engine</strong></p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">${pom.droolsZipDescription}</p>
+                        </td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock"><a
+                                href="${pom.latest7Final.droolsZip}">Distribution ZIP</a></p></td>
                     </tr>
                     <tr>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Drools and jBPM
@@ -55,7 +107,7 @@
                         <td class="tableblock halign-left valign-top"><p
                                     class="tableblock">${pom.droolsjbpmIntegrationDescription}</p></td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
-                                href="${pom.latestFinal.droolsjbpmIntegrationZip}">Distribution ZIP</a></p>
+                                href="${pom.latest7Final.droolsjbpmIntegrationZip}">Distribution ZIP</a></p>
                         </td>
                     </tr>
                     <tr>
@@ -64,7 +116,7 @@
                         <td class="tableblock halign-left valign-top"><p
                                     class="tableblock">${pom.businessCentralDescription}</p></td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
-                                href="${pom.latestFinal.businessCentralWildFlyWAR}">WildFly 23 WAR</a></p></td>
+                                href="${pom.latest7Final.businessCentralWildFlyWAR}">WildFly 23 WAR</a></p></td>
                     </tr>
                     <tr>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>KIE Execution
@@ -72,7 +124,7 @@
                         <td class="tableblock halign-left valign-top"><p
                                     class="tableblock">${pom.kieExecutionServerDescription}</p></td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
-                                href="${pom.latestFinal.kieExecutionServerZip}">Distribution ZIP</a></p></td>
+                                href="${pom.latest7Final.kieExecutionServerZip}">Distribution ZIP</a></p></td>
                     </tr>
                     <tr>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>KIE Server
@@ -80,12 +132,13 @@
                         <td class="tableblock halign-left valign-top"><p
                                     class="tableblock">${pom.kieWarsDescription}</p></td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
-                                href="${pom.latestFinal.kieWARS}">ee7, ee8, webc WAR</a></p></td>
+                                href="${pom.latest7Final.kieWARS}">ee7, ee8, webc WAR</a></p></td>
                     </tr>
                     </tbody>
                 </table>
             </div>
         </div>
+        <br/>
         <div class="sect1">
             <h2 id="_latest_6_x_version_pom_latest6_version">Latest 6.x version: ${pom.latest6.version}</h2>
             <div class="sectionbody">
@@ -119,7 +172,7 @@
                     <tr>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Drools
                                     Engine</strong></p></td>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock">${pom.droolsDescription}</p>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP). ${pom.droolsZipDescription}</p>
                         </td>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><a
                                 href="${pom.latest6.droolsZip}">Distribution ZIP</a></p></td>
@@ -172,6 +225,10 @@
                     </tr>
                     </tbody>
                 </table>
+            </div>
+        </div>
+        <br/>
+        <div class="sect1">
                 <div class="sect2">
                     <h3 id="_other_downloads">Other downloads:</h3>
                     <div class="ulist">
@@ -290,7 +347,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
         </div>
     </@parent.layout>
 </#macro>

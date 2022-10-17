@@ -6,7 +6,7 @@
 <#macro latestReleases>
     <div class="card border-0">
         <div class="card-body">
-            <#if pom.latest.version == pom.latestFinal.version>
+            <#if !(pom.latest??) || pom.latest.version == pom.latestFinal.version>
                 <a class="btn btn-lg btn-success w-100"
                    href="${content.rootpath}download/download.html">
                     <img alt="Download" src="/download/download.png">
@@ -16,7 +16,7 @@
                     </div>
                 </a>
             </#if>
-            <#if pom.latest.version != pom.latestFinal.version>
+            <#if (pom.latest??) && pom.latest.version != pom.latestFinal.version>
                 <a class="btn btn-lg btn-success w-100"
                    href="${content.rootpath}download/download.html">
                     <img alt="Download" src="/download/download.png">
