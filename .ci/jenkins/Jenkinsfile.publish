@@ -1,24 +1,24 @@
 @Library('jenkins-pipeline-shared-libraries')_
+
 import org.kie.jenkins.MavenCommand
 
-AGENT_LABEL="kie-rhel7 && kie-mem4g"
-MVN_TOOL="kie-maven-3.8.1"
-JDK_TOOL="kie-jdk11"
-REPO="drools-website"
-ORGANIZATION="kiegroup"
-BASE_BRANCH="main"
-MAIL_RECIPIENT="drools.b52addfd644a28664f16083dfe6e9453.show-sender@streams.zulipchat.com"
+droolsWebsiteRepo = 'drools-website'
 
 pipeline {
     agent {
-        label "$AGENT_LABEL"
+        label 'kie-rhel7 && kie-mem4g'
     }
-    options{
+    options {
         timestamps()
+        timeout(time: 1, unit: 'HOURS')
+        disableConcurrentBuilds(abortPrevious: true)
     }
     tools {
-        maven "$MVN_TOOL"
-        jdk "$JDK_TOOL"
+        maven env.BUILD_MAVEN_TOOL
+        jdk env.BUILD_JDK_TOOL
+    }
+    environment {
+        KOGITO_CI_EMAIL_TO = credentials("${JENKINS_EMAIL_CREDS_ID}")
     }
     stages {
         stage('CleanWorkspace') {
@@ -33,10 +33,10 @@ pipeline {
                 }
             }
         }
-        stage('build drools-website'){
-            steps{
+        stage('build drools-website') {
+            steps {
                 script {
-                    dir("${REPO}"){
+                    dir("${droolsWebsiteRepo}") {
                         MavenCommand mvnCmd = new MavenCommand(this, ['-fae'])
                             .withSettingsXmlId('kogito_release_settings')
                         mvnCmd.run('clean package')
@@ -44,18 +44,18 @@ pipeline {
                 }
             }
         }
-        stage('zip drools-website'){
-            steps{
-                dir("${REPO}"){
-                    sh "tar -cvzf drools-website.tar -C target/website/ ."
-                    archiveArtifacts "drools-website.tar"
+        stage('zip drools-website') {
+            steps {
+                dir("${droolsWebsiteRepo}") {
+                    sh 'tar -cvzf drools-website.tar -C target/website/ .'
+                    archiveArtifacts 'drools-website.tar'
                 }
             }
         }
         stage('publish drools-website to filemgmt-prod-sync.jboss.org') {
             steps {
-                dir("${REPO}") {
-                    sshagent(["drools-filemgmt"]) {
+                dir("${droolsWebsiteRepo}") {
+                    sshagent(['drools-filemgmt']) {
                         sh './scripts/rsync_website.sh'
                     }
                 }
@@ -64,7 +64,7 @@ pipeline {
     }
     post {
         failure {
-            emailext to: "${MAIL_RECIPIENT}",
+            emailext to: "${KOGITO_CI_EMAIL_TO}",
             subject: 'status of drools-website automatic publishing',
             body: ' The status of Jenkins CI job for automatic publishing of the drools-website #${BUILD_NUMBER} was: FAILURE \n' +
             'because of ${BUILD_URL}consoleText \n' +
@@ -72,13 +72,13 @@ pipeline {
             cleanWs()
         }
         fixed {
-            emailext to: "${MAIL_RECIPIENT}",
+            emailext to: "${KOGITO_CI_EMAIL_TO}",
             subject: 'status of drools-website automatic publishing',
             body: 'The Jenkins CI job of automatic publishing of the drools-website #${BUILD_NUMBER} was fixed'
             cleanWs()
         }
         success {
-            emailext to: "${MAIL_RECIPIENT}",
+            emailext to: "${KOGITO_CI_EMAIL_TO}",
             subject: 'status of drools-website automatic publishing',
             body: 'The status of Jenkins CI job for automatic publishing of the drools-website #${BUILD_NUMBER} was: SUCCESSFUL'
             cleanWs()
@@ -87,7 +87,7 @@ pipeline {
 }
 
 void checkoutStartdroolsWeb() {
-    dir(REPO) {
-        checkout(githubscm.resolveRepository(REPO, ORGANIZATION, BASE_BRANCH, false))
+    dir(droolsWebsiteRepo) {
+        checkout(githubscm.resolveRepository(droolsWebsiteRepo, env.GIT_AUTHOR, env.BUILD_BRANCH_NAME, false, env.GIT_AUTHOR_CREDENTIALS_ID))
     }
 }
