@@ -111,6 +111,34 @@
             </div>
         </div>
         <div class="sect1">
+            <h2 id="_books">Drools manga</h2>
+            <div class="sectionbody">
+                <div class="paragraph">
+                    <p>
+                        Our heartfelt thanks to Matsuda-san for writing this scenario,
+                        Koyagi-san for the illustrations,
+                        Umeno-san for managing this project and translating it into English as well,
+                        and all marketing and Japanese colleagues for helping out making this manga a reality
+                    </p>
+                    <p>
+                        <a href="DroolsMangaRuleDrivenDevelpment_EN.pdf"><span class="image"><img src="DroolsMangaRuleDrivenDevelpment_EN.png" alt="Drools Manga Rule Driven Development (English version)"></span></a>
+                        <a href="DroolsMangaRuleDrivenDevelpment_JP.pdf"><span class="image"><img src="DroolsMangaRuleDrivenDevelpment_JP.png" alt="Drools Manga Rule Driven Development (Japanese version)"></span></a>
+                    </p>
+                    <p>
+                        The Drools manga "Rule Driven Develpment" is available in English and Japanese versions!
+                        <ul>
+                            <li>
+                                English version: <a href="DroolsMangaRuleDrivenDevelpment_EN.pdf">link</a>
+                                <br/>
+                                Friendly reminder, manga are supposed to be <b>read from right to left, from top to bottom</b>; you can refer to this <a href="https://www.wikihow.com/Read-Manga#Reading-Panels" target="_blank">example</a>.
+                            </li>
+                            <li>Japanese version: <a href="DroolsMangaRuleDrivenDevelpment_JP.pdf">link</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sect1">
             <h2 id="_books">Books</h2>
             <div class="sectionbody">
                 <div class="paragraph">
