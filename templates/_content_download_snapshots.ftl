@@ -30,9 +30,8 @@
                             ZIP</a></p></td>
                     </tr>
                     <tr>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>7.x stream:</strong></p>
+                        <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock"><strong>7.x stream:</strong></p>
                         </td>
-                        <td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
                     </tr>
                     <tr>
                         <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Jbpm distribution (7.x stream)</strong></p>
