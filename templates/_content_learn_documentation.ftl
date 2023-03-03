@@ -125,7 +125,7 @@
                         <a href="DroolsMangaRuleDrivenDevelpment_JP.pdf"><span class="image"><img src="DroolsMangaRuleDrivenDevelpment_JP.png" alt="Drools Manga Rule Driven Development (Japanese version)"></span></a>
                     </p>
                     <p>
-                        The Drools manga "Rule Driven Develpment" is available in English and Japanese versions!
+                        The Drools manga "Rule Driven Development" is available in English and Japanese versions!
                         <ul>
                             <li>
                                 English version: <a href="DroolsMangaRuleDrivenDevelpment_EN.pdf">link</a>
