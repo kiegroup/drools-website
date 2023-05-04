@@ -65,14 +65,14 @@
                 <div class="ulist">
                     <ul>
                         <li>
-                            <p>Release date: <code>${pom.latest7Final.releaseDate?date}</code></p>
+                            <p>Release date: <code>${pom.latest7Final.releaseDateV7?date}</code></p>
                         </li>
                         <li>
                             <p><a href="${pom.latest7Final.droolsWhatsNew}">New and Noteworthy in
                                 drools ${pom.latest7Final.version}</a></p>
                         </li>
                         <li>
-                            <p><a href="${pom.latest7Final.droolsReleaseNotes}">Release Notes</a></p>
+                            <p><a href="${pom.latest7Final.droolsReleaseNotesV7}">Release Notes</a></p>
                         </li>
                         <li>
                             <p>License: <a href="../code/license.html">Apache License 2.0</a></p>
@@ -148,7 +148,7 @@
                             <p>Release date: <code>${pom.latest6.releaseDateV6?date}</code></p>
                         </li>
                         <li>
-                            <p><a href="${pom.latest6.droolsReleaseNotes}">Release Notes</a></p>
+                            <p><a href="${pom.latest6.droolsReleaseNotesV6}">Release Notes</a></p>
                         </li>
                         <li>
                             <p>License: <a href="../code/license.html">Apache License 2.0</a></p>

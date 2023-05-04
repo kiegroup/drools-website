@@ -28,7 +28,7 @@ latestFinal:
 
 latest7Final:
     version: 7.73.0.Final
-    releaseDate: 2022-07-22
+    releaseDateV7: 2022-07-22
 
     droolsZip: https://download.jboss.org/drools/release/7.73.0.Final/drools-distribution-7.73.0.Final.zip
     droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.73.0.Final/droolsjbpm-integration-distribution-7.73.0.Final.zip
@@ -48,7 +48,7 @@ latest7Final:
     KIE_API_documentationJavadoc: https://docs.drools.org/7.73.0.Final/kie-api-javadoc/index.html
 
     droolsWhatsNew: https://docs.drools.org/7.73.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
-    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12391094
+    droolsReleaseNotesV7: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12391094
 
     userGuideBook: https://www.gitbook.com/@nheron
     userGuidePDF: https://nicolas-heron.gitbook.io/droolsonboarding/
@@ -66,7 +66,7 @@ latest7Final:
 # latest.version can be equal to latestFinal.version
 latest7:
     version: 7.73.0.Final
-    releaseDate: 2022-07-22
+    releaseDateV7: 2022-07-22
 
     droolsZip: https://download.jboss.org/drools/release/7.73.0.Final/drools-distribution-7.73.0.Final.zip
     droolsjbpmIntegrationZip: https://download.jboss.org/drools/release/7.73.0.Final/droolsjbpm-integration-distribution-7.73.0.Final.zip
@@ -79,7 +79,7 @@ latest7:
     KIE_API_documentationJavadoc: https://docs.drools.org/7.73.0.Final/kie-api-javadoc/index.html
 
     droolsWhatsNew: https://docs.drools.org/7.73.0.Final/drools-docs/html_single/#_droolsreleasenoteschapter
-    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12391094
+    droolsReleaseNotesV7: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12391094
 
 # since there are two branches 7.0.x and 6.5.x and there are releases for both, they have to be shown
 
@@ -111,6 +111,6 @@ latest6:
     documentationPdf: https://docs.drools.org/6.5.0.Final/drools-docs/pdf/drools-docs.pdf
     KIE_API_documentationJavadoc: https://docs.drools.org/6.5.0.Final/kie-api-javadoc/index.html
 
-    droolsReleaseNotes: https://docs.drools.org/6.5.0.Final/drools-docs/html_single/#DroolsReleaseNotesChapter
+    droolsReleaseNotesV6: https://docs.drools.org/6.5.0.Final/drools-docs/html_single/#DroolsReleaseNotesChapter
 
     kieExecutionServerZip: https://download.jboss.org/drools/release/6.5.0.Final/kie-server-distribution-6.5.0.Final.zip
