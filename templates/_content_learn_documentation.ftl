@@ -142,6 +142,16 @@
             <h2 id="_books">Books</h2>
             <div class="sectionbody">
                 <div class="paragraph">
+                    <p><a href="https://www.packtpub.com/product/ai-and-business-rule-engines-for-excel-power-users/9781804619544"><span
+                                    class="image"><img src="books/AI-and-Business-Rule-Engines-for-Excel-Power-Users.jpg"
+                                    alt="AI and Business Rule Engines for Excel Power Users"></span></a></p>
+                    <p><strong>Business Rule Engines and AI for Excel Power Users: Capture and scale your business knowledge into the cloud – with Microsoft 365, Decision Models, and AI tools from IBM and Red Hat</strong><br>
+                    Paul Browne<br>
+                    ISBN: 9781804619544</p>
+                </div>
+            </div>
+            <div class="sectionbody">
+                <div class="paragraph">
                     <p><a href="https://www.packtpub.com/networking-and-servers/mastering-jboss-drools-6"><span
                                     class="image"><img src="books/Mastering-JBOSS-Drools-6.png"
                                                        alt="Mastering JBOSS Drools 6"></span></a></p>
@@ -199,6 +209,16 @@
                         <p><strong>Business Rules Applied</strong><br>
                             Von Halle<br>
                             ISBN: 0471412937</p>
+                    </div>
+                    <div class="paragraph">
+                        <p><strong>Knowledge Automation: How to Implement Decision Management in Business Processes</strong><br>
+                            Alan N. Fish<br>
+                            ISBN: 9781118236796</p>
+                    </div>
+                    <div class="paragraph">
+                        <p><strong>Real-World Decision Modeling with DMN</strong><br>
+                            James Taylor, Jan Purchase<br>
+                            ISBN: 9780929652597</p>
                     </div>
                 </div>
                 <div class="sect2">
