@@ -211,13 +211,23 @@
                             ISBN: 0471412937</p>
                     </div>
                     <div class="paragraph">
-                        <p><strong>Knowledge Automation: How to Implement Decision Management in Business Processes</strong><br>
-                            Alan N. Fish<br>
+                        <p><strong>DMN Method and Style. 2nd Edition: A Business Pracitioner's Guide to Decision Modeling</strong><br/>
+                            Bruce Silver<br/>
+                            ISBN: 9780982368176</p>
+                    </div>
+                    <div class="paragraph">
+                        <p><strong>DMN Cookbook: 50 Decision Modeling Recipes to Accelerate Your Business Rules Projects with Trisotech, Red Hat, and Drools</strong><br/>
+                            Bruce Silver, Edson Tirelli<br/>
+                            ISBN: 9780982368183</p>
+                    </div>
+                    <div class="paragraph">
+                        <p><strong>Knowledge Automation: How to Implement Decision Management in Business Processes</strong><br/>
+                            Alan N. Fish<br/>
                             ISBN: 9781118236796</p>
                     </div>
                     <div class="paragraph">
-                        <p><strong>Real-World Decision Modeling with DMN</strong><br>
-                            James Taylor, Jan Purchase<br>
+                        <p><strong>Real-World Decision Modeling with DMN</strong><br/>
+                            James Taylor, Jan Purchase<br/>
                             ISBN: 9780929652597</p>
                     </div>
                 </div>
