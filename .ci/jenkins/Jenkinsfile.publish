@@ -6,7 +6,7 @@ droolsWebsiteRepo = 'drools-website'
 
 pipeline {
     agent {
-        label 'kie-rhel8 && kie-mem4g'
+        label 'rhel8'
     }
     options {
         timestamps()
