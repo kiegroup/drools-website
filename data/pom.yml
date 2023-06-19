@@ -16,10 +16,10 @@ latestFinal:
 
     droolsZip: https://download.jboss.org/drools/release/8.40.0.Final/drools-distribution-8.40.0.Final.zip
 
-    documentationHtmlSingle: https://docs.drools.org/8.40.0.Final/drools-docs/docs-website/drools
+    documentationHtmlSingle: https://docs.drools.org/8.40.0.Final/drools-docs/drools
     KIE_API_documentationJavadoc: https://docs.drools.org/8.40.0.Final/kie-api-javadoc/index.html
 
-    droolsWhatsNew: https://docs.drools.org/8.40.0.Final/drools-docs/docs-website/drools/release-notes/index.html
+    droolsWhatsNew: https://docs.drools.org/8.40.0.Final/drools-docs/drools/release-notes/index.html
     droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12408481
 
     droolsSnapZip: https://repository.jboss.org/org/drools/drools-distribution/
