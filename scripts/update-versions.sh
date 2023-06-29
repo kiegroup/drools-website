@@ -47,7 +47,7 @@ if [[ "$major_version" == "7" ]]; then
   sed -i -E "s/releaseDateV7: [0-9]+-[0-9]+-[0-9]+/releaseDateV7: $release_date/g" "$pom_yml_file" # change only release date for 7.x series for Drools
   sed -i -E "s/7\.[0-9]+\.[0-9]+\.(Final|Beta[0-9]*|CR[0-9]*)/$new_release/g" "$pom_yml_file" # change only 7.x series for Drools
   sed -i -E "s/7\.[0-9]+\.[0-9]+\-SNAPSHOT/$new_snapshot/g" "$pom_yml_file" # change only 7.x series for Drools
-  sed -i -E "s/droolsReleaseNotesV7: .*/droolsReleaseNotesV7: https:\/\/issues.jboss.org\/secure\/ReleaseNote.jspa?projectId=12313021\&version=new_releasenotes_number/g" "$pom_yml_file" # change only release notes for 7.x series
+  sed -i -E "s/droolsReleaseNotesV7: .*/droolsReleaseNotesV7: https:\/\/issues.jboss.org\/secure\/ReleaseNote.jspa?projectId=12313021\&version=$new_releasenotes_number/g" "$pom_yml_file" # change only release notes for 7.x series
 fi
 
 # Update antora-playbook.yml to point to the latest release branch of https://github.com/kiegroup/<project>.
