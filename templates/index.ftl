@@ -17,6 +17,13 @@
             href="${pom.latestFinal.droolsReleaseNotes}">Drools ${pom.latestFinal.version} has been released.</a>
             <button class="btn-close" data-bs-dismiss="alert" type="button" aria-label="Close"></button>
         </div>
+        <div class="alert alert-info alert-dismissible" role="alert" id="release-version-alert">
+            <i class="fas fa-info-circle"></i>
+            ${pom.latest7Final.releaseDateV7?date?string.iso}:
+            <a class="alert-link"
+            href="${pom.latest7Final.droolsReleaseNotesV7}">Drools ${pom.latest7Final.version} with CVEs maintenance and bugfixes has been released.</a>
+            <button class="btn-close" data-bs-dismiss="alert" type="button" aria-label="Close"></button>
+        </div>
         <div class="row">
             <div class="col-md-8" style="margin-top: -17px;margin-bottom: 20px">
                 <p>
