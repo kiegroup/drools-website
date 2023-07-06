@@ -11,16 +11,16 @@ kieExecutionServerDescription: Standalone execution server that can be used to r
 kieWarsDescription: WAR files for all supported containers
 
 latestFinal:
-    version: 8.40.0.Final
-    releaseDate: 2023-06-19
+    version: 8.41.0.Final
+    releaseDate: 2023-07-06
 
-    droolsZip: https://download.jboss.org/drools/release/8.40.0.Final/drools-distribution-8.40.0.Final.zip
+    droolsZip: https://download.jboss.org/drools/release/8.41.0.Final/drools-distribution-8.41.0.Final.zip
 
-    documentationHtmlSingle: https://docs.drools.org/8.40.0.Final/drools-docs/drools
-    KIE_API_documentationJavadoc: https://docs.drools.org/8.40.0.Final/kie-api-javadoc/index.html
+    documentationHtmlSingle: https://docs.drools.org/8.41.0.Final/drools-docs/drools
+    KIE_API_documentationJavadoc: https://docs.drools.org/8.41.0.Final/kie-api-javadoc/index.html
 
-    droolsWhatsNew: https://docs.drools.org/8.40.0.Final/drools-docs/drools/release-notes/index.html
-    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12408481
+    droolsWhatsNew: https://docs.drools.org/8.41.0.Final/drools-docs/drools/release-notes/index.html
+    droolsReleaseNotes: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313021&version=12409795
 
     droolsSnapZip: https://repository.jboss.org/org/drools/drools-distribution/
 
