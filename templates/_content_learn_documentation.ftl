@@ -226,9 +226,9 @@
                             ISBN: 9781118236796</p>
                     </div>
                     <div class="paragraph">
-                        <p><strong>Real-World Decision Modeling with DMN</strong><br/>
+                        <p><strong>Real-World Decision Modeling with DMN: Effective Communication of Decision-Making - 2nd Edition Updated for DMN 1.5</strong><br/>
                             James Taylor, Jan Purchase<br/>
-                            ISBN: 9780929652597</p>
+                            ISBN: 9798218234669</p>
                     </div>
                 </div>
                 <div class="sect2">
