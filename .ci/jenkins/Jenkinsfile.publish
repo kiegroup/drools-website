@@ -6,7 +6,7 @@ droolsWebsiteRepo = 'drools-website'
 
 pipeline {
     agent {
-        label 'rhel8'
+        label 'ubuntu'
     }
     options {
         timestamps()
