@@ -18,6 +18,6 @@ jobs:
       uses: kiegroup/kie-ci/.ci/actions/dsl-tests@main
       with:
         project: drools
-        main-config-file-repo: apache/drools
+        main-config-file-repo: apache/incubator-kie-drools
         main-config-file-path: .ci/jenkins/config/main.yaml
-        branch-config-file-repo: apache/drools
+        branch-config-file-repo: apache/incubator-kie-drools
