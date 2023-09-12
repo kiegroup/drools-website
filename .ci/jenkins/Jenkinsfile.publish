@@ -2,7 +2,7 @@
 
 import org.kie.jenkins.MavenCommand
 
-droolsWebsiteRepo = 'drools-website'
+droolsWebsiteRepo = 'incubator-drools-website'
 
 pipeline {
     agent {
