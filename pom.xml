@@ -35,7 +35,7 @@
       <plugin>
         <groupId>org.jbake</groupId>
         <artifactId>jbake-maven-plugin</artifactId>
-        <version>0.3.6-rc.2</version>
+        <version>2.7.0-rc.7</version>
         <executions>
           <execution>
             <phase>generate-resources</phase>
@@ -48,28 +48,6 @@
           <inputDirectory>${project.basedir}</inputDirectory>
           <outputDirectory>${project.build.directory}/website</outputDirectory>
         </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>org.jbake</groupId>
-            <artifactId>jbake-core</artifactId>
-            <version>2.7.0-rc.4</version>
-          </dependency>
-          <dependency>
-            <groupId>org.asciidoctor</groupId>
-            <artifactId>asciidoctorj</artifactId>
-            <version>2.5.2</version>
-          </dependency>
-          <dependency>
-            <groupId>org.freemarker</groupId>
-            <artifactId>freemarker</artifactId>
-            <version>2.3.31</version>
-          </dependency>
-          <dependency>
-            <groupId>org.yaml</groupId>
-            <artifactId>snakeyaml</artifactId>
-            <version>2.0</version>
-          </dependency>
-        </dependencies>
       </plugin>
     </plugins>
   </build>
