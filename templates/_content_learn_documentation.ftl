@@ -221,6 +221,11 @@
                             ISBN: 9780982368183</p>
                     </div>
                     <div class="paragraph">
+                        <p><strong>DMN Method and Style: 3rd edition, with DMN Cookbook</strong><br/>
+                            Bruce Silver<br/>
+                            ISBN: 9798218313302 (<a href="https://methodandstyle.com/dmn-method-and-style-3rd-edition-preface">link</a>)</p>
+                    </div>
+                    <div class="paragraph">
                         <p><strong>Knowledge Automation: How to Implement Decision Management in Business Processes</strong><br/>
                             Alan N. Fish<br/>
                             ISBN: 9781118236796</p>
