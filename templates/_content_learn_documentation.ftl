@@ -152,6 +152,16 @@
             </div>
             <div class="sectionbody">
                 <div class="paragraph">
+                    <p><a href="https://item.jd.com/10038443959313.html"><span
+                                    class="image"><img src="books/Drools规则引擎技术指南.png"
+                                                       alt="Technical Guide to Drools Rule Engine"></span></a></p>
+                    <p><strong>The first Chinese book on Drools in China mainly includes basic knowledge, intermediate and advanced grammar, as well as practical cases. It is applicable to programmers and technology enthusiasts of all levels.</strong><br>
+                        ZhiHui Lai(来志辉)<br>
+                        ISBN：9787301305492</p>
+                </div>
+            </div>
+            <div class="sectionbody">
+                <div class="paragraph">
                     <p><a href="https://www.packtpub.com/networking-and-servers/mastering-jboss-drools-6"><span
                                     class="image"><img src="books/Mastering-JBOSS-Drools-6.png"
                                                        alt="Mastering JBOSS Drools 6"></span></a></p>
