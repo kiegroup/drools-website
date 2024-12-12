@@ -153,7 +153,7 @@
             <div class="sectionbody">
                 <div class="paragraph">
                     <p><a href="https://item.jd.com/10038443959313.html"><span
-                                    class="image"><img src="books/Drools规则引擎技术指南.png"
+                                    class="image"><img src="books/Technical-Guide_to-Drools-Rule-Engine.png"
                                                        alt="Technical Guide to Drools Rule Engine"></span></a></p>
                     <p><strong>The first Chinese book on Drools in China mainly includes basic knowledge, intermediate and advanced grammar, as well as practical cases. It is applicable to programmers and technology enthusiasts of all levels.</strong><br>
                         ZhiHui Lai(来志辉)<br>
