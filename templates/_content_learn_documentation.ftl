@@ -6,6 +6,13 @@
 <#macro layout>
     <@parent.layout>
         <#assign pom = data.get('pom.yml')>
+
+        <div class="sect1">
+            <h2 id="_new_home">Drools has a new home at Apache KIE (Incubating) </h2>
+            <div class="sectionbody">
+                <p>For the latest information, code and releases take a look at the new project home at <a href="https://kie.apache.org/">kie.apache.org</a></p>
+            </div>
+        </div>
         <div class="sect1">
             <h2 id="_final_releases">Final releases</h2>
             <div class="sectionbody">
